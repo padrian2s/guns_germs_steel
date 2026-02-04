@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 191 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 191 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • 191</p>
+<p>or from Egypt to South Africa, while amber waves of wheat and barley</p>
+<p>came to stretch from the Atlantic to the Pacific across the spacious skies of</p>
+<p>Eurasia. That faster spread of Eurasian agriculture, compared with that of</p>
+<p>Native American and sub-Saharan African agriculture, played a role (as</p>
+<p>the next part of this book will show) in the more rapid diffusion of Eur</p>
+<p>asian writing, metallurgy, technology, and empires.</p>
+<p>To bring up all those differences isn't to cl</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0191">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eurasian agriculture spread faster than Native American or sub-Saharan African agriculture. Wheat/barley spread Atlantic to Pacific across Eurasia's east-west axis. Sub-Saharan agriculture north-south spread slower (Egypt to South Africa never achieved). Americas north-south agricultural diffusion slow (Mexico to US Southwest, thousands of years). Faster Eurasian agricultural diffusion cascaded into faster technology diffusion: writing, metallurgy, technology, empires.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>East-west axis geography enables rapid agricultural diffusion. Similar climates across continent allow crop/animal spread. North-south diffusion blocked by climate gradients. Eurasian east-west span enables rapid technology cascade. Technology diffusion rate determined by geographic axis orientation. Agricultural spread speed determines writing/metallurgy/empire spread speed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasian wheat/barley spread: Atlantic to Pacific across temperate zone rapidly. Sub-Saharan agriculture: Egypt to South Africa impossible (tropical interruption). Americas maize: Mexico to US Southwest took thousands of years (north-south climate gradient). Americas geography blocked domesticate diffusion speed. Eurasian geography enabled domesticate diffusion speed. Geographic axis determines diffusion rate independent of distance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Eurasian east-west axis geography cascades into rapid agricultural diffusion. Rapid agricultural diffusion cascades into rapid technology diffusion (writing, metallurgy, empires). Americas north-south axis geography cascades into slow agricultural diffusion. Slow agricultural diffusion cascades into slow technology diffusion. Geographic axis orientation determines civilizational technology levels by 1500 CE. Geography, not human biology, determines technology disparities.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 191,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

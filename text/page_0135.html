@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 135 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 135 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 1 35</p>
+<p>crescent-like shape of its uplands on a map: see Figure 8.1). That area</p>
+<p>appears to have been the earliest site for a whole string of developments,</p>
+<p>including cities, writing, empires, and what we term (for better or worse)</p>
+<p>civilization. All those developments sprang, in turn, from the dense human</p>
+<p>populations, stored food surpluses, and feeding of nonfarming specialists</p>
+<p>made possible by the rise of food production in the form of crop cultiva</p>
+<p>tion and animal husbandry. Food</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0135">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Fertile Crescent (crescent-shaped upland region): earliest independent agriculture origin. Food production surplus enabled civilizational cascade: dense human populations → stored food → non-farming specialist feeding → cities, writing, empires, civilization. Agriculture foundation determined all subsequent developments. Geographic region's wild plant/animal availability enabled civilization birth.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agriculture → surplus → population density → specialization → civilization. Fertile Crescent advantages: large-seeded grasses, domesticable animals (sheep, goats, cattle, pigs), climate stability. Food production feasibility created surplus enabling specialist populations. Specialist populations (craftspeople, soldiers, rulers) require agricultural surplus supporting them.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent 8500 BCE: agriculture transition. By 8000 BCE: permanent settlements. By 3500 BCE: cities (Uruk), writing, empires. Direct causal chain: geography → agriculture → surplus → civilization. Other regions followed same pattern but delayed by geographic constraints limiting agriculture adoption speed or species availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Civilizational development geography-dependent through agriculture. Geographic domesticable species → agriculture → surplus → civilization. Regions lacking domesticable species → no agriculture → no surplus → no specialization → no civilization. Civilization emergence geography-determined by available wild flora/fauna enabling agriculture first.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 135,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

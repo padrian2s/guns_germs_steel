@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 65 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 65 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT OF HISTORY • 65</p>
+<p>which lacked granite, flint, and other continental rocks but did at least</p>
+<p>have volcanic rocks, which Polynesians worked into ground or polished</p>
+<p>stone adzes used to clear land for farming.</p>
+<p>As for the types of artifacts made, the Chatham Islanders required little</p>
+<p>more than hand-held clubs and sticks to kill seals, birds, and lobsters.</p>
+<p>Most other islanders produced a diverse array of fishhooks, adzes, jewelry,</p>
+<p>and other objects. On the atolls, as on the Chathams</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0065">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Material culture variation: from simple personal utensils to monumental stone architecture. Available stone determined tools: atolls (no stone) forced clamshell adzes; volcanic islands (basalt available) enabled diverse stoneworking. New Zealand (continental fragment) accessed jade. Geographic geology directly determined tool types, craft complexity, monumental construction capacity. Raw material availability constrained cultural development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Raw material constraints determine technology development. Stone type availability (basalt, volcanic, granite) determines tool types. Geography without stone deposits (atolls) forces alternative materials (shell). Monumental construction impossible without sufficient stone/labor surplus. Geographic resource distribution determines craft specialization capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Polynesian islands demonstrate raw material variation: Chathams (no granite/flint, volcanic rocks only) produced simple tools; volcanic islands (basalt available) enabled diverse fishhooks/adzes/jewelry; New Zealand (continental fragment) accessed jade. Same culture, same starting technology, different raw materials produced completely divergent craft traditions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Polynesian material culture diversity proves geographic determinism through resource constraints. Identical populations/cultures produced divergent technologies through geology variation alone. Stone availability → tool type → craft specialization → cultural complexity. Geographic resource distribution determines technological trajectory independent of cultural capability or effort.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 65,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

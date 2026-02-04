@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 129 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 129 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • 129</p>
+<p>learned to deal with tannins in the same way that they dealt with bitter</p>
+<p>chemicals in almonds and other wild plants: either by grinding and leach</p>
+<p>ing the acorns to remove the tannins, or by harvesting acorns from the</p>
+<p>occasional mutant individual oak tree low in tannins.</p>
+<p>Why have we failed to domesticate such a prized food source as acorns?</p>
+<p>Why did we take so long to domesticate strawberries and raspberries?</p>
+<p>What is it about those plants that kept their domestication b</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0129">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Failed domestication examples demonstrating genetic barriers. Acorns: high tannin content required processing (grinding/leaching or mutation selection). Never domesticated despite prized food source. Strawberries/raspberries: long domestication delay until 20th century. What barriers prevented domestication of otherwise desirable wild foods?</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication barriers beyond simple cultivation. Toxin content preventing easy domestication. Low-toxin mutation rarity limiting domestication speed. Beast predation reducing harvest efficiency (bird/animal predation on ripening berries). Genetic variation insufficiency for overcoming barriers. Some wild plants unsuitable domestication candidates despite desirability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean acorns: toxin content made domestication uneconomical despite availability. Berries (strawberries, raspberries): wild predation vulnerability prevented pre-20th-century domestication despite desirability. Historical domestication selectivity: farmers focused on easy domestication candidates (founder crops), abandoned difficult ones. Geographic focus on genetically tractable species.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Genetic barriers determine domestication feasibility. Low-mutation wild species → difficult domestication → abandonment. High-mutation species → easy domestication → selection focus. Geographic wild plant genetic characteristics determine which species become domesticated. Regional crop diversity reflects not all available species but domestication-feasible subset.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 129,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

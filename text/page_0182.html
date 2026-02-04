@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 182 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 182 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>182 • GUNS, GERMS, AND STEEL</p>
+<p>Of course, not all pieces of the package spread to all those outlying</p>
+<p>areas: for example, Egypt was too warm for einkorn wheat to become</p>
+<p>established. In some outlying areas, elements of the package arrived at</p>
+<p>different times: for instance, sheep preceded cereals in southwestern</p>
+<p>Europe. Some outlying areas went on to domesticate a few local crops of</p>
+<p>their own, such as poppies in western Europe and watermelons possibly</p>
+<p>in Egypt. But most food production in outlying are</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0182">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural package diffusion incomplete: not all components spread to all regions. Egypt too warm for einkorn wheat. Components arrived at different times (sheep before cereals in southwestern Europe). Some regions domesticated limited local crops (poppies, watermelons). Most outlying agriculture came via diffusion, not independent domestication. Geographic constraints modified package content.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diffusion adaptability: packages modified locally based on climate/geography. Temperature constraints prevent crop adoption (einkorn unsuited Egypt heat). Timing variation: animals/crops arrived separately. Local domestication: limited to climate-suited wild species. Geographic determinism applies to diffusion: climate determines which package elements viable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent package spread but modified: Egypt received sheep first then cereals, substituting locally-adapted crops. Western Europe adapted sheep pastoralism before grain farming. Local domestications: poppies (Europe), watermelons (Egypt) supplemented diffused crops. Most regions received diffused agriculture rather than independently inventing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic climate determines package modification during diffusion. Regions adapted diffused package to local conditions. Geographic constraints on crops maintained through diffusion. Egypt's climate unsuitable for einkorn but suitable for other cereals. Geographic determinism extends to package modification during technology diffusion.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 182,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

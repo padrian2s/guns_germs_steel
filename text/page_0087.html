@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 87 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 87 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FARMER POWER • 87</p>
+<p>Factors Underlying the Broadest Pattern of History</p>
+<p>helped feed dense societies in which epidemics could maintain them</p>
+<p>selves, and partly because the diseases evolved from germs of the domes</p>
+<p>tic animals themselves.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0087">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural societies enabled dense population supporting specialists and hierarchies. Food surplus allowed elites to emerge, armies to form, bureaucracies to develop. Disease evolution from domestic animals provided additional conquest advantage: Eurasian livestock diseases killed 95% of Americas populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Food surplus → political organization. Hunter-gatherers egalitarian by necessity (everyone hunts). Farmers: food stockpiling allows elite control, taxation, hierarchy. Sedentary settlement required by agriculture generates urban disease. Livestock germs evolve into human pathogens in dense agricultural populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Chapter begins mapping agricultural transition globally. Fertile Crescent (sheep, goats, cattle, pigs, horses) generated dense societies and epidemic diseases by 1000 BCE. Americas lacked comparable domesticated animals for disease evolution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic variation in domesticable animals explains disease divergence. Eurasian domesticated animals (cattle, pigs, sheep) transmitted pathogens to human populations living in proximity. Americas lacked equivalent domesticates, so Americans never developed immunity to Old World diseases. This geographic fact decided conquest outcome more than military technology.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 87,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

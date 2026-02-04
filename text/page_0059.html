@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 59 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 59 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT OF HISTORY • 59</p>
+<p>the Polynesian archipelago with the highest mountains. Among the lower</p>
+<p>islands, Tonga and (to a lesser extent) Easter also have rich soil because of</p>
+<p>volcanic ashfalls, but they lack Hawaii's large streams.</p>
+<p>As for marine resources, most Polynesian islands are surrounded by</p>
+<p>shallow water and reefs, and many also encompass lagoons. Those envi</p>
+<p>ronments teem with fish and shellfish. However, the rocky coasts of Easter,</p>
+<p>Pitcairn, and the Marquesas, and the steeply</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0059">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Marine resources vary: most islands surrounded by shallow reefs/lagoons rich in fish/shellfish. Easter, Pitcairn, Marquesas have rocky coasts without reefs—marine-poor. Mountain-rich islands (Hawaii) have rain-generated streams enabling irrigation agriculture. Lower islands (Tonga, Easter) have rich volcanic soils. Geological variation determines available resources for subsistence and tools.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geology determines resource availability. Coral atolls: no freshwater, thin soil. Volcanic islands: diverse stone tools available. Continental fragments: mineral-rich resources. Marine productivity varies by reef presence. Mountains generate streams for irrigation. All determine food production capacity and craft specialization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Polynesian islands: geologic diversity from bare atolls to continental New Zealand. Marine environments: reef-rich to rocky coasts. Rainfall/streams: abundant to scarce. All factors vary independently, creating unique combinations on each island.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geologic factors determine: available stone tools, subsistence productivity, freshwater availability, agriculture suitability. These determine population size, specialization, organizational complexity. Geographic substrate directly produces societal variation observed across Polynesia.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 59,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

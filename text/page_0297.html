@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 297 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 297 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 297</p>
+<p>world tour, applying the lessons of Parts 2 and 3 to understanding the</p>
+<p>differing histories of all the continents.</p>
+<p>MOST LAY PEOPLE WOULD describe as the most salient feature of</p>
+<p>Native Australian societies their seeming "backwardness." Australia is the</p>
+<p>sole continent where, in modern times, all native peoples still lived without</p>
+<p>any of the hallmarks of so-called civilization—without farming, herding,</p>
+<p>metal, bows and arrows, substantial buildings, settled villages, writing,</p>
+<p>chie</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0297">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Aboriginal Australians characterized as "backward" lacking farming, herding, metal, bows/arrows, substantial buildings, villages, writing, chiefdoms. This description reveals misunderstanding: Aboriginal Australians optimally adapted to available resources. Australia lacks domesticable large animals (megafauna extinct 50,000 years prior), lacks year-round agriculture-enabling crops. Technologies labeled "civilized" irrelevant without foundational resources. Aboriginal technologies precisely appropriate for environment—not backward but adapted.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology appropriateness depends on geographic resources available. Metallurgy requires agricultural surplus supporting specialists. Agriculture requires domesticable plants/animals. Permanent settlements require reliable food sources. Bows/arrows appropriate where animals available to hunt. Aboriginal lack of "civilized" technologies reflects lack of underlying resources, not capability deficit. "Backward" concept false—Aboriginal Australians fully developed appropriate technologies for available resources.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia: no megafauna after ice age, no native domesticable large animals (unlike Eurasia with horses, cattle, sheep). No grain crops native (unlike wheat, barley in Fertile Crescent). Nomadic hunting-gathering only viable subsistence. Aboriginal technologies sophisticated: waterhole location, plant food processing, tool manufacture, hunting techniques—perfectly adapted to environment. Contrast New Guinea: domesticable crops available, pigs available, food production viable, settlement possible, technology complexity possible. Same human capabilities, different geographic resources, different development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology development geography-determined through available resources. Absence of "civilization" markers reflects absence of geographic prerequisites (domesticable animals, crops). Aboriginal Australians not backward but fully developed within geographic constraints. Same humans given Eurasia geography would develop complex civilizations. Eurasians given Australian geography would develop similar Aboriginal-pattern technologies. "Backwardness" concept wrong—geographic adaptation appropriate is accurate.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 297,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

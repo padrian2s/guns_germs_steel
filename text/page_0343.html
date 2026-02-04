@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 343 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 343 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPEEDBOAT TO POLYNESIA • 3 43</p>
+<p>sian sub-subfamily, which is in turn a fairly recent branch of the Malayo-</p>
+<p>Polynesian subfamily. Those details of linguistic relationships agree per</p>
+<p>fectly with the archaeological evidence that the colonization of the Malay</p>
+<p>Peninsula was recent, and followed rather than preceded the colonization</p>
+<p>of Taiwan, the Philippines, and Indonesia.</p>
+<p>The other coincidence between archaeological and linguistic evidence</p>
+<p>concerns the cultural baggage that ancient Austronesians used</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0343">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Linguistic and archaeological evidence concordance: Malay Peninsula colonization recent, fairly recent branch of Malayo-Polynesian subfamily. Archaeological evidence confirms linguistic pattern—peninsula settled after Taiwan/Philippines/Indonesia settlement not before. Language branching pattern matches colonization sequence. Linguistic diversity indicates divergence time—peninsula recent settlement shows minimal linguistic divergence. Coincidence between linguistic relationships and archaeological chronology confirms model validity through independent verification methods.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Linguistic divergence timing reflects population settlement timing. Recent settlement = recent language divergence from parent language. Language family structure documents population movement sequence. Archaeological dates validate linguistic chronologies through independent evidence. Dual verification: language pattern + archaeological evidence both indicate expansion sequence and timing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Malay Peninsula: geographically proximal to Taiwan/Philippines origin but linguistically recent branch. Archaeology confirms: peninsula settled after Indonesia/Philippines expansion waves. Linguistic branching minimal indicating recent separation from parent language family. Geographic accessibility (peninsula adjacent to main expansion centers) enables late settlement: geographic advantage didn't apply until after island populations established, then peninsula secondary settlement occurred.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic position determines settlement sequence determining language divergence patterns. Linguistic diversity reflects population isolation time reflecting settlement timing. Geographic proximity doesn't determine settlement timing—expansion wave sequence determines settlement timing. Malay Peninsula secondary settlement despite geographic proximity demonstrates expansion followed routes enabling population advancement determining geographic distribution determining linguistic patterns. Geographic expansion patterns recreated in linguistic evidence through independent verification.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 343,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 153 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 153 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 153</p>
+<p>ican peoples themselves, but instead depended entirely on the American</p>
+<p>biota and environment.</p>
+<p>WE HAVE NOW considered examples of three contrasting areas, in all of</p>
+<p>which food production did arise indigenously. The Fertile Crescent lies at</p>
+<p>one extreme; New Guinea and the eastern United States lie at the opposite</p>
+<p>extreme. Peoples of the Fertile Crescent domesticated local plants much</p>
+<p>earlier. They domesticated far more species, domesticated far more pro</p>
+<p>ductive or valuable</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0153">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Three contrasting agricultural origins compared: Fertile Crescent (one extreme), New Guinea and eastern U.S. (opposite extreme). Fertile Crescent: earliest domestication, most species domesticated, most productive/valuable species. New Guinea and eastern U.S.: later domestication, fewer species, less productive species. Geographic variation in domesticable flora determines agricultural success gradient.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic variation in domesticable species. Fertile Crescent: wild grains (wheat, barley) large-seeded, productive. New Guinea: root crops less productive. Eastern U.S.: limited domesticable species. Different geographic flora produces different agricultural outcomes despite parallel cultural motivation and thousands-of-years timeframe.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent 10000 BCE: domesticated multiple high-productivity crops (wheat, barley, lentils, peas, livestock). New Guinea 7000 BCE: domesticated lower-productivity root crops (taro, yams). Eastern U.S. 2500 BCE: domesticated limited crops (maize, beans, squash from Mesoamerica diffusion). Each region developed agriculture from locally available flora.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural productivity differences trace entirely to geographic flora/fauna variation. Fertile Crescent advantage (most productive crops, earliest adoption) derives from geography-available species. New Guinea and eastern U.S. constraints derive from geography-available species. Geography determines civilizational capacity through domesticable species availability distribution.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 153,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

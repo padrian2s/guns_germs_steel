@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 75 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 75 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>COLLISION AT CAJAMARCA • 75</p>
+<p>centuries were those tribes that reduced the military disparity by acquiring</p>
+<p>and mastering both horses and guns. To the average white American, the</p>
+<p>word "Indian" conjures up an image of a mounted Plains Indian bran</p>
+<p>dishing a rifle, like the Sioux warriors who annihilated General George</p>
+<p>Custer's U.S. Army battalion at the famous battle of the Little Big Horn in</p>
+<p>1876. We easily forget that horses and rifles were originally unknown to</p>
+<p>Native Americans. They were brought</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0075">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Native American tribes only reduced military disparity by acquiring European horses and guns. Plains Indians (Sioux), Araucanian (Chile), Pampas (Argentina) extended resistance into 1870s-1880s by mastering these technologies. However, horses and rifles were originally unknown to Americas—brought by Europeans, not developed independently. Initial Americas conquest occurred before native acquisition of these technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology transfer: horses, rifles acquired from Europeans allowed Native Americans to narrow military gap. Plains Indians famous for mounted warfare—but technology borrowed, not invented. Technology acquisition too late: Spanish already conquered empires before native technology adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Custer's Little Big Horn (1876): Sioux with horses/rifles defeating U.S. Army. But this represents late-stage technology acquisition. Earlier Spanish conquests (1500s-1600s) occurred when Native Americans lacked horse/gun technology entirely.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology initially unavailable in Americas due to geographic isolation. Horses, guns developed in Eurasia from geographic advantages (domesticable animals, Old World fauna). Americas' geographic difference created technology gap. Even when Native Americans acquired technologies via contact, development trajectory already determined by early conquest.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 75,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

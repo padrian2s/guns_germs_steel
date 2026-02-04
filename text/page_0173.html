@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 173 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 173 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>ZEBRAS AND UNHAPPY MARRIAGES • 1 73</p>
+<p>ranking female, followed by her foals in order of age, with the youngest</p>
+<p>first; and behind her, the other mares in order of rank, each followed by</p>
+<p>her foals in order of age. In that way, many adults can coexist in the herd</p>
+<p>without constant fighting and with each knowing its rank.</p>
+<p>That social structure is ideal for domestication, because humans in</p>
+<p>effect take over the dominance hierarchy. Domestic horses of a pack line</p>
+<p>follow the human leader as they would norm</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0173">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Horse herd social structure enables domestication. Hierarchical organization: ranking female leads, followed by foals (age order), other mares ranked, each with foals. Dominance hierarchy prevents constant fighting; each member knows rank. Social structure perfect for domestication: humans replace top rank, animals follow human leadership naturally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Social structure genetics determine domestication. Hierarchical herd structure enables dominance hierarchy adoption by humans. Animals naturally follow human as they would natural leader. Non-hierarchical species (territorial antelopes) cannot form human-led groups. Social genetics cascade to domestication feasibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Horse herds naturally ranked through female dominance, inheritance of rank through foals. Genetic social structure evolved on Eurasian steppes. Humans exploit existing hierarchy structure: lead animals follow human as surrogate leader. Domestic horse packs maintain behavioral pattern from wild ancestry.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic fauna behavioral genetics determine domestication feasibility. Horse genetic social structure enables human dominance integration. Geographic fauna lacking hierarchical genetics (territorial antelopes, zebras) cannot accommodate human authority. Eurasia provided hierarchical fauna; Americas/Africa provided non-hierarchical fauna. Behavioral genetics geography-distributed determine domestication possibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 173,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

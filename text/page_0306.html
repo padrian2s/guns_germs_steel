@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 306 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 306 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>306 GUNS, GERMS, AND STEEL</p>
+<p>lations. Still a third limitation was the reality that the mid-montane zone</p>
+<p>between 4,000 and 9,000 feet was the sole altitudinal zone in New Guinea</p>
+<p>suitable for intensive food production. There was no food production at</p>
+<p>all in New Guinea alpine habitats above 9,000 feet, little on the hillslopes</p>
+<p>between 4,000 and 1,000 feet, and only low-density slash-and-burn agri</p>
+<p>culture in the lowlands. Thus, large-scale economic exchanges of food,</p>
+<p>between communities at different</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0306">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>New Guinea altitude determines agriculture viability: mid-montane zone (4,000-9,000 feet) only suitable for intensive agriculture. No food production above 9,000 feet (alpine), little production 1,000-4,000 feet, only low-density slash-and-burn below 1,000 feet. Geographic terrain fragmentation limits population concentration. Limited food surplus limits craft specialization, professional classes. Fragmented geography prevents large-scale economic exchanges between altitude zones.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Elevation determines crop suitability. Montane agriculture viability narrow elevation band. Geographic segmentation by altitude prevents large populations. No surplus generation in unsuitable zones. Fragmented altitude zones prevent trade/specialization supporting complex civilization. Geography determines settlement possibilities through elevation climate suitability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea mountains: multiple altitude zones with different crops/productivity. Mid-montane agricultural zone highest productivity. Alpine above 9,000 feet: too cold for crops. Lowlands 0-1,000 feet: disease environment discourages settlement, limits crops. Only narrow montane band permits intensive agriculture. Geographic segmentation isolated communities preventing regional states.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic terrain determines agriculture distribution determining population distribution determining political organization. Montane restriction on agriculture limits total population preventing state-scale development. Elevation fragmentation prevents regional consolidation. Geography through terrain determines whether population density sufficient for state formation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 306,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 216 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 216 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 I 6 • GUNS, GERMS, AND STEEL</p>
+<p>political organization as a modern agent of conquest. The commands of</p>
+<p>the monarchs and merchants who organized colonizing fleets were con</p>
+<p>veyed in writing. The fleets set their courses by maps and written sailing</p>
+<p>directions prepared by previous expeditions. Written accounts of earlier</p>
+<p>expeditions motivated later ones, by describing the wealth and fertile lands</p>
+<p>awaiting the conquerors. The accounts taught subsequent explorers what</p>
+<p>conditions to expect, and helped th</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0216">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Writing enabled political conquest organization. Monarchs/merchants conveyed colonizing fleet commands via writing. Fleet navigation: maps and written sailing directions from previous expeditions. Written accounts of earlier expeditions motivated later exploration. Accounts described wealth/fertile lands awaiting conquerors. Previous experience documented enabling future conquest planning.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing enables large-organization command structure. Writing enables knowledge transmission across time (experience documentation). Writing enables long-distance coordination (maps, written orders). Writing enables organizational memory. Literate civilizations enable larger political units. Writing literacy determines organizational scale capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>European colonization required writing: maps, charts, sailing directions. Columbus expedition: benefited from previous voyage documentation. Spanish conquest: used written orders across Atlantic. Americas indigenous societies: lacked writing in many regions. Aztecs/Incas had limited writing. Indigenous inability to document/coordinate across large distances (no writing technology) reduced organizational capacity versus European literate coordination.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic agriculture → civilization → writing development. Writing enables larger political organizations. Larger political organizations enable more effective conquest. Americas writing absence (geography-determined agriculture limitations) resulted in smaller political units. European writing (geography-determined civilization development) enabled larger coordinated conquest expeditions. Writing technology geography-determined enables conquest capability differences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 216,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

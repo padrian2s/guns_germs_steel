@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 198 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 198 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 98 • GUNS, GERMS, AND STEEL</p>
+<p>microbes? Let's stamp out the scoundrels, and never mind what their</p>
+<p>motives are! In life in general, though, one has to understand the enemy in</p>
+<p>order to beat him, and that's especially true in medicine.</p>
+<p>Hence let's begin by temporarily setting aside our human bias and con</p>
+<p>sidering disease from the microbes' point of view. After all, microbes are</p>
+<p>as much a product of natural selection as we are. What evolutionary bene</p>
+<p>fit does a microbe derive from making us sick in</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0198">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Microbes products of natural selection like humans. Understanding microbes from evolutionary perspective. Microbes derive reproductive benefit from host infection strategies. Disease not intentional harm: byproduct of microbial reproduction fitness. Microbe strategy: maximize transmission. Host death acceptable byproduct if transmission threshold exceeded. Natural selection applies to microbes identically to animals.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Microbe natural selection maximizes transmission not harm. Disease severity: byproduct of transmission strategy. Population density determines transmission feasibility. Dense populations enable higher transmission rates. Hunter-gatherers: insufficient density for epidemic maintenance. Agricultural populations: sufficient density enables epidemics. Geographic population density determines epidemic disease evolution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Natural selection shapes microbe evolution toward transmission. Old World dense populations: epidemic diseases evolved for high-transmission environments. Smallpox: evolution shaped for dense population transmission. Americas sparse populations: epidemic diseases not advantageous. Domestication enables population density. Population density enables epidemic disease natural selection.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic carrying capacity determines population density. Population density determines disease evolution pressure. Epidemic diseases evolve in geography-dense populations. Sparse populations (Americas) lack endemic epidemic pressure. Old World populations evolved immunity through density-determined disease exposure. Natural selection determines immunity in high-density populations. Geography determines density determines disease evolution determines immunity determines conquest capability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 198,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 420 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 420 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>420 • EPILOGUE</p>
+<p>in time to avoid running over Hitler's car and crushing him. Because of</p>
+<p>the degree to which Hitler's psychopathology determined Nazi policy and</p>
+<p>success, the form of an eventual World War II would probably have been</p>
+<p>quite different if the truck driver had braked one second later.</p>
+<p>One can think of other individuals whose idiosyncrasies apparently</p>
+<p>influenced history as did Hitler's: Alexander the Great, Augustus, Buddha,</p>
+<p>Christ, Lenin, Martin Luther, the Inca emperor Pachacuti, Moham</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0420">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Individual leadership impact on history: Hitler truck driver braking 1 second late example. Hitler's psychopathology determined Nazi policy. WWII form would differ dramatically with different truck timing. Other individuals: Alexander, Augustus, Buddha, Christ, Lenin, Martin Luther, Pachacuti, Muhammad. Idiosyncrasies apparently influenced history dramatically.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Individual contingency in history. Proximate causes (individual psychology) vs. ultimate causes (geographic determination). Diamond distinguishes levels of explanation: individual actions operate within geographically-determined constraints. Important individual leaders but within geographic possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Hitler unique psychological traits enabled Nazi rise within European political context. Without Hitler, different Germany but European power dynamics persist. Alexander's conquests accelerated Hellenistic diffusion but geography enabled already. Muhammad created Islam but Arabian geography enabled trade network. Individual personalities shape history's specific path but within geographic constraints.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic determinism compatible with individual agency. Individuals make history within geographic-determined possibilities. Hitler psychopathology determined WWII form but European geography enabled powerful state emergence. Individuals operate within geographic constraints they didn't create. Geographic determinism doesn't deny individual importance but places it within broader frame.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 420,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

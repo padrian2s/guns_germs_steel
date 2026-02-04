@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 110 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 110 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>110 • GUNS, GERMS, AND STEEL</p>
+<p>problem of disentangling cause and effect in the rise of food production.</p>
+<p>However, five main contributing factors can still be identified; the contro</p>
+<p>versies revolve mainly around their relative importance.</p>
+<p>One factor is the decline in the availability of wild foods. The lifestyle</p>
+<p>of hunter-gatherers has become increasingly less rewarding over the past</p>
+<p>13,000 years, as resources on which they depended (especially animal</p>
+<p>resources) have become less abundant or even di</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0110">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Why did agriculture rise? Five main contributing factors: (1) Decline in wild food availability - big game extinction ~11,000 years ago forced alternative subsistence. (2) Climate change enabled plant growth. (3) Population growth required increased food production. (4) Available domesticable wild species. (5) Social/cultural factors. Geographic factors determined factor importance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Five factors in agriculture rise: wild animal decline, climate change, population pressure, species availability, cultural readiness. Geographic variation determines which factors mattered where. Regions with species AND population pressure → agriculture. Regions without species OR without pressure → no agriculture despite other factors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Post-Ice Age (~13,000 BP): megafauna extinctions globally. Climate warming 11000-9000 BP. Population growth pressure increased 10000-8000 BP. Fertile Crescent: all five factors combined → agriculture. Australia: no suitable domesticable species despite population pressure → no agriculture despite hunter-gatherer success.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural emergence requires geographic coincidence of multiple factors. Species availability essential - without suitable species, agriculture impossible regardless of population pressure. Geographic distribution of domesticable wild species determines agricultural feasibility. Regions with species transition to farming; regions without species remain hunter-gatherers despite identical pressure.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 110,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

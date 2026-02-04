@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 151 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 151 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 151</p>
+<p>crops. All of them were high in protein—17-32 percent, compared with</p>
+<p>8-14 percent for wheat, 9 percent for corn, and even lower for barley and</p>
+<p>white rice. Two of them, sunflower and sumpweed, were also high in oil</p>
+<p>(45-47 percent). Sumpweed, in particular, would have been a nutritionist's</p>
+<p>ultimate dream, being 32 percent protein and 45 percent oil. Why aren't</p>
+<p>we still eating those dream foods today?</p>
+<p>Alas, despite their nutritional advantage, most of these eastern U.S.</p>
+<p>crop</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0151">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eastern U.S. wild crops possessed superior nutritional profiles (sumpweed 32% protein, 45% oil; sunflower 45-47% oil) compared to domesticated crops (wheat 8-14%, corn 9%). Yet domestication never occurred. Question: why? Answer lies in domesticability traits: these species lacked genetic mutations enabling efficient domestication despite nutritional advantages.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticability genetics distinct from nutritional content. High-nutrition wild species failed domestication due to genetics. Sumpweed, sunflower: seeds too small, plants difficult to cultivate, yields inadequate. Grains: large seeds, reliable growth, high yields. Genetic domesticability, not nutritional value, determines agricultural adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eastern U.S. wild flora: diverse edible species with superior nutrition compared to eventually-domesticated grains/corn. Yet maize, beans, squash emerged as staples. Sumpweed abandoned despite potential. Geography's available wild species included nutritious failures: high nutrition but poor domestication genetics. Geography determined what was domesticable, not what was optimal nutritionally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Domesticability genes geography-distributed among wild species. Not all nutritious plants domesticate. Eastern U.S.: high-nutrition plants lacked domesticability; adequate-nutrition plants possessed it (maize). Geographic variation in which species possess domesticability genes determines agriculture emergence. Agriculture relies on combinations: nutrition sufficient AND domesticability present. Geographic wild flora gene distribution determines both possible combinations.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 151,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

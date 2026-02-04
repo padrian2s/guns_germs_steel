@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 42 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 42 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>42 • GUNS, GERMS, AND STEEL</p>
+<p>after New Guinea itself, by around 35,000 years ago. Those islands were</p>
+<p>New Britain and New Ireland, in the Bismarck Archipelago, and Buka, in</p>
+<p>the Solomon Archipelago. Buka lies out of sight of the closest island to the</p>
+<p>west and could have been reached only by crossing a water gap of about</p>
+<p>100 miles. Thus, early Australians and New Guineans were probably</p>
+<p>capable of intentionally traveling over water to visible islands, and were</p>
+<p>using watercraft sufficiently often that</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0042">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>After Australia/New Guinea colonization came intentional island colonization. By 35,000 years ago, humans reached Bismarck Archipelago (New Britain, New Ireland) and Solomon Islands. Buka lies 100 miles from nearest visible island—requiring deliberate watercraft navigation across open ocean, not accidental drift.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Intentional watercraft colonization, not accidental drift. 100-mile water gaps crossed deliberately. Evidence of navigation skills and seaworthy technology. Frequent enough use to populate multiple islands. Demonstrates Great Leap Forward behavioral sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>35,000 years ago in Western Pacific. Bismarck and Solomon archipelagos inhabited. Multiple islands populated requiring sustained maritime technology and navigation knowledge.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Watercraft technology determined colonization of island chains. Geographic dispersion created isolated populations. Isolated populations developed independently—technological advantage or disadvantage depended on island resources, leading to differentiated development trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 42,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

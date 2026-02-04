@@ -1,0 +1,38 @@
+218 • GUNS, GERMS, AND STEEL
+had to settle on basic principles that we now take for granted. For exam
+ple, they had to figure out how to decompose a continuous utterance into
+speech units, regardless of whether those units were taken as words, sylla
+bles, or phonemes. They had to learn to recognize the same sound or
+speech unit through all our normal variations in speech volume, pitch,
+speed, emphasis, phrase grouping, and individual idiosyncrasies of pro
+nunciation. They had to decide that a writing system should ignore all
+of that variation. They then had to devise ways to represent sounds by
+symbols.
+Somehow, the first scribes solved all those problems, without having in
+front of them any example of the final result to guide their efforts. That
+task was evidently so difficult that there have been only a few occasions
+in history when people invented writing entirely on their own. The two
+indisputably independent inventions of writing were achieved by the Su¬
+merians of Mesopotamia somewhat before 3000 B.C. and by Mexican
+Indians before 600 B.C. (Figure 12.1); Egyptian writing of 3000 B.C. and
+Chinese writing (by 1300 B.C.) may also have arisen independently. Proba
+bly all other peoples who have developed writing since then have bor
+rowed, adapted, or at least been inspired by existing systems.
+The independent invention that we can trace in greatest detail is histo
+ry's oldest writing system, Sumerian cuneiform (Figure 12.1). For thou
+sands of years before it jelled, people in some farming villages of the Fertile
+Crescent had been using clay tokens of various simple shapes for account
+ing purposes, such as recording numbers of sheep and amounts of grain.
+In the last centuries before 3000 B.C., developments in accounting technol
+ogy, format, and signs rapidly led to the first system of writing. One such
+technological innovation was the use of flat clay tablets as a convenient
+writing surface. Initially, the clay was scratched with pointed tools, which
+gradually yielded to reed styluses for neatly pressing a mark into the tablet.
+Developments in format included the gradual adoption of conventions
+whose necessity is now universally accepted: that writing should be orga
+nized into ruled rows or columns (horizontal rows for the Sumerians, as
+for modern Europeans); that the lines should be read in a constant direc
+tion (left to right for Sumerians, as for modern Europeans); and that the
+lines should be read from top to bottom of the tablet rather than vice
+versa.
+But the crucial change involved the solution of the problem basic to

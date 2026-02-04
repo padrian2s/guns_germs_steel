@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 127 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 127 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • 127</p>
+<p>The table gives major crops, of five crop classes, from early agricultural sites in various</p>
+<p>parts of the world. Square brackets enclose names of crops first domesticated elsewhere;</p>
+<p>names not enclosed in brackets refer to local domesticates. Omitted are crops that arrived or</p>
+<p>became important only later, such as bananas in Africa, corn and beans in the eastern United</p>
+<p>States, and sweet potato in New Guinea. Cottons are four species of the genus Gossypium,</p>
+<p>each species be</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0127">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Table documentation: bracketed crop names indicate foreign domestication imported to region. Unbracketed names indicate local domestication. Crops arriving later omitted (bananas Africa, maize/beans eastern US, sweet potato New Guinea). Cotton genus Gossypium: four species independently domesticated regionally (geographic isolation producing separate domestications).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication diffusion vs. local origin. Imported crop dependence vs. independent domestication. Geographic isolation enabling separate domestication events. Crop arrival timing determining early agricultural foundation. Multiple species cotton indicating geographic domestication repetition. Diffusion patterns showing trade/migration networks.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent crops spread to Europe via diffusion. Mesoamerica: independent domestication three sisters suite. Bananas: Old World domestication arrived Africa later. Cotton: four species, multiple geographic origins showing repeated domestication. Eastern US: received maize/beans from Mesoamerica rather than local domestication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation determines independent domestication likelihood. Isolated regions with domesticable species → independent domestication. Connected regions → receive domesticates via diffusion. Crop diffusion maps follow geographic barriers. Geographic isolation enables separate cotton domestication events. Distance and barriers geography-determined control domestication independence vs. diffusion.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 127,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

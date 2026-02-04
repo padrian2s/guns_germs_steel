@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 94 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 94 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>94 ' GUNS, GERMS, AND STEEL</p>
+<p>surprised too at several other modern breadbaskets that were still then</p>
+<p>without it—including all the rest of the United States, England and much</p>
+<p>of France, Indonesia, and all of subequatorial Africa. When we trace food</p>
+<p>production back to its beginnings, the earliest sites provide another sur</p>
+<p>prise. Far from being modern breadbaskets, they include areas ranking</p>
+<p>today as somewhat dry or ecologically degraded: Iraq and Iran, Mexico,</p>
+<p>the Andes, parts of China, and Africa'</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0094">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Counterintuitive finding: earliest agricultural sites (Iraq, Iran, Mexico, Andes, parts of China) were dry or ecologically degraded regions, not modern breadbaskets. Later, agriculture spread to modern breadbaskets (US, England, France, Indonesia, sub-equatorial Africa) which were still hunter-gatherer in prehistory. Agriculture arose in marginal lands first, spread secondarily.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural diffusion and timing. Agriculture not inevitable globally, emerges where suitable wild species available (regardless of current environmental quality). Diffusion delayed agricultural adoption in high-potential zones. Early adopters achieved critical advantages long before agriculture reached more environmentally favorable regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: dry climate, early domestication ~10000 BCE. Mesoamerica: marginal maize origins, ~5000 BCE. China: millet/rice in suboptimal zones. European temperate zones: agriculture arrived 5000-3000 BCE from diffusion, not independent invention. American Great Plains: agriculture limited by continental latitude barriers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Timing matters: regions adopting agriculture first developed civilizational advantages before agriculture reached neighboring regions. Environmental quality irrelevant if lacking domesticable species. Agricultural spread limited by geography (continental axes, climate barriers). Early-adopting regions perpetuated advantage by 1492. Geographic location (not resource richness) determined power differential at contact.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 94,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

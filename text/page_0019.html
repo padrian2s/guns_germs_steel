@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 19 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 19 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YAM'S QUESTION • 19</p>
+<p>sidered evolutionary vestiges of human descent from apelike ancestors.</p>
+<p>The displacement of such peoples by colonists from industrialized societies</p>
+<p>exemplified the survival of the fittest. With the later rise of genetics, the</p>
+<p>explanations were recast once again, in genetic terms. Europeans became</p>
+<p>considered genetically more intelligent than Africans, and especially more</p>
+<p>so than Aboriginal Australians.</p>
+<p>Today, segments of Western society publicly repudiate racism. Yet many</p>
+<p>(perh</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0019">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond traces the historical evolution of racist explanations: Darwinian "survival of the fittest" theory, then genetic frameworks claiming European genetic superiority over Africans and especially Aboriginal Australians. While modern Western society publicly rejects racism, many individuals privately maintain racist assumptions. Diamond argues that Australia presents a seemingly compelling racist argument: whites built civilization within a century on the same continent where Aborigines remained hunter-gatherers for 40,000 years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies the "Aboriginal Australian thought experiment" as a deceptive racist argument: identical environment + different peoples = different outcomes, seemingly proving racial differences. He counters that this reasoning ignores what allowed whites to succeed: imported technology, animals, and knowledge from Eurasia. The superficial logic masks deeper geographical causes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The history of racism follows scientific developments: evolutionary theory in the 1800s, genetics in the 1900s. Australia's colonization (1788 onward) provided a historical "natural experiment" that seemed to prove racial determinism to observers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Diamond must dismantle the Aboriginal Australian argument to establish geographical determinism. By showing that Aboriginal Australians' technology reflected geography (limited domesticable animals) rather than intelligence, he proves that continent-specific advantages, not racial traits, determined technological development.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 19,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

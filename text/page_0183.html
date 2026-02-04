@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 183 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 183 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • 183</p>
+<p>domesticated again elsewhere after their initial domestication in the Fertile</p>
+<p>Crescent. Had they been repeatedly domesticated independently, they</p>
+<p>would exhibit legacies of those multiple origins in the form of varied chro</p>
+<p>mosomal arrangements or varied mutations. Hence these are typical exam</p>
+<p>ples of the phenomenon of preemptive domestication that we discussed</p>
+<p>above. The quick spread of the Fertile Crescent package preempted any</p>
+<p>possible other attempts, within</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0183">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crops never domesticated independently after Fertile Crescent origin. Genetic evidence: no multiple domestication mutations indicating independent domestication elsewhere. If independently domesticated multiple times, would show varied chromosomal arrangements/mutations. Single genetic origin proves diffusion, not independent invention. Preemptive domestication blocked alternative domestication attempts.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Genetic signatures reveal domestication origin. Multiple mutations = independent domestications. Single mutations = single origin diffusion. Preemptive domestication: rapid diffusion prevents independent domestication elsewhere. Economic logic: why domesticate inferior crop if superior crop available via diffusion? Genetic evidence proves diffusion dominance over independent invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent crops: single genetic origin, spread via diffusion. No evidence of secondary domestication in receiving regions. Preemption blocked independent domestication of same wild ancestors. Rapid Fertile Crescent spread preempted re-domestication of same plants elsewhere. Economic preference for receiving vs. independently inventing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic proximity enables diffusion preemption of independent domestication. Isolated regions = independent domestication possible. Connected regions = diffusion preempts independent efforts. Genetic evidence proves geographic connection determines domestication patterns. Preemptive domestication explains why few regions achieved independent domestication.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 183,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

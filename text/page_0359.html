@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 359 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 359 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 59</p>
+<p>manufacturing purposes, including crushing sugar, driving blast furnace</p>
+<p>bellows, grinding ores, making paper, polishing stone, pressing oil, pro</p>
+<p>ducing salt, producing textiles, and sawing wood. It is conventional to</p>
+<p>define the Industrial Revolution arbitrarily as beginning with the har</p>
+<p>nessing of steam power in 18th-century England, but in fact an industrial</p>
+<p>revolution based on water and wind power had begun already in medieval</p>
+<p>times in many parts of Europe. As of 1</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0359">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Water/wind power applications medieval Europe: manufacturing uses (crushing sugar, furnace bellows, grinding ore, papermaking, stone polishing, oil pressing, salt production, textile manufacturing, sawing wood). Industrial Revolution conventionally dated 1700s steam power, but water/wind power industrial revolution began medieval Europe. Geographic energy resources (rivers, wind) enabled manufacturing technology infrastructure preceding steam.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Renewable energy technology geography-determined. Water wheels require consistent water flow—geographic river availability. Wind mills require wind patterns—geographic location advantage. Cascade advantage: energy production enables manufacturing complexity. Manufacturing infrastructure precedes industrial revolution. Geographic energy availability enables technology advancement independent of fuel scarcity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Medieval Europe: river network density enabled water wheels. Manufacturing infrastructure developed across Europe geographically positioned near rivers. Wind mills extended manufacturing to less water-rich regions. China: rivers present (Yellow, Yangtze) but manufacturing not intensified similarly. Europe geographic advantage: dense river networks enabled distributed manufacturing. Geography (river density) created competitive pressure for manufacturing technology.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Industrial development geography-preceded through renewable energy availability. European river geography enabled medieval water-power industrial development. Manufacturing infrastructure geography-positioned near energy sources. Geographic energy abundance (rivers, wind) determined technology investment incentive. Geographic advantage in renewable energy enabled manufacturing technology that later complemented steam power Industrial Revolution. Environmental geography (hydrology, climate/wind patterns) determines technology development feasibility and rate.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 359,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

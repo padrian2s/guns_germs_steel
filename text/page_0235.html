@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 235 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 235 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 235</p>
+<p>stage. One-third of all Linear B tablets from the palace of Knossos are</p>
+<p>accountants' records of sheep and wool, while an inordinate proportion</p>
+<p>of writing at the palace of Pylos consists of records of flax. Linear B was</p>
+<p>inherently so ambiguous that it remained restricted to palace accounts,</p>
+<p>whose context and limited word choices made the interpretation clear.</p>
+<p>Not a trace of its use for literature has survived. The Iliad and Odyssey</p>
+<p>were composed and transmitt</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0235">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Linear B writing system: Minoan Crete palace records. One-third Knossos tablets: sheep/wool accounting. Pylos tablets: flax records. Linear B inherently ambiguous—restricted palace accounts using context. No trace of literary use. Iliad/Odyssey composed/transmitted orally, not written. Writing system limiting administrative scope.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing system limitations restrict usage scope. Ambiguous scripts limited to administrative context-dependent use. Literacy requirement creating administrative bottleneck. Oral transmission persisting despite writing availability. Writing system sophistication determining usage breadth.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Linear B: administrative restriction reflects system ambiguity. Egyptian hieroglyphics: literary use developed later despite accounting origins. Chinese characters: literary sophistication developed centuries post-accounting invention. Greek alphabet: overcame Linear B limitations, enabled literature explosion. Writing system evolution necessary for civilizational complexity growth.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Writing system sophistication determines civilization capacity. Limited ambiguous systems restrict administration. Advanced systems enable literature, law, science. Geography determines writing system quality geography determines civilization complexity determines writing sophistication.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 235,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

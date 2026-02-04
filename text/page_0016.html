@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 16 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 16 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>I 6 • PROLOGUE</p>
+<p>islands, much of the Americas, and small parts of sub-Saharan Africa—</p>
+<p>lived as farming tribes or even still as hunter-gatherer bands using stone</p>
+<p>tools.</p>
+<p>Of course, those technological and political differences as of A.D. 1500</p>
+<p>were the immediate cause of the modern world's inequalities. Empires with</p>
+<p>steel weapons were able to conquer or exterminate tribes with weapons of</p>
+<p>stone and wood. How, though, did the world get to be the way it was in</p>
+<p>A.D. 1500?</p>
+<p>Once again, we can easily push</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0016">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond extends the question from 1500 CE back to 11,000 BCE. By the end of the Ice Age, all humans were hunter-gatherers. Between then and 1500 CE, some continents developed agriculture, metallurgy, and writing while others remained hunter-gatherers. This differential development rate is history's fundamental pattern and the book's core subject.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies "history's broadest pattern": the different development rates of continents from 11,000 BCE to 1500 CE. Eurasia achieved all major technologies thousands of years before other continents. The pattern indicates geography, not culture or biology, must have channeled different advantages to different regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The 11,000 BCE starting point marks when all continents stood at equal technological ground zero. The subsequent divergence had 13 millennia to develop, indicating geography's power to shape long-term developmental outcomes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This page frames the investigation scientifically: comparing parallel development across continents from identical starting conditions reveals geographical influences. The fact that bronze production appeared 4,000 years earlier in Eurasia than the Americas, and that Tasmania's technology regressed relative to Upper Paleolithic Europe, proves geography shaped technological trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 16,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 367 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 367 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 67</p>
+<p>deserve mention. Food production never diffused from the U.S. Southwest</p>
+<p>and Mississippi Valley to the modern American breadbaskets of California</p>
+<p>and Oregon, where Native American societies remained hunter-gatherers</p>
+<p>merely because they lacked appropriate domesticates. The llama, guinea</p>
+<p>pig, and potato of the Andean highlands never reached the Mexican high</p>
+<p>lands, so Mesoamerica and North America remained without domestic</p>
+<p>mammals except for dogs. Conversely, the domesti</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0367">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural diffusion failure within Americas: U.S. Southwest/Mississippi Valley agriculture never reached California/Oregon despite similar latitudes. Llama, guinea pig, potato of Andean highlands never reached Mexican highlands. Mesoamerica, North America remained without domesticated mammals except dogs. Geographic barriers prevented north-south agricultural diffusion within Americas. Continental axis orientation (north-south) constrains technology diffusion—climate variation blocks spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural diffusion constrained by north-south continental orientation: temperature zones prevent crop/livestock spread. North America geography: tropical Southwest agriculture (maize-beans-squash) incompatible with temperate California climate. Andean domesticates: high-altitude llama/alpaca, cold-adapted crops incompatible with Mesoamerican lowland/highland climates. Climate barriers prevent diffusion unlike east-west Eurasia spread. Geographic barriers appear insurmountable: climate adaptation requires independent development not technology borrowing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Southwest agriculture ~3000 BCE: maize diffused from Mexico but remained geographically limited. Mississippi Valley agriculture ~2000 BCE: independent/semi-independent development. California/Oregon environment: temperate climate incompatible with tropical crops; abundant wild game/fish supported affluent hunter-gatherer societies despite agricultural knowledge availability. Andean highlands agriculture: potato, quinoa adapted to high altitude, cold climate. Mesoamerica/Mexico: tropical/subtropical climate incompatible with Andean crops. Geographic barriers prevented diffusion even across short distances when climate zones differ drastically.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural diffusion geography-determined: north-south continental orientation prevents spread due to climate variation. Within-continent diffusion failure shows geography more important than technology proximity. California abundant resources enabled affluent societies without agriculture despite technology knowledge—geography permitted choice. Climate barriers insurmountable: domesticates cannot spread across climate zones even with cultural motivation. Geographic barriers within continents as significant as between continents when climate zones differ. Population variation (agricultural vs. hunter-gatherer) reflects geographic climate barriers not cultural choice or intelligence differences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 367,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 105 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 105 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>TO FARM OR NOT TO FARM • 105</p>
+<p>herders, who constitute the great majority of the world's actual food pro</p>
+<p>ducers, aren't necessarily better off than hunter-gatherers. Time budget</p>
+<p>studies show that they may spend more rather than fewer hours per day</p>
+<p>at work than hunter-gatherers do. Archaeologists have demonstrated that</p>
+<p>the first farmers in many areas were smaller and less well nourished, suf</p>
+<p>fered from more serious diseases, and died on the average at a younger age</p>
+<p>than the hunter-gatherers they re</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0105">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agriculture paradox: Farmers often worse off than hunter-gatherers. Time budget studies: farmers work as many or more hours than hunters. Archaeological evidence: first farmers shorter, less healthy, suffered more disease, lower life expectancy than preceding hunters. Yet agriculture spread - why adopt inferior system? Answer: population growth pressure forced adoption despite quality-of-life decline.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agriculture as necessity, not preference. Agriculture supports higher population density despite lower individual health/leisure. Populations forced to agriculture by numbers exceeding wild food carrying capacity. Agriculture spreads not because superior for individuals but because necessary for population survival at higher densities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Post-Ice Age ~11000 BP: megafauna extinction, wild food decline. Population growth continued. Regions unable to support hunter-gatherer density adopted agriculture despite health costs. Archaeological record shows first farmers malnourished, disease-prone compared to hunters. Population pressure forced transition despite individual disadvantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic wild food carrying capacity determines adoption necessity. Regions with abundant game/wild plants supported hunter-gatherers despite population growth. Regions with declining wild food forced agriculture adoption. Population pressure from geography → nutrition decline → civilizational development paradox. Geography determines whether agriculture chosen or forced.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 105,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

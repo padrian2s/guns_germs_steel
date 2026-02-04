@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 181 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 181 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • I 8 I</p>
+<p>farther and farther removed from the Fertile Crescent, to the west and</p>
+<p>east. On this page I have redrawn the striking map (Figure 10.2) assembled</p>
+<p>by the geneticist Daniel Zohary and botanist Maria Hopf, in which they</p>
+<p>illustrate how the wave had reached Greece and Cyprus and the Indian</p>
+<p>subcontinent by 6500 B.C., Egypt soon after 6000 B.C., central Europe by</p>
+<p>5400 B.c., southern Spain by 5200 B.C., and Britain around 3500 B.c. In</p>
+<p>each of those areas, food prod</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0181">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural diffusion wave mapped from Fertile Crescent chronologically. Greece/Cyprus: 6500 BCE. Egypt: 6000 BCE. Central Europe: 5400 BCE. Southern Spain: 5200 BCE. Britain: 3500 BCE. Diffusion radiated east-west following similar-latitude zones. Regional food production adoption timing reflects geographic distance/latitude compatibility from origin. Nearer regions adopted earlier; farther regions adopted later.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diffusion wave geographic patterning. East-west diffusion enables rapid spread (similar climate/season). Timing follows geographic distance/compatibility. Earlier regions: nearby latitudes, climate-compatible (Egypt, Greece). Later regions: distant or different latitude (Britain, Spain). Diffusion speed geography-determined through latitude/climate factors. Central Europe middle position reflects intermediate distance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent origin ~10000 BCE. Neighboring regions adopted quickly: Egypt, Mediterranean, Iraq ~6000 BCE. European diffusion slower northward: Greece ~6500 BCE, Spain ~5200 BCE, Britain ~3500 BCE. 3000-year lag Britain adoption reflects geographic distance and climate gradient northward. Diffusion speed ~1km/year from origin. East-west diffusion enabled rapid Mediterranean spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic diffusion patterns prove geographic determinism. Adoption timing geography-determined through distance/latitude. Fertile Crescent advantage cascaded through diffusion wave. Early-adopting regions (Egypt, Greece, Mesopotamia) achieved civilizational advantages before later-adopting regions (Britain, Spain). Geographic distance determines developmental timing. Contiguous east-west regions developed together; distant/north-south regions lagged. Diffusion patterns geography-determined.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 181,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

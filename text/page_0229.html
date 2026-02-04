@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 229 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 229 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 229</p>
+<p>The set of signs that Sequoyah devised to represent syllables of the Chero</p>
+<p>kee language.</p>
+<p>letters from an English spelling book given to him by a schoolteacher.</p>
+<p>About two dozen of his Cherokee syllabic signs were taken directly from</p>
+<p>those letters, though of course with completely changed meanings, since</p>
+<p>Sequoyah did not know the English meanings. For example, he chose the</p>
+<p>shapes D, R, b, h to represent the Cherokee syllables a, e, si, and ni, respec</p>
+<p>tively, w</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0229">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Sequoyah (Cherokee) created Cherokee syllabary using English letter shapes for reference. About 2 dozen signs taken from English alphabet (meaningless to Sequoyah). Signs repurposed: D→Cherokee 'a', R→'e', b→'si', h→'ni'. Shapes used without understanding English meanings. Demonstrates: visual symbol availability sparked independent invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing symbol scavenging. Symbol shapes available without knowledge transmission. Independent invention possible given symbol availability. Technological bootstrap: borrow symbols, apply independently. Symbol reuse: efficient approach to innovation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sequoyah contact with English alphabet: visual symbols only. Schoolteacher provided alphabet book (shapes, no meaning transfer). Sequoyah unable to read/write English: independent reinvention forced. Symbol shapes familiar but meanings completely different. Cherokee language syllabic structure: required syllabary not alphabet.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic contact provides symbol availability. Symbol availability without knowledge transfer enables independent invention. Cherokee administrative complexity created writing necessity. Sequoyah response: innovative repurposing of available symbols. Geography determines which symbols available determines which innovations feasible. Symbol availability cascades into independent technological invention.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 229,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

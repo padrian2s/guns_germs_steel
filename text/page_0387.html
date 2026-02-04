@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 387 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 387 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 87</p>
+<p>Figure 19.3. The areas of origin of crops grown traditionally in Africa</p>
+<p>(that is, before the arrival of crops carried by colonizing Europeans),</p>
+<p>with examples of two crops from each area.</p>
+<p>As one travels south in Africa across the Saharan desert and reencoun¬</p>
+<p>ters rain in the Sahel zone just south of the desert, one notices that Sahel</p>
+<p>rains fall in the summer rather than in the winter. Even if Fertile Crescent</p>
+<p>crops adapted to winter rain could somehow have crossed t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0387">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African crop origins geography-determined by climate zones: different regions developed domesticated crops suited to local climate conditions. Saharan climate: hot/dry prevents temperate crop growth. Sahel zone: summer rainfall (not winter like Fertile Crescent). Climate incompatibility prevents Fertile Crescent crop adoption: winter-rain crops cannot survive summer-rain climate. Geographic climate barriers determine agricultural composition by region.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Crop adaptation climate-specific: winter-rain crops cannot grow in summer-rain climate. Geographic climate zones determine domesticated species: separate origins for different climate regions. Crop diffusion requires climate compatibility: temperate crops don't spread into tropical zones, tropical crops don't spread into temperate zones. Climate barriers as absolute as water barriers: prevent both crop spread and animal spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent agriculture: winter rainfall zone (Mediterranean climate), developed wheat/barley/rye domestication. North Africa/Sahel: summer rainfall zone, required independent crop domestication. Sub-Saharan Africa: millet, sorghum, yams domesticated adapted to tropical climate. Sahel zone: rainforest transition zone requiring specific climate-adapted crops. Crop diffusion stopped by climate: Fertile Crescent winter-rain crops cannot survive Sahel/Sub-Saharan summer rain pattern. Each African region: independent crop domestication reflecting climate suitability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural origins geography-determined by climate zones. Climate barriers prevent crop spread: winter-rain crops blocked from summer-rain regions even with cultural motivation. African agricultural development: independent origins reflecting geographic climate diversity. Climate geographic advantage: regions with favorable temperature/rainfall develop agriculture earlier; harsh climates delay development. Climate barriers create stable agricultural differences: African agricultural diversity reflects geographic climate constraints creating region-specific domesticated crops remaining locally adapted.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 387,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

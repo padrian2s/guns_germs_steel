@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 327 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 327 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW CHINA BECAME CHINESE • 3 27</p>
+<p>Figure 16.2. Modern political borders in East and Southeast Asia, for use</p>
+<p>in interpreting the distributions of language families shown in Figure</p>
+<p>16.1.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0327">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>East/Southeast Asia political borders map onto language family distribution patterns: geographic barriers created language diversity. Modern borders created during colonial period arbitrary across linguistic boundaries. Language families reflect prehistoric population movements and geographic diffusion patterns. Political borders represent recent imposition onto geographic-linguistic diversity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language geography: reflects population expansion and isolation patterns. Mountains create language boundaries: geographic barriers enable language diversification. Rivers enable communication: facilitate language diffusion across distances. Political borders arbitrary: drawn by external powers ignoring linguistic/geographic realities. Geographic basis of language families: mountain geography South China creating multiple language families versus geographic connectivity in lowlands.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Southeast Asia geography: mountainous terrain separating populations enabling language diversification. China geography: geographic east-west connectivity enabling language spread along Yellow River/Yangtze despite mountain barriers. Tibet geography: high plateaus isolating populations maintaining distinct languages. Southeast Asian mountains: enable language isolation creating dozens of language families. Modern borders: colonial-era borders crossing geographic-linguistic boundaries creating multiethnic states (Myanmar, Laos, Vietnam).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Language family distribution geography-determined by physical barriers to diffusion. Mountain geography creates language isolation enabling diversification. River geography enables language spread enabling linguistic unification. Political borders reflect imperial conquest not geographic-linguistic realities. Geographic barriers determine language retention versus diffusion: isolated populations maintain distinct languages; connected populations share linguistic features. East/Southeast Asian linguistic diversity reflects geographic terrain diversity with mountains creating language barriers.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 327,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

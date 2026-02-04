@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 414 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 414 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>4 14 " EPILOGUE</p>
+<p>technological preeminence to Europe is to understand China's chronic</p>
+<p>unity and Europe's chronic disunity. The answer is again suggested by</p>
+<p>maps (see page 415). Europe has a highly indented coastline, with five</p>
+<p>large peninsulas that approach islands in their isolation, and all of which</p>
+<p>evolved independent languages, ethnic groups, and governments: Greece,</p>
+<p>Italy, Iberia, Denmark, and Norway / Sweden. China's coastline is much</p>
+<p>smoother, and only the nearby Korean Peninsula attained</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0414">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>China chronic unity vs Europe chronic disunity: key difference determining technology trajectory outcomes. Answer geography-rooted through coastline morphology. Europe: highly indented coastline, five large peninsulas (near islands—isolation), each evolved independent languages/ethnic groups/governments (Greece, Italy, Iberia, Denmark, Norway/Sweden). China: smoother coastline, only nearby Korean Peninsula achieved political separation. Geography → political fragmentation → competition → technology development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Coastline geography determines political fragmentation. Fragmented coastlines (peninsulas, islands): geography isolates populations creating independent political units. Unified coastlines: geography enables unified control creates single political entity. Political fragmentation enables innovation competition. Unified politics enables consistent policy possibly discouraging risky investment like exploration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Europe peninsular geography: Mediterranean enabled Greek city-states, Italian republics geographic isolation. Northern peninsulas (Iberia, Italy, Scandinavia, Denmark) enabled independent kingdoms. Geographic isolation created independent political units. Political fragmentation enabled competitive pressure. China coastline unified: enabled single dynasty control. Long periods unified rule (Ming, Qing) enabled single political direction. Unified decision-making: treasure fleets abandoned 1433 (single decision). Fragmented Europe: competitive pressure forced continued exploration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Coastline geography determines political fragmentation determines technology development competition intensity. Europe indented coastline → political fragmentation → competing units → innovation pressure → continuous technology development. China smooth coastline → political unification → single-authority decisions → exploration abandoned. Geographic physical fragmentation (peninsulas, islands) creates political fragmentation enables competitive technology development. Geographic unity enables unified political control enables risky decisions discontinuing development. Coastline morphology geography determines political organization determines innovation patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 414,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

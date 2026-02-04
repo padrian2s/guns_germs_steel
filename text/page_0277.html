@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 277 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 277 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 2 77</p>
+<p>a more comfortable lifestyle than commoners? Kleptocrats throughout the</p>
+<p>ages have resorted to a mixture of four solutions:</p>
+<p>1. Disarm the populace, and arm the elite. That's much easier in these</p>
+<p>days of high-tech weaponry, produced only in industrial plants and easily</p>
+<p>monopolized by an elite, than in ancient times of spears and clubs easily</p>
+<p>made at home.</p>
+<p>2. Make the masses happy by redistributing much of the tribute</p>
+<p>received, in popular ways. This princip</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0277">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Kleptocratic solutions maintaining elite power: 1) Disarm populace, arm elite (modern weapons monopoly easier than ancient spears). 2) Redistribute tribute to masses in popular ways to maintain happiness. Government complexity enables solutions (technology differentiation, taxation systems, redistribution administration). Geographic population density and technological development determine kleptocratic feasibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>State maintenance mechanisms. Weapon monopoly requiring industrial capacity—geography-dependent. Redistribution requiring administrative infrastructure—geography-dependent. Complexity enables elite extraction. Simple societies lack mechanisms for kleptocracy. Technology level determines feasible control methods.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Industrial states (modern Europe, US): monopolized high-tech weapons production. Ancient states: monopolized rare metals (bronze, iron) through control of mines and craftspeople. Agricultural empires: maintained control through taxation administration and redistribution. Hunter-gatherers: impossible kleptocratic extraction due to lack of storable surplus and homogeneous weapon availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>State power maintenance geography-determined through technology development. Industrial geography enables weapon monopoly. Agricultural geography enables taxation/redistribution. Geographic technology development level determines available control mechanisms. Kleptocratic solutions only possible where geography enabled food surplus and technology complexity. Geographic conditions determine whether state power maintenance mechanisms available.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 277,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

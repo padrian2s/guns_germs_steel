@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 413 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 413 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>THE FUTURE OF HUMAN HISTORY AS A SCIENCE • 413</p>
+<p>Europe been united under any one of the first three rulers, its colonization</p>
+<p>of the Americas might have been stillborn.</p>
+<p>In fact, precisely because Europe was fragmented, Columbus succeeded</p>
+<p>on his fifth try in persuading one of Europe's hundreds of princes to spon</p>
+<p>sor him. Once Spain had thus launched the European colonization of</p>
+<p>America, other European states saw the wealth flowing into Spain, and six</p>
+<p>more joined in colonizing America. The story was</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0413">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Europe fragmentation enabling successful colonization: if Europe united under single ruler (Isabella, Ferdinand, or other early explorers), colonization potentially stillborn. European fragmentation → Columbus succeeded fifth attempt persuading one of Europe's hundreds of princes. Spain colonization success triggered competitive response—other European states saw wealth flowing Spain → joined colonization. Competitive fragmentation created colonial expansion cascade.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Political fragmentation enables innovation through multiple decision-makers. Unified power single person veto can block exploration (as China did). Fragmented powers multiple rulers creating multiple opportunities success. Competitive observation: Spain success triggered other states' participation → cascade colonization. Political geography determines whether single innovation rejected entirely or adopted through competitive necessity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Columbus rejected rulers: Portugal (Henry), France, Castile (Isabella/Ferdinand fourth-and-fifth attempts), eventually succeeded Spain. Unified Europe: Columbus single rejection potentially ended exploration. Fragmented Europe: multiple rulers = multiple options enabling fifth-attempt success. Spain colonization 1492-1500s: wealth generation visible other states. Portugal motivated competition entering colonization. England/France later joined. Fragmentation enabling competitive cascade.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Political geography determines innovation adoption. Fragmented politics enables innovation through multiple decision-makers; unified politics enables innovation rejection. Europe fragmentation geography (peninsula fragmentation) created multiple political units creating multiple exploration opportunities enabling Columbus success. Spain success triggered competitive response from fragmented neighbors. Cascade colonization resulted from political fragmentation. Single unified Europe (like unified China) might have rejected exploration entirely. Geographic political fragmentation determined innovation adoption rate.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 413,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

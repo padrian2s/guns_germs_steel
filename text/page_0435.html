@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 435 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 435 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS • 4 3 5</p>
+<p>Five important sources, all of them excellent and fact-filled, address the</p>
+<p>question how food production evolved from the hunter-gatherer lifestyle:</p>
+<p>Kent Flannery, "The origins of agriculture," Annual Reviews of Anthro</p>
+<p>pology 2:271-310 (1973); Jack Harlan, Crops and Man, 2nd ed. (Madi</p>
+<p>son, Wis.: American Society of Agronomy, 1992); Richard MacNeish, The</p>
+<p>Origins of Agriculture and Settled Life (Norman: University of Oklahoma</p>
+<p>Press, 1992); David Rindos, The Origins of Agric</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0435">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Further Readings bibliography: five important sources on food production evolution from hunter-gatherer lifestyle. Flannery "Origins of agriculture" (1973), Harlan "Crops and Man" (1992), MacNeish "Origins of Agriculture and Settled Life" (1992), Rindos "Origins of Agriculture". Comprehensive academic support for geographic determinism argument. Sources provide evidence base for agriculture development tied to geographic domesticable species availability and climate suitability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural origins empirically studied through archaeological and botanical evidence. Food production transition geography-traceable through crop domestication sites. Historic evidence shows agriculture emerged independently multiple times in similar geographic zones. Written sources provide detailed evidence supporting geographic determinism thesis. Scholarly consensus: agriculture tied to available wild crops and animals—geographic distribution determining where domestication possible.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Flannery, Harlan, MacNeish, Rindos archaeological studies tracing agriculture emergence: Fertile Crescent (wheat/barley/pulses), China (millet/rice), Mesoamerica (maize/beans), Andean region (potatoes/quinoa), sub-Saharan Africa (sorghum/millet). Each region had domesticable species available geographically. Agriculture emerged where domestication-possible wild crops existed. Archaeological evidence from each region shows transition timing varies with climate change creating agricultural possibility. Geographic availability of domesticable species determined agriculture possibility—not human innovation alone but environmental preconditions necessary.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Bibliography evidence that geographic domesticable species distribution determines agriculture emergence. Archaeological evidence supports geographic determinism: agriculture emerged in multiple geographic zones with domesticable species, nowhere without suitable crops. Historic record proves agriculture geographic-dependent not human-capability dependent. Scholarly sources document agriculture geographic origins at different times matching geography domestication possibilities. Evidence foundation: agriculture emergence directly traceable to geographic species availability. Further Readings provide academic substantiation for geographic determinism thesis throughout book.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 435,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

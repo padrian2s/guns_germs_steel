@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 365 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 365 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 65</p>
+<p>been evolving to utilize wild cereals were available to the first cereal farm</p>
+<p>ers of the Fertile Crescent. In contrast, the first settlers of the Americas</p>
+<p>arrived in Alaska with equipment appropriate to the Siberian Arctic tun</p>
+<p>dra. They had to invent for themselves the equipment suitable to each</p>
+<p>new habitat they encountered. That technology lag may have contributed</p>
+<p>significantly to the delay in Native American developments.</p>
+<p>An even more obvious factor behind the dela</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0365">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Americas settlement disadvantage: environmental technology lag. First settlers arrived Alaska with Siberian Arctic tundra equipment. Had to independently invent appropriate equipment for each new habitat encountered—tropical forests, grasslands, deserts, mountain zones. Eurasian settlers: had evolved equipment usable across multiple climate zones (cold adapted). Technology delay in Americas: settlers reinventing rather than adapting existing technology. Contributed significantly to Native American development delays versus Eurasian/African civilizations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology versatility geography-determined by origin environment diversity. Siberian equipment unsuitable Americas climatic diversity. Necessity to reinvent technology delays development. Eurasian settlers: equipment adaptable across climate zones (east-west axis). American settlers: climate-incompatible equipment requiring reinvention. Technology development efficiency higher when adaptable; lower when starting fresh per ecosystem. Settlement speed and civilization development speed limited by technology catch-up requirements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Americas settlement: 15,000+ years ago from Siberia with arctic technology. Expansion to tropical Amazon, Pacific coasts, Andes mountains required complete equipment reinvention. Eurasian spread: technology developed for temperate zones adaptable across Africa/Europe/Asia varied climates. Americas climate diversity forced continuous technological innovation per region. Delayed development vs. Eurasia partly reflects technology catch-up burden. Technology efficiency advantage from pre-existing adaptable technology vs. reinvention requirement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology development geography-influenced by origin environment climate diversity. Americas settlement from single climate zone (Siberia) created technology lag across diverse destination climates. Eurasian spread through already-diverse zones enabled technology adaptation vs. reinvention. Geographic continental axis orientation (Americas north-south vs. Eurasia east-west) meant Americas climate diversity required more innovation. Technology lag contributed to civilization development delay—not human capability differences but geographic equipment-reinvention burden vs. adaptation advantage.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 365,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

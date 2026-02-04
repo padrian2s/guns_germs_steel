@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 318 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 318 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>318 • GUNS, GERMS, AND STEEL</p>
+<p>killed off most of the native peoples of Australia and the Americas. One</p>
+<p>lucky break for New Guineans was that there were no permanent Euro</p>
+<p>pean settlements in New Guinea until the 1880s, by which time public</p>
+<p>health discoveries had made progress in bringing smallpox and other infec</p>
+<p>tious diseases of European populations under control. In addition, the</p>
+<p>Austronesian expansion had already been bringing a stream of Indonesian</p>
+<p>settlers and traders to New Guinea for 3,500</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0318">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Epidemic disease killed native populations in Australia/Americas through smallpox/measles introduction. New Guinea spared catastrophic epidemic because no permanent European settlement until 1880s—by then public health discoveries brought smallpox under control. Austronesian expansion brought Indonesian settlers/traders for 3,500 years before Europeans—Indonesians exposed to same tropical diseases as New Guineans, no lethal pathogen differential. Timing geographic contingency: disease control technology developed before European settlement enabled New Guinea population survival.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease ecology geography-determined through tropical disease burden. Austronesian Indonesian populations shared disease environment with New Guineans enabling genetic adaptation. European populations isolated from tropical diseases lacked immunity. Timing of European contact determines epidemic impact—early contact = mass disease mortality; later contact = controlled disease. Public health geography-dependent on disease environment exposure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia/Americas: early European settlement (1600s-1700s) brought smallpox killing 80-90% native populations. New Guinea: 1880s European settlement with controlled smallpox = population survival. Austronesian-New Guinea: 3,500 years contact with disease-adapted Indonesians = no epidemic. Eurasia disease ecology benefited indigenous tropical Asian populations through millennia exposure enabling survival of European contact.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Disease ecology geographic-determined through continental trade patterns creating immunity. Eurasian disease networks exposed New Guinea to tropical adaptation through Indonesian contact. Geographic isolation + early European contact = disease catastrophe (Americas/Australia). Geographic connectivity + late European contact = population survival (New Guinea). Timing contingency: disease control technology emergence coincided with New Guinea European contact preventing epidemic. Geography determines disease burden determining population survival.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 318,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

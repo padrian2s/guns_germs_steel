@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 322 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 322 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 16</p>
+<p>How C H I NA BECAME</p>
+<p>CHINESE</p>
+<p>I</p>
+<p>MMIGRATION, AFFIRMATIVE ACTION, MULTILINGUALISM,</p>
+<p>ethnic diversity—my state of California was among the pioneers of</p>
+<p>these controversial policies and is now pioneering a backlash against them.</p>
+<p>A glance into the classrooms of the Los Angeles public school system,</p>
+<p>where my sons are being educated, fleshes out the abstract debates with</p>
+<p>the faces of children. Those children represent over 80 languages spoken</p>
+<p>in the home, with English-speaking whites in the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0322">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>California school system ethnic/linguistic diversity: 80+ languages spoken in homes, English-speaking whites minority in Los Angeles public schools. Geographic reality of immigration and diversity demonstrating multi-cultural societies. Modern California reflects continued migration similar to historical population movements. Chapter 16 transition toward examining how unified nations formed from diverse populations—China's unification model.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Migration generates linguistic/ethnic diversity. Immigration concentration creates multi-cultural cities. Language diversity geographically concentrated in urban immigration centers. Modern international migration patterns similar to ancient population movements. Unified nations emerge from linguistically/ethnically diverse populations through historical processes of conquest/consolidation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>California 2000s: modern immigration creating linguistic diversity parallel to ancient nations (India 850 languages, Indonesia 670, Brazil 210). Los Angeles schools represent current-day version of historical language fragmentation in politically unified areas. Geographic location (California immigration gateway) determines linguistic diversity—distance from Asia reduces immigration reducing language diversity in other US regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic location determines immigration patterns determining linguistic diversity. California proximity to Asia creates immigration creating linguistic diversity. Geographic position determines which populations migrate determining linguistic composition determining political/cultural consolidation challenges. Historical nation-building required consolidating geographically-fragmented linguistic groups—same processes continue in modern immigration contexts. Geography determines population movement patterns determining linguistic/cultural diversity in unified political entities.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 322,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

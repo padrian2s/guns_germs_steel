@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 180 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 180 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>180 • GUNS, GERMS, AND STEEL</p>
+<p>more subtle evidence that crops spread more easily out of Southwest Asia</p>
+<p>than in the Americas.</p>
+<p>Rapid spread of a crop may preempt domestication not only of the same</p>
+<p>wild ancestral species somewhere else but also of related wild species. If</p>
+<p>you're already growing good peas, it's of course pointless to start from</p>
+<p>scratch to domesticate the same wild ancestral pea again, but it's also</p>
+<p>pointless to domesticate closely related wild pea species that for farmers</p>
+<p>are virtual</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0180">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crop spread preempts related domestication. Southwest Asia: rapid spread makes domestication of alternate species pointless. Already-grown peas eliminate motivation to domesticate wild pea ancestors or related wild pea species. Crop diffusion faster than independent domestication. Geographic diffusion determines which crops domesticated vs. diffused.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diffusion vs. independent domestication. Rapid diffusion preempts local domestication. Economic rationality: why domesticate inferior crop if superior diffused crop available? Geographic diffusion timing determines adoption pattern. Regions receiving crops via diffusion skip domestication. Isolation enables independent domestication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Southwest Asia crops: spread rapidly to Europe, Africa. Recipient populations adopted rather than independently domesticated. Peas: farmers received crops rather than domesticate wild ancestors. Mesoamerica: isolated development independent domestication (maize, beans, squash). Americas: received Old World crops post-1500 CE, adopted rather than domesticate.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic diffusion determines domestication patterns. Fast diffusion → adoption. Geographic isolation → independent domestication. Economic rationality → receive-via-diffusion preference. Pea example: economic logic preempts domestication even when possible. Continental isolation determines which civilizations independently domesticate vs. receive via diffusion. Geography determines crop origin patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 180,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

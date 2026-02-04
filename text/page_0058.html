@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 58 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 58 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>58 • GUNS, GERMS, AND STEEL</p>
+<p>Finally, Polynesian material culture varied from the production of no more</p>
+<p>than personal utensils to the construction of monumental stone architec</p>
+<p>ture. How can all that variation be explained?</p>
+<p>Contributing to these differences among Polynesian societies were at</p>
+<p>least six sets of environmental variables among Polynesian islands: island</p>
+<p>climate, geological type, marine resources, area, terrain fragmentation,</p>
+<p>and isolation. Let's examine the ranges of these factors, bef</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0058">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Polynesian variation ranges from simple personal utensils to monumental stone architecture. Six environmental variables explain Polynesian divergence: island climate (tropical to subantarctic), geology (atolls to continental fragments), marine resources (reef-rich to barren), area (100 acres to 103,000 sq miles), terrain fragmentation (smooth vs rugged valleys), isolation (complete to moderate). These variables determine societal complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Environmental determinism framework: six geographic variables. Climate determines agriculture viability. Geology determines available resources/tools. Marine resources limit subsistence options. Island area limits population size. Terrain affects political unification. Isolation affects inter-island contact/trade. All affect societal development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Six environmental factors vary dramatically across Polynesian islands. Climate range: tropical to subantarctic. Area range: 100 acres to 103,000 sq miles. Geology range: bare atolls to resource-rich continents. These variations determine different Polynesian societies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Environmental variables determine societal complexity directly. Large islands, rich resources, optimal climate → complex societies. Small islands, poor resources, harsh climate → simple societies. Framework predicts societal types from environmental data alone, proving geographic determinism.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 58,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

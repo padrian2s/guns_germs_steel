@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 99 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 99 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HISTORY'S HAVES AND HAVE-NOTS • 99</p>
+<p>Figure 5.1. Centers of origin of food production. A question mark indi</p>
+<p>cates some uncertainty whether the rise of food production at that center</p>
+<p>was really uninfluenced by the spread of food production from other cen</p>
+<p>ters, or (in the case of New Guinea) what the earliest crops were.</p>
+<p>nous wild plants in Ethiopia. As for New Guinea, archaeological studies</p>
+<p>there have provided evidence of early agriculture well before food produc</p>
+<p>tion in any adjacent areas, but the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0099">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Multiple independent agricultural centers identified globally (Figure 5.1). Fertile Crescent, China, Mesoamerica, Ethiopia, New Guinea, Americas regions show early food production. Question marks indicate uncertainty whether development independent or influenced by diffusion from other centers. Archaeological evidence maps agricultural emergence geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Multiple independent agricultural origins. Geographic variation in domestication emergence. Independent invention versus diffusion patterns. Agricultural development appears independent in isolated geographic regions. Geographic separation enabled parallel agricultural discovery in multiple centers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Agricultural origins: Fertile Crescent 10000 BCE, China 9000 BCE, Mesoamerica 5000 BCE, Ethiopia, New Guinea, sub-Saharan Africa, Americas independently. Each region's agriculture based on locally available domesticable species. Geographic isolation enabled multiple independent discoveries.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation determines independent agricultural origin versus diffusion pattern. Multiple centers confirm agriculture invention wasn't unique discovery but inevitable result of having domesticable species available. Geography (presence/absence of domesticable species) determines agricultural emergence. Isolated regions with suitable species → independent agriculture. Connected regions without species → agricultural diffusion required.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 99,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

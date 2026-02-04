@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 309 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 309 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 309</p>
+<p>Australia was the paucity of domesticable wild plants. Even modern Euro</p>
+<p>pean plant geneticists have failed to develop any crop except macadamia</p>
+<p>nuts from Australia's native wild flora. The list of the world's potential</p>
+<p>prize cereals—the 56 wild grass species with the heaviest grains—includes</p>
+<p>only two Australian species, both of which rank near the bottom of the</p>
+<p>list (grain weight only 13 milligrams, compared with a whopping 40 milli</p>
+<p>grams for the heaviest grains elsewhere in</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0309">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australia domesticable wild plants extremely limited: modern geneticists developed only macadamia nuts from native flora. World's 56 best wild grass species (heaviest grain) includes only 2 Australian species—ranking lowest (13mg grain vs 40mg best elsewhere). Poor grain quality made cereals unviable domestication candidates. Geography's flora limitations prevented grain-based agriculture.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Plant domestication viability depends on genetic grain quality. Large grains suit domestication; small grains inadequate. Geographic distribution of suitable plants non-random. Some regions abundant domesticable plants; others lacking. Australia lacked suitable cereals. Plant genetics geography-distributed determining agriculture possibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia flora: poor wild grain species (13mg grains inadequate for agriculture), limited legumes, minimal root crops. Contrast: Fertile Crescent wild wheat/barley/legumes suitable domestication. China: millet, rice suitable. Mesoamerica: maize suitable. Australia: genetic crop potential absent. Even modern geneticists couldn't improve wild Australian species toward agriculture viability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic plant distribution determines agriculture possibility. Australia's wild flora naturally poor for domestication—genetic grain size inadequate. Fertile Crescent/China/Mesoamerica: naturally suitable species. Plant genetics geography-determined through evolutionary history. Australia's flora evolution created unsuitable domesticable species. Human effort insufficient to overcome geographic grain limitations. Geography determines agriculture viability independent human knowledge/effort.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 309,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

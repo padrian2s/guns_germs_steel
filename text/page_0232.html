@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 232 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 232 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 32 • GUNS, GERMS, AND STEEL</p>
+<p>case of Chinese writing. Hieroglyphic writing appeared rather suddenly, in</p>
+<p>nearly full-blown form, around 3000 B.C. Egypt lay only 800 miles west</p>
+<p>of Sumer, with which Egypt had trade contacts. I find it suspicious that no</p>
+<p>evidence of a gradual development of hieroglyphs has come down to us,</p>
+<p>even though Egypt's dry climate would have been favorable for preserving</p>
+<p>earlier experiments in writing, and though the similarly dry climate of</p>
+<p>Sumer has yielded abundant eviden</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0232">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Egyptian hieroglyphics: appeared suddenly ~3000 BCE nearly fully-formed. Egypt/Sumer separated 800 miles with trade contact. No evidence of gradual hieroglyph development survives. Egypt's dry climate favorable for preservation. Sumer equally dry, abundant early writing evidence. Absence of developmental examples suggests Sumerian-inspired Egyptian writing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing system diffusion vs independent invention detection. Absence of evidence suggests diffusion from earlier system. Geographic proximity enables diffusion. Trade contact determines technology transmission likelihood. Sudden appearance indicates borrowed system not independent reinvention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sumerian cuneiform: ~3000 BCE, gradual development traced from pictorial. Egypt: no developmental sequence, appears fully-formed. Geographic trade: Sumer/Egypt connected. Timing: Egyptian appearance follows Sumerian establishment. Climate preservation: expected evidence of Egyptian development would exist if independent.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic proximity enables writing diffusion. Trade contact determines technology spread. Egyptian writing geography-determined through Sumerian transmission. Absence of independent development evidence suggests diffusion benefits from geography. Geographic advantage: copying avoids reinvention burden.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 232,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

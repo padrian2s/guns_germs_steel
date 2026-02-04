@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 219 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 219 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 219</p>
+<p>Figure 12.1. The question marks next to China and Egypt denote some</p>
+<p>doubt whether early writing in those areas arose completely indepen</p>
+<p>dently or was stimulated by writing systems that arose elsewhere earlier.</p>
+<p>"Other" refers to scripts that were neither alphabets nor syllabaries and</p>
+<p>that probably arose under the influence of earlier scripts.</p>
+<p>virtually all writing systems: how to devise agreed-on visible marks that</p>
+<p>represent actual spoken sounds, rather than</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0219">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Figure 12.1: Writing origins timeline with question marks. Egypt/China writing independence uncertain: possibly independent or stimulated by earlier systems elsewhere. Evidence ambiguity: determining whether invention independent vs diffusion-prompted. Writing diffusion across civilizations more likely than parallel invention. Technology transfer: more probable than simultaneous re-invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing diffusion vs independent invention. Geographic contact determines diffusion likelihood. Writing system complex enough that parallel invention unlikely. Trade contact geography determines diffusion pathways. Civilizations in geographic proximity: likely writing diffusion. Geographically isolated regions: genuine independent invention more likely.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mesopotamia/Egypt proximity: writing possibly diffused Egypt from Sumeria. Egypt geography: Mediterranean trade contact enabled diffusion. China geographic isolation: independent writing invention plausible. Americas geographic isolation: writing development (Mayan, Aztec) independent from Old World. Geographic trade patterns determine diffusion likelihood for complex technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines trade contact. Trade contact determines technology diffusion. Isolated geography: enables genuine independent invention. Connected geography: encourages technology diffusion. Writing emergence: geography-determined (through contact patterns determining diffusion vs invention). Tech diffusion benefits: geographic contact determines who benefits from others' inventions. Geographic position determines innovation copying capability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 219,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

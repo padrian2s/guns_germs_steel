@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 168 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 168 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>I 6 8 • GUNS, GERMS, AND STEEL</p>
+<p>Ukraine, as well as in England, Kenya, Zimbabwe, and South Africa; an</p>
+<p>experimental farm for elk (red deer, in British terminology) has been oper</p>
+<p>ated by the Rowett Research Institute at Aberdeen, Scotland; and an</p>
+<p>experimental farm for moose has operated in the Pechero-Ilych National</p>
+<p>Park in Russia. Yet these modern efforts have achieved only very limited</p>
+<p>successes. While bison meat occasionally appears in some U.S. supermar</p>
+<p>kets, and while moose have been ridden, m</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0168">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Modern animal domestication experiments: elk (red deer) farms Scotland, moose farms Russia, bison experiments Ukraine, Kenya, Zimbabwe, South Africa. Modern attempts achieved only limited success. Bison meat occasionally appears in supermarkets; moose rarely ridden/worked. Modern technology cannot domesticate animals that ancient peoples couldn't. Demonstrates animal domestication biology-constrained, not culturally-optional.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Animal domestication limits biologically-determined. Modern technology unable to overcome behavioral/physiological constraints. Temperament, breeding patterns, diet, growth rate genetic constraints. Geographic fauna distribution determines domestication feasibility. Geographic limitations absolute: modern technology confirms ancient constraints real and insurmountable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Modern experiments: Rowett Research Institute elk farming; Russian moose programs; African game farm attempts. Limited success despite modern infrastructure, veterinary knowledge, selective breeding technology. Moose unsuitable for riding despite efforts. Bison retained wild temperament. Confirms ancient peoples exploited only truly domesticable species.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Animal domestication geography-determined through species biology. Geographic fauna distribution absolute constraint. Modern technology cannot overcome biological constraints on domestication. Geographic species distribution determines agricultural technology feasibility independent of cultural effort. Animals unavailable to ancient peoples remain unavailable to moderns. Geography determines domestication opportunities absolutely.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 168,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

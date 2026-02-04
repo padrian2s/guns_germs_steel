@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 268 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 268 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>268 • GUNS, GERMS, AND STEEL</p>
+<p>Australians, Eskimos (Inuit), and Indians of some resource-poor areas of</p>
+<p>the Americas such as Tierra del Fuego and the northern boreal forests. All</p>
+<p>those modern bands are or were nomadic hunter-gatherers rather than</p>
+<p>settled food producers. Probably all humans lived in bands until at least</p>
+<p>40,000 years ago, and most still did as recently as 11,000 years ago.</p>
+<p>Bands lack many institutions that we take for granted in our own soci</p>
+<p>ety. They have no permanent single base o</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0268">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Modern nomadic bands persist in resource-poor regions: Aboriginal Australians, Inuit, Tierra del Fuego Indians, northern boreal forest Indians. Nomadic hunter-gatherers remain primary adaptation despite agricultural success elsewhere. All humans lived in bands until ~40,000 years ago. Most humans still lived in bands as recently as 11,000 years ago. Bands lack institutions modern societies take for granted: no permanent settlements, no formal leadership, no armies, no police. Band organization reflects geographic resource distribution enabling/requiring continued nomadism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Band organization geography-determined optimal adaptation. Nomadism suits dispersed resources. Settlement suits concentrated resources. Agriculture prerequisite: domesticable plants geography-dependent. Resource-poor regions unable to support agriculture remain nomadic. Band institutions (egalitarian leadership, sharing, mobility) optimal for resource-sparse geography. Modern bands persist not through cultural conservatism but through geography-imposed resource constraints preventing agricultural transition. Institution type follows resource availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Tierra del Fuego: cold climate, limited game, no domesticable plants available—bands optimal adaptation. Aboriginal Australia: arid continent, dispersed water sources, limited agriculture potential—nomadic bands persist as geographic adaptation. Inuit: Arctic, limited terrestrial plants, marine resources (seals) support bands. Boreal forests: limited agriculture, wild game/fish—bands optimal. Contrast: Fertile Crescent, river valleys—dense agricultural resources enabled settlement. Temperate grasslands with domesticable cereal grains—settlement and states emerged. Geography determined whether bands persisted or agriculture replaced them.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Band organizations persist where geography prevents agriculture. Resource-poor regions lack domesticable species/agricultural potential—nomadism remains optimal strategy despite global knowledge of agriculture. Modern bands represent geographic adaptation, not cultural deficit or technological rejection. Same human groups given different geography would adopt agriculture (and did when agriculture became possible). Geographic resource availability determines whether agricultural transition feasible. Institutions adapt to geography: nomadic bands in resource-poor geography, settlements in resource-rich geography.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 268,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 98 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 98 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>98 • GUNS, GERMS, AND STEEL</p>
+<p>same crop or domestic animal in different areas. For instance, India's zebu</p>
+<p>breeds of domestic cattle possess humps lacking in western Eurasian cattle</p>
+<p>breeds, and genetic analyses show that the ancestors of modern Indian</p>
+<p>and western Eurasian cattle breeds diverged from each other hundreds of</p>
+<p>thousands of years ago, long before any animals were domesticated any</p>
+<p>where. That is, cattle were domesticated independently in India and west</p>
+<p>ern Eurasia, within the last 10,000</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0098">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Genetic evidence proves independent domestication. Indian zebu cattle independently domesticated from aurochs, separate from Western Eurasian cattle. Zebu/Western ancestors diverged hundreds of thousands of years pre-domestication. Both domesticated within last 10,000 years, independently, each region domesticating local aurochs populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Independent domestication of same species in different regions. Genetic divergence in wild ancestors predates domestication. Multiple domestication events from diverged wild populations. Geographic separation of wild populations enables multiple independent domestication of same species type.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>India and Western Eurasia: separate aurochs populations for millennia. Indian domestication ~8000 BCE creates zebu breeds. Western Eurasia domestication ~8000 BCE creates humpless breeds. Geographic separation of wild aurochs populations enabled independent domestication trajectories.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic separation of wild animal populations enables independent domestication. Aurochs distributed across Eurasia. India's population domesticated independently. Western Eurasian population domesticated independently. Geographic distribution of wild ancestors determines domestication origin patterns. Same species, different geography, different domestication outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 98,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 279 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 279 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 2 79</p>
+<p>chiefdoms. They continue the increase in size from bands to tribes to chief</p>
+<p>doms. Whereas chiefdoms' populations range from a few thousand to a</p>
+<p>few tens of thousands, the populations of most modern states exceed one</p>
+<p>million, and China's exceeds one billion. The paramount chief's location</p>
+<p>may become the state's capital city. Other population centers of states out</p>
+<p>side the capital may also qualify as true cities, which are lacking in chief</p>
+<p>doms. Cities dif</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0279">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>States continue population size progression: bands (50-150), tribes (100s-1000s), chiefdoms (1000s-10,000s), states (1 million+, China exceeds 1 billion). Paramount chief's location becomes state capital city. States develop multiple true cities beyond capital unlike chiefdoms lacking urban centers. Population scale difference fundamental: states require urban administrative centers, specialized occupations, infrastructure supporting millions. Chiefdom populations geographically feasible on regional scales; state populations require urban coordination centers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Urban civilization geography-dependent. Cities require agricultural surplus supporting non-food-producing population. State populations exceed chiefdom carrying capacity requiring urban centers. Multiple cities enable region-scale administration impossible for single chief. Urban specialization (craftspeople, bureaucrats, soldiers, merchants) requires city populations. Geography determines city development possibility through surplus-enabling agriculture. Population scale determines urban necessity—large populations require multiple coordination centers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Egypt: Nile valley agriculture enabled delta cities (Memphis, Alexandria) coordinating millions. Mesopotamia: river agriculture enabled city-state clusters (Uruk, Lagash, Ur). China: Yellow River agriculture enabled multiple imperial centers. Mesoamerica: Central Mexican valley agriculture enabled multiple cities (Teotihuacan, Tenochtitlan). Pacific islands: limited agricultural surplus prevented state formation and city development. Sub-Saharan Africa: geographic diversity prevented large-scale agriculture enabling limited urban development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>City development geography-determined through agricultural capacity enabling state-scale populations. Geographic domesticable species → agricultural surplus → large population → state formation → urban development. Urban centers emerge necessarily from state coordination requirements exceeding chiefdom capacity. Geography → agriculture → population scale → political organization → urban form. States cannot exist without geography-enabled agricultural base supporting city populations.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 279,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

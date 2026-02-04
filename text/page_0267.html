@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 267 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 267 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 2 67</p>
+<p>world. The combination of government and religion has thus functioned,</p>
+<p>together with germs, writing, and technology, as one of the four main sets</p>
+<p>of proximate agents leading to history's broadest pattern. How did gov</p>
+<p>ernment and religion arise?</p>
+<p>FAYU BANDS AND modern states represent opposite extremes along the</p>
+<p>spectrum of human societies. Modern American society and the Fayu dif</p>
+<p>fer in the presence or absence of a professional police force, cities, money</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0267">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Government and religion emergence: four proximate agents driving history—germs, writing, technology, government/religion. Fayu bands (New Guinea) vs. modern American states represent opposite ends societal organization spectrum. Differences: professional police force, cities, money absent in egalitarian societies. Modern states emerge through population density and political hierarchy development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Government role: enables large-scale coordination enabling complex technology and food surplus management. Religion role: legitimates authority enabling hierarchical organization. Hierarchy emergence: geographic advantages (agriculture) → population growth → political complexity → government/religion institutions. Kleptocracy: government functioning as organized theft extracting resources from population. Institution emergence geography-determined: sufficient population density, food surplus prerequisite for professional government class.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Egalitarian hunter-gatherer societies (Fayu): small populations, shared leadership, temporary authority. Agricultural state emergence: population density increases requiring coordination mechanisms. Early states: religion legitimated authority enabling extraction of surplus. Modern states: police, military, bureaucracy manage larger populations. Geographic gradient: sparse population geographies enable egalitarianism; dense populations create hierarchical pressure. Agricultural geography creates population density enabling political complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Government/religion emergence geography-determined via agriculture enabling population density. Agriculture geographic-dependent enabling population growth triggering political organization need. Government/religion emerge as coordination mechanisms enabling technology management and resource extraction. Geographic advantages create conditions for government emergence: agriculture → population → hierarchy. Kleptocracy reflects economic surplus creation: agriculture creates exploitable surplus enabling institutional government. Population organization differences (egalitarian vs. hierarchical) reflect geographic population density differences rooted in agriculture suitability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 267,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 119 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 119 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • 1 19</p>
+<p>uals must have sprouted around the latrines of ancient hikers.</p>
+<p>While size and tastiness are the most obvious criteria by which human</p>
+<p>hunter-gatherers select wild plants, other criteria include fleshy or seedless</p>
+<p>fruits, oily seeds, and long fibers. Wild squashes and pumpkins have little</p>
+<p>or no fruit around their seeds, but the preferences of early farmers selected</p>
+<p>for squashes and pumpkins consisting of far more flesh than seeds. Culti</p>
+<p>vated bananas were selected long</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0119">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Selection criteria for wild plant domestication diverse: size, taste, fleshy fruit, seedless fruit, oily seeds, fiber length. Wild squashes/pumpkins: minimal flesh around seeds. Cultivated varieties: vastly more flesh. Cultivated bananas: seedless (reproductive isolation required). Wild berries: difficult harvest. Cultivated: concentrated ripening.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication selection pressures vary by crop and region. Size, taste, fleshy fruit, seedlessness, synchronous ripening, reduced toxins. Natural genetic variation supplies selection material. Regions with diverse wild crops selected for different favorable traits. Geographic crop diversity determines trait diversity achievable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: wheat/barley selected for grain size. Mesoamerica: maize selected for kernel size, squash selected for flesh. Old World: grape selected for flavor and seedlessness. Each region adjusted selection to available wild species variation and local preferences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Available wild species genetic diversity determines domestication diversity. Regions with many domesticable plants achieve diverse crops with varied traits. Regions with few domesticable plants limited to narrow trait range. Geographic crop diversity geographically determined by wild species availability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 119,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 324 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 324 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 24 " GUNS, GERMS, AND STEEL</p>
+<p>linguistic disunity of other long-settled parts of the world. For instance,</p>
+<p>we saw in the last chapter that New Guinea, with less than one-tenth of</p>
+<p>China's area and with only about 40,000 years of human history, has a</p>
+<p>thousand languages, including dozens of language groups whose differ</p>
+<p>ences are far greater than those among the eight main Chinese languages.</p>
+<p>Western Europe has evolved or acquired about 40 languages just in the</p>
+<p>6,000-8,000 years since the arrival of I</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0324">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>China linguistic unity unique globally: comparable area languages differ less than New Guinea languages despite New Guinea 40,000-year history vs China's longer history. New Guinea (1/10 China's area): 1,000+ languages with greater differences than eight main Chinese languages. Western Europe: 40 languages in 6,000-8,000 years. China unification extraordinary—similar geographic area produced linguistic diversity elsewhere but China maintained linguistic similarity. Chinese language consolidation unique among world regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Linguistic consolidation geographic contingency. Similar area territories produce different linguistic diversity based on geographic barriers. New Guinea mountains isolated populations creating languages; China geographic connectivity enabled language convergence. West Europe water barriers fragmented populations creating linguistic diversity. Geography determines whether languages consolidate or diverge—terrain determines isolation determines language preservation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea: extreme geographic fragmentation (mountains, jungles) isolated populations creating 1,000+ languages in area 1/10 China's size. Western Europe: water barriers/terrain created 40 language families. China: geographic terrain enabled communication/conquest/consolidation reducing language diversity. Same 3,000+ year timespan: China consolidated languages; Western Europe diverged; New Guinea fragmented. Geographic terrain differences explain linguistic outcomes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic terrain determines linguistic consolidation vs. fragmentation. Mountains/water barriers create language isolation creating language diversity. Accessible terrain enables communication enabling language consolidation. China's continental terrain accessibility enabled unprecedented linguistic consolidation. New Guinea's terrain barriers enabled unprecedented linguistic fragmentation. Geography—through isolation/communication possibility—determines whether populations maintain unified language vs. fragment into separate languages.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 324,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

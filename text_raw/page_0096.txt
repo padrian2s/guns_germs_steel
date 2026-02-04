@@ -1,0 +1,39 @@
+96 • GUNS, GERMS, AND STEEL
+materials all deposited on the same day. Materials deposited at different
+times can get mixed together, as worms and rodents and other agents
+churn up the ground. Charcoal residues from a fire can thereby end up
+close to the remains of a plant or animal that died and was eaten thousands
+of years earlier or later. Increasingly today, archaeologists are circum
+venting this problem by a new technique termed accelerator mass spec
+trometry, which permits radiocarbon dating of tiny samples and thus lets
+one directly date a single small seed, small bone, or other food residue. In
+some cases big differences have been found between recent radiocarbon
+dates based on the direct new methods (which have their own problems)
+and those based on the indirect older ones. Among the resulting controver
+sies remaining unresolved, perhaps the most important for the purposes of
+this book concerns the date when food production originated in the Amer
+icas: indirect methods of the 1960s and 1970s yielded dates as early as
+7000 B.c., but more recent direct dating has been yielding dates no earlier
+than 3500 B.C.
+A second problem in radiocarbon dating is that the carbon 14 / carbon
+12 ratio of the atmosphere is in fact not rigidly constant but fluctuates
+slightly with time, so calculations of radiocarbon dates based on the
+assumption of a constant ratio are subject to small systematic errors. The
+magnitude of this error for each past date can in principle be determined
+with the help of long-lived trees laying down annual growth rings, since
+the rings can be counted up to obtain an absolute calendar date in the past
+for each ring, and a carbon sample of wood dated in this manner can
+then be analyzed for its carbon 14 / carbon 12 ratio. In this way, measured
+radiocarbon dates can be "calibrated" to take account of fluctuations in
+the atmospheric carbon ratio. The effect of this correction is that, for mate
+rials with apparent (that is, uncalibrated) dates between about 1000 and
+6000 B.C., the true (calibrated) date is between a few centuries and a thou
+sand years earlier. Somewhat older samples have more recently begun to
+be calibrated by an alternative method based on another radioactive decay
+process and yielding the conclusion that samples apparently dating to
+about 9000 B.C. actually date to around 11,000 B.C.
+Archaeologists often distinguish calibrated from uncalibrated dates by
+writing the former in upper-case letters and the latter in lower-case letters
+(for example, 3000 B.c. vs. 3000 b.c., respectively). However, the archaeo
+logical literature can be confusing in this respect, because many books and
+papers report uncalibrated dates as B.C. and fail to mention that they are

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 68 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 68 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>6 8 • GUNS, GERMS, AND STEEL</p>
+<p>relations was the first encounter between the Inca emperor Atahuallpa and</p>
+<p>the Spanish conquistador Francisco Pizarro at the Peruvian highland town</p>
+<p>of Cajamarca on November 16, 1532. Atahuallpa was absolute monarch</p>
+<p>of the largest and most advanced state in the New World, while Pizarro</p>
+<p>represented the Holy Roman Emperor Charles V (also known as King</p>
+<p>Charles I of Spain), monarch of the most powerful state in Europe.</p>
+<p>Pizarro, leading a ragtag group of 168 Spanish soldier</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0068">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>First encounter between Inca emperor Atahuallpa (most advanced New World state) and Spanish conquistador Pizarro (Holy Roman Emperor representative) on November 16, 1532. Pizarro commanded 168 Spanish soldiers. Atahuallpa commanded Inca empire (hundreds of thousands). Despite numerical disadvantage, Spanish possessed technology advantages (guns, horses, steel). Unequal power contrast foreshadows conquest outcome.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology determines conquest outcome despite numbers. Small European force defeats large Inca force through military technology advantage. Guns, horses, steel absent in Americas. Inca sophisticated political organization insufficient against European technology. Pizarro army tiny but technologically superior—example of geographic advantage conversion to conquest. Technology gap more decisive than organizational complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>November 16, 1532 Cajamarca meeting. Atahuallpa: Inca empire monarch, absolute authority over complex state. Pizarro: Spanish conquistador, Holy Roman Emperor representative. Pizarro 168 soldiers vs. Inca tens of thousands. Spanish possessed guns, horses, steel armor. Inca lacked all three. Technology gap enabled Spanish conquest. Historical outcome determined by technology differences geography-created.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Cajamarca collision demonstrates geographic determinism. Spanish technology (guns, horses, steel) traced to Eurasian geography (domesticated animals, metallurgy). Inca lacked equivalent technology due to Americas geography (no domesticated large animals, iron absent). Technology gap geographic-origin. Conquest outcome geographic-determined. Atahuallpa empire sophisticated but geographically-constrained technology capacity. Pizarro army small but geographically-advantaged technology superiority. Outcome reflects geography not military strength or organizational capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 68,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

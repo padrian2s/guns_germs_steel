@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 178 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 178 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 78 • GUNS, GERMS, AND STEEL</p>
+<p>American California from the U.S. Southwest or to reach Australia from</p>
+<p>New Guinea and Indonesia, and the failure of farming to spread from</p>
+<p>South Africa's Natal Province to South Africa's Cape. Even among all</p>
+<p>those areas where food production did spread in the prehistoric era, the</p>
+<p>rates and dates of spread varied considerably. At the one extreme was its</p>
+<p>rapid spread along east-west axes: from Southwest Asia both west to</p>
+<p>Europe and Egypt and east to the Indus Valley (</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0178">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural diffusion failures illustrate geographic constraints on spread. California farming failed to spread from U.S. Southwest (climate/ecology barriers). Australia failed to receive farming from New Guinea/Indonesia (ocean barriers + climate mismatch). South Africa Cape failed to receive farming from Natal Province (climate barriers). Spread rates varied dramatically across regions. East-west spread rapid; north-south spread slow/failed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic barriers prevent agricultural diffusion. Climate-compatible zones enable spread; climate-mismatched zones prevent spread. Ocean barriers prevent diffusion (Australia isolation). North-south climate gradients prevent technology transfer (California/Southwest). East-west similar-latitude zones enable rapid spread. Geographic proximity insufficient without climate/latitude compatibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>California Mediterranean climate differs from U.S. Southwest arid climate. Australia tropical not compatible with New Guinea montane. South Africa Cape Mediterranean not compatible with Natal Province subtropical. Rapid spread: Southwest Asia → Mediterranean Egypt/Greece (similar latitude zone). Contrast shows climate/latitude critical for diffusion feasibility. Geographic barriers absolute constraint.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic latitude/climate determines diffusion success. East-west axes enable diffusion (same latitude/season/climate). North-south axes prevent diffusion (different climate/growing season). Barriers (ocean, climate zones) absolute. Civilizations separated by incompatible climate zones cannot achieve agricultural technology transfer. Geography determines which regions receive technology diffusion versus remain isolated.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 178,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

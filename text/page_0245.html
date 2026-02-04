@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 245 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 245 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 45</p>
+<p>the Dutch scientist Christiaan Huygens and others. All this is not to deny</p>
+<p>that Watt greatly improved Newcomen's engine (by incorporating a sepa</p>
+<p>rate steam condenser and a double-acting cylinder), just as Newcomen had</p>
+<p>greatly improved Savery's.</p>
+<p>Similar histories can be related for all modern inventions that are ade</p>
+<p>quately documented. The hero customarily credited with the invention fol</p>
+<p>lowed previous inventors who had had similar aims and had already</p>
+<p>produced designs,</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0245">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Steam engine development exemplifies technology as incremental diffusion, not singular invention. Savery → Newcomen → Watt → subsequent improvements. Watt credited as "inventor" but built on Newcomen's design, added separate condenser and double-acting cylinder. All "hero inventors" actually refined previous designs. Documentation shows pattern: credited inventor follows predecessors with similar aims and existing designs.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Invention as cumulative improvement. Technology advancement occurs through step-by-step refinement, not individual genius. Hero myth of invention obscures reality: designers build on predecessors' solutions. Technological progress requires both initial innovation and supportive conditions enabling incremental improvement. Geographic infrastructure (metallurgical skills, manufacturing capacity, economic incentives) determines whether innovations can be implemented and refined.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Steam engine: Savery (1698) pumping device → Newcomen (1712) atmospheric engine → Watt (1764) condenser improvement. England's coal geography created mining pumping problem—geographic incentive driving innovation. Metallurgical advances enabling better casting and cylinder manufacture came from iron/metal-working infrastructure geography. Industrial Revolution occurred in England/Scotland due to geographic coal access and industrial capacity concentration, enabling steam engine refinement and application.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology innovation geography-driven through economic incentives and manufacturing capacity. Coal-rich England developed mining technology need. Metal-working infrastructure capacity geographic-determined by mineral deposits. Steam engine improvements required supportive manufacturing geography. Geographic resource availability (coal, iron, skilled workers) determined innovation location and refinement rate. Technology advancement follows geography-created incentives and constraints.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 245,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

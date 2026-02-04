@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 389 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 389 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 89</p>
+<p>hint why speakers of Niger-Congo languages, stemming from north of the</p>
+<p>equator, were able to displace Africa's equatorial Pygmies and subequato</p>
+<p>rial Khoisan people. The failure of the Khoisan and Pygmies to develop</p>
+<p>agriculture was due not to any inadequacy of theirs as farmers but merely</p>
+<p>to the accident that southern Africa's wild plants were mostly unsuitable</p>
+<p>for domestication. Neither Bantu nor white farmers, heirs to thousands of</p>
+<p>years of farming experience, wer</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0389">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Niger-Congo speakers displaced Pygmies and Khoisan not through superior farming ability but through geographic domestication access. Khoisan/Pygmy agricultural failure not personal inadequacy but geographic contingency—southern Africa wild plants unsuitable domestication. Bantu and white farmers with thousands-of-years farming experience succeeded where Khoisan failed due resource availability not capability differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticable species geography-distributed not population-distributed. Population capability equal across regions. Success/failure reflects geographic resource access not population quality. Khoisan/Pygmy hunter-gatherer status reflects geographic unsuitable domestication not inferior capability. Same populations in geographic zones with domesticable species would develop agriculture.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Khoisan geographic homeland southern Africa: wild plants mostly unsuitable domestication (difficult seed harvesting, nutritionally inadequate, poisonous seeds). Hunter-gatherer subsistence optimal for southern Africa ecology. Pygmy rainforest habitat: game animals abundant, plant foods diverse, hunting/gathering more productive than attempted agriculture. Bantu homelands: sorghum/millet/yams domesticable species available. White farmers brought Eurasian crops/animals suited Mediterranean climate unsuitable southern Africa—succeeded through colonizer numerical advantage despite unsuitable crops.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic domesticable species determines possible subsistence determines population outcome determines expansion capacity. Khoisan/Pygmy hunter-gatherer status reflects geographic unsuitability domestication not population capability. Same populations with domesticable species available would develop agriculture. Bantu agricultural advantage reflects geographic resource access (domesticable species availability) not population superiority. Population displacement (Bantu replacing Khoisan) directly traces geographic advantages—geography determines domesticate availability determines agriculture possibility determines population expansion.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 389,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

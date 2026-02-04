@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 273 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 273 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 2 7 3</p>
+<p>extreme and into chiefdoms at the opposite extreme. In particular, a tribal</p>
+<p>big-man's role in dividing the meat of pigs slaughtered for feasts points to</p>
+<p>the role of chiefs in collecting and redistributing food and goods—now</p>
+<p>reconstrued as tribute—in chiefdoms. Similarly, presence or absence of</p>
+<p>public architecture is supposedly one of the distinctions between tribes and</p>
+<p>chiefdoms, but large New Guinea villages often have cult houses (known</p>
+<p>as haus tambur</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0273">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Political organization spectrum: tribal big-man societies to chiefdoms. Big-man roles: meat distribution from feasts predating chief tribute collection. Public architecture supposedly distinguishes tribes from chiefdoms. New Guinea evidence: cult houses (haus tambur) present in large villages blurring distinction. Social organization reflects population density and agricultural surplus capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Political organization continuum rather than categories. Food redistribution: big-man feasts precursor to chiefdom tribute. Surplus control enables authority emergence. Public architecture reflects population size and specialization. Population density determines organizational complexity need. Geographic carrying capacity determines which organizational form emerges.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Tribal big-man societies: medium population, pig feasts, redistribution role. Chiefdoms: larger population, centralized tribute collection, public architecture (temples, fortifications). Polynesian chiefdoms: centralized authority, large-scale projects (fishponds, heiau temples). New Guinea villages: intermediate forms showing organizational spectrum. Geographic carrying capacity determines complexity: sparse populations remain tribal; dense populations develop chiefdoms.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Political organization geography-determined by population density. Geographic carrying capacity enables population growth enabling organizational complexity. Agriculture surplus supports bigger-man/chief roles. Geographic advantages (fertile soils, domesticable animals) → population growth → political complexity. Population density pressure determines organizational form: sparse populations (low agricultural potential) = tribes; dense populations (high agricultural potential) = chiefdoms/states. Geography determines political organization through population density pathway.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 273,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

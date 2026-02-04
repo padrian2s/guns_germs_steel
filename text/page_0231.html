@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 231 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 231 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 231</p>
+<p>A Korean text (the poem "Flowers on the Hills" by So-Wol Kim), illus</p>
+<p>trating the remarkable Han'gul writing system. Each square block repre</p>
+<p>sents a syllable, but each component sign within the block represents a</p>
+<p>letter.</p>
+<p>Islanders were stimulated to devise a script after seeing the written procla</p>
+<p>mation of annexation that a Spanish expedition handed to them in the</p>
+<p>year 1770.</p>
+<p>As for Chinese writing, first attested around 1300 B.C. but with possible</p>
+<p>earlier pre</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0231">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Han'gul Korean writing system: syllable blocks composed of letter components. Each block represents syllable; internal signs represent letters. Easter Islanders stimulated to devise script seeing written Spanish annexation proclamation (1770). Contact with writing system sparked independent innovation. Geographic contact enabling writing innovation without detailed knowledge.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing stimulus from foreign contact. Seeing writing demonstrates possibility. Knowledge of existence sufficient for independent invention. Symbol recombination in innovative systems. Writing system sophistication converges: different systems solve similar problems differently.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Han'gul invention ~1440s: Korean civilization complexity required writing. Korean geographic isolation: independent development. Easter Island script: isolated island contact with Spanish colonization ~1770, stimulated writing invention. Multiple independent writing innovations suggest universal response to administrative complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic complexity determines writing necessity. Isolated geography enables independent invention. Contact geography stimulates innovation. Writing emergence inevitable with civilizational complexity regardless of geography. Technology stimulus: seeing possibility triggers independent implementation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 231,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 52 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 52 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>5 2 • GUNS, GERMS, AND STEEL</p>
+<p>Indonesia—a maze of coastlines offering the richest marine resources,</p>
+<p>coral reefs, and mangroves in the world. As the colonists crossed the straits</p>
+<p>separating each Indonesian island from the next one to the east, they</p>
+<p>adapted anew, filled up that next island, and went on to colonize the next</p>
+<p>island again. It was a hitherto unprecedented golden age of successive</p>
+<p>human population explosions. Perhaps those cycles of colonization, adap</p>
+<p>tation, and population explosion we</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0052">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australia/New Guinea represented apparent disadvantage: smallest continent, mostly desert, later occupied than Africa/Eurasia, isolated. Yet Australians/New Guineans possessed earliest watercraft technology and created cave paintings early as Cro-Magnons. Island colonization cycles (Indonesian straits) created population explosions and adaptation pressure—possibly triggering Great Leap Forward that diffused back to Eurasia/Africa. This would give Australia/New Guinea massive head start continued afterward.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Island colonization: hitherto unprecedented golden age of population explosions. Repeated cycles: colonize island, adapt, expand to next island. Selective pressure hypothesis: Great Leap Forward emerged here, spread back to Old World. Alternative geographic advantage mechanism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia/New Guinea colonization 40,000-30,000 years ago. Island maze of Indonesia offered unique colonization pattern. Watercraft technology developed early. Isolation afterward prevented advantages from transferring elsewhere.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic factors create unexpected advantages: island colonization pattern possibly drove behavioral innovation. But isolation afterward became disadvantage. Geographic circumstances changed meaning over time—advantage became constraint. Demonstrates complexity beyond simple settlement-timing calculation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 52,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

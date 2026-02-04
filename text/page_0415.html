@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 415 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 415 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>Comparison of the coastlines of China and of Europe, drawn to the same</p>
+<p>scale. Note that Europe's is much more indented and includes more large</p>
+<p>peninsulas and two large islands.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0415">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>China vs. Europe coastline comparison at equal scale. Europe: much more indented, more large peninsulas, two large islands (Britain, Iceland). China: smoother, less fragmented coastline. Geographic coastline complexity dramatically different. Visual evidence of geographic advantage—Europe's fragmentation enabled maritime development, independent city-states, naval competition. China's unified geography enabled continental consolidation rather than maritime competition.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Coastline geography determines maritime development patterns. Fragmented coastlines (Europe): multiple independent maritime powers, naval competition, technology innovation pressure. Unified coastlines (China): continental focus, centralized political power, less naval development necessity. Geographic fragmentation enables plural development paths; unified terrain enables single-power consolidation. Technology development reflects competition pressure—fragmented geography creates competitive selection for naval technology.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Europe coastline: Mediterranean fragmentation enabled Greek city-states, Italian merchant republics, Spanish/Portuguese naval development through competition. Atlantic coast fragmentation enabled English/Dutch naval competition driving maritime technology. China coastline: unified political consolidation under dynasties—unified direction for maritime or land focus. Europe fragmentation → competitive maritime development. China consolidation → strategic focus on land empire (Great Wall, Silk Road) rather than ocean exploration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Coastline geography determines political organization and maritime development. Fragmented coasts enable plural political units competing for maritime advantage. Unified coasts enable single political entities directing maritime policy (or ignoring maritime opportunities). Europe's geographic fragmentation enabled competitive naval technology development through multiple independent competing powers. China's geographic consolidation enabled internal focus. Columbus sailing 1492: European geographic fragmentation creating competitive pressure for technology investment. Chinese treasure voyages abandoned 1433: unified political decision-making without competitive pressure. Coastline geography determines maritime development necessity and intensity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 415,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

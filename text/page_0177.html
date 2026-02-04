@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 177 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 177 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • 1 77</p>
+<p>Figure 10.1. Major axes of the continents.</p>
+<p>saw in Chapter 5, there were no more than nine areas of the globe, perhaps</p>
+<p>as few as five, where food production arose independently. Yet, already in</p>
+<p>prehistoric times, food production became established in many other</p>
+<p>regions besides those few areas of origins. All those other areas became</p>
+<p>food producing as a result of the spread of crops, livestock, and knowledge</p>
+<p>of how to grow them and, in some cases, as a result</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0177">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Agricultural diffusion from 5-9 independent origins: food production arose only in few geographic locations, then spread to other regions. Crops, livestock, and farming knowledge spread prehistorically from origins. Spread mechanisms: geographic diffusion along similar latitudes enabling agricultural viability. Geographic axis orientation determines diffusion success—east-west spread favorable (similar climates), north-south spread constrained (climate variation).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural origin concentration: geographic-determined by specific fauna availability (domesticable animals) and crops. Independent development rare: only 5-9 regions globally. Diffusion vs. independent invention: most food production spread from origins, not independently invented elsewhere. Continental axis orientation determines diffusion efficiency: east-west Eurasian axis enables rapid spread; north-south Americas and African axes constrain spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent agriculture: ~10,000 BCE, diffused eastward/westward along similar latitudes into Europe, Central Asia. China agriculture: ~9,000 BCE independent origin, remained largely geographically contained. Americas agriculture: ~5,000 BCE spread north-south constrained by climate zones. Africa agriculture: limited domesticable animals prevented rapid agricultural development. Geographic diffusion patterns follow continental axes: east-west spread rapid and extensive; north-south spread slow and limited.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural origins geography-determined by fauna availability. Diffusion patterns geography-determined by continental orientation. East-west continental axes (Eurasia) enable rapid technology spread; north-south axes (Americas, Africa) constrain spread. Geographic advantage compounds: regions receiving agriculture early via geographic diffusion achieve civilization advantages. Civilizations emerging early based on geographic diffusion advantages maintain competitive superiority. Geographic axis orientation determines which civilizations develop early versus remain agricultural or hunter-gatherer.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 177,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

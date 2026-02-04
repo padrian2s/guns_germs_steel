@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 217 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 217 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 2 17</p>
+<p>today by most peoples is the alphabet, which ideally would provide a</p>
+<p>unique sign (termed a letter) for each basic sound of the language (a pho</p>
+<p>neme). Actually, most alphabets consist of only about 20 or 30 letters, and</p>
+<p>most languages have more phonemes than their alphabets have letters. For</p>
+<p>example, English transcribes about 40 phonemes with a mere 26 letters.</p>
+<p>Hence most alphabetically written languages, including English, are forced</p>
+<p>to assign several diffe</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0217">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Alphabet writing system: unique signs (letters) represent basic language sounds (phonemes). Most alphabets: ~20-30 letters only. Most languages: more phonemes than alphabet letters. English: ~40 phonemes with 26 letters only. Alphabets force multiple letters representing single sounds. Alphabetic writing efficiency trade-offs. Writing system development reflects language structure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Alphabet efficiency: fewer symbols represent more sounds. Writing system efficiency determines adoption feasibility. Alphabetic systems more learnable than complex syllabaries. Simpler writing systems enable greater literacy spread. Literacy spread enables larger literate populations. Larger literate populations enable larger organizations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Phoenician alphabet: 22 letters enabling efficient writing. Alphabet adoption spread through Mediterranean civilizations. Greek, Latin alphabets derived from Phoenician. Alphabetic efficiency enabled wide adoption. Complex writing systems (Chinese ~3000+ characters): limited literacy. Alphabetic simplicity: enabled mass literacy when societies reached complexity level.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Alphabet efficiency determines writing system adoption rate. Writing adoption rate determines literacy spread. Literacy spread determines organizational scale. Americas limited-alphabet writing systems (Mayan glyphic system more complex): lower adoption/literacy rates. European alphabetic writing: higher literacy enabling larger organizations. Geography → civilization → writing system emergence → alphabet efficiency → literacy spread → organizational scale.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 217,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

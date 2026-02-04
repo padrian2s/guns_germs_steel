@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 375 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 375 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 7 5</p>
+<p>black Africans, along with Asian Indians and Javanese in Suriname).</p>
+<p>In parts of Central America and the Andes, the Native Americans were</p>
+<p>originally so numerous that, even after epidemics and wars, much of the</p>
+<p>population today remains Native American or mixed. That is especially</p>
+<p>true at high altitudes in the Andes, where genetically European women</p>
+<p>have physiological difficulties even in reproducing, and where native</p>
+<p>Andean crops still offer the most suitable basis fo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0375">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Colonization impact varies geographically. Central America/Andes: Native Americans originally so numerous that epidemics and wars left much population still Native American or mixed-race. High altitude Andes: European women physiologically challenged reproducing—geographic adaptation barrier. Native Andean crops most suitable agriculture basis. European population replacement incomplete where geography favored native adaptation and subsistence persistence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Population replacement geography-limited by physiological adaptation and resource suitability. European reproduction difficulties at altitude reflect genetic adaptation limits. Geographic environment favors native-adapted populations—physiology determines reproduction success. Crop suitability geography-specific—native crops more productive with local populations. Population replacement rates geography-determined through environmental/crop fit advantages. Geographic altitude/climate creates physiological barriers to replacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Andes high altitude (14,000+ feet): Andean populations genetically adapted oxygen utilization. European populations (low-altitude origin) reproductively disadvantaged—fewer children surviving. Potato/quinoa crops: Andean genetic adaptation over centuries. European crops (wheat, barley) less productive at altitude. Caribbean/lowlands: European population replacement nearly complete (tropical diseases, lowland agriculture advantage). Andes: geographic adaptation barriers prevented European dominance—native populations retained demographic strength through altitude physiology and crop superiority.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Population genetics geography-determined through long-term environmental adaptation. Altitude physiology reflects thousands of years Andean adaptation. European reproductive disadvantage in highlands reflects geographic origin in low-altitude zones. Crop productivity geography-specific through domestication to local conditions. Replacement success geography-determined: highlands favored native-adapted populations despite conquest. Geographic adaptation barriers (physiology, agriculture) prevented complete European replacement in some regions. Demographic outcomes reflect geographic adaptation advantages persisting through colonial period.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 375,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

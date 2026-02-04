@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 53 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 53 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 2</p>
+<p>A NATURAL EXPERIMENT</p>
+<p>OF HISTORY</p>
+<p>O</p>
+<p>N THE CHATHAM ISLANDS, 500 MILES EAST OF NEW</p>
+<p>Zealand, centuries of independence came to a brutal end for the</p>
+<p>Moriori people in December 1835. On November 19 of that year, a ship</p>
+<p>carrying 500 Maori armed with guns, clubs, and axes arrived, followed on</p>
+<p>December 5 by a shipload of 400 more Maori. Groups of Maori began to</p>
+<p>walk through Moriori settlements, announcing that the Moriori were now</p>
+<p>their slaves, and killing those who objected. An organized r</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0053">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 2 opens with Moriori-Maori collision (1835): Maori invaded Chatham Islands with 900 warriors, enslaved and killed Moriori population. Outcome easily predictable: Moriori were hunter-gatherers with simple technology, peaceful traditions, no war experience; Maori were farmers, chronically warlike, advanced weapons, organized leadership. Disparate development of two Polynesian peoples provided template for understanding broader continental differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Moriori-Maori collision: small-scale natural experiment testing environmental effects on societies. Both groups Polynesian, diverged <1000 years prior. Environment shaped opposite development trajectories. Chatham Islands: cold, small, limited agriculture → hunter-gatherers. New Zealand North: warm, large, suitable crops → farmers/warriors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Moriori settlement Chatham Islands after Maori colonized New Zealand ~1000 CE. Centuries of separation. 1835: Australian seal-ship brought news of Chathams to New Zealand, triggering Maori invasion. Direct cause: geographic isolation creating knowledge lag.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Chapter 2 establishes smaller-scale natural experiment before examining continents. Same founding population diverged dramatically based on environmental constraints. Demonstrates geography's powerful influence on technology, politics, warfare capacity within short timeframe. Sets up detailed Polynesian analysis showing environmental factors driving societal complexity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 53,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

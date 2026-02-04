@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 432 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 432 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>4 3 2 * FURTHER READINGS</p>
+<p>Thames and Hudson, 1993), Erik Trinkaus and Pat Shipman, The Nean-</p>
+<p>dertals (New York: Knopf, 1993), and Ian Tattersall, The Last Neander</p>
+<p>thal (New York: Macmillan, 1995).</p>
+<p>Genetic evidence of human origins is the subject of the two books by L.</p>
+<p>Luca Cavalli-Sforza et al. already cited under the Prologue, and of chapter</p>
+<p>1 of my book The Third Chimpanzee. Two technical papers with recent</p>
+<p>advances in the genetic evidence are J. L. Mountain and L. L. Cavalli-</p>
+<p>Sforza, "Inferenc</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0432">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Bibliography sources on human genetic origins: Cavalli-Sforza "Genetic History of Europe" and "The History and Geography of Human Genes" (cited works establishing genetic population history). Trinkaus/Shipman "The Neandertals" and Tattersall "The Last Neanderthal" document archaic human extinction. Genetic evidence traces human origin Africa, dispersal across continents, population differentiation through isolation. Mountain/Cavalli-Sforza papers provide technical genetic analysis of human migration patterns. Neanderthal extinction literature documents geographic replacement. Genetic sources establish baseline: geographic origin point and dispersal routes determined modern population distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Genetic diversity geography-correlated: populations separated by geographic barriers show genetic differentiation accumulating through isolation. Genetic clocks estimate dispersal timing: Africa origin ~200,000 years ago, Eurasian spread ~60,000 years ago, Americas reach ~15,000 years ago, Pacific settlement ~3,000 years ago. Genetic markers track population movements and contact. Neanderthal extinction: ~40,000 years ago replaced by anatomically modern humans—geographic expansion narrative. Modern human population distribution shows geographic clustering: African, Eurasian, East Asian, American, Pacific clusters reflect geographic isolation history. Genetic evidence proves populations geography-isolated showing differentiation rates matching geographic barrier strength.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Genetic evidence documents human dispersal: Africa origin site shows earliest modern human fossils. Genetic divergence timing shows Africa→Middle East→Europe expansion, Africa→India→East Asia expansion creating geographic population structure. Neanderthals occupied Europe 200,000-40,000 years ago, replaced by anatomically modern humans from Africa. Population genetics maps human expansion routes: Beringia crossing explains American settlement, island-hopping settles Pacific. Genetic distances between populations correlate geographic distances: adjacent populations similar genetically, distant populations more different. Genetic evidence proves geography determines population structure through isolation time.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Genetic evidence establishes geographic determinism baseline: modern human populations show genetic differentiation precisely matching geographic isolation history. Genetic sources prove geographic structure operates at biological level even before technology differences emerge. Population genetics documents geographic barriers creating population clusters. Neanderthal extinction shows geographic advantage: anatomically modern humans from Africa replaced Neanderthals—geographic replacement demonstrating population competition outcomes. Genetic clocks prove modern human distribution resulted from geographic dispersal matching geographic barriers. Genetic research proves geographic origin differences and isolation created fundamental population differentiation before civilization emergence. Genetic evidence provides biological foundation for geographic determinism: human populations themselves geography-distributed through dispersal history and barrier isolation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 432,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

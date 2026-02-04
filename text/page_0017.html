@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 17 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 17 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • I 7</p>
+<p>Mexico, Peru, New Caledonia, the former Soviet Union, and parts of Indo</p>
+<p>nesia—civil unrest or guerrilla warfare pits still-numerous indigenous pop</p>
+<p>ulations against governments dominated by descendants of invading</p>
+<p>conquerors. Many other indigenous populations—such as native Hawai¬</p>
+<p>ians, Aboriginal Australians, native Siberians, and Indians in the United</p>
+<p>States, Canada, Brazil, Argentina, and Chile—became so reduced in num</p>
+<p>bers by genocide and disease that they are now greatl</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0017">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond documents ongoing global consequences of historical collisions: indigenous populations in Central America, Africa, Indonesia, and the Soviet Union still struggle against governments dominated by colonial descendants. Some indigenous populations (Native Hawaiians, Aboriginal Australians, indigenous Americas) were decimated by genocide and disease, now vastly outnumbered. Language extinction accelerates as English, Chinese, and Russian replace 6,000 surviving languages.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond emphasizes that Yali's question has profound contemporary relevance. Historical technological disparities created lasting power imbalances with ongoing consequences: political subordination, cultural extinction, linguistic loss. Understanding these roots allows interrupting their perpetuation rather than accepting them as inevitable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The page reflects late-20th-century decolonization struggles. Many regions had recently achieved independence yet remained economically subordinate to former colonizers. Diamond frames history's broadest pattern as directly relevant to contemporary global inequalities and conflicts.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Understanding geography's role in creating technological divergence allows addressing contemporary inequality scientifically. Diamond argues that understanding causation enables interrupting cause-and-effect chains, parallel to how understanding disease mechanisms allows interrupting illness.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 17,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 372 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 372 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 72 " GUNS, GERMS, AND STEEL</p>
+<p>remote Polynesian islands, Greenland could not support a self-sufficient</p>
+<p>food-producing society, though it did support self-sufficient Inuit hunter-</p>
+<p>gatherer populations before, during, and after the Norse occupation</p>
+<p>period. The populations of Iceland and Norway themselves were too small</p>
+<p>and too poor for them to continue their support of the Greenland Norse</p>
+<p>population.</p>
+<p>In the Little Ice Age that began in the 13th century, the cooling of the</p>
+<p>North Atlantic made food</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0372">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Greenland couldn't support self-sufficient food-producing Norse society though Inuit hunter-gatherers thrived there before/during/after Norse occupation. Iceland and Norway too small and poor supporting Greenland population. Little Ice Age (13th century) made Arctic food production impossible, collapse of colonial food supply. Geography determined colonization viability—marginal climate prevented productive agriculture prevented population self-sufficiency.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agriculture geography-constrained by climate suitability. Inuit hunter-gatherers adapted Arctic surviving through hunting (not agriculture). Norse required agriculture for population support—incompatible Arctic climate. Supporting homeland (Norway/Iceland) limited resources—insufficient sustaining distant colonial population. Climate change (Little Ice Age) destroyed marginal agriculture eliminated colony viability. Geographic support chains fail: marginal homeland→marginal colony→collapse.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Greenland agriculture: marginal barley/hay barely supporting Norse livestock herds. Inuit populations: thrived 2,000+ years before Norse, survived after through seal hunting—adapted to Arctic environment. Norse population required grain/agriculture producing livestock—fundamentally dependent farming. Iceland/Norway populations small couldn't continuously supply colonies. 13th century Little Ice Age: Arctic climate deterioration eliminated already marginal Greenland agriculture. Norse colony abandoned 1400s due to food impossibility. Inuit populations continued surviving unchanged—culture matched environment, Norse culture didn't.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines sustainable subsistence. Arctic environment unsuitable for agriculture determines that only hunter-gatherer cultures persist sustainably. European agricultural culture geography-mismatched Arctic unsuitable for farming. Population adaptation geography-determined: Inuit cultural adaptation (hunting) suited Arctic; Norse cultural dependence (agriculture) suited temperate climates. Colonization sustainability requires culture-environment fit. Norse failure reflected geographic mismatch—agricultural culture attempted Arctic unsuitable for farming. Inuit persistence reflected geographic fit—hunting culture matched Arctic resources.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 372,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

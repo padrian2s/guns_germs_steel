@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 315 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 315 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE » 315</p>
+<p>lacked pigs, pottery, and bows and arrows. Furthermore, the strait is not</p>
+<p>an open-water barrier but is dotted with a chain of islands, of which the</p>
+<p>largest (Muralug Island) lies only 10 miles from the Australian coast.</p>
+<p>There were regular trading visits between Australia and the islands, and</p>
+<p>between the islands and New Guinea. Many Aboriginal women came as</p>
+<p>wives to Muralug Island, where they saw gardens and bows and arrows.</p>
+<p>How was it that those New Guinea traits did not get t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0315">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology diffusion failure despite contact: Australia lacked pigs, pottery, bows/arrows that New Guinea possessed. Geographic separation minimal—strait with island chain (Muralug Island 10 miles from Australian coast) enabled regular trading visits. Trade occurred: Aboriginal women came as Muralug wives, saw gardens and bows/arrows. Yet New Guinea technologies never reached Australia. Diffusion blocked despite physical proximity and contact.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology diffusion requires environmental suitability, not just contact. Pigs unsuitable Australian environment (arid). Agriculture incompatible with Australian geography. Bows/arrows technology transferable but environment-specific effectiveness varies. Contact alone insufficient for diffusion. Recipient environment determines adoption—unsuitable technologies rejected despite visibility. Technology adoption geography-gated through environmental fit requirements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia-New Guinea strait: minimal distance, regular trading connections, Aboriginal-Islander marriages created diffusion channels. New Guinea technologies (pigs, gardens, pottery, bows) visible across strait. Australia rejected all—not due to ignorance but environmental unsuitability. Arid Australian environment incompatible with tropical domesticated pigs. Australian fauna lacked species for domestication. Australian environment prevented even when knowledge available. Geographic environment determined which technologies viable despite contact.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Diffusion blocked by geographic environmental incompatibility. Technology viability geography-contingent. Pigs require resources Australia lacked. Agriculture requires crops Australia's climate prevented. Australia-New Guinea case proves geography determines technology adoption even with direct contact. Proximity insufficient without environmental match. Geographic environmental constraints operate independently of cultural contact and knowledge transfer. Environment determines viable technology set regardless of diffusion opportunity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 315,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

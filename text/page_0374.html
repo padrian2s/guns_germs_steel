@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 374 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 374 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 74 " GUNS, GERMS, AND STEEL</p>
+<p>accomplished largely by germs alone, introduced by early European</p>
+<p>explorers and advancing ahead of them. As Europeans spread throughout</p>
+<p>the Americas, many other native societies, such as the Mandans of the</p>
+<p>Great Plains and the Sadlermiut Eskimos of the Arctic, were also wiped</p>
+<p>out by disease, without need for military action. Populous native societies</p>
+<p>not thereby eliminated were destroyed in the same way the Aztecs and</p>
+<p>Incas had been—by full-scale wars, increasingly</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0374">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Conquest accomplished largely by germs alone, introduced ahead of Spanish military. Mandans, Sadlermiut Eskimos, and countless native societies wiped out by disease without military action. Populous native societies survived germs then destroyed by full-scale warfare. Disease ecology geography-determined—European disease burden eliminated unprepared populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease ecology geography-determined through continental disease exposure history. Eurasian domesticated animals created epidemic diseases (smallpox, measles, flu). Americas isolated no equivalent diseases. European populations exposed centuries developing immunity. American populations unexposed no immunity. Disease impact geography-determined: Eurasian trade creating disease circulation creating immunity. Americas isolation preventing disease circulation preventing immunity development. Geography determines disease immunity determines conquest ease.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mandans (Missouri River): pre-contact population ~15,000, 1837 smallpox epidemic killed ~11,000. Sadlermiut Eskimos (Arctic): isolated population wiped out tuberculosis (European disease). Countless other societies: Arawaks, Lucayan, Taino, Pueblo peoples decimated disease before combat. Aztec conquest 1519-1521: Cortez 600 men conquered 100,000+ Aztec, but disease killed more than Spanish killed—plague spread to Mexican interior. Inca conquest similar pattern—civil war weakened by disease, Spanish small force conquered empire. American disease-naive populations: no whooping cough immunity, no influenza immunity, no measles immunity—childhood diseases killed adults without immunity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Conquest outcome determined by disease, disease ecology geography-determined. European disease advantages reflected Eurasian geographic advantages (domesticated animals creating epidemics). American disease vulnerability reflected geographic isolation (no epidemic disease exposure). Conquest ease geography-determined: populations decimated disease required minimal military force. Population replacement geography-determined: disease elimination created settlement vacuums enabled European settlement. Conquest outcome reflects disease geography not military capability. American defeat reflected geographic isolation creating disease vulnerability—geography determined conquest outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 374,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

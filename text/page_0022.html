@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 22 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 22 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 2 • PROLOGUE</p>
+<p>The same two genetic and childhood developmental factors are likely to</p>
+<p>distinguish not only New Guineans from Westerners, but also hunter-gath</p>
+<p>erers and other members of technologically primitive societies from mem</p>
+<p>bers of technologically advanced societies in general. Thus, the usual racist</p>
+<p>assumption has to be turned on its head. Why is it that Europeans, despite</p>
+<p>their likely genetic disadvantage and (in modern times) their undoubted</p>
+<p>developmental disadvantage, ended up with muc</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0022">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond reverses the racist paradigm: if hunter-gatherers and technologically "primitive" peoples are probably genetically superior to industrialized peoples in intelligence, and yet developed less technology, then intelligence cannot explain Yali's question. European technological advantage must result from geography, not genetics—despite Europeans' likely genetic disadvantage relative to other populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>The paradox becomes the key to understanding history: geographically-favored peoples achieved technology despite possibly being less intelligent than other populations. Geography amplified the advantages of initially-favored regions, compounding over millennia. Intelligence alone cannot explain technological divergence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>This argument directly challenges the entire racist tradition in European thought since the 1500s. Modern Westerners developed technology not despite genetic disadvantage, but because geography provided advantages (domesticable animals, fertile soil, temperate climates) that intelligence alone could not overcome in less-favored regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>By establishing that intelligence cannot explain technological difference, Diamond clears the ground for geography to be the explanatory variable. The book's entire argument rests on eliminating biology as causal and establishing geography as fundamental.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 22,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

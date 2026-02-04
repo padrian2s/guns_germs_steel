@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 412 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 412 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>4 12 • EPILOGUE</p>
+<p>cast iron, the compass, gunpowder, paper, printing, and many others men</p>
+<p>tioned earlier. It also led the world in political power, navigation, and</p>
+<p>control of the seas. In the early 15th century it sent treasure fleets, each</p>
+<p>consisting of hundreds of ships up to 400 feet long and with total crews</p>
+<p>of up to 28,000, across the Indian Ocean as far as the east coast of Africa,</p>
+<p>decades before Columbus's three puny ships crossed the narrow Atlantic</p>
+<p>Ocean to the Americas' east coast. Why d</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0412">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>China technology dominance: cast iron, compass, gunpowder, paper, printing, many others (detailed earlier chapters). Political power, navigation, sea control leadership 15th century. Treasure fleets: hundreds of ships, 400 feet length, 28,000 crew members, reached Indian Ocean + East Africa coast. Decades before Columbus's three ships crossed Atlantic. Question: Why did China lose technological preeminence to late-starting Europe? Technology advantage not maintained despite early dominance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology advantage temporary if political decisions end development. Initial technology lead requires sustained investment maintaining advantage. China maritime dominance abandoned 1433: deliberate political decision stopped fleet expeditions. Europe fragmentation created competitive pressure sustained exploration. Single power can choose maritime investment or abandonment; fragmented powers compete forcing continuation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>China treasure fleets 1405-1433: Zheng He commanded massive naval expeditions. Indian Ocean exploration reached Africa establishing Ming dominance. 1433: Chinese leadership withdrew—political decision prioritizing land security (Mongol threats) over maritime exploration. Europe 15th century fragmented: Portugal continued exploration (motivated by Islamic containment seeking Asia). Spain competitive pressure from Portuguese initiated Columbus sponsorship. Portuguese/Spanish continuous maritime competition 1400s-1600s driving exploration technology innovation. Chinese decision abandoned maritime advantage; European competition forced continuation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines maritime capacity (ships, knowledge) but political geography determines maritime investment. China geography enabled maritime preeminence (technology, resources, manufacturing). Europe geography fragmentation created competition forcing maritime continuation. Single unified power (China) abandoned maritime advantage through political decision. Fragmented powers (Europe) compelled maritime investment through competitive pressure. Coastline geography determines maritime possibility; political geography determines maritime investment necessity. Europe's geographic political fragmentation created competitive selection pressure forcing continued technology development. China's political unification enabled decision abandoning development advantage.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 412,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

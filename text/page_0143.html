@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 143 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 143 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 143</p>
+<p>tages of Fertile Crescent peoples themselves. Indeed, I am unaware of any</p>
+<p>one's even seriously suggesting any supposed distinctive biological features</p>
+<p>of the region's peoples that might have contributed to the potency of its</p>
+<p>food production package. Instead, we have seen that the many distinctive</p>
+<p>features of the Fertile Crescent's climate, environment, wild plants, and</p>
+<p>animals together provide a convincing explanation.</p>
+<p>Since the food production packages arising indigenous</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0143">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Fertile Crescent's food production advantage traceable to geography, not people biology. No one suggests Fertile Crescent peoples had biological advantages. Instead, geographic features explain: distinctive climate, environment, wild plants, wild animals. Food production package geography-generated through available wild species. Geography-determined explanation superior to biological/racial explanation for development differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic features explain advantages, not human biology. Fertile Crescent climate, plants, animals enabled agriculture. Food production packages regional: each region's agriculture reflects geography. Biological differences irrelevant to food production development. Environmental/animal/plant differences explain why agriculture developed Fertile Crescent but elsewhere slower. Geography determines agriculture feasibility, not racial capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent distinctive features: Mediterranean climate, large-seeded grasses (wheat, barley), domesticable animals (sheep, goats, cattle, pigs). These features enabled food production. No other region had equivalent combination. Americas lacked equivalent wild grasses, domesticable animals. Africa limited domestication. Geographic resources determine agriculture possibility. People capability identical everywhere; geography determines opportunity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Development differences geography-determined through resources available, not human differences. Fertile Crescent advantage from plants/animals geography provided. Agricultural development timeline varies by geography: region's wild plants, animals availability determines domestication possibility. No racial/biological basis for development differences. Geographic explanation comprehensive. Geography determines civilization emergence and development trajectory independent of human characteristics.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 143,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

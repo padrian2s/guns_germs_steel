@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 407 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 407 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>THE FUTURE OF HUMAN HISTORY AS A SCIENCE • 407</p>
+<p>as environments permit) because of the processes illustrated in such simple</p>
+<p>form by Maori New Zealand's Musket Wars. That is, societies initially</p>
+<p>lacking an advantage either acquire it from societies possessing it or (if</p>
+<p>they fail to do so) are replaced by those other societies.</p>
+<p>Hence a second set of factors consists of those affecting rates of diffu</p>
+<p>sion and migration, which differed greatly among continents. They were</p>
+<p>most rapid in Eurasia, becaus</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0407">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Societal advantage acquisition mechanisms: societies without advantages either acquire them from advantage-bearing societies or are replaced. Maori New Zealand Musket Wars example: societies initially lacking muskets obtained them, preventing replacement. Technology diffusion + migration create equilibration mechanisms. Second causal set: diffusion and migration rates determining advantage spread speed continent-specific. Eurasian highest diffusion rates.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology diffusion rate continent-specific through geography. Geographic connectivity enables rapid diffusion. Geographic isolation limits diffusion. Migration enables technology spread and population replacement. Societies with advantages expand; societies without adopt advantages or replaced. Technology advantage temporary if diffusion occurs. Geographic factors determine diffusion rate determine advantage persistence rate.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Maori musket acquisition: initial European advantage (muskets), Maori response (acquire muskets), equilibration prevented replacement. Eurasia: maximum continent connectivity (east-west axis), rapid technology diffusion, advantage spread rapid. Americas: fragmented geography, technology diffusion slow, advantages concentrated. Australia: isolated continent, minimal diffusion, advantages persistent locally. Africa: multiple barriers (Sahara, rainforest), diffusion slowed advantage spread patterns varied.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology diffusion rates geography-determined. Eurasian east-west axis enables rapid diffusion enabling advantage spread enabling equilibration preventing replacement. Americas north-south axis limits diffusion limits advantage spread enables persistent advantages enables replacement. Diffusion rates accumulate advantages: fast diffusion leads to rapid equilibration leads to continuous innovation pressure; slow diffusion leads to advantage persistence leads to replacement without innovation. Geographic connectivity determines diffusion rates determine technology competition dynamics.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 407,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 113 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 113 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>TO FARM OR NOT TO FARM • 113</p>
+<p>standing examples are the persistence of Native American hunter-gather</p>
+<p>ers in California, separated by deserts from the Native American farmers</p>
+<p>of Arizona; that of Khoisan hunter-gatherers at the Cape of South Africa,</p>
+<p>in a Mediterranean climate zone unsuitable for the equatorial crops of</p>
+<p>nearby Bantu farmers; and that of hunter-gatherers throughout the Aus</p>
+<p>tralian continent, separated by narrow seas from the food producers of</p>
+<p>Indonesia and New Guinea. Those few peopl</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0113">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Hunter-gatherers persist geographically isolated from farmers. California natives: separated by deserts from Arizona farmers. Cape Khoisan: separated from Bantu farmers by incompatible crop zones. Aboriginal Australians: separated by narrow seas from Indonesian/New Guinea farmers. Geographic barriers protecting hunter-gatherers against agricultural encroachment.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic isolation enables hunter-gatherer persistence. Incompatible crop zones prevent diffusion. Mountain, desert, sea barriers protect foragers. Agricultural expansion limits geographic: climatic, crop-specific. Buffered regions maintain hunter-gatherer populations indefinitely.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>California-Arizona deserts separated hunter-gatherer from farmer populations for millennia. Mediterranean Cape isolated Khoisan from Bantu agricultural expansion. Australia geographic isolation maintained hunter-gatherers until European contact despite agriculture development in nearby Indonesia/Papua.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic barriers determine agricultural expansion limits. Some populations geographically protected from agricultural competition. Agricultural technology irrelevant without domesticable species in new regions. Deserts, mountains, incompatible climates preserve pre-agricultural societies. Geography determines which peoples agricultural, which remain hunter-gatherers.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 113,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

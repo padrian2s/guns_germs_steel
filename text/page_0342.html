@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 342 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 342 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>342 " GUNS, GERMS, AND STEEL</p>
+<p>Whenever I've been paddled in dugouts up New Guinea rivers by New</p>
+<p>Guineans, I have spent much of the trip in terror: it seemed that every</p>
+<p>slight movement of mine risked capsizing the canoe and spilling out me</p>
+<p>and my binoculars to commune with crocodiles. New Guineans manage</p>
+<p>to look secure while paddling dugouts on calm lakes and rivers, but not</p>
+<p>even New Guineans can use a dugout in seas with modest waves. Hence</p>
+<p>some stabilizing device must have been essential not onl</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0342">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Austronesian maritime technology: dugout canoes require stabilizing devices for ocean use. Simple dugouts unstable in waves despite New Guinean skill—geographic prerequisites for ocean travel. Stabilizing innovations (outriggers): necessary technology development enabling inter-island voyaging. Technology geography-dependent: geographic constraints (wave conditions) require specific technological solutions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Maritime technology geography-constrained: calm water travel simpler than ocean travel. Ocean waves require technological innovation: outrigger stabilization. Technology development pressure: geographic barriers (ocean geography) force innovation enabling expansion. Geographic advantage of stabilized boats: enables island colonization across open ocean impossible with simple dugouts.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Southeast Asian geography: complex island systems (Indonesia, Philippines, Oceania) requiring boat navigation. Austronesians originated Taiwan/Philippines: geography enabled maritime technology development. Dugout technology: simple wood canoes adequate for rivers/calm lakes inadequate for open ocean. Outrigger innovation: adds lateral stability enabling ocean navigation. Geographic expansion enabled by outrigger technology: allowed inter-island settlement from Philippines to Pacific islands previously inaccessible with unstable dugouts.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Maritime technology geography-determined: geographic constraints (ocean waves) drive innovation needs. Geographic opportunity (island geography) enables technology development enabling expansion. Outrigger technology enabled geographic expansion: island-hopping to Pacific impossible without improved boats. Geographic advantages compound: agriculture supported population growth supporting maritime technology development enabling further geographic expansion. Austronesian expansion success reflects geographic positioning and technology innovation interacting to enable unprecedented population movement.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 342,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

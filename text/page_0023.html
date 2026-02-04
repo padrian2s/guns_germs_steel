@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 23 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 23 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 23</p>
+<p>depended on large-scale irrigation systems that in turn required centralized</p>
+<p>bureaucracies. This explanation was suggested by the undoubted fact that</p>
+<p>the earliest known empires and writing systems arose in the Tigris and</p>
+<p>Euphrates Valleys of the Fertile Crescent and in the Nile Valley of Egypt.</p>
+<p>Water control systems also appear to have been associated with centralized</p>
+<p>political organization in some other areas of the world, including the Indus</p>
+<p>Valley of the Indian subcontine</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0023">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond examines alternative geographical explanations: the "irrigation hypothesis" suggests that large-scale irrigation in lowland river valleys (Tigris-Euphrates, Nile, Indus, Yellow/Yangtze, Maya lowlands, Peru's coast) required centralized bureaucracies, driving civilization development. However, archaeological evidence shows centralized bureaucracies arose first; complex irrigation systems followed. Early developments in these regions (food production, villages) occurred in hills/mountains, not lowland valleys.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond distinguishes cause from correlation. River valleys correlation with civilization reflects political centralization enabling irrigation, not irrigation causing civilization. The Nile Valley remained a cultural backwater for 3,000 years after Fertile Crescent civilization flourished in hills. Geography matters, but not in the way the irrigation hypothesis suggests.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The irrigation hypothesis gained archaeological credibility from Karl Wittfogel's "hydraulic civilization" theory (1950s), which attributed Oriental despotism to irrigation system management. Archaeological excavations have since contradicted the hypothesis, revealing civilization preceded irrigation in most regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>By testing and rejecting previous geographical explanations, Diamond establishes that geography works through more subtle mechanisms than climate or rivers. His analysis clears space for his actual theory: geography shaped domesticable plant/animal availability, which determined agricultural potential, which enabled civilization.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 23,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 90 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 90 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>90 • GUNS, GERMS, AND STEEL</p>
+<p>erer societies tend to be relatively egalitarian, to lack full-time bureaucrats</p>
+<p>and hereditary chiefs, and to have small-scale political organization at the</p>
+<p>level of the band or tribe. That's because all able-bodied hunter-gatherers</p>
+<p>are obliged to devote much of their time to acquiring food. In contrast,</p>
+<p>once food can be stockpiled, a political elite can gain control of food pro</p>
+<p>duced by others, assert the right of taxation, escape the need to feed itself,</p>
+<p>and engage</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0090">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Hunter-gatherer societies: necessarily egalitarian, lack full-time bureaucrats, small-scale tribal organization because all able-bodied members must spend most time acquiring food. Agricultural societies: food can be stored/stockpiled, allowing elite to control surplus, implement taxation, escape food production, pursue specialization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Food storage → hierarchy. Agricultural surplus enables: food taxation, elite emergence, craft specialization, military formation, bureaucratic administration. Hunter-gatherers cannot accumulate enough surplus to support non-producing elites or armies. Fundamental structural difference.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent societies (3000 BCE onward) developed hierarchical kingdoms based on grain storage. Egypt, Mesopotamia, China: organized around agricultural surplus taxation. Hunter-gatherer societies worldwide: egalitarian band/tribe organization persisted because surplus impossible.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography → domesticable species → agriculture → food surplus → hierarchical organization → military/administrative capacity. Societies in regions allowing agriculture develop centralized states capable of conquest. Regions without agriculture remain decentralized, lack state institutions. Geographic difference cascades into political structure difference.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 90,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

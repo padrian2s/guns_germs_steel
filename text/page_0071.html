@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 71 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 71 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>COLLISION AT CAJAMARCA • 71</p>
+<p>ments were now close to our camp, and still more troops kept issuing from</p>
+<p>the camp of the Indians. In front of Atahuallpa went 2,000 Indians who</p>
+<p>swept the road ahead of him, and these were followed by the warriors,</p>
+<p>half of whom were marching in the fields on one side of him and half on</p>
+<p>the other side.</p>
+<p>"First came a squadron of Indians dressed in clothes of different colors,</p>
+<p>like a chessboard. They advanced, removing the straws from the ground</p>
+<p>and sweeping the road. Ne</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0071">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eyewitness account: Inca procession approaching Cajamarca featured 2,000 sweepers preceding Atahuallpa, warriors arranged on both sides. Elaborate ceremonial display with warriors dressed in distinctive colored garments. Massive Inca force demonstrated military organization and grandeur. Spanish witnesses terrified of numbers despite complete technological advantage. Narrative emphasizes Inca organization contrasted with Spanish numerical inferiority (168 vs 80,000+).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Military organization scales with population and state capacity. Inca force demonstrated 80,000+ warriors with organizational hierarchy. 2,000 sweepers and formal procession showed administrative capacity. Spanish terrified but maintained discipline despite numbers. Organization and equipment, not numbers, determined outcome. Technology (horses, guns, steel armor) more decisive than personnel quantities. Small discipline-organized force with technology advantage defeated larger undisciplined force.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Inca procession approaching Cajamarca: 2,000 sweepers clearing road, warriors arranged in columns, colored dress uniforms showing organization. Spanish witnesses awed by numbers (80,000+ warriors) and Inca military organization. Spanish 168 men vs. Inca multitudes. Spanish fear evident despite perception of Inca power. Eyewitness testimony documents numerical disparity: Inca organization sophisticated but technology-weak.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Inca military organization impressive but technology-limited. Large force organization sophisticated (processions, hierarchy, discipline) but lacks horses/guns/steel. Spanish small force possessed technology advantages. Eyewitness terror reflects numbers but not outcome: technology determined result despite Spanish fear. Geography-determined technology advantages overcome Inca organizational sophistication. Conquest outcome not determined by organization capacity but by technology gap geography created.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 71,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

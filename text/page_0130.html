@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 130 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 130 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>130 ' GUNS, GERMS, AND STEEL</p>
+<p>protective nets and greenhouses were we finally able to defeat the thrushes,</p>
+<p>and to redesign strawberries and raspberries according to our own stan</p>
+<p>dards.</p>
+<p>WE 'VE THUS SEEN that the difference between gigantic supermarket</p>
+<p>strawberries and tiny wild ones is just one example of the various features</p>
+<p>distinguishing cultivated plants from their wild ancestors. Those differ</p>
+<p>ences arose initially from natural variation among the wild plants them</p>
+<p>selves. Some of it, such as t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0130">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Artificial selection through human harvesting. Supermarket strawberries vastly larger than wild ancestors. Differences arose from natural genetic variation plus selective harvesting. Some morphological changes (large fruit) advantageous for farmers. Others (wild berry colors) required conscious protection (nets, greenhouses) against predators.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Artificial selection pressure. Cultivated plants selected for: larger seeds/fruits, reduced toxins, synchronized ripening, reduced dispersal. Natural genetic variation in wild populations provides selection material. Some traits selected for unconsciously (collecting larger seeds), others required conscious intervention (pest protection).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Plant domestication ~10000 BCE involved selection for cultivar traits. Wheat/barley: grain size increase. Peas/beans: seed size increase. Grapes: seedless varieties. Each domestication region selected for different traits depending on local wild species variation available and farmer preferences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Genetic variation in wild species determines domestication success and crop yields. Regions with genetically diverse wild crops → significant yield improvements possible. Regions with limited genetic diversity → constrained yield ceiling. Geographic variation in wild plant genetic variation → variation in agricultural productivity → civilizational capacity variation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 130,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

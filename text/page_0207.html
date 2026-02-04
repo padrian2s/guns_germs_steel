@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 207 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 207 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT OF LIVESTOCK • 207</p>
+<p>close to cows and their feces, urine, breath, sores, and blood. Our intimacy</p>
+<p>with cattle has been going on for the 9,000 years since we domesticated</p>
+<p>them—ample time for the rinderpest virus to discover us nearby. As Table</p>
+<p>11.1 illustrates, others of our familiar infectious diseases can similarly be</p>
+<p>traced back to diseases of our animal friends.</p>
+<p>GIVEN OUR PROXIMITY to the animals we love, we must be getting</p>
+<p>constantly bombarded by their microbes. Those invaders get</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0207">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Infectious disease origins from domesticated animals: rinderpest from cattle, other diseases from livestock species. 9,000 years of human-livestock intimacy (since domestication) enabled disease jumping to humans. Microbes evolve to exploit human-animal proximity. Geography determines domesticable animal availability: regions lacking domesticable animals lack livestock diseases epidemic diseases.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease epidemiology geography-determined: depends on domesticable animal availability. Populations without domesticable animals developed without epidemic diseases. Populations with domesticable animals developed epidemic disease resistance through repeated exposure. Humans living at high population density due to agriculture enabled germs to jump species. Geographic advantages create multiple effects: agriculture enables population density; density enables epidemic disease; disease experience creates biological immunity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent agriculture: domesticated cattle, sheep, goats, pigs - all disease reservoirs. Eurasia livestock emphasis created epidemic disease ecosystem. Americas lacked domesticable animals (no large mammals except llama/alpaca)—populations lacked epidemic disease exposure. Africa limited domesticable animals compared to Eurasia. Intimate human-livestock contact in agricultural societies: shared housing, food sources, feces contamination. Disease evolution: pathogens requiring human population density couldn't emerge in hunter-gatherer populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic distribution of domesticable animals determines epidemic disease distribution. Eurasia fauna enabled extensive livestock domestication creating epidemic disease reservoir. Americas fauna prevented livestock-based agriculture limiting epidemic disease development. Disease advantages created by geography: Eurasian immunity from childhood exposure to epidemic diseases became biological advantage in contact with Americas peoples lacking disease immunity. Geographic advantages compound: geographic fauna distribution → domestication patterns → disease exposure → biological immunity differences. Population technological/medical differences appear biological but result from geographic differences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 207,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

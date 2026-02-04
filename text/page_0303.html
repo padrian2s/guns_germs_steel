@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 303 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 303 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 303</p>
+<p>the highlands, and mountain streams carrying huge quantities of silt to</p>
+<p>the lowlands. In contrast, Australia has by far the oldest, most infertile,</p>
+<p>most nutrient-leached soils of any continent, because of Australia's little</p>
+<p>volcanic activity and its lack of high mountains and glaciers. Despite hav</p>
+<p>ing only one-tenth of Australia's area, New Guinea is home to approxi</p>
+<p>mately as many mammal and bird species as is Australia—a result of New</p>
+<p>Guinea's equatorial location, much highe</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0303">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Geographic fauna/flora distribution: Australia has oldest, most infertile soils lacking volcanic activity/high mountains/glaciers. New Guinea: despite 1/10 Australia area, has comparable mammal/bird species due to equatorial location, high rainfall, geographic terrain diversity. Geographic location determines soil fertility and biodiversity. Geographic advantages: mountain terrain, volcanic soils, precipitation enable resource diversity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Soil geography: volcanic activity creates fertile soils, mountains transport silt creating delta fertility, glacier activity leaches nutrients away. Climate geography: equatorial regions support more species; old continents (Australia) have depleted soils. Geographic diversity: mountainous terrain creates local climate variation enabling species diversity. Biogeographic constraints: fauna/flora diversity reflects geographic history and current climate.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia geography: ancient continent, no recent volcanism, limited mountains, minimal glacier activity creating heavily weathered depleted soils. New Guinea geography: young volcanic island arc, high mountains (up to 4,500m), equatorial position enabling high rainfall, diverse ecosystems from lowlands to alpine zones. Species diversity: New Guinea tropical rainforest versus Australian arid interior. Resource availability: New Guinea supports dense human population; Australia supports sparse populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic infrastructure (volcanism, mountains, glaciation) determines soil quality and biodiversity. Soil fertility determines agriculture viability: fertile soils support dense populations; poor soils limit populations. Species diversity reflects geographic climate/terrain: diverse geography enables domesticate diversity enabling technology diversity. Australia geographic limitations: poor soils, low biodiversity, limited domesticable animals constrained population size and technology development. New Guinea geographic advantages: fertile soils, high biodiversity, varied climates enabled domestication diversity enabling complex societies. Population technology differences reflect geographic biogeography determining agricultural/domestication potential.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 303,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

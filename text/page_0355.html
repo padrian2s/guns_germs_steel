@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 355 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 355 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 55</p>
+<p>and Eurasian food production involved big domestic mammal species. In</p>
+<p>Chapter 9 we encountered Eurasia's 13 species, which became its chief</p>
+<p>source of animal protein (meat and milk), wool, and hides, its main mode</p>
+<p>of land transport of people and goods, its indispensable vehicles of war</p>
+<p>fare, and (by drawing plows and providing manure) a big enhancer of crop</p>
+<p>production. Until waterwheels and windmills began to replace Eurasia's</p>
+<p>mammals in medieval times, they were also</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0355">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eurasian food production advantage: big domestic mammal species. Eurasia: 13 domesticated large mammal species. Chief protein sources (meat, milk), wool and hides, land transport (people and goods), warfare vehicles (mounted cavalry), crop production enhancement (plow-drawing, manure). Critical importance medieval times before water wheels/windmills replaced animals. Americas lacked equivalent domesticated large mammals—fundamental technology/transport disadvantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticated large mammals determine civilization complexity capacity. Eurasian advantage: 13 species providing protein, transportation, military, agricultural enhancement. Americas: minimal large mammal domestication capacity. Domesticable species geography-determined by megafauna survival (extinct in Americas). Large mammals enable food production intensity and transport enabling empire development. Technology/transport advantage from domesticated animals creates geometric civilization complexity advantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasian domesticable megafauna: horses, cattle, camels, sheep, pigs, goats enabling advanced civilizations. Americas domestication limited: llamas/alpacas in Andes, dogs everywhere, no cavalry/plow animals. Eurasia geographic advantage: megafauna survival post-ice age. Americas disadvantage: megafauna extinction 11,000 years ago (possibly human-caused hunting pressure). Geographic extinction event created permanent domestication disadvantage persisting to conquest period.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Domesticated animal availability geography-determined by megafauna survival patterns. Eurasian megafauna survival created domestication advantage. American megafauna extinction (whether climate or human-caused) created permanent disadvantage. Domesticated animals multiply civilization development possibilities—transportation, military, agriculture, food production. Geographic animal distribution differences compound across centuries—early domestication advantage accumulates to technological/military dominance. Conquest outcome directly traceable to geographic animal distribution differences 11,000 years prior.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 355,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

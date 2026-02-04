@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 240 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 240 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>240 * GUNS, GERMS, AND STEEL</p>
+<p>One side of the two-sided Phaistos Disk.</p>
+<p>estimated date of 1700 B.C. makes it by far the earliest printed document</p>
+<p>in the world. Instead of being etched by hand, as were all texts of Crete's</p>
+<p>later Linear A and Linear B scripts, the disk's signs were punched into soft</p>
+<p>clay (subsequently baked hard) by stamps that bore a sign as raised type.</p>
+<p>The printer evidently had a set of at least 45 stamps, one for each sign</p>
+<p>appearing on the disk. Making these stamps must have ent</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0240">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Phaistos Disk (Crete): world's earliest printing example. 1700 BCE estimated date. Signs punched into soft clay (later baked hard) by stamps with raised type. Not hand-etched like Linear A/B. Printer had 45+ stamps. Making stamps required significant effort. Printing technology independently invented—millennium before Gutenberg.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Printing technology independent invention. Technology arises from administrative efficiency need. Stamp printing precedes alphabetic printing. Printing capability exists independent of alphabet necessity. Technology convergent development multiple independent invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Phaistos Disk: 1700 BCE stamp printing. Gutenberg: 1450 CE movable type. Chinese woodblock printing: ~800 CE. Technology multiple independent invention across societies. Administrative complexity drove printing invention Crete. Efficiency pressure drove Gutenberg invention Europe. Technology geography-convergent solution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology invention geographic-determined by complexity needs. Printing invention multiple independent occurrences prove convergence. Civilization complexity pressure drives technological response. Geographic agriculture → complexity → technology pressure → technology invention. Universal human response to geographic-created opportunity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 240,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

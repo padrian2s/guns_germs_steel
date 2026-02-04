@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 397 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 397 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK " 3 97</p>
+<p>southern African areas unsuitable for Bantu agriculture. The southernmost</p>
+<p>Bantu people, the Xhosa, stopped at the Fish River on South Africa's south</p>
+<p>coast, 500 miles east of Cape Town. It's not that the Cape of Good Hope</p>
+<p>itself is too dry for agriculture: it is, after all, the breadbasket of modern</p>
+<p>South Africa. Instead, the Cape has a Mediterranean climate of winter</p>
+<p>rains, in which the Bantu summer-rain crops do not grow. By 1652, the</p>
+<p>year the Dutch arrived at Cap</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0397">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Bantu expansion halt: southernmost Bantu (Xhosa) stopped Fish River (South Africa south coast, 500 miles east Cape Town). Not expansion limit due Cape agricultural unsuitable—Cape Good Hope modern breadbasket. Actual limit: Mediterranean climate (winter rains) vs. Bantu summer-rain crops. Geographic climate boundary halted expansion despite agricultural potential.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agriculture expansion climate-limited not resource-limited. Mediterranean winter-rain climates incompatible summer-rain crop technologies. Geographic climate boundaries more absolute than resource scarcity. Technology (summer-rain agriculture) unsuitable new climate prevents expansion despite resource abundance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Cape Good Hope Mediterranean climate: winter rains (like Egypt/Greece), seasonal daylight variation. Modern agriculture proves Cape suitable—produced as continent's breadbasket today. Bantu summer-rain crops (millet, sorghum): germinate summer rains fail winter-rain climate. Xhosa reached Fish River (summer-rain boundary) approximately 1500 CE. Cape region remained Khoisan until European arrival 1652 with winter-rain crops (wheat, barley).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Climate geography determines agricultural possibility determines expansion possibility. Bantu climate-matched summer-rain Africa stopped at winter-rain climate boundary. Geography proves more fundamental constraint than population/technology/culture. Cape Good Hope capacity evident today but inaccessible to Bantu climate-bound crops. Geographic climate boundary more absolute than any cultural barrier. Expansion limits geography-determined through crop-climate incompatibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 397,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

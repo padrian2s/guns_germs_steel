@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 312 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 312 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>312. • GUNS, GERMS, AND STEEL</p>
+<p>weapon, was abandoned in the Cape York Peninsula of northeastern Aus</p>
+<p>tralia. When encountered by Europeans, the Aborigines of southwestern</p>
+<p>Australia did not eat shellfish. The function of the small stone points that</p>
+<p>appear in Australian archaeological sites around 5,000 years ago remains</p>
+<p>uncertain: while an easy explanation is that they may have been used as</p>
+<p>spearpoints and barbs, they are suspiciously similar to the stone points</p>
+<p>and barbs used on arrows elsewhere i</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0312">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australian stone tools evolution with uncertainty and loss: small stone points appear around 5,000 years ago with unclear function—possibly spearheads/arrow barbs yet similarity to arrowpoints elsewhere remains uncertain. Southwestern Australia Aboriginal populations abandoned shellfish consumption despite availability. Technology adoption, loss, and geographic variation demonstrate knowledge fragmentation across regions. Technology persistence varies by location—some regions adopted innovations, others abandoned foodways. Regional divergence despite geographic proximity suggests population isolation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology loss despite prior development. Regional innovation isolation—technologies adopted locally but not universally across geography. Population fragmentation prevents technology standardization. Knowledge persistence geography-determined through isolation degree. Foodway abandonment indicates environmental adaptation or knowledge loss. Technology uncertainty suggests poor documentation/knowledge retention in small populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia: stone tool technology appearance and disappearance follows settlement population density patterns. Northwestern Australia (Cape York): millet harvesting, complex tool kits maintained. Southwestern Australia: shellfish abandoned, divergent practices. Tasmania: fishing abandoned around 1500 B.C. Technology persistence inversely correlated with population isolation. Geographic regions with larger populations maintained technologies; isolated regions experienced knowledge loss.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Small populations cannot maintain technological knowledge over generations. Geographic fragmentation through isolation creates technology loss. Population density geography-determined through carrying capacity determines technology retention capacity. Technology loss in isolated populations demonstrates population size threshold for knowledge transmission. Geography creates isolation creating small populations creating knowledge loss. Population fragmentation geographic consequence determines civilization complexity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 312,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

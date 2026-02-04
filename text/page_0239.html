@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 239 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 239 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>CHAPTER 13</p>
+<p>NECESSITY'S M O T H ER</p>
+<p>O</p>
+<p>N JULY 3, 1908, ARCHAEOLOGISTS EXCAVATING THE</p>
+<p>ancient Minoan palace at Phaistos, on the island of Crete,</p>
+<p>chanced upon one of the most remarkable objects in the history of technol</p>
+<p>ogy. At first glance it seemed unprepossessing: just a small, flat, unpainted,</p>
+<p>circular disk of hard-baked clay, 6V2 inches in diameter. Closer examina</p>
+<p>tion showed each side to be covered with writing, resting on a curved line</p>
+<p>that spiraled clockwise in five coils from the disk's rim</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0239">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 13: "Necessity's Mother"—technology invention innovation. Phaistos Disk discovery 1908 Crete archaeological excavation. Small clay disk 6.5 inches diameter, unpainted, both sides covered writing. Spiral curved line clockwise 5 coils from rim. Remarkable technology-writing conveyed on innovative medium. Physical object showing technology sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology innovation responds to necessity. Administrative complexity creates innovation pressure. Writing system implementation diverse (hand-etched vs printed). Technology multiple solutions possible for same function. Physical constraints shape technological approaches.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Phaistos Disk 1700 BCE: Minoan Crete palace context. Writing administration requirement. Clay disk format demonstrates material availability affecting technology. Spiral pattern shows technological sophistication. Crete civilization complexity created writing necessity forcing technological implementation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines civilization complexity. Complexity determines technology necessity. Necessity drives technology invention. Crete geographic advantages (island trade, agriculture) enabled civilization supporting writing technology. Geographic agricultural success cascaded into civilization complexity cascaded into technology innovation. Chapter 13 explores how technology responds to civilizational needs geography determines.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 239,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

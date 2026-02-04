@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 176 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 176 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 10</p>
+<p>SPACIOUS SKIES A ND</p>
+<p>T I L T ED AXES</p>
+<p>O</p>
+<p>N THE MAP OF THE WORLD ON PAGE 177 (FIGURE 10.1),</p>
+<p>compare the shapes and orientations of the continents. You'll be</p>
+<p>struck by an obvious difference. The Americas span a much greater dis</p>
+<p>tance north-south (9,000 miles) than east-west: only 3,000 miles at the</p>
+<p>widest, narrowing to a mere 40 miles at the Isthmus of Panama. That is,</p>
+<p>the major axis of the Americas is north-south. The same is also true,</p>
+<p>though to a less extreme degree, for Africa. In</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0176">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 10 examines continental axis orientations' impact on technology diffusion. Americas: north-south axis (9,000 miles N-S vs. 3,000 miles E-W maximum, 40 miles at Panama). Africa: also primarily north-south but less extreme. Eurasian continents: primarily east-west orientation. Geographic axis orientation determines technology diffusion speed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Continental axis orientation determines technology diffusion feasibility. East-west axes facilitate technology movement: similar climates/day-length/seasons. North-south axes hinder technology movement: crossing diverse climates/growing seasons. Geographic orientation physical constraint on agricultural technology diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Americas north-south: crops domesticated in Mesoamerica (tropical) diffused slowly northward (temperate change). East-west diffusion (across tropics or across temperate zones) retained climate compatibility. Eurasia east-west: wheat diffusion across similar-climate temperate zones efficient. Africa north-south: technology diffusion crosses Sahara climate barrier.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Continental axis orientation geography-determined technology diffusion speed. East-west orientation (Eurasia) enables rapid agricultural technology dissemination. North-south orientation (Americas) slows agricultural technology diffusion. Geographic feature (axis angle) cascades into civilizational technology availability. Geographic shape determines information/crop diffusion capability determining development pace.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 176,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

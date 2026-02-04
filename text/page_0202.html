@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 202 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 202 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>202 • GUNS, GERMS, AND STEEL</p>
+<p>ing evolutionary contest, with the death of one contestant the price of</p>
+<p>defeat, and with natural selection playing the role of umpire. Now let's</p>
+<p>consider the form of the contest: blitzkrieg or guerrilla war?</p>
+<p>SUPPOSE THAT ONE counts the number of cases of some particular</p>
+<p>infectious disease in some geographic area, and watches how the numbers</p>
+<p>change with time. The resulting patterns differ greatly among diseases. For</p>
+<p>certain diseases, like malaria or hookworm, new case</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0202">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Epidemic patterns vary by disease type. Malaria/hookworm show endemic patterns: constant low-level cases year-round. Diseases differ greatly in transmission and persistence patterns. Geographic areas show different disease patterns. Evolutionary contest: pathogens vs immune systems (natural selection umpire). Host death price of defeat.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Endemic diseases: geographic location determines constant presence. Epidemic diseases: periodic outbreaks from geographic susceptible population. Population density determines epidemic feasibility. Transmission rate determines blitzkrieg (rapid spread) vs guerrilla warfare (slow endemic). Geographic human density determines disease pattern type.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Malaria tropical endemic: geographic vector presence (mosquitoes) enables year-round transmission. Hookworm endemic in moist regions: geographic soil moisture enables persistence. Measles epidemic in childhood: rapid spread exhaust susceptible population then disappear. Dense urban populations: support epidemic cycles. Sparse rural populations: insufficient density for epidemic persistence (endemic or absent).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic climate determines vector ecology (endemic). Geographic population density determines epidemic capability. Endemic diseases from geographic ecology (tropical vectors). Epidemic diseases from geographic density (urban concentration). Old World geographic factors: both endemic (tropical) and epidemic (dense cities). Americas geographic factors: neither as prevalent. Geography cascades into disease ecology cascades into population immunity levels.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 202,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

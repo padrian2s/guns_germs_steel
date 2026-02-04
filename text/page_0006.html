@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 6 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 6 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>6 • CONTENTS</p>
+<p>CHAPTER 5 HISTORY'S HAVES AND</p>
+<p>HAVE-NOTS</p>
+<p>Geographic differences in the onset of food production 9 3</p>
+<p>CHAPTER 6 TO FARM OR NOT TO FARM</p>
+<p>Causes of the spread of food production 104</p>
+<p>CHAPTER7 HOW TO MAKE AN ALMOND</p>
+<p>The unconscious development of ancient crops 1 1 4</p>
+<p>CHAPTER 8 APPLES OR INDIANS</p>
+<p>Why did peoples of some regions fail to domesticate</p>
+<p>plants? 13 1</p>
+<p>CHAPTER 9 ZEBRAS, UNHAPPY MARRIAGES, AND</p>
+<p>THE ANNA KARENINA PRINCIPLE</p>
+<p>Why were most big wild mammal species never</p>
+<p>domesticated? 1 57</p>
+<p>CHAP</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0006">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>This page continues the table of contents, detailing Part Three and Four chapters. Part Three tracks how food production leads to germs, writing, technology, and government. Part Four examines regional histories: Australia/New Guinea, Americas, Africa, Eurasia, and Polynesia.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Key chapter titles reveal cause-and-effect logic: "Lethal Gift of Livestock" (where germs originated), "Blueprints and Borrowed Letters" (writing's role), "Necessity's Mother" (technology's evolution), and "From Egalitarianism to Kleptocracy" (how governments developed). The regional chapters test whether the geographical pattern holds globally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Diamond's choice of regions reflects historical significance: the Americas and Australia showcase areas with limited food-producing animals; Polynesia demonstrates how geography affects island societies; Eurasia and Africa show where domestication succeeded. Each region's trajectory reflects its geographical constraints and opportunities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>The contents structure proves Diamond's argument: Part Two/Three establish the causal chain (geography → agriculture → technology/disease), while Part Four shows this pattern operating across all human societies. This organization demonstrates that geographical determinism is universal, not specific to any culture.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 6,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

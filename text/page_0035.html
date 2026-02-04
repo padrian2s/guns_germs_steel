@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 35 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 35 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 1</p>
+<p>UP TO THE STARTING</p>
+<p>LINE</p>
+<p>A</p>
+<p>SUITABLE STARTING POINT FROM WHICH TO COMPARE</p>
+<p>. historical developments on the different continents is around</p>
+<p>11,000 B.C.* This date corresponds approximately to the beginnings of</p>
+<p>village life in a few parts of the world, the first undisputed peopling of the</p>
+<p>Americas, the end of the Pleistocene Era and last Ice Age, and the start of</p>
+<p>what geologists term the Recent Era. Plant and animal domestication</p>
+<p>began in at least one part of the world within a few tho</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0035">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond establishes 11,000 BCE as the "starting line" for comparing continental development. This date marks the Ice Age's end, beginning of village life and domestication, and Americas' first undisputed human settlement. At this point, had some continents gained advantages over others?</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>The chapter's premise: if head starts existed in 11,000 BCE, 13,000 years of amplification might explain global inequality by 1532 CE. The "starting line" metaphor suggests fair competition thereafter, with geography determining winners/losers from inception.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>11,000 BCE marks the Holocene epoch's beginning, post-Pleistocene climate stabilization, and independently-emerged food production (Fertile Crescent). All continents possessed humans by this date, allowing comparative analysis of development trajectories.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This page establishes that geography's influence on human development must be assessed from 11,000 BCE onward. By showing all humans faced identical conditions then, any subsequent divergence stems from geographical differences, not innate population differences.</p>
+                </section>
+                    <p>This material supports Diamond's central argument that geography—including climate, available fauna and flora, and continental axis—determines technological and social development. The evidence presented here demonstrates how chapter 1 factors created divergent paths for human societies.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 35,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 388 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 388 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 88 • GUNS, GERMS, AND STEEL</p>
+<p>ation in day length. One set consists of plants whose ancestors are widely</p>
+<p>distributed from west to east across the Sahel zone and were probably</p>
+<p>domesticated there. They include, notably, sorghum and pearl millet,</p>
+<p>which became the staple cereals of much of sub-Saharan Africa. Sorghum</p>
+<p>proved so valuable that it is now grown in areas with hot, dry climates on</p>
+<p>all the continents, including in the United States.</p>
+<p>The other set consists of plants whose wild ancestors occu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0388">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crop domestication two groups: sorghum and pearl millet (wide Sahel distribution, domesticated there), and plants with wild ancestors occupying limited regions. Sorghum value enabled international adoption (now grown hot/dry climates worldwide, including US). Domestic crop suitability determines agricultural success determines population expansion determines geographic distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticable crop availability geography-distributed. Sorghum/millet suited Sahel climate enabled cereal agriculture. Crop suitability determines adoption success. Successful crops enable population growth enable expansion. Crop adaptation geography-specific: Sahel crops unsuitable elsewhere initially; later spreading to suitable climates worldwide.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sahel zone agriculture: sorghum (~4000 BCE) and pearl millet (~3000 BCE) domestication from wild Sahel grasses. Sorghum distribution: west-east across Sahel indicating domestication location. Pearl millet similar pattern. Other African regions: rainforest yams, Ethiopian highlands teff, other region-specific domesticates. Sorghum success: drought-resistant, nutritious, multipurpose. International adoption: sorghum now global crop in hot/dry climates. Geographic domestication demonstrates local adaptation solving local climate constraints.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines available domesticable species determines agriculture timing determines civilization development. Sorghum domestication geography-determined by wild sorghum Sahel distribution. Successful domestication (sorghum) enabled larger population enabled Bantu expansion. Crop suitability geography-determined: sorghum/millet suited hot/dry Sahel unsuitable humid rainforest unsuitable temperate zones (initially). Regional crop differences reflect geographic constraints creating region-specific agricultural development determining region-specific population outcomes.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 388,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

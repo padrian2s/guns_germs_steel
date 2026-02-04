@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 363 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 363 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 63</p>
+<p>the Americas. Chiefdoms are inferred from archaeological evidence, such as ranked burials,</p>
+<p>architecture, and settlement patterns. The table greatly simplifies a complex mass of historical</p>
+<p>facts: see the text for some of the many important caveats.</p>
+<p>another such society than for nomadic hunter-gatherers to "borrow" food</p>
+<p>production from sedentary farmers (or to be replaced by the farmers).</p>
+<p>WHY WERE THE trajectories of all key developments shifted to later</p>
+<p>dates in the A</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0363">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chiefdoms inferred from archaeological evidence (ranked burials, architecture, settlement patterns). Table simplifies complex history. Noted that sedentary farmers more likely than nomadic hunter-gatherers to adopt food production or be replaced by farmers. Sedentary status determines technology adoption capacity. Transition momentum: sedentary societies→chiefdoms→states follows settlement pattern enabling population density enabling organizational complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Sedentary-nomadic divide determines adoption patterns. Sedentary societies accumulate technology; nomadic societies move away from innovation opportunities. Settlement pattern determines receptivity to technology. Population density sedentary societies enables specialization enabling complexity. Geographic suitability for settlement determines technology adoption capacity determines civilization development possibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasian food production: enabled sedentary settlements enabling population concentration enabling chiefdom formation. Archaeological evidence: ranked burials show social hierarchy development. Americas food production similar pattern: settlement enabled hierarchy development enabled state formation. Geography determines sedentary possibility determines settlement pattern determines civilization complexity. Table documents settlement-driven complexity across geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic suitability determines settlement pattern determines civilization complexity. Food production enables sedentary existence enables population density enables hierarchy formation. Geography determines agricultural possibility determines settlement possibility determines civilization development trajectory. Table demonstrates geography determines settlement determining social complexity determining state formation determining conquest capacity. Conquest outcome geography-determined through settlement-enabled civilization complexity differences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 363,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

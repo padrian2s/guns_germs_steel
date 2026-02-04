@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 9 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 9 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>P R E F A CE TO THE P A P E R B A CK E D I T I ON</p>
+<p>W HY IS W O R LD HISTORY</p>
+<p>LIKE AN O N I O N?</p>
+<p>THIS BOOK ATTEMPTS TO PROVIDE A SHORT HISTORY OF</p>
+<p>everybody for the last 13,000 years. The question motivating the</p>
+<p>book is: Why did history unfold differently on different continents? In case</p>
+<p>this question immediately makes you shudder at the thought that you are</p>
+<p>about to read a racist treatise, you aren't: as you will see, the answers</p>
+<p>to the question don't involve human racial differences at all. The bo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0009">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>The Preface to the Paperback Edition uses the "onion" metaphor to explain Diamond's approach. He promises a short 13,000-year history addressing why different continents developed differently—while explicitly rejecting racial explanations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond emphasizes seeking "ultimate explanations" rather than proximate causes. The onion metaphor suggests peeling back layers to understand foundational forces. He commits to tracing causation as far back as possible, particularly into prehistory (99.9% of human history before writing)</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Written for the 1999 paperback edition, Diamond addresses concerns about racist interpretation of his theory. He notes that by 1500 CE, technological gaps already existed—requiring explanation of pre-1500 history, not post-1500 colonialism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>The Preface frames history as an "onion" where modern inequality's roots lie deep in geography and prehistory. This justifies examining geography's influence 13,000 years ago rather than assuming writing's emergence caused technological divergence.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 9,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

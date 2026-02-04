@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 377 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 377 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 77</p>
+<p>past and establish a multiracial society. Namibia illustrated for me how</p>
+<p>inseparable Africa's past is from its present.</p>
+<p>Most Americans and many Europeans equate native Africans with</p>
+<p>blacks, white Africans with recent intruders, and African racial history</p>
+<p>with the story of European colonialism and slave trading. There is an obvi</p>
+<p>ous reason why we focus on those particular facts: blacks are the sole</p>
+<p>native Africans familiar to most Americans, because they were brough</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0377">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African racial history misunderstood: Americans/Europeans equate native Africans with blacks, white Africans with recent intruders. Colonial/slavery focus obscures earlier African population movements. Black Africans sole familiar African group to most Americans because of slave trade. Geographic population movements: Bantu expansion southward displaced earlier populations. African racial variation reflects geography-driven population movements not indigenous biological groups.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>African demographic history geography-driven: population movements determined by geographic advantages. Bantu expansion: agriculture-based population spread from West-Central Africa southward through geographic diffusion. Earlier populations (Khoisan): hunter-gatherer populations displaced/absorbed by Bantu agricultural expansion. Racial categorization misconception: assumes stable populations but geography caused continuous population replacement/mixing. Modern racial categories reflect recent (< 2000 years) population movements not ancient population divisions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Pre-Bantu Africa: Khoisan hunter-gatherers dominated sub-Saharan Africa including South Africa. Bantu agricultural spread: ~2000 years BCE, from West-Central Africa across sub-Saharan Africa southward. Geographic advantage: agriculture enabled population growth enabling southward expansion. Bantu displacement: Khoisan pushed southward/westward to marginal environments (deserts, coasts). Recent colonialism: European intrusion appeared final in racial history but superimposed onto ongoing Bantu-Khoisan displacement. Modern South Africa: Afrikaaner (Dutch) arrival ~350 years ago; Bantu arrival ~1500 years ago; Khoisan arrival thousands of years before.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>African racial geography reflects population replacement: agriculture-enabled Bantu populations displaced/absorbed hunter-gatherer Khoisan. Geographic advantages (agriculture) enabled population movement enabling racial composition changes. Colonial focus obscures major geographic-driven demographic changes. Modern racial categories appear fixed but reflect recent geographic population movements. Population variation (agricultural Bantu vs. hunter-gatherer Khoisan) reflects geographic advantages enabling technology diffusion. Racial diversity not ancient biological groupings but geographic-determined population replacement over recent historical periods.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 377,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

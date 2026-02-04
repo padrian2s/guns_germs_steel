@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 433 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 433 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS " 4 3 3</p>
+<p>Haynes, Jr., an expert on the Clovis horizon and reported pre-Clovis sites,</p>
+<p>include "Contributions of radiocarbon dating to the geochronology of the</p>
+<p>peopling of the New World," pp. 354-74 in R. E. Taylor, A. Long, and</p>
+<p>R. S. Kra, eds., Radiocarbon after Four Decades (New York: Springer,</p>
+<p>1992), and "Clovis-Folson geochronology and climate change," pp. 219-</p>
+<p>36 in Olga Soffer and N. D. Praslov, eds., From Kostenki to Clovis: Upper</p>
+<p>Paleolithic Paleo-Indian Adaptations (New Yo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0433">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Bibliography sources on Americas human settlement: Haynes papers on Clovis horizon and pre-Clovis radiocarbon dating document timing of human arrival in Americas. Radiocarbon dating methods detailed showing archaeological chronology establishment. Clovis-Folsom geochronology relates human settlement timing to climate change. Pre-Clovis sites evidence extends Americas human occupation earlier than long-accepted 11,000 years. Timing matters for agricultural development: geographic plant/animal domestication availability limits when agriculture could emerge. Climate change creating agricultural possibility determines settlement pattern emergence. Settlement timing geography-determined through domestication geography preconditions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Clovis horizon: 11,000-year-old widespread culture marking first evidence human settlement Americas. Pre-Clovis sites: controversial earlier evidence suggesting arrival 15,000+ years ago. Radiocarbon dating: archaeological dating method measuring carbon-14 decay determining artifact age. Geochronology: correlation between climate change and human cultural development. Climate change timing corresponds agriculture emergence: warming post-glacial period created plant growth enabling domestication. Geographic availability domesticable species (maize, beans, squash in Mesoamerica; potatoes in Andes) limits when agriculture could develop. Settlement permanent only when agriculture sustainable. Arrival timing and domestication timing separate—arrival geography precedes agriculture domestication geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Americas human settlement timing determined by Beringia crossing possible during glacial periods when sea levels low enough exposing land bridge. Last crossing window before current interglacial: ~20,000-15,000 years ago based glacial geology. Pre-Clovis sites (Monte Verde, White Sands) date 14,000-16,000 years ago suggesting earlier crossing. Settlement timeline constrained by geography: geography determines when glacial-interglacial cycles enabled/prevented crossing. Once settled, population expansion geography-limited by terrain and climate zones suitable for particular subsistence. Domestication timeline: domesticable plants varied by region—Mesoamerica maize domestication ~9,000 years ago, Andes potatoes ~8,000 years ago. Timing differs matching plant-specific geography availability and climate change enabling cultivation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Clovis/pre-Clovis chronology proves geographic determinism through timing: human arrival Americas geography-constrained by Beringia ice-age exposure. Settlement timing depends geography: when glaciation allowed crossing determines settlement start. Agriculture emergence timeline geography-determined: domesticable species available geographically determined when agriculture possible in each region. Geographic climate suitability determines regional domestication timing. Early Americas settlement proves geographic constraint: arrival had to await glacial conditions creating land bridge, agriculture could only emerge once appropriate plants available geographically. Radiocarbon chronology documents geographic determinism operating through timing constraints—settlement and agriculture emergence both geography-determined through natural geographic preconditions (ice-age geography, plant distribution geography).</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 433,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

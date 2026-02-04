@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 393 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 393 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 93</p>
+<p>Swahili trading settlements and picked up a pilot who guided him on that</p>
+<p>direct route to India.</p>
+<p>But there was an equally vigorous sea trade from India eastward,</p>
+<p>between India and Indonesia. Perhaps the Austronesian colonists of Mada</p>
+<p>gascar reached India from Indonesia by that eastern trade route and then</p>
+<p>fell in with the westward trade route to East Africa, where they joined</p>
+<p>with Africans and discovered Madagascar. That union of Austronesians</p>
+<p>and East Africans live</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0393">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Madagascar settlement through Indian Ocean trade routes: Austronesian colonists reached India from Indonesia via eastern India-Indonesia trade route. Fell in with westward trade route to East Africa. Union of Austronesians and East Africans discovered/settled Madagascar. Settlement resulted from geographic trade network patterns enabling contact across Indian Ocean. Population mixing geography-determined by maritime trade routes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Maritime trade routes determine population contact patterns. Indian Ocean geography: monsoon winds enable predictable maritime corridors. India-Indonesia eastern route enables direct navigation. India-Africa western route enables connection. Geographic maritime routes determine which populations meet determining settlement possibilities. Trade network geography shapes population genetics shapes cultural mixture.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Austronesian seagoing technology: outrigger canoes + navigational expertise enabled Indian Ocean crossing. Indonesia origin ~400-800 CE settlement Madagascar. India as hub: Austronesian traders reached India via Indonesia-India route. African traders reached India from Africa (Swahili). Indian Ocean monsoon geography: predictable wind patterns enable sailing routes. Madagascar position: at intersection African-Indian networks. Settlement mixture: Austronesian Asian ancestry + African ancestry blend reflecting geographic network intersection.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Population settlement geography-determined by maritime trade routes and technology. Austronesian technology (ocean-going ships) enabled reaching Madagascar. Indian Ocean monsoon geography enabled trade route development. Geographic position (Madagascar at trade route intersection) determined population mixture. Settlement pattern reflects maritime routes: Austronesian-African interbreeding resulted from geographic trade network structure. Population genetics geography-determined through trade route topology determining contact patterns determining biological mixture.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 393,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

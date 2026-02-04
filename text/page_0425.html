@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 425 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 425 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>THE FUTURE OF HUMAN HISTORY AS A SCIENCE • 4 25</p>
+<p>human societies by comparing recent Polynesian populations living on</p>
+<p>islands differing naturally in resource abundance. The student of human</p>
+<p>history can draw on many more natural experiments than just compari</p>
+<p>sons among the five inhabited continents. Comparisons can also utilize</p>
+<p>large islands that have developed complex societies in a considerable</p>
+<p>degree of isolation (such as Japan, Madagascar, Native American Hispan¬</p>
+<p>iola, New Guinea, Hawaii, and</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0425">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Natural experiment methodology: comparing human societies through natural geographic variation. Polynesian island populations: controlled experiment with islands varying in resource abundance—test how environment determines societal development. Student of human history can draw on natural experiments beyond continents. Large isolated islands with complex independent societies: Japan, Madagascar, Hispaniola, New Guinea, Hawaii. Geographic variation enables hypothesis testing about environment/development relationship.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Natural experiments: geographic variation enabling controlled societal comparison. Islands differing in resources but similar populations test environment hypothesis. Resource-rich islands → complex societies; resource-poor islands → simple societies? Testing geographic determinism empirically. Isolated large islands → independent societal development without external influence. Natural geographic experiments replace impossible human experimentation. Multiple geographic variations enable pattern identification.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Polynesian islands: resource variation (Hawaii resource-rich → complex chiefdoms; small poor atolls → simple societies). Madagascar: Africa-isolated island → unique development. New Guinea: high environmental diversity → diverse political organizations. Hispaniola: island settled by similar populations from different directions → different outcomes (Spanish colonization vs. Taíno indigenous). Japan: isolated island with resource-rich geography → state development. Natural geographic variation enables hypothesis: environment determines organizational complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Natural experiments prove geographic determinism empirically. Polynesian islands similar populations with resource variation → complexity varies with resources (environment-determined). Isolated large islands independent development enabling observation: complex societies emerge where geography permits (Japan, New Guinea)). Simple societies persist where geography limits (poor atolls). Geographic variation enables controlled observation impossible in continental history with multiple confounding variables. Natural islands experiments provide cleaner evidence: environment determines society complexity through resource availability and geography constraints.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 425,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

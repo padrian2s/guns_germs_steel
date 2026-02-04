@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Impact Simulator</title>
+    <link rel="stylesheet" href="../css/simulators.css">
+</head>
+<body class="simulator">
+    <div class="simulator-header">
+        <h1>🗺️ Geography Impact Simulator</h1>
+        <p>See how latitude, barriers, and axis orientation affect technology spread</p>
+    </div>
+
+    <div class="simulator-container">
+        <!-- Controls -->
+        <div class="simulator-left">
+            <div class="control-section">
+                <h3>Geographic Factors</h3>
+
+                <div class="control-group">
+                    <label>Continental Axis Orientation</label>
+                    <select id="axisSelect" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid var(--border);">
+                        <option value="ew">East-West (Eurasia)</option>
+                        <option value="ns">North-South (Americas)</option>
+                        <option value="fragmented">Fragmented (Islands)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Geographic Barriers</label>
+                    <input type="range" id="barrierSlider" min="0" max="100" value="50" class="slider">
+                    <span id="barrierValue">50%</span>
+                </div>
+
+                <div class="control-group">
+                    <label>Climate Diversity</label>
+                    <input type="range" id="climateSlider" min="0" max="100" value="50" class="slider">
+                    <span id="climateValue">50%</span>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="startBtn" class="btn-primary">▶️ Simulate Diffusion</button>
+                    <button id="resetBtn" class="btn-secondary">↺ Reset</button>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="control-section">
+                <h3>📊 Diffusion Metrics</h3>
+                <div class="stat">
+                    <label>Technology Spread:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="spreadFill" style="width: 0%"></div>
+                    </div>
+                    <span id="spreadValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Regional Variation:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="variationFill" style="width: 0%; background: #DAA520;"></div>
+                    </div>
+                    <span id="variationValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Trade Network:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="tradeFill" style="width: 0%; background: #8B4513;"></div>
+                    </div>
+                    <span id="tradeValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Diffusion Speed:</label>
+                    <span id="speedValue" class="time-value">- regions/year</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualization -->
+        <div class="simulator-right">
+            <div class="canvas-container">
+                <canvas id="simulatorCanvas" width="500" height="500"></canvas>
+            </div>
+
+            <!-- Trace Log -->
+            <div class="trace-panel">
+                <h4>📝 Diffusion Log</h4>
+                <div id="traceLog" class="trace-log">
+                    <p class="trace-item trace-info">Ready to simulate technology diffusion.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/simulators/geography-impact.js"></script>
+</body>
+</html>

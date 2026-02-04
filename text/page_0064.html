@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 64 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 64 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>64 " GUNS, GERMS, AND STEEL</p>
+<p>conscripted them to work on large construction projects, whose form var</p>
+<p>ied from island to island: irrigation projects and fishponds on Hawaii,</p>
+<p>dance and feast centers on the Marquesas, chiefs' tombs on Tonga, and</p>
+<p>temples on Hawaii, the Societies, and Easter.</p>
+<p>At the time of Europeans' arrival in the 18th century, the Tongan chief-</p>
+<p>dom or state had already become an inter-archipelagal empire. Because</p>
+<p>the Tongan Archipelago itself was geographically close-knit and inclu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0064">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chiefs controlled large labor forces for monumental construction: Hawaiian irrigation systems, Marquesan feast centers, Tongan tombs, temples throughout. Tonga became inter-archipelago empire conquering 500 miles distant. Hawaii's large islands supported archipelago unification by 18th century. Political complexity reached empire-level only on largest, most populous islands. Geography enabled empire formation directly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Large labor forces enable monumental construction reflecting status and power. Chief authority depends on conscription capacity. Labor surplus available only in high-density populations. Geographic carrying capacity enables large population → conscriptable labor → monumental projects → visible chiefly authority. Monumentality demonstrates geographic advantage: high-population islands build large temples/fishponds; low-population islands cannot.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Hawaii: large islands, high population density, large labor forces available → massive irrigation projects, temples. Marquesas: medium islands → feast centers. Tonga: inter-archipelago empire conquering 500 miles. Geographic island size and population density determined labor conscription magnitude. Tonga empire unification geographic-enabled by archipelago proximity. Hawaii monuments reflect geographic population surplus enabling authority display.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Monumental construction geography-enabled through population density determining labor availability. Empire formation geography-enabled by island proximity (Tonga inter-archipelago empire). Geographic carrying capacity determines population → labor → monument construction → political power visibility. Geographic resource abundance enabling dense population enabling conscription enabling monumental authority display. Political complexity correlates perfectly with geography-determined population capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 64,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

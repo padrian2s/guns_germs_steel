@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 261 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 261 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 6 I</p>
+<p>gatherers are limited to technology that can be carried. If you move often</p>
+<p>and lack vehicles or draft animals, you confine your possessions to babies,</p>
+<p>weapons, and a bare minimum of other absolute necessities small enough</p>
+<p>to carry. You can't be burdened with pottery and printing presses as you</p>
+<p>shift camp. That practical difficulty probably explains the tantalizingly</p>
+<p>early appearance of some technologies, followed by a long delay in their</p>
+<p>further development. For exampl</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0261">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Hunter-gatherers face technology constraints from nomadic lifestyle. Frequent movement requires minimal possessions: babies, weapons, bare necessities only. Cannot carry pottery, printing presses, heavy equipment. Practical difficulty explains why some technologies appear early but develop slowly—cumbersome technologies impractical for mobile societies. Geographic reliance on nomadism (hunting/gathering) prevents adoption of stationary-society technologies. Settlement enables technology development; nomadism enforces technology constraints.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Settlement pattern determines technology viability. Nomadic societies constrained to portable technologies. Sedentary societies can adopt cumbersome technologies (pottery, printing). Settlement requires food surplus (agriculture). Agriculture geography-dependent on domesticable species and suitable climate. Geographic resources enabling settlement determine which technologies can be adopted. Nomadic geography prevents complex technology development. Technology diversity geography-determined through settlement pattern differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Old World agriculture: wheat/barley/domesticated animals enabled sedentary villages (Middle East, Europe, Asia). Pottery developed in settled agricultural societies. Printing required settled craft specialists. New World without suitable draft animals: some regions persisted nomadic hunting/gathering. Americas with agriculture (Mesoamerica, Andean highlands): developed pottery and complex technologies in settled areas. Australian/Pacific regions: abundant game enabled long-term settlements without agriculture, yet limited technology development due to isolation. Geographic settlement sustainability determines technology adoption potential.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic resource availability determines settlement pattern feasibility. Domesticable species enable agriculture enabling settlement. Settlement enables complex technology adoption. Regions lacking domesticable species for draft animals or lacking suitable agriculture terrain remain constrained to nomadism. Nomadism geography-determined, which determines technology constraints. Technology diversity differences across continents result from settlement pattern differences, which result from geographic resource availability. Not cultural preferences but geographic constraints determine technology adoption possibilities.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 261,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

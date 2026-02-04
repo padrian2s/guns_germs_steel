@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 7 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 7 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>CONTENTS • 7</p>
+<p>CHAPTER 16 HOW CHINA BECAME CHINESE</p>
+<p>The history of East Asia 322</p>
+<p>CHAPTER 17 SPEEDBOAT TO POLYNESIA</p>
+<p>The history of the Austronesian expansion 3 3 4</p>
+<p>CHAPTER IS HEMISPHERES COLLIDING</p>
+<p>The histories of Eurasia and the Americas compared 3 5 4</p>
+<p>CHAPTER 19 HOW AFRICA BECAME BLACK</p>
+<p>The history of Africa 376</p>
+<p>EPILOGUE THE FUTURE OF HUMAN</p>
+<p>HISTORY AS A SCIENCE 403</p>
+<p>Acknowledgments 4 2 7</p>
+<p>Further Readings 429</p>
+<p>Credits 4 5 9</p>
+<p>Index 461</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0007">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>This page concludes the table of contents, listing final chapters on regional histories (China, Polynesia, Americas/Eurasia comparison, Africa), an epilogue on history as science, and supporting materials (acknowledgments, readings, index).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Titles like "How China Became Chinese" and "How Africa Became Black" personify continents as agents shaped by history. "Hemispheres Colliding" emphasizes geography's collision point. The epilogue's focus on "History as a Science" indicates Diamond's methodological ambition.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>These regional chapters span thousands of years across all inhabited continents. Each chapter tests whether the geographical determinism thesis explains different regions' trajectories across Africa, Asia, Polynesia, and the Americas.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>By ending with an epilogue on history as science, Diamond elevates his geographical explanation beyond narrative to scientific principle. The book's architecture proves that geography acts as a universal causal force across all human societies and time periods.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 7,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

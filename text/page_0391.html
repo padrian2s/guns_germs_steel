@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 391 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 391 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 391</p>
+<p>as bananas and Asian yams. Evidently, those crops reached southern Nige</p>
+<p>ria only after languages began to break up into subgroups, so each sub</p>
+<p>group coined or received different names for the new plants, which the</p>
+<p>modern languages of only that particular subgroup inherited. Last come</p>
+<p>crop names that aren't consistent within language groups at all, but instead</p>
+<p>follow trade routes. These prove to be New World crops like corn and</p>
+<p>peanuts, which we know were introduced</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0391">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crop diffusion timing revealed through language analysis: early crop names consistent across language groups—diffused before language diversification. Later crops (bananas, Asian yams): names different across subgroups—diffused during language diversification. Newest crops (corn, peanuts): follow trade routes not language boundaries—modern trade network diffusion. Language provides dating of crop arrival and diffusion pattern documentation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language as geographic history tool: word consistency shows diffusion timing. Shared ancient words: ancient diffusion before group separation. Divergent words: recent diffusion after language separation. Trade route words: modern diffusion patterns following geographic trade networks. Geographic diffusion patterns visible in language: ancient diffusion (consistent names) → recent diffusion (inconsistent names) → modern diffusion (trade-route-based).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Early African crops: sorghum, millet, African yams—consistent names across Bantu language groups indicating diffusion before ~2000 BCE language diversification. Secondary crops: bananas, Asian yams—reaching southern Nigeria after Bantu language subgroup formation, different names each group. Recent crops: corn (maize), peanuts—New World origin, arrived post-Columbian, follow modern African trade routes with inconsistent naming.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Crop diffusion geographic-determined by trade networks and geographic proximity. Ancient diffusion patterns: agricultural societies spread crops through geographic diffusion. Geographic barriers previously limited diffusion: Africa interior received crops slowly. Trade route diffusion: geographic access routes determine New World crop adoption. Geographic distance determines lag time: New World crops reach Africa post-Columbian taking centuries. Language analysis documents geographic technology diffusion timing revealing geographic advantage accumulation: early-adopting crops providing agricultural advantages to early-adopting regions.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 391,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 134 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 134 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 34 ' GUNS, GERMS, AND STEEL</p>
+<p>Africa, southern Asia, and eastern Australia, some of them closely related</p>
+<p>to Olea europea, but none of them was ever domesticated. Similarly, while</p>
+<p>a wild apple species and a wild grape species were domesticated in Eurasia,</p>
+<p>there are many related wild apple and grape species in North America,</p>
+<p>some of which have in modern times been hybridized with the crops</p>
+<p>derived from their wild Eurasian counterparts in order to improve those</p>
+<p>crops. Why, then, didn't Native Ameri</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0134">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Failed domestications: similar species different domestication outcomes. Olives: wild species in Africa, southern Asia, eastern Australia never domesticated. Apples/grapes: Eurasian wild ancestors domesticated; North American wild relatives with same traits never domesticated. Modern hybridization uses wild American genetics to improve Eurasian crops.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication as geographic-cultural choice. Species suitability necessary but not sufficient. Cultural, economic, geographic factors determine adoption. Availability alone doesn't guarantee domestication. Time, location, population pressure influence domestication selectivity. Genetic similarity between domesticated and wild undocumented species.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Olives: Eurasian domestication ~7000 BCE. Related African species available but never domesticated (diffusion barriers, wild olive preference, cultural factors). Apples: Eurasian domestication classical times. American wild apples available to indigenous peoples for millennia but never domesticated (no adoption pressure, diffusion barriers).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Species availability insufficient for domestication. Geographic diffusion, wild productivity, cultural factors determine adoption. Americas' lack of apple/grape domestication not genetic barrier but geographic isolation preventing diffusion, wild food abundance reducing adoption pressure. Geographic location determines domestication adoption independent of genetic feasibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 134,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

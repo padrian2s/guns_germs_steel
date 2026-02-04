@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 92 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 92 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>92 • GUNS, GERMS, AND STEEL</p>
+<p>Of equal importance in wars of conquest were the germs that evolved in</p>
+<p>human societies with domestic animals. Infectious diseases like smallpox,</p>
+<p>measles, and flu arose as specialized germs of humans, derived by muta</p>
+<p>tions of very similar ancestral germs that had infected animals (Chapter</p>
+<p>11). The humans who domesticated animals were the first to fall victim</p>
+<p>to the newly evolved germs, but those humans then evolved substantial</p>
+<p>resistance to the new diseases. When such</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0092">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diseases emerged from domestic animals (smallpox, measles, flu from animal-derived pathogens). Animal-domesticating societies experienced disease first, then evolved resistance through natural selection. Americas lacked domesticated animals, so Americans never encountered these pathogens, had no evolved immunity. Conquest advantage tied to centuries of prior disease exposure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease evolution and immunity. Eurasian domesticated animals → epidemic diseases → evolved immunity in Eurasian populations. Americas: no domesticated animals → no epidemic diseases → no immunity development. Pathogen exposure differentials created immunological advantage in conquest.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Smallpox, measles, influenza: major killers in Eurasian history by 1500 CE. Eurasian populations carried partial immunity. Americas 1492: no populations had measles, smallpox, or influenza immunity due to lack of domesticated animals. Pathogens killed 95% of American populations, Spanish faced previously healthy adult populations lacking immunity defenses.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic fauna distribution determines disease burden and immunity evolution. Eurasian domesticated animals provided disease pressure and immunity. Americas lacked domesticates, lacked disease pressure, lacked immunity. Accident of geography (fauna distribution) determined immunological capacity difference in 1492 contact. Conquest depended not on Spanish superiority but on pathogenic accident of history.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 92,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

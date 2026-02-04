@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 439 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 439 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS • 4 3 9</p>
+<p>(Alexandria, Va.: Plutarch Press, 1983), and Robin Law, The Horse in</p>
+<p>West African History (Oxford: Oxford University Press, 1980). For pigs:</p>
+<p>Colin Groves, Ancestors for the Pigs: Taxonomy and Phytogeny of the</p>
+<p>Genus Sus (Technical Bulletin no. 3, Department of Prehistory, Research</p>
+<p>School of Pacific Studies, Australian National University [1981]). For lla</p>
+<p>mas: Kent Flannery, Joyce Marcus, and Robert Reynolds, The Flocks of</p>
+<p>the Wamani (San Diego: Academic Press, 1989). For</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0439">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Bibliography sources on animal domestication: Law "Horse in West African History" documents horse history Africa. Groves "Ancestors for the Pigs" taxonomic study Sus genus domestication and wild ancestry. Flannery/Marcus/Reynolds "Flocks of the Wamani" study llama/alpaca domestication Andes. Sources catalog domesticated animals demonstrating geographic specialization: horses Africa/Asia/Europe, pigs Europe/Asia, llamas Andes only. Domestication required suitable wild species possessing appropriate temperament and growth characteristics. Geographic distribution suitable wild animal species determines domesticable animals available regionally. Not all animals domesticable—wildness, aggression, growth rate requirements limit domestication possibility. Animal domestication success depends geographic wild species availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication animal requirements: size (large animals useful labor, transportation, food), temperament (unsuitably wild animals cannot domesticate), feeding/growth rate (expensive animals unprofitable), mating capability (captive breeding requirement). Suitable wild animals few: horses suitable (manageable temperament, sufficient size, efficient reproduction). Zebras similar size but unsuitable temperament—domestication impossible. Pigs suitable domestication (omnivorous, rapid reproduction). Llamas/alpacas domestication Andes only (few large wild animals Americas). Americas megafauna extinction eliminated potential domesticates: horses, camels extinct 10,000 years ago preventing domestication. Remaining wild animals unsuitable: American bison, llama relatives (guanacos) less suitable than Old World animals. Animal domestication geography-constrained through wild species geographic distribution and domestication suitability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Horse domestication Central Asian steppe ~6,000 years ago—only wild horse species domesticated (Equus ferus). Horse domestication enabled mounted warfare revolutionizing Eurasian military technology. Horse spread westward through trade and migration reaching Europe 4,000 years ago, Africa and Americas post-1492. Pig domestication multiple world regions independently—Sus scrofa wild pig. Pig domestication earliest near-eastern/Asian domestication. Llama domestication Andes ~7,000 years ago—related wild guanaco species. Llama domestication enabling only animal-based transportation Andes (no horses, no camels available). Geographic animal specialization documented: Old World (horses, pigs, cattle, sheep, goats), Americas (llamas/alpacas only), Africa (elephants unsuitable, no viable domesticates historically). Geography determined domesticable animals distributed determining animal technology available regionally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Animal domestication geography-distributed determines technology geography-distributed: horses available Old World enabling cavalry/mounted warfare, unsuitable Americas preventing horse-based military. Pigs/cattle available Old World, minimal Americas. Llamas/alpacas unique Americas but less capable horses (smaller, slower). Megafauna extinction timing geography-important: Eurasian megafauna survived domestication possible (~12,000 years ago). American megafauna extinct ~11,000 years ago preventing domestication—horses/camels extinct before domestication timing possible. Geographic wild animal distribution determines available domesticated animals determining military technology/transportation technology. Old World advantage: multiple domesticated species (horses, cattle, pigs) enabling diverse technology. Americas disadvantage: llamas only viable domesticate limiting technology options. Animal domestication geographic distribution explains technology differences explaining civilization development differences. Geography determines domesticable animal availability determining technology determining civilization development.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 439,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 248 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 248 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 48 • GUNS, GERMS, AND STEEL</p>
+<p>pared with existing technology. While wheels are very useful in modern</p>
+<p>industrial societies, that has not been so in some other societies. Ancient</p>
+<p>Native Mexicans invented wheeled vehicles with axles for use as toys, but</p>
+<p>not for transport. That seems incredible to us, until we reflect that ancient</p>
+<p>Mexicans lacked domestic animals to hitch to their wheeled vehicles,</p>
+<p>which therefore offered no advantage over human porters.</p>
+<p>A second consideration is social value and pr</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0248">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology adoption depends on comparative advantage vs. existing methods. Ancient Mexicans invented wheeled vehicles (wheels/axles) as toys, not transport. Seemingly incredible, until considered: lacked domestic animals hitching draft animals unavailable. Wheeled vehicles offered no advantage over human porters (pack animals unavailable). Technology utility geography-dependent.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology adoption depends on environmental/economic context fit. Wheels revolutionary with draft animals (Old World). Wheels impractical without draft animals (Americas). Technology superiority relative, not absolute. Efficiency determined by ecosystem/economy matching.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Americas fauna: only llama/alpaca domesticated (unsuitable draft animals). Wheels invented but limited utility. Eurasia fauna: horses, oxen, camels domesticated—wheels revolutionary transportation. Geography determined whether wheels adopted as transport vs. toys. Americas innovation not adopted due to incompatible geography/fauna.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic fauna availability determines technology utility. Americas lacked draft animals—wheels remained toys. Eurasia had draft animals—wheels enabled transportation revolution. Technology adoption geography-determined through economic context matching. Innovation spreads when geographic conditions match technology requirements. Geography determines which innovations become central technologies vs. curiosities.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 248,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

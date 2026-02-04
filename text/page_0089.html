@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 89 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 89 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FARMER POWER • 89</p>
+<p>cattle, and yak / cow hybrids. Here is one example of their value: the first</p>
+<p>prehistoric farmers of central Europe, the so-called Linearbandkeramik</p>
+<p>culture that arose slightly before 5000 B.C., were initially confined to soils</p>
+<p>light enough to be tilled by means of hand-held digging sticks. Only over</p>
+<p>a thousand years later, with the introduction of the ox-drawn plow, were</p>
+<p>those farmers able to extend cultivation to a much wider range of heavy</p>
+<p>soils and tough sods. Similarly, Nat</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0089">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Domesticated animals provided agricultural productivity advantage: plow-capable animals (oxen, cattle, yak) enabled cultivation of heavy soils. Linearbandkeramik culture (5000 BCE) confined to hand-dig soils; ox-drawn plows arrived 1000+ years later, expanding cultivation exponentially to new agricultural zones.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Animal-powered agriculture. Plows drawn by animals dramatically increase arable land. Technology adoption depends on available domesticated animals. Societies with horses/oxen/yaks could expand rapidly; societies without suitable animals remained limited to manual cultivation or pastoralism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Neolithic Europe: Light-soil agriculture ~5000 BCE, manual labor. Plow adoption 4000-3000 BCE opened heavy soil agriculture in Central Europe (Danube basin). Eurasian steppes: horse domestication enabled vast territory exploitation. Americas: llamas/alpacas insufficient for plow-agriculture development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Available domesticable animals determine agricultural technology trajectory. Eurasian fauna (horses, oxen, yak) enabled plow technology, expanding arable land dramatically. Americas lacked such animals, limiting agricultural expansion to small-scale manual cultivation. Geographic fauna variation cascades into agricultural productivity divergence.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 89,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

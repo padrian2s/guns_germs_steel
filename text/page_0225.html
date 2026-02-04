@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 225 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 225 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 225</p>
+<p>your eventual specific solution may or may not resemble that of the first</p>
+<p>inventor.</p>
+<p>To take a recent example, historians are still debating whether blueprint</p>
+<p>copying or idea diffusion contributed more to Russia's building of an</p>
+<p>atomic bomb. Did Russia's bomb-building efforts depend critically on</p>
+<p>blueprints of the already constructed American bomb, stolen and transmit</p>
+<p>ted to Russia by spies? Or was it merely that the revelation of America's</p>
+<p>A-bomb at Hiroshim</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0225">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology diffusion: blueprints vs. idea transmission. Russia's atomic bomb: did blueprints (stolen American designs) or idea diffusion enable development? Historians debate blueprint necessity. Solution often resembles original but varies depending on diffusion completeness. Perfect blueprint copies unnecessary; idea awareness sufficient with scientific capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diffusion enabling independent innovation. Blueprint copying vs. idea awareness both enable rapid development. Knowledge of feasibility plus scientific capacity enables independent invention. Geographic capacity determines whether diffusion matters: advanced civilization can reinvent independently; primitive cannot.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Russian atomic bomb: scientific capacity sufficient for independent development with idea awareness. Medieval Europe: diffused gunpowder design enabled rapid adoption/improvement. Americas: European technology diffusion received passively without independent reinvention capacity. Diffusion effectiveness depends on recipient civilization technological level.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Diffusion effectiveness geography-determined through civilization capacity. Geographic advanced civilization can diffuse rapidly. Geographic primitive civilization cannot adopt even with blueprints. Technology diffusion depends on recipient civilization development level. Geographic agricultural development determines technology reception capacity. Geography determines diffusion success.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 225,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 223 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 223 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A painting of the Rajasthani or Gujarati school, from the Indian subcon</p>
+<p>tinent in the early 17th century. The script, like most other modern</p>
+<p>Indian scripts, is derived from ancient India's Brahmi script, which was</p>
+<p>probably derived in turn by idea diffusion from the Aramaic alphabet</p>
+<p>around the seventh century B.C. Indian scripts incorporated the alpha</p>
+<p>betic principle but independently devised letter forms, letter sequence,</p>
+<p>and vowel treatment without resort to blueprint copying.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0223">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Indian script example: Rajasthani/Gujarati 17th century derived from ancient Brahmi. Brahmi probably derived by idea diffusion from Aramaic alphabet ~7th century BCE. Indian scripts adopted alphabetic principle. Letter forms, sequences, vowel treatment independently devised. Diffusion: alphabetic idea transmitted not blueprint copy. Recipient civilization independently solved implementation problems.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Idea diffusion vs blueprint diffusion. Alphabetic principle transmission sufficient without blueprint copying. Recipient civilization capable of independent implementation solving. Different letter forms with same underlying principle. Vowel treatment variations: independent solutions within transmitted idea framework.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Aramaic alphabet Middle East, early literacy advantage. Indian geography: Aramaic trade contact. Brahmi adoption: alphabetic principle from Aramaic but Indian forms. Similar pattern: Greek adopted Phoenician alphabet but independent forms. Latin adopted Greek but modified. Each civilization: adopted principle independently implemented.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic trade contact determines idea diffusion. Diffusion efficiency: idea transmission superior to blueprint copying. Recipient civilization geography determines refinement capability. Capable civilizations refine received ideas rapidly. Geography determines trade contact determines diffusion determines independent refinement. Diffusion advantage: geographic contact civilizations receive without reinvention burden.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 223,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

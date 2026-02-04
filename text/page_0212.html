@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 212 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 212 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 I 2 • GUNS, GERMS, AND STEEL</p>
+<p>genetic resistance. Smallpox, measles, influenza, and typhus competed for</p>
+<p>top rank among the killers. As if these had not been enough, diphtheria,</p>
+<p>malaria, mumps, pertussis, plague, tuberculosis, and yellow fever came up</p>
+<p>close behind. In countless cases, whites were actually there to witness the</p>
+<p>destruction occurring when the germs arrived. For example, in 1837 the</p>
+<p>Mandan Indian tribe, with one of the most elaborate cultures in our Great</p>
+<p>Plains, contracted smallpox</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0212">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Epidemic diseases catastrophically killed Native Americans. Smallpox, measles, influenza, typhus competed as top killers. Diphtheria, malaria, mumps, pertussis, plague, tuberculosis, yellow fever followed. Multiple pathogens killed simultaneously. Europeans witnessed destruction on arrival. Mandan Indian tribe 1837: contracted smallpox devastating population. Disease cascade caused depopulation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Pathogen diversity enabled total population collapse. Multiple epidemic diseases eliminated genetic resistance escape routes. Population lacking immunity to any disease faces pathogen cascade. European arrival: entire disease portfolio arrives simultaneously. Americas populations: zero endemic immunity. Cascading epidemics: synergistic mortality.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mandan Indian 1837: elaborate Great Plains culture. Single smallpox introduction devastated entire tribe. Americas populations: accumulated zero immunity to 10+ major epidemic pathogens. Europeans brought disease portfolio: each isolated population naive to all. Multiple diseases: multiple exposures producing cascading mortality waves. Population collapse: caused by geographic disease isolation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation prevented endemic disease exposure. Americas populations: zero immunity accumulation. Old World populations: multiple disease endemic immunity development. Disease portfolio advantage: Old World carried multiple pathogens. Single population contact: multiple epidemic exposure. Geography isolated populations prevented immunity development cascaded into catastrophic mortality when contacts occurred. Geography determined disease immunity determined conquest outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 212,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

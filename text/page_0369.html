@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 369 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 369 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 69</p>
+<p>TABLE I8.2 Language Expansions in the Old World</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0369">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Table 18.2 Language Expansions in Old World: comparative language family expansion across Eurasia/Africa. Documents geographic spread of language groups corresponding to population/technology expansion. Language distribution traces agriculture diffusion patterns. Table shows timing of expansions correlating with domestication origins and technology diffusion. Geographic language data visualizes population movement patterns across Old World.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language expansion maps population movement geography. Expansion rates reflect agriculture diffusion speed. Language family concentration indicates geographic origin. Geographic spread correlates with technology/agriculture advantage diffusion. Language distribution quantifies geographic population replacement. Table methodology shows comparative analysis across regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Old World language expansions: Indo-European expansion (horses, chariots, technology advantage), Bantu expansion (agriculture, iron-working), Arabic expansion (Islamic empire, writing, technology), Chinese expansion (agriculture intensity, technology). Each expansion followed geographic-enabled advantage diffusion. Table quantifies expansion rates and geographic reach showing correlation between technology advantage and language/population spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Language expansion rate geography-determined by technology/agriculture advantages. Geographic advantaged populations expand faster replacing pre-existing populations. Language distribution quantitatively tracks geographic-determined population replacement. Table demonstrates geographic-advantage populations systematically expanded replacing disadvantaged populations. Language geographic pattern proves population expansion geography-determined through resource availability advantages.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 369,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

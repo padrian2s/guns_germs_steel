@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 46 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 46 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>4 6 • GUNS, GERMS, AND STEEL</p>
+<p>tralia / New Guinea. That is, everything about the Clovis phenomenon and</p>
+<p>its spread through the Americas corresponds to findings for other, unques</p>
+<p>tioned virgin-land colonizations in history.</p>
+<p>What might be the significance of Clovis sites' bursting forth in the</p>
+<p>centuries just before 11,000 B.C., rather than in those before 16,000 or</p>
+<p>21,000 B.C.? Recall that Siberia has always been cold, and that a continu</p>
+<p>ous ice sheet stretched as an impassable barrier across the wh</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0046">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Clovis phenomenon appearing suddenly before 11,000 BCE rather than 16,000-21,000 BCE reflects geographic constraint: continuous ice sheet blocked Siberia passage for millennia. Siberia's cold climate made survival impossible until climate warmed. Ice-free corridor opened only ~12,000-13,000 years ago, enabling Americas colonization at Clovis timing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic/climatic barrier: ice sheets blocked passage. Climate change ~12,000-13,000 years ago created ice-free corridor. Timing determined by geography, not human choice. Humans present in Siberia much earlier but unable to cross until environment permitted.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Siberia perpetually cold; continuous ice sheet stretched across northern passage before ~13,000 years ago. Pleistocene ice barrier prevented movement. Holocene warming created corridor. Earlier human presence in Siberia cannot cross earlier due to ice.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography (climate, ice barriers) directly determined colonization timing. Not cultural or technological preference delayed Americas colonization—physical barriers made it impossible. Once barriers opened, rapid expansion occurred. Geographic constraint established 13,000-year technology gap between continents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 46,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

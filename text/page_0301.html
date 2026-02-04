@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 301 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 301 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 301</p>
+<p>since the various dates hardly differ within the experimental error of the</p>
+<p>radiocarbon method.</p>
+<p>At the Pleistocene times when Australia and New Guinea were initially</p>
+<p>occupied, the Asian continent extended eastward to incorporate the mod</p>
+<p>ern islands of Borneo, Java, and Bali, nearly 1,000 miles nearer to Austra</p>
+<p>lia and New Guinea than Southeast Asia's present margin. However, at</p>
+<p>least eight channels up to 50 miles wide still remained to be crossed in</p>
+<p>getting from Borneo or Bali</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0301">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Pleistocene geography: Asian mainland extended 1,000 miles nearer to Australia/New Guinea (modern Borneo, Java, Bali were mainland extensions). Despite proximity, 8 channels up to 50 miles wide still required crossing to reach Australia/New Guinea. Water barriers limited migration, prevented continuous technology diffusion. Geographic barriers despite apparent closeness created population separation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Water barriers block technology diffusion. Even reduced sea-level distances require crossing technology (boats). Large sea crossings require specialized maritime capabilities. Geographic separation enables population divergence despite geographic proximity. Initial settlement periods established population barriers lasting millennia.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Pleistocene sea levels: 50+ miles lower enabling Asian extension toward Australia/New Guinea. Remaining water gaps still required crossing—likely boat technology necessary. Multiple water barriers prevented continuous trade/diffusion. Modern sea levels increased separation further. Australia/New Guinea separated from Asia enabling independent development for 50,000+ years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic barriers determine population separation enabling independent development. Water gaps even when reduced by ancient sea levels maintained separation. Reduced separation enabling different populations required technology (boats) not initially present. Geographic distance determines technology diffusion—Australia/New Guinea isolation geography-forced despite relative proximity to Asia.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 301,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

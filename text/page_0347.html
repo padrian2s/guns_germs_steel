@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 347 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 347 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPEEDBOAT TO POLYNESIA • 3 47</p>
+<p>All this suggests that descendants of Austronesian invaders and of origi</p>
+<p>nal New Guineans have been trading, intermarrying, and acquiring each</p>
+<p>other's genes and languages for several thousand years on the North New</p>
+<p>Guinea coast and its islands. That long contact transferred Austronesian</p>
+<p>languages more effectively than Austronesian genes, with the result that</p>
+<p>most Bismarck and Solomon islanders now speak Austronesian languages,</p>
+<p>even though their appearance and most o</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0347">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Millenia contact: Austronesian invaders and original New Guineans trading, intermarrying, exchanging genes/languages on north coast. Language transfer more effective than genetic transfer—most Bismarck/Solomon islanders speak Austronesian languages despite appearance remaining closer to original New Guinean populations. Language adoption preceded genetic assimilation. Trade contact and language prestige enabled language replacement without complete genetic replacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language diffusion easier than genetic replacement. Language prestige enables adoption without genetic assimilation. Contact duration sufficient for language adoption but not complete genetic mixing. Language and genetic change rates differ. Trade prestige promotes language adoption independent of biological admixture. Population identity can become linguistically new while genetically mixed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>North New Guinea coast: millennia contact enabled language mixing. Austronesian language prestige (trade advantage) promoted adoption. Genetic mixing slower than language change. Modern populations—Austronesian-speaking but genetically closer to original populations documenting language replacement preceding genetic replacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Contact duration and trade advantages determine language adoption. Language adoption geography-determined through trade prestige. Genetic mixing follows language adoption—slower process. Population identity (language) changes before genetic identity (appearance). Extended contact in trade networks promotes language adoption promoting cultural identity change even without complete biological replacement. Geographic trade networks determine language adoption determining cultural identity change.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 347,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

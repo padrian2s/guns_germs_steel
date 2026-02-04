@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 24 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 24 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>24 " PROLOGUE</p>
+<p>steel arise first in Africa, permitting Africans and their germs to conquer</p>
+<p>Europe? And what accounts for the failure of Aboriginal Australians to</p>
+<p>pass beyond the stage of hunter-gatherers with stone tools?</p>
+<p>Questions that emerge from worldwide comparisons of human societies</p>
+<p>formerly attracted much attention from historians and geographers. The</p>
+<p>best-known modern example of such an effort was Arnold Toynbee's 12-</p>
+<p>volume Study of History. Toynbee was especially interested in the inter</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0024">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond notes that proximate explanations (guns, germs, steel) clearly explain European conquests—but remain incomplete. The crucial gap asks why Europeans possessed these factors. He cites Africa as a puzzle: despite the longest human evolutionary history and tropical diseases that killed Europeans, Africa never developed guns and steel first. Arnold Toynbee's comparative history attempted such questions but focused narrowly on literate Eurasian civilizations, missing prehistory where inequality roots lie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies the intellectual gap: proximate explanations describe immediate mechanisms of conquest without explaining their ultimate origins. Toynbee's approach examined advanced civilizations but ignored pre-literate history and non-Eurasian societies. A comprehensive theory requires examining all human societies and all human history, not just literate civilizations of the last 5,000 years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Toynbee's 12-volume "Study of History" (1934-1961) represented the last major Western attempt at comprehensive historical synthesis before specialists fragmented into disciplinary silos. By the 1990s, historians had largely abandoned such ambitious meta-historical questions, leaving Yali's question unanswered.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Diamond positions his work as ambitious synthesis that previous historians abandoned. He promises to bridge the intellectual and moral gap by explaining ultimate causes rooted in geography and prehistory. The book must accomplish what Toynbee attempted but failed: a genuine theory of history's broadest pattern.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 24,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

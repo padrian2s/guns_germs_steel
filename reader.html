@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Reader | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="css/reader.css">
+</head>
+<body>
+    <!-- Sidebar Toggle Button -->
+    <button class="sidebar-toggle" id="sidebarToggle" title="Toggle sidebar (N)">☰</button>
+
+    <div class="reader-container">
+        <!-- Sidebar Navigation -->
+        <div class="reader-sidebar" id="readerSidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-title">📚 Sections</div>
+                <div class="sidebar-item" data-page="9">Preface</div>
+                <div class="sidebar-item" data-page="13">Prologue</div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">📖 Parts</div>
+                <div class="sidebar-item" data-page="33">Part 1: From Eden to Cajamarca</div>
+                <div class="sidebar-item" data-page="83">Part 2: Food Production</div>
+                <div class="sidebar-item" data-page="233">Part 3: Guns, Germs, Steel</div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">🗺️ Regions</div>
+                <div class="sidebar-item" data-region="africa">Africa</div>
+                <div class="sidebar-item" data-region="eurasia">Eurasia</div>
+                <div class="sidebar-item" data-region="americas">Americas</div>
+                <div class="sidebar-item" data-region="polynesia">Polynesia</div>
+            </div>
+        </div>
+
+        <!-- Main Reader -->
+        <div class="reader-main">
+            <!-- Header with Controls -->
+            <div class="reader-header">
+                <div class="reader-title">Guns, Germs, and Steel</div>
+                <div class="reader-controls">
+                    <button id="prevBtn" title="Previous page (←)">← Previous</button>
+                    <input type="number" id="pageInput" class="page-input" min="1" max="457" value="1" title="Jump to page">
+                    <span id="pageDisplay">1 / 457</span>
+                    <button id="nextBtn" title="Next page (→)">Next →</button>
+                    <button id="toggleViewBtn" class="secondary" title="Toggle image/text view (V)">📝 Text</button>
+                    <button id="helpBtn" class="secondary" title="Show keyboard shortcuts (?)">? Help</button>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="reader-content" id="readerContent">
+                <div style="text-align: center; color: #999; padding: 40px;">
+                    <p>Loading page 1...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zoom Panel -->
+        <div class="zoom-panel" id="zoomPanel">
+            <div class="zoom-level" data-zoom="70">70%</div>
+            <div class="zoom-level" data-zoom="80">80%</div>
+            <div class="zoom-level" data-zoom="90">90%</div>
+            <div class="zoom-level active" data-zoom="100">100%</div>
+            <div class="zoom-level" data-zoom="110">110%</div>
+            <div class="zoom-level" data-zoom="120">120%</div>
+            <div class="zoom-level" data-zoom="130">130%</div>
+            <div class="zoom-level" data-zoom="140">140%</div>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div class="help-modal" id="helpModal" style="display: none;">
+        <div class="help-modal-content">
+            <button class="help-close" id="helpClose">&times;</button>
+            <h2>⌨️ Keyboard Shortcuts</h2>
+            <div class="help-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><kbd>←</kbd> / <kbd>→</kbd> Previous / Next page</li>
+                    <li><kbd>Enter</kbd> Jump to page (type page number)</li>
+                </ul>
+            </div>
+            <div class="help-section">
+                <h3>View & Display</h3>
+                <ul>
+                    <li><kbd>V</kbd> Toggle Image/Text view</li>
+                    <li><kbd>N</kbd> Toggle Sidebar navigation</li>
+                    <li><kbd>+</kbd> Zoom in</li>
+                    <li><kbd>-</kbd> Zoom out</li>
+                    <li><kbd>0</kbd> Reset zoom to 100%</li>
+                </ul>
+            </div>
+            <div class="help-section">
+                <h3>Other</h3>
+                <ul>
+                    <li><kbd>M</kbd> Toggle menu</li>
+                    <li><kbd>Esc</kbd> Close menu</li>
+                    <li><kbd>?</kbd> Show this help</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/reader.js"></script>
+</body>
+</html>

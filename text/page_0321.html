@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 321 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 321 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 3 2 I</p>
+<p>constitute a perfectly controlled experiment in the evolution of human</p>
+<p>societies, forcing us to a simple racist conclusion?</p>
+<p>The resolution of this problem is simple. White English colonists did</p>
+<p>not create a literate, food-producing, industrial democracy in Australia.</p>
+<p>Instead, they imported all of the elements from outside Australia: the live</p>
+<p>stock, all of the crops (except macadamia nuts), the metallurgical knowl</p>
+<p>edge, the steam engines, the guns, the alphabet, the politica</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0321">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Biological determinism refuted: White English colonists imported Australia's entire civilization from outside, not created locally. All livestock, crops (except macadamia nuts), metallurgical knowledge, steam engines, guns, alphabet, political systems imported externally. Australia's "backwardness" not reflecting Aboriginal capability/biology but geographic resource scarcity. English colonists couldn't create literacy/industry from Australian environment alone—they imported British civilization wholesale. Biology irrelevant; geography determines civilization possibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology diffusion from resource-rich regions enables development. Geography determines available resources determining civilization development. Identical colonists (English/Europeans) produced different outcomes in different environments—environment, not genetics, determines development. Australia colonization demonstrates technology import necessity when local resources insufficient. Colonizer capability universal; environmental resources limit development possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia pre-1788: 50,000 years Aboriginal occupation limited to hunter-gatherer societies. Post-1788: English colonists established agricultural/industrial society through technology import. Same Aboriginal population geography unchanged; different outcome with technology transfer = geographic constraint refutation. European settlement required complete technology import proving Australia geography incompatible with locally-developed civilization. Colonists not superior biologically; they accessed Eurasian agricultural/technological heritage unavailable to pre-contact Aboriginal populations through geographic isolation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technological/civilizational differences traceable to geography not biology. Aboriginal peoples would develop identical civilization to English colonists if given access to Eurasian domesticates/technology. English colonists unable to develop civilization from Australian geography alone despite superior capability. Geography determines technology availability determining civilization development determining observed difference. Australia colonization demonstrates geographic determinism—identical populations produce different civilizations in different environments.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 321,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

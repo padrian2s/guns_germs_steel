@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 300 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 300 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>300 • GUNS, GERMS, AND STEEL</p>
+<p>a few decades of colonizing a continent whose inhabitants after more than</p>
+<p>40,000 years were still nonliterate hunter-gatherers? It is especially strik</p>
+<p>ing that Australia has some of the world's richest iron and aluminum</p>
+<p>deposits, as well as rich reserves of copper, tin, lead, and zinc. Why, then,</p>
+<p>were Native Australians still ignorant of metal tools and living in the Stone</p>
+<p>Age?</p>
+<p>It seems like a perfectly controlled experiment in the evolution of</p>
+<p>human societies. The c</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0300">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australia paradox: 40,000+ years hunter-gatherers despite rich mineral resources (iron, aluminum, copper, tin). Why no metal tools? Why no agriculture? Perfect "controlled experiment" comparing geographic determinism. Australians' capabilities identical to Eurasians. Environment alone explains difference: no domesticable animals, no domesticable crops regionally available despite 40 millennia occupation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic constraints override intelligence. Mineral abundance irrelevant without agricultural base. Agriculture requires domesticable species. Technology (metallurgy) follows agriculture and surplus. Hunter-gatherer technology appropriate for available resources. Human capability constant; geographic opportunity determines development. Resources necessary but insufficient for technology development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia: abundant wild plants, megafauna hunted to extinction 50,000 years ago, no remaining large mammals domesticable. Eurasian wild plants abundant, megafauna survived, domestication possible. Same human populations (likely same capabilities) faced different geographic constraints. Aboriginal Australians represented optimal adaptation to available geography, not technological failure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Australia proves geographic determinism conclusively. Identical human populations. Radically different geographic resources. Radically different civilization outcomes. No genetic difference. No intelligence difference. Only geographic difference. Resource availability geography → agriculture possibility → civilization development. Australia as natural experiment confirms thesis decisively.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 300,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

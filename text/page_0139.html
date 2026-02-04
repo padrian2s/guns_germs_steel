@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 139 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 139 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 139</p>
+<p>Figure 8.2. The world's zones of Mediterranean climate.</p>
+<p>daily high percentage of annual plants. The combination of these two fac</p>
+<p>tors—a high diversity of species and a high percentage of annuals—means</p>
+<p>that western Eurasia's Mediterranean zone is the one with by far the high</p>
+<p>est diversity of annuals.</p>
+<p>The significance of that botanical wealth for humans is illustrated by</p>
+<p>the geographer Mark Blunder's studies of wild grass distributions. Among</p>
+<p>the world's thousands of wild g</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0139">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Mediterranean climate zones show high species diversity and high annual plant percentage. Western Eurasia Mediterranean zone contains world's highest annual plant diversity. Botanical wealth directly linked to climate zone character. Annual plants (reproducing from seed each year) vs. perennial plants determining ecological productivity. Mediterranean climate supports exceptional plant diversity concentration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Climate zone plant diversity correlation. Mediterranean zones globally show high diversity but Western Eurasia dominates. Annual plant concentration indicates productivity intensity. Annual plants offer rapid cultivation cycles. Species diversity providing crop variety options. Geographic climate determines botanical diversity available.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean climate zones: California, South Africa, Chile, Australia, Western Eurasia. Western Eurasia alone contains highest annual species concentration. Fertile Crescent: 56 world's heaviest-seeded grasses concentrated. Mediterranean climate globally supports diverse flora but Fertile Crescent uniquely rich in large-seeded grasses domesticable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Mediterranean climate enables high botanical diversity universally but species composition geography-varies. Fertile Crescent Mediterranean zone unique concentration: large-seeded grass diversity + domesticable animals + self-compatible plants. Geographic plant diversity determines agricultural potential. Species availability not climate alone determines domestication feasibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 139,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

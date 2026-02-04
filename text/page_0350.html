@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 350 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 350 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>350 ' GUNS, GERMS, AND STEEL</p>
+<p>most, some of them merely adopted Austronesian languages, possibly in</p>
+<p>order to communicate with the long-distance traders who linked societies.</p>
+<p>THUS, THE OUTCOME of the Austronesian expansion in the New</p>
+<p>Guinea region was opposite to that in Indonesia and the Philippines. In</p>
+<p>the latter region the indigenous population disappeared—presumably</p>
+<p>driven off, killed, infected, or assimilated by the invaders. In the former</p>
+<p>region the indigenous population mostly kept the inva</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0350">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Austronesian expansion outcome divergence: Indonesia/Philippines—indigenous populations disappeared (driven off, killed, infected, assimilated). New Guinea—indigenous populations retained land, adopted Austronesian language for trade communication. Geographic outcome difference shows population replacement geography-dependent, not inevitable. Trade partnership vs. conquest reflects geographic competitive balance and technology advantage difference.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Population replacement not inevitable outcome of contact. Geographic technology advantage determines replacement vs. coexistence. Indonesia/Philippines agricultural advantage enabled replacement. New Guinea indigenous agriculture competitive—coexistence and language adoption occurred instead. Trade partnership indicates relatively balanced technology/population capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Indonesia/Philippines: Austronesian technology advantage (agriculture, boats) enabled population replacement. New Guinea: indigenous agriculture competitive—indigenous population retained land. Long-distance traders used Austronesian language but indigenous populations maintained geographic control. Geographic resource capacity influenced whether Austronesian expansion meant replacement vs. trade partnership.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Population replacement geography-determined by relative technology/resource advantage. Indonesia/Philippines Austronesian advantage enabled replacement. New Guinea indigenous competitive capacity enabled coexistence. Geographic resource capacity determines whether expansion means replacement or trade partnership. Outcomes differ regionally reflecting geographic differences in indigenous capacity and Austronesian advantage.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 350,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

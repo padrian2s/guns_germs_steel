@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 448 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 448 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>4 4 8 • FURTHER READINGS</p>
+<p>Antiquity 62:703-6 (1988), Jim Allen et al., "Pleistocene dates for the</p>
+<p>human occupation of New Ireland, Northern Melanesia," Nature</p>
+<p>331:707-9 (1988), Jim Allen et al., "Human Pleistocene adaptations in</p>
+<p>the tropical island Pacific: Recent evidence from New Ireland, a Greater</p>
+<p>Australian outlier," Antiquity 63:548-61 (1989), and Christina Pavlides</p>
+<p>and Chris Gosden, "35,000-year-old sites in the rainforests of West New</p>
+<p>Britain, Papua New Guinea," Antiquity 68:604-10 (1994).</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0448">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Paleolithic human occupation New Guinea/Melanesia: Archaeological evidence dating 35,000+ years BP. Human presence documented New Ireland, West New Britain tropical rainforests. Early Pleistocene adaptation evidence: human tropical island colonization. Maritime technology antiquity: ocean navigation enabled by geographic island distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Early human dispersal: ocean crossing enabling colonization. Island geography: enabled human expansion despite water barriers. Paleolithic technology: boats/navigation enabling inter-island movement. Tropical adaptation: human capability for diverse environmental exploitation. Geographic opportunity: island stepping-stone geography enabling geographic expansion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Human arrival Australia/New Guinea: ~60,000 years ago minimum. New Guinea settlement: ~35,000 years ago documented. Island geography: proximity enables inter-island settlement despite water barriers. Rainforest occupation: tropical resource exploitation capability demonstrated. Geographic advantage: island chains enable systematic expansion from Asia to Pacific.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Early human expansion geography-determined: geographic island chains enable maritime expansion. Paleolithic geographic advantage: Asia-Pacific island proximity enables rapid colonization. Human capability demonstrated 35,000 years ago: geographic opportunity enables technology development (maritime navigation). Geographic barriers become geographic advantages: ocean between islands enables expansion enabling population distribution. Ocean geography determines expansion patterns: consistent island distance enables hopping; large ocean distances prevented Australia-Americas contact.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 448,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

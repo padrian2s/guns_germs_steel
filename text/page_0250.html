@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 250 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 250 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>250 " GUNS, GERMS, AND STEEL</p>
+<p>couraged innovation then, whereas high wages or labor scarcity now stim</p>
+<p>ulate the search for technological solutions. For example, the prospect of</p>
+<p>changed immigration policies that would cut off the supply of cheap Mexi</p>
+<p>can seasonal labor to Californian farms was the immediate incentive for</p>
+<p>the development of a machine-harvestable variety of tomatoes in Califor</p>
+<p>nia. (2) Patents and other property laws, protecting ownership rights of</p>
+<p>inventors, reward innovation in th</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0250">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology innovation driven by economic incentives and labor conditions. Historical and contemporary patterns differ: wealth accumulation once encouraged innovation (mechanical water mills). Labor scarcity now stimulates technology development. Example: threatened Mexican labor supply drove machine-harvestable tomato development in California. Patent laws protecting intellectual property reward innovators.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology as economic response. Economic incentives determine technology investment. Labor scarcity or cost pressure drives invention. Intellectual property protection enables innovation investment. Different societies' economic conditions determine technology adoption rates. Geography-created resource scarcity drives technological solutions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Medieval period: labor abundant, wealth driven by land accumulation, limited technology development. Industrial period: labor-scarce, wages high, mechanical innovation accelerated. Modern agriculture: labor scarcity (immigration restrictions) forced automation. Different geographic regions' resource availability determines technology necessity and innovation pace.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology adoption geography-determined through resource scarcity. Regions with labor abundance: technology unnecessary. Regions with labor scarcity: technology development accelerated. Geographic resource distribution determines technological innovation pressure. Geography → resource scarcity → technology development → competitive advantage.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 250,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

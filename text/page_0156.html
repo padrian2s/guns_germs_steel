@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 156 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 156 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>156 • GUNS, GERMS, AND STEEL</p>
+<p>most difficult fruit trees to cultivate and among the last major ones to be</p>
+<p>domesticated in Eurasia, because their propagation requires the difficult</p>
+<p>technique of grafting. There is no evidence for large-scale cultivation of</p>
+<p>apples even in the Fertile Crescent and in Europe until classical Greek</p>
+<p>times, 8,000 years after the rise of Eurasian food production began. If</p>
+<p>Native Americans had proceeded at the same rate in inventing or acquiring</p>
+<p>grafting techniques, they to</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0156">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Apples: among most difficult fruit trees to cultivate, requiring grafting technique for propagation. Large-scale apple cultivation didn't appear until ~3000 years after Eurasian food production began (~7000 BCE agriculture → ~4000 BCE apples = 3000-year lag). Grafting technique required millennia to develop even with motivated Eurasian populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Crop domestication timing reflects genetic constraints. Apples genetics require grafting: not spontaneously domesticable through simple selection. Grain crops: spontaneously domesticate through seed germination selection. Genetic traits determine domestication feasibility timeline independent of human capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasian agriculture 10000 BCE: grains, legumes readily domesticated. Apples domestication 3000+ years later: grafting technique development required. Classical Greece (800 BCE): large-scale apple cultivation achieved. Native American populations had far shorter timespan (agriculture only ~3000 years in eastern U.S. before European contact). Grafting technique never developed independently in Americas.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Crop genetics determine domestication timeline. Easily-domesticated species (grain, legumes) become adopted rapidly once agriculture emerges. Difficult-domestication species (apples requiring grafting) delayed millennia even in advanced agricultural societies. Americas lacked domestication time for difficult-species development. Geographic plant genetic variation cascades into timeline differences determining civilizational capability development.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 156,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

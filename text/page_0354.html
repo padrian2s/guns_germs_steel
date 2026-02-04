@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 354 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 354 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 18</p>
+<p>HEMISPHERES COLLIDING</p>
+<p>T</p>
+<p>HE LARGEST POPULATION REPLACEMENT OF THE LAST</p>
+<p>13,000 years has been the one resulting from the recent collision</p>
+<p>between Old World and New World societies. Its most dramatic and deci</p>
+<p>sive moment, as we saw in Chapter 3, occurred when Pizarro's tiny army</p>
+<p>of Spaniards captured the Inca emperor Atahuallpa, absolute ruler of the</p>
+<p>largest, richest, most populous, and administratively and technologically</p>
+<p>most advanced Native American state. Atahuallpa's capture sy</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0354">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 18 transition: largest population replacement 13,000 years from Old World/New World collision. Pizarro's tiny Spanish army captured Inca emperor Atahuallpa—absolute ruler of largest, richest, most populous Native American state with most advanced technology/administration. Capture symbolizes conquest beginning. Population replacement outcome appeared inevitable given Spanish technological advantages but outcome depended on geographic animal domestication differences accumulated over 13,000 years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Population replacement results from geography-driven technology accumulation. Spanish technology (steel, horses, guns) reflected geographic domestication advantages. Inca advanced but lacked horses/domesticated animals preventing equivalent technology. Technology advantage geography-determined. Conquest outcome geography-contingent through accumulated technology differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Inca empire: South American advanced civilization—large, centralized, organized. Spanish conquistadores small numbers but possessed horses and steel (technology advantages). Inca lacked horses/large domesticable animals (geographic difference). Technology advantage enabled Spanish conquest despite Inca numerical/organizational superiority. Accumulated geographic advantages (13,000 years) determined conquest outcome.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Old World/New World collision outcome determined by geographic advantages accumulated over 13,000 years. Animal domestication geographic differences created technology cascades creating military advantages creating conquest ability. Inca advanced independently but lacked geographic advantages creating technology accumulation disadvantage. Conquest outcome geography-determined through animal domestication distribution differences determining civilization development trajectory determining technology advantages determining conquest outcome. Pizarro victory reflects geographic differences, not European superiority—Inca equally capable had geography provided domesticable animals.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 354,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

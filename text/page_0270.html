@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 270 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 270 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>270 " GUNS, GERMS, AND STEEL</p>
+<p>continue to live as nomadic bands, when most other New Guinea peoples,</p>
+<p>and almost all other peoples elsewhere in the world, now live in settled</p>
+<p>larger groups? The explanation is that the region lacks dense local concen</p>
+<p>trations of resources that would permit many people to live together, and</p>
+<p>that (until the arrival of missionaries bringing crop plants) it also lacked</p>
+<p>native plants that could have permitted productive farming. The bands'</p>
+<p>food staple is the sago palm t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0270">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Why New Guinea groups remain nomadic bands vs. settled large groups elsewhere: geographic resource constraints. Region lacks dense local resource concentrations permitting many people to live together. Lacked native plants enabling productive farming (until recent missionary crop introductions). Food staple: sago palm. Nomadic band settlement pattern reflects environmental carrying capacity limits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Population carrying capacity geography-determined. Nomadism reflects optimal strategy given resource distribution. Dense resources enable sedentism; dispersed resources enforce nomadism. Agricultural domestication requires domesticable plants; lack of suitable crops forces continued foraging. Geographic plant availability determines whether sedentary farming societies possible. Nomadic organization efficient adaptation to scattered resource environments, not inferior cultural choice.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea swamp geography: limited resource concentration, sago palm as sole staple. Contrast: river valleys (Egypt, Mesopotamia, China) supported dense populations through concentrated agricultural resources. Pacific islands varied: islands with dense tropical resources (taro, coconut) developed large settlements; resource-poor islands remained sparsely settled. Temperate regions with cereal domestication enabled massive population expansion. Missionaries brought new crops dramatically enabling settled populations—agricultural possibility geography-determined.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Political organization follows geographic carrying capacity. Nomadic bands appropriate settlement pattern for resource-sparse environments. Sedentary states require geographic conditions enabling agriculture surplus. Geographic domesticable plant availability determines sedentism possibility. Geographic resource density determines optimal political organization. Population settlement patterns and political structure directly follow from geography's resource distribution patterns, not from human differences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 270,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

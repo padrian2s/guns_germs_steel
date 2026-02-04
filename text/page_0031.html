@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 31 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 31 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 3 I</p>
+<p>Asian mainland and Pacific islands. The rise of food production in China</p>
+<p>spawned several great prehistoric movements of human populations, or of</p>
+<p>cultural traits, or of both. One of those movements, within China itself,</p>
+<p>created the political and cultural phenomenon of China as we know it</p>
+<p>today. Another resulted in a replacement, throughout almost the whole</p>
+<p>of tropical Southeast Asia, of indigenous hunter-gatherers by farmers of</p>
+<p>ultimately South Chinese origin. Still another,</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0031">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Part 4 applies preceding analysis to each continent. Food production in China triggered population expansions within China creating China as known today, into Southeast Asia replacing hunter-gatherers with South Chinese farmers, and the Austronesian expansion colonizing Philippines, Indonesia, and Polynesia (but not Australia/New Guinea). These collisions involve one-third of modern world's population in increasingly economically-powerful regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Chapters 16-17 apply geography-to-technology framework to East Asian/Pacific history. Chinese food production advantage enabled population expansion replacing indigenous hunter-gatherers. Austronesian expansion demonstrates how geography enables maritime colonization. Australia/New Guinea's contrasting trajectories show same causal mechanisms producing different outcomes based on geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Food production spread from China ~6000 BCE, creating demographic advantage. Austronesian expansion ~3000 years ago reached Polynesia but halted at cultural/geographical boundaries. Australia's geographic isolation combined with lack of domesticable species prevented population expansion despite human occupation for 50,000+ years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Part 4 demonstrates that same geographic mechanisms explaining Cajamarca (Chapter 3) apply universally. Food production in East Asia created technological/military advantages enabling conquest/expansion. This pattern repeats across continents, proving geography's universal explanatory power.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 31,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

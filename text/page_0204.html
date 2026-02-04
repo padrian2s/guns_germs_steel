@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 204 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 204 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>204 • GUNS, GERMS, AND STEEL</p>
+<p>by a sailor on the whaling ship Active killed 51 out of the 56 Sadlermiut</p>
+<p>Eskimos, a very isolated band of people living on Southampton Island in</p>
+<p>the Canadian Arctic. In addition, measles and some of our other "child</p>
+<p>hood" diseases are more likely to kill infected adults than children, and all</p>
+<p>adults in the tribelet are susceptible. (In contrast, modern Americans rarely</p>
+<p>contract measles as adults, because most of them get either measles or the</p>
+<p>vaccine against it as c</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0204">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Sailor from whaling ship introduced measles: killed 51/56 Sadlermiut Eskimos (isolated Southampton Island). Measles kills adults more than children in unexposed populations. All adults in tribe susceptible (no prior exposure). Modern Americans: rare measles in adults (vaccinated or infected as children). Geographic isolation determined immunity absence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease mortality inverse with population immunity. Isolated populations naive to diseases. Measles deadlier to isolated population adults than Old World children. First contact: disease mortality catastrophic in unexposed groups. Endemic childhood disease burden: mild in populations with endemic childhood exposure vs catastrophic in naive adult populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sadlermiut Eskimos: isolated Arctic band. No contact with Old World epidemics. Measles endemic in European populations: children sick, adults immune. Whaling ship brought disease to isolated population. All adults susceptible (geography isolated them from endemic exposure). Measles in naive adults: 90% mortality. Americas endemic population example: massive death from single disease introduction.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation prevented endemic disease exposure. Isolated population lacked acquired immunity. Old World endemic diseases killed naive populations. Sadlermiut example: single disease contact = 91% mortality. Americas populations: geographically isolated from Old World epidemics. Conquest success: disease weaponization against naive populations. Isolation geography determined immunity absence determined conquest outcomes. Geography isolated → immunity vulnerable → conquest feasible.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 204,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

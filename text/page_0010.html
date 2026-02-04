@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 10 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 10 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1O • PREFACE</p>
+<p>groups. Some of them already are, and others are becoming, among the</p>
+<p>world's most powerful economies and political forces.</p>
+<p>Second, even for people specifically interested in the shaping of the</p>
+<p>modern world, a history limited to developments since the emergence of</p>
+<p>writing cannot provide deep understanding. It is not the case that societies</p>
+<p>on the different continents were comparable to each other until 3,000 B.C.,</p>
+<p>whereupon western Eurasian societies suddenly developed writing and</p>
+<p>be</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0010">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond argues that conventional histories omit non-Western societies and neglect pre-literate history (99.9% of human existence). He contends that by 3,000 BCE, Eurasian societies possessed cities, governments, metal tools, domesticated animals, and agriculture while other continents lacked these technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies three flaws in conventional world history: (1) ignoring the majority world population; (2) focusing only on post-3000 BCE "literate" history; (3) missing the fundamental question of why these disparities originated. He argues technological inequality by 1500 CE had deeper roots extending into prehistory.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The 3,000 BCE benchmark marks writing's emergence in Eurasia, a traditional historical dividing line. Diamond's innovation is arguing that technological gaps preceded writing, originating in pre-3000 BCE geography and food production patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This page establishes that understanding 1500 CE inequalities requires examining geography's influence before 3,000 BCE. Geography shaped food production capability in each continent, which by 3,000 BCE had already produced technological divergence—proof that geography (not culture) was the causal factor.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 10,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

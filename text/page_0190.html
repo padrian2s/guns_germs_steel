@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 190 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 190 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>190 • GUNS, GERMS, AND STEEL</p>
+<p>spread southward over that distance to Ethiopia, and Bantu food produc</p>
+<p>tion spread quickly from Africa's Great Lakes region south to Natal,</p>
+<p>because in both cases the intervening areas had similar rainfall regimes</p>
+<p>and were suitable for agriculture. In contrast, crop diffusion from Indone</p>
+<p>sia south to southwestern Australia was completely impossible, and diffu</p>
+<p>sion over the much shorter distance from Mexico to the U.S. Southwest</p>
+<p>and Southeast was slow, because the inte</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0190">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crop diffusion geography-limited by climate barriers. Similar climates enable rapid diffusion: Fertile Crescent crops south to Ethiopia (similar rainfall), Bantu crops Great Lakes to Natal (comparable climate). Different climate zones prevent diffusion: Indonesia tropical crops impossible reach Australia. Shorter distance diffusion also fails across climate boundaries: Mexico crops slow adoption US Southwest/Southeast (arid climate).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Climate-limited diffusion. Crops adapted to source climate fail in incompatible climates despite distance shortness. Geography determines crop compatibility. Latitude barriers more significant than longitude distance. Similar latitude = successful diffusion. Different latitude = diffusion failure. Continental shape affects diffusion patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean crops spread north-south effectively within Mediterranean/temperate zones. Tropical crops cannot spread to temperate zones (climate incompatibility). Mexico crops required adaptation for US climates (thousand-year lag). New World vs Old World crop patterns geography-determined by latitude distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Crop diffusion geography-constrained. Climate similarity enables diffusion; incompatibility prevents it. Distance secondary to climate compatibility. Continental climate diversity enables independent domestication. Geographic latitude distribution determines diffusion feasibility. Climate geography ultimately controls which crops adopted where despite technology/knowledge spread.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 190,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

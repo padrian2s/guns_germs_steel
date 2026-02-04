@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 175 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 175 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>ZEBRAS AND UNHAPPY MARRIAGES " 1 75</p>
+<p>diversity, started out with the most candidates. Second, Australia and the</p>
+<p>Americas, but not Eurasia or Africa, lost most of their candidates in a</p>
+<p>massive wave of late-Pleistocene extinctions—possibly because the mam</p>
+<p>mals of the former continents had the misfortune to be first exposed to</p>
+<p>humans suddenly and late in our evolutionary history, when our hunting</p>
+<p>skills were already highly developed. Finally, a higher percentage of the</p>
+<p>surviving candidates proved su</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0175">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Three reasons Eurasia dominated domesticable animals: First, Eurasia/Africa larger land area with greater megafauna diversity, started with most candidates. Second, Australia/Americas suffered late-Pleistocene extinctions eliminating candidates. Mammals exposed to humans suddenly when hunting skills peak. Eurasia/Africa mammoths survived later. Third, higher percentage Eurasian survivors proved domesticable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Extinction timing determines survival. Late exposure to skilled hunters: megafauna vulnerable. Early/gradual human expansion: coexistence enabling domestication. Geographic size determines megafauna diversity. Extinction wave eliminated Americas/Australia candidates. Eurasian survival preserved domesticable species. Geographic extinction patterns determined animal availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasian megafauna: elephants, rhinoceros, horses, camels, bison initially present. Gradual human expansion ~50,000+ years allowed adaptation. Americas: human arrival ~15,000 years ago with peak hunting technology. Rapid extinction of horses, camels, megafauna followed. Australia: similar rapid extinction ~50,000 years ago when humans arrived.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic timing of human arrival determines megafauna survival. Early arrival (gradual adaptation) → megafauna survival → domestication candidates. Late arrival (peak hunting) → megafauna extinction → no domestication candidates. Eurasia/Africa: animal diversity preserved. Americas/Australia: animal extinction. Geographic colonization timing deterministic for civilization capacity. Extinction history geography-determined.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 175,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

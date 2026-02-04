@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 243 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 243 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 43</p>
+<p>ipated purposes. It may come as a surprise to learn that these inventions</p>
+<p>in search of a use include most of the major technological breakthroughs</p>
+<p>of modern times, ranging from the airplane and automobile, through the</p>
+<p>internal combustion engine and electric light bulb, to the phonograph and</p>
+<p>transistor. Thus, invention is often the mother of necessity, rather than</p>
+<p>vice versa.</p>
+<p>A good example is the history of Thomas Edison's phonograph, the</p>
+<p>most original invention of the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0243">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter title "Necessity's Mother" inverts "Necessity is mother of invention." Most major technological breakthroughs invented without anticipated purposes: airplane, automobile, internal combustion engine, electric light, phonograph, transistor. Inventions in search of use → only later finding practical application. Invention often precedes necessity rather than following from it.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology timing decoupled from necessity. Innovation can precede application. Inventors create solutions before problems identified. Technology acceptance requires matching invention with suitable application. Timing determines whether innovations find adoption or remain unused. Technology success depends on circumstances aligning with invention, not advance preparation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Airplane: invented as transportation innovation; warfare application emerged later. Automobile: technology developed; economic conditions (cheap labor, resource access) enabled adoption. Internal combustion engine: created before petroleum availability determined its dominance. Phonograph Edison: original purpose (dictation) never realized; entertainment application emerged later. Each technology: invention preceded practical necessity by decades.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology innovation geography-independent but adoption geography-dependent. Geographic conditions determine whether inventions find practical application. Wealth/industrial capacity (geography-determined) enables technology experimentation. Cheap labor and resources (geography-determined) make technologies economically viable. Innovation emerges from geographic infrastructure enabling experimentation; adoption follows from geographic conditions enabling practical application.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 243,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

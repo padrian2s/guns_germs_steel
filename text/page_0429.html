@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 429 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 429 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS</p>
+<p>THESE SUGGESTIONS ARE FOR THOSE INTERESTED IN READ-</p>
+<p>ing further. Hence, in addition to key books and papers, I have</p>
+<p>favored references that provide comprehensive listings of the earlier litera</p>
+<p>ture. A journal title (in italics) is followed by the volume number, followed</p>
+<p>after a colon by the first and last page numbers, and then the year of publi</p>
+<p>cation in parentheses.</p>
+<p>Prologue</p>
+<p>Among references relevant to most chapters of this book is an enormous</p>
+<p>compendium of human gene frequen</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0429">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>This page explores key concepts related to Content, Analysis. The content demonstrates how content shaped human societies and their development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Main topics include Content, Analysis. Understanding these concepts is essential to Diamond's broader argument about geographical determinism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Page 429 situates the discussion within the framework of Content, Analysis. This reflects Diamond's comparative approach to civilizations across different continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This material supports Diamond's central argument that geography—including climate, available fauna and flora, and continental axis—determines technological and social development. The evidence presented here demonstrates how content factors created divergent paths for human societies.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 429,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

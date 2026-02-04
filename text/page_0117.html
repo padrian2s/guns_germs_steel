@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 117 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 117 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • I I 7</p>
+<p>them. Human latrines, like those of aardvarks, may have been a testing</p>
+<p>ground of the first unconscious crop breeders.</p>
+<p>LATRINES ARE MERELY one of the many places where we accidentally</p>
+<p>sow the seeds of wild plants that we eat. When we gather edible wild</p>
+<p>plants and bring them home, some spill en route or at our houses. Some</p>
+<p>fruit rots while still containing perfectly good seeds, and gets thrown out</p>
+<p>uneaten into the garbage. As parts of the fruit that we actually take i</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0117">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Accidental crop cultivation mechanisms. Latrines: concentration of wild plant seeds from human consumption. Humans unconsciously selecting seed sources through harvesting, transport, and disposal. Garbage and latrines creating cultivation microenvironments. Initial crop development entirely unintentional: humans simply concentrating viable seeds near settlements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Unconscious cultivation through human behavior. Seed spillage during collection and transport. Disposal of fruit containing viable seeds. Concentration of genetic material near human settlements. Natural seed germination in advantageous microhabitats. Humans unaware of selecting for cultivation-favorable traits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: humans gathering wild wheat/barley concentrated seeds near settlements via latrines, storage, disposal. Mesoamerica: teosinte seeds similarly concentrated through human consumption patterns. Geographic variation in wild plant abundance determined whether this accidental concentration led to agriculture.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Domestication requires abundant wild plant species to concentrate accidentally. Regions with dense wild food resources enable unconscious cultivation. Regions with sparse wild plants cannot accumulate sufficient seed for transition to agriculture. Geography determines wild plant availability that enables accidental domestication onset.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 117,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

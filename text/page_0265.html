@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 265 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 265 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 14</p>
+<p>F R OM EGALITARIANISM</p>
+<p>TO KLEPTOCRACY</p>
+<p>I</p>
+<p>N 1979, WHILE I WAS FLYING WITH MISSIONARY FRIENDS</p>
+<p>over a remote swamp-filled basin of New Guinea, I noticed a few huts</p>
+<p>many miles apart. The pilot explained to me that, somewhere in that</p>
+<p>muddy expanse below us, a group of Indonesian crocodile hunters had</p>
+<p>recently come across a group of New Guinea nomads. Both groups had</p>
+<p>panicked, and the encounter had ended with the Indonesians shooting sev</p>
+<p>eral of the nomads.</p>
+<p>My missionary friends guessed</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0265">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 14: "From Egalitarianism to Kleptocracy" - Political organization diversity across societies. 1979 New Guinea: nomadic bands living scattered in swamp basin, sparse settlements miles apart. Encounter between Indonesian crocodile hunters and New Guinea nomads reveals societal organization differences. Chapter explores why societies develop different political structures: egalitarian bands → chiefdoms → states.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Political organization reflects geographic resource distribution. Dense resources enable population concentration, complex political hierarchies. Sparse resources force dispersed settlement patterns, egalitarian organization. Population density determines political complexity. Geographic resource availability determines population carrying capacity. Societal organization type geography-dependent through resource distribution patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea swamp basin: sparse settlement pattern reflects environment. Scattered huts miles apart indicates low population density. Geographic dispersal enforces band-level organization—small autonomous groups rather than integrated states. Most Pacific and African regions show similar pattern: where geography permitted resource concentration (river valleys, coasts), larger settlements and complex politics developed. Where geography scattered resources, bands remained dominant political unit.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic resource distribution determines political organization type. Dense resources → population concentration → political complexity. Scattered resources → dispersed settlement → egalitarian organization. Geography creates fundamental constraints on political development. Not human choice or capability differences, but geographic resource patterns determining feasible political organization. Population density geography-determined by resource availability, which determines political organization possible.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 265,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

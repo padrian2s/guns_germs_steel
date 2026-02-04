@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 121 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 121 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • 1 21</p>
+<p>could be lethal if all the seeds sprouted quickly and simultaneously. Were</p>
+<p>that to happen, the seedlings might all be killed by a single drought or</p>
+<p>frost, leaving no seeds to propagate the species. Hence many annual plants</p>
+<p>have evolved to hedge their bets by means of germination inhibitors, which</p>
+<p>make seeds initially dormant and spread out their germination over several</p>
+<p>years. In that way, even if most seedlings are killed by a bout of bad</p>
+<p>weather, some seeds will be</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0121">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Wild plants evolved germination inhibitors: dormancy mechanisms spreading seed germination across multiple years. Risk reduction strategy: simultaneous germination risks extinction from single bad season. Dormancy ensures some seeds survive unfavorable conditions. Domestication selected against dormancy preference (farmers want immediate harvest-ready germination).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Wild plant evolutionary strategy: germination dormancy and timing heterogeneity. Genetic variation in dormancy timing available to farmers. Artificial selection for rapid germination opposing wild strategy. Unconscious selection through harvesting immediately-germinating plants (harvesters avoid dormant seeds). Domestication selection pressure: germination speed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Wild wheat naturally staggered germination across seasons. Fertile Crescent farmers unconsciously selected non-dormant varieties through immediate harvesting. Mesoamerica: teosinte similarly showed dormancy inhibited by farmer selection. Domestication reduced dormancy period significantly across regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Wild plant dormancy variation determines domestication feasibility. High dormancy variation available → farmers can select non-dormant mutants. Low dormancy variation → slow domestication progress. Regions with genetically diverse wild crops enabling dormancy selection → agriculture adoption. Geographic variation in dormancy trait availability → geographic agriculture timing variation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 121,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

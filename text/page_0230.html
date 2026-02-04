@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 230 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 230 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>230 • GUNS, GERMS, AND STEEL</p>
+<p>and other writing materials, the idea of a writing system, the idea of using</p>
+<p>separate marks, and the forms of several dozen marks. Since, however, he</p>
+<p>could neither read nor write English, he acquired no details or even princi</p>
+<p>ples from the existing scripts around him. Surrounded by alphabets he</p>
+<p>could not understand, he instead independently reinvented a syllabary,</p>
+<p>unaware that the Minoans of Crete had already invented another syllabary</p>
+<p>3,500 years previously.</p>
+<p>SEQUOYA</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0230">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Sequoya (Cherokee) independently invented syllabary. Neither read nor wrote English; acquired idea of writing system only, not details/principles. Surrounded by incomprehensible alphabets, independently reinvented syllabary. Unaware Minoans invented syllabary 3500 years prior. Demonstrates: writing system invention capability universal; independent invention multiple occurrence possible.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Independent invention capability. Knowledge of writing existence sufficient stimulus; actual system design varies. Multiple independent inventions of similar solutions. Human ingenuity responds to administrative complexity regardless of diffusion. Writing invention inevitable with civilization development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sequoya: 19th century Cherokee, developed syllabary independent of European writing. Minoan Linear A: ancient Crete, independent development. Egyptian hieroglyphics: independent development. Chinese characters: independent development. Sumerian cuneiform: independent development. Multiple independent writing system inventions demonstrate convergent solutions to administrative complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Writing system invention inevitable with civilization complexity. Geographic agriculture → complexity → administrative need → writing invention. Multiple geographic centers independently invented writing. Geography determines civilization complexity determines writing invention. Human response to geographic opportunity universal.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 230,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

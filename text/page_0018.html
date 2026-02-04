@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 18 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 18 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>I 8 • PROLOGUE</p>
+<p>America in the modern world? Isn't that prominence just an ephemeral</p>
+<p>phenomenon of the last few centuries, now fading behind the prominence</p>
+<p>of Japan and Southeast Asia? In fact, most of this book will deal with</p>
+<p>peoples other than Europeans. Rather than focus solely on interactions</p>
+<p>between Europeans and non-Europeans, we shall also examine interac</p>
+<p>tions between different non-European peoples—especially those that took</p>
+<p>place within sub-Saharan Africa, Southeast Asia, Indonesia, and</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0018">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond refutes potential objections to investigating Yali's question. First, explaining domination does not justify it—understanding causes allows interrupting them, like treating diseases. Second, addressing the question is not Eurocentric—the book primarily examines non-European societies and their internal interactions. Third, "civilization" terminology does not assume progress—modern states have tradeoffs (better medicine but less social support than hunter-gatherers).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond distinguishes explanation from endorsement. Geographic determination of inequality is scientifically interesting precisely because it avoids racist or Eurocentric conclusions. The book examines how geography affected all human societies, not celebrating industrial civilization but understanding how geography shaped different adaptations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Diamond addresses late-20th-century academic concerns about appearing to justify imperialism or Western dominance. His personal experience living in both U.S. cities and New Guinea villages gave him perspective on tradeoffs between industrial and indigenous lifestyles.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>By framing the book's methodology—comparing all societies' development without assuming Western superiority—Diamond establishes that geographical determinism explains inequality without implying any society is inherently better. Geography shaped different paths for different regions, but value judgments require separate ethical analysis from causal explanation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 18,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

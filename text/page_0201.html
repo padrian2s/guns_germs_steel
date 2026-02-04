@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 201 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 201 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT OF LIVESTOCK • 201</p>
+<p>against the different strain that arrived this year. Malaria and sleeping</p>
+<p>sickness are even more slippery customers in their ability rapidly to change</p>
+<p>their antigens. Among the slipperiest of all is AIDS, which evolves new</p>
+<p>antigens even as it sits within an individual patient, thereby eventually</p>
+<p>overwhelming his or her immune system.</p>
+<p>Our slowest defensive response is through natural selection, which</p>
+<p>changes our gene frequencies from generation to generation. For al</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0201">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diseases rapidly evolve antigen variants. Influenza changes annually: immune system ineffective against new strains. Malaria/sleeping sickness antigenically slippery. AIDS most slippery: evolves new antigens within infected host. Natural selection favors antigenic variation in pathogens. Host immune system continuously defeated by microbial adaptation. Natural selection defense: human genetic change across generations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Microbial natural selection faster than human genetic selection. Antigenic evolution exceeds immune adaptation rate. Arms race: microbes evolve variants faster than immunity evolves. Population immunity lag enables reinfection. Dense populations accelerate antigenic selection pressure. Geographic population density determines microbial evolution rate.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Influenza annual pandemics: antigenic drift overcomes seasonal immunity. AIDS evolution within patients: multiple strains overwhelm immune response. Old World high-density populations: epidemic pressures drove antigenic evolution. Malaria tropical regions: millions infected annually driving variant selection. Americas sparse populations: epidemic pressures lower (fewer infections selecting variants).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic population density determines disease evolution speed. High-density Old World populations drove rapid pathogen evolution. Sparse Americas populations minimized pathogen variant pressure. Old World dense-population diseases: highly evolved antigenically. Americas isolated populations: immune systems naïve to evolved pathogens. When populations met: Old World evolved pathogens encountered naive Americas immunology. Geography determines population density determines pathogen evolution determines disease severity in population contact.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 201,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

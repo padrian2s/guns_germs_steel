@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 11 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 11 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>PREFACE • 11</p>
+<p>Eurasia and China, respectively? In addition, one is ignoring the fact that</p>
+<p>Confucian China was technologically more advanced than western</p>
+<p>Eurasia until about A.D. 1400.</p>
+<p>It is impossible to understand even just western Eurasian societies them</p>
+<p>selves, if one focuses on them. The interesting questions concern the dis</p>
+<p>tinctions between them and other societies. Answering those questions</p>
+<p>requires us to understand all those other societies as well, so that western</p>
+<p>Eurasian societies can</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0011">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond refutes culturalist explanations for technological divergence. He argues that invoking cultural factors (Confucianism vs. Judeo-Christian ethics) merely postpones the real question: why did these different cultures themselves develop? He notes China was technologically superior to western Eurasia until 1400 CE.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond distinguishes ultimate explanations from proximate ones. Capitalism, mercantilism, scientific inquiry, and disease are proximate factors—the immediate mechanisms of conquest. Geography is the ultimate explanation—why these mechanisms emerged in Eurasia rather than elsewhere.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Diamond cites China's technological superiority until 1400 CE as evidence that culture cannot explain divergence. If Confucianism supposedly stifled Chinese science, why did science flourish there for millennia? Geography—not cultural values—must be the explanatory variable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Understanding western Eurasian dominance requires examining all societies contextually. Eurasian advantages (geography, climate, domesticable animals) became proximate causes—guns, germs, steel. But those proximate causes ultimately stemmed from geographic chance, not cultural superiority.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 11,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

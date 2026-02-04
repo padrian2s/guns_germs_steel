@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 1 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>GUNS,</p>
+<p>GERMS AND</p>
+<p>STEEL</p>
+<p>THE FATES OF HUMAN SOCIETIES</p>
+<p>Jared Diamond</p>
+<p>W. W. Norton & Company</p>
+<p>New York London</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0001">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>The title page presents Jared Diamond's landmark work on human societies. Published by W.W. Norton, this book promises to explore why some civilizations flourished while others lagged behind in technological and societal advancement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>The work introduces Diamond's central inquiry into the mechanisms of civilization: examining the role of geography, natural resources, and environmental factors in shaping the trajectory of human societies across different continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Published in the 1990s, this book emerged during a period of increased globalization and heightened interest in understanding why certain regions achieved technological superiority. It challenges prevailing assumptions about inherent human differences between populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This title page establishes Diamond's core premise: that differences in the fates of human societies stem from geographical and environmental factors rather than biological or cultural inferiority. It sets the stage for exploring how geography—climate, flora, fauna, and continental layout—determined who possessed guns, germs, and steel.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 1,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

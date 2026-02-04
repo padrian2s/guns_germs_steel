@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 189 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 189 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • 189</p>
+<p>the failure of tropical Indonesian and New Guinean food production to</p>
+<p>arrive in prehistoric times in the modern farmlands of southwestern and</p>
+<p>southeastern Australia, respectively. Those two corners of Australia are</p>
+<p>now the continent's breadbaskets, but they lie more than 2,000 miles south</p>
+<p>of the equator. Farming there had to await the arrival from faraway</p>
+<p>Europe, on European ships, of crops adapted to Europe's cool climate and</p>
+<p>short growing season.</p>
+<p>1 HAVE BEE</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0189">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Tropical Indonesian/New Guinea agriculture failed reach Australia prehistorically. Southwest Australia now breadbaskets (2000+ miles south of equator) but remained hunter-gatherer until European arrival with cool-climate crops. Geography prevented tropical agriculture diffusion to temperate zones. European crop arrival enabled farming: crops adapted to Europe's cool climate and short growing season. Distance plus climate incompatibility blocked prehistoric diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Climate incompatibility prevents diffusion despite geographic proximity. Tropical crops unsuitable temperate Australia. Distance secondary to climate match. Geographic latitude determines crop suitability. European crops suited Australia temperate climate succeed. Geographic barriers absolute despite recent technology enabling transport.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Indonesia tropical agriculture ~7000 BCE unable diffuse south. New Guinea agriculture ~9000 BCE unable reach Australia. Australia 2000+ miles from source. Climate zones incompatible despite proximity. Australian indigenous populations remained hunter-gatherers for 50,000+ years despite neighboring agricultural societies. European arrival 1600s CE brought cool-climate crops finally enabling Australian farming in breadbasket zones.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic climate barriers absolute obstacle to technology diffusion. Australia geography isolated from compatible agricultural zones. Modern transport finally overcame prehistoric geographic barriers. Geographic isolation preserved hunter-gatherer economy for millennia despite adjacent agriculture. Geography determines technology access independent of human motivation. Climate incompatibility overrides distance shortness in determining diffusion feasibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 189,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

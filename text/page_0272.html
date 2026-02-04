@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 272 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 272 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>272, GUNS, GERMS, AND STEEL</p>
+<p>relatives, in an attempt to establish some relationship and hence some rea</p>
+<p>son why the two should not attempt to kill each other.</p>
+<p>Despite all of these differences between bands and tribes, many similari</p>
+<p>ties remain. Tribes still have an informal, "egalitarian" system of govern</p>
+<p>ment. Information and decision making are both communal. In the New</p>
+<p>Guinea highlands, I have watched village meetings where all adults in the</p>
+<p>village were present, sitting on the ground, and ind</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0272">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Tribes maintain similarities to bands despite larger size: informal egalitarian government, communal information and decision-making. Village meetings include all adults sitting on ground, discussing collective decisions. No formal leadership positions. Tribal decision-making fundamentally similar to band meetings—all participants equal voice. Tribe represents scaling of band egalitarianism to larger populations, maintaining same governmental principles despite population increase.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Tribal egalitarianism: larger scale bands maintaining collective decision-making. Population scaling enables coordination while preserving egalitarian values—no formal authority emerges. All-adult participation in meetings possible at tribal scale (unlike states requiring representativeness). Informal authority: respected elders influence more than others but no formal hierarchy. Egalitarianism sustainable at intermediate population scales through active community participation. Information sharing: decisions communal rather than secret state-level planning.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea highland villages: 100-500 people gathering in meeting ground discussing decisions affecting entire village. Elder men's voices carry more weight through respect rather than formal authority. Melanesian and Amazonian tribes similarly practice all-adult decision-making. Contrast chiefdoms: decisions made by chief and advisors then transmitted downward. Tribal form maintains community participation at scale where all-adult meetings still feasible (population limit ~1000). Larger populations force representativeness replacing direct democracy.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Egalitarianism sustainable at larger scales when geography permits. Tribal population (100s) enables all-adult participation—direct democracy remains possible. Geographic conditions supporting tribalism preserve egalitarian governance longer than geography supporting large states (requiring hierarchy). Population scale geography-determined through resource availability. Egalitarianism not cultural choice but natural governance at band/tribal scales. Hierarchy emerges only when geography enables populations too large for all-adult participation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 272,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

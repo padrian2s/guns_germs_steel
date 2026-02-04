@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 249 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 249 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 49</p>
+<p>industry was churning out vacuum tube models and reluctant to compete</p>
+<p>with its own products. Why were British cities still using gas street lighting</p>
+<p>into the 1920s, long after U.S. and German cities had converted to electric</p>
+<p>street lighting? Because British municipal governments had invested heav</p>
+<p>ily in gas lighting and placed regulatory obstacles in the way of the compet</p>
+<p>ing electric light companies.</p>
+<p>The remaining consideration affecting acceptance of new technologies</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0249">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology adoption barriers: RCA vacuum tube example (reluctance to compete with own products). British gas lighting into 1920s despite US/German electric adoption. Why? British municipal governments heavily invested in gas infrastructure; regulatory obstacles against competing electric companies. Institutional investment in old technology blocks new technology despite technical superiority.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology adoption depends on infrastructure investment, not purely on technology merit. Institutions investing in existing systems resist new competitors. Regulatory power determines technology adoption rates. Geographic administrative structures (municipal control, regulatory authority) determine which societies can rapidly adopt superior technologies. Entrenched infrastructure creates technology lock-in despite better alternatives available.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Britain's gas infrastructure investment: 1800s-early 1900s extensive municipal gas systems established. Electric lighting technology available, superior, but British municipal governments blocked adoption. Contrast: US and German cities adopted electric street lighting earlier. Different geographic governance structures (US decentralized, Britain municipal centralization) determined adoption rates. Municipal infrastructure investments created geographic path-dependency in technology adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic institutional structures determine technology adoption rates. Infrastructure investment represents geographic capital accumulation—created path-dependencies limiting new technology adoption. Geographic administrative organization (centralized municipal vs. decentralized US) influenced technology transition speed. Initial geographic/institutional choices constrain later technological options. Geography determines not just invention but adoption timeline through institutional structure and prior infrastructure investment patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 249,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

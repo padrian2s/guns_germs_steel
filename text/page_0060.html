@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 60 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 60 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>60 • GUNS, GERMS, AND STEEL</p>
+<p>predators, New Zealand's moas and Hawaii's flightless geese being the</p>
+<p>best-known examples. While those birds were important food sources for</p>
+<p>the initial colonists, especially on New Zealand's South Island, most of</p>
+<p>them were soon exterminated on all islands, because they were easy to</p>
+<p>hunt down. Breeding seabirds were also quickly reduced in number but</p>
+<p>continued to be important food sources on some islands. Marine resources</p>
+<p>were significant on most islands but least so</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0060">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Polynesian subsistence varied: flightless birds (moas, geese) initially important, quickly exterminated as easy hunts. Breeding seabirds reduced but remained significant on some islands. Marine resources important except Easter, Pitcairn, Marquesas. Ancestral Polynesians brought pig, chicken, dog—some isolated islands lost species. Food production depended on agriculture using tropical crops brought in canoes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Island megafauna extinction pattern: human arrival → rapid bird extinction. Geographic variation: some islands lacked domesticated animals due to canoe transport failure or unsuitability. Tropical crops impossible at high latitudes. Geographic factors determine subsistence mix available.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Polynesian colonization ~1200 BCE onward. Island-by-island variation in fauna availability. Cold Chathams/New Zealand South: agriculture impossible, revert to hunting. Tropical islands: agriculture viable with brought crops/animals.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Food production base determined by geographic factors: available fauna, climate suitability for crops, transport capability across ocean. These geographic variables directly determined population density capacity, subsequently influencing social/political complexity possible on each island.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 60,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

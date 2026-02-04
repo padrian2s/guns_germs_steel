@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 142 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 142 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 4 2. • GUNS, GERMS, AND STEEL</p>
+<p>anced biological package for intensive food production. That package</p>
+<p>comprised three cereals, as the main carbohydrate sources; four pulses,</p>
+<p>with 20-25 percent protein, and four domestic animals, as the main pro</p>
+<p>tein sources, supplemented by the generous protein content of wheat; and</p>
+<p>flax as a source of fiber and oil (termed linseed oil: flax seeds are about 40</p>
+<p>percent oil). Eventually, thousands of years after the beginnings of animal</p>
+<p>domestication and food produ</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0142">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Fertile Crescent provided balanced biological package for intensive food production: three cereals (carbohydrate sources), four pulses (20-25% protein), four domestic animals (protein sources), flax (fiber/oil). Complete nutritional suite available geographically concentrated. Thousands of years post-domestication: additional animals domesticated. Comprehensive package enabled specialization economy support.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Integrated food system requirement. Complete nutritional diversity geographically available. Carbohydrate crops, protein sources, fiber sources, oil sources all domesticable in same region. Complementary crop/animal packages enabling food security. Other regions lacking some components limiting economy development potential. Regional integration of diverse species enabling civilization foundation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: wheat/barley/lentils domesticated ~8500 BCE. Sheep/goats/cattle/pigs domesticated similar timing. Complete package enabled surplus production. Mesoamerica: maize/beans/squash complete agriculture but lacked domesticable animals. Africa: grain-heavy but limited legume diversity. New Guinea: lacked large animals and large-seeded crops. Regional package completeness geographically variable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Complete biological packages geography-concentrated. Fertile Crescent unique in having diversified domesticable species within region. Regions lacking complete packages constrained in agricultural specialization potential. Geographic distribution of complementary domesticable species determines agricultural economy complexity. Civilization development requires complete biological packages; geographic region determines availability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 142,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

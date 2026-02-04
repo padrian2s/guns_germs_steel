@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 61 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 61 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT OF HISTORY • 6 X</p>
+<p>Other islands had rich soils but were not high enough to have large</p>
+<p>permanent streams and hence irrigation. Inhabitants of those islands devel</p>
+<p>oped intensive dryland agriculture requiring a heavy input of labor to</p>
+<p>build terraces, carry out mulching, rotate crops, reduce or eliminate fallow</p>
+<p>periods, and maintain tree plantations. Dryland agriculture became espe</p>
+<p>cially productive on Easter, tiny Anuta, and flat and low Tonga, where</p>
+<p>Polynesians devoted most of</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0061">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Islands without major streams developed intensive dryland agriculture using terraces, mulching, crop rotation. This labor-intensive approach became highly productive on Easter, Anuta, Tonga where Polynesians devoted most land to food production. Geographic constraint (no rivers) drove technological adaptation, enabling high population density on small islands.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geography determines agricultural technology feasibility. Island hydrology geography-constrained: water availability determines irrigation vs. dryland farming necessity. Dryland agriculture labor-intensive (terraces, mulching, crop rotation, fallow elimination). Geographic constraint (no permanent streams) drove technological adaptation. Technology adaptation enables high productivity on marginal geographic land. Population support capacity geography-determined by agricultural intensification capacity enabled by geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Polynesian islands varied in water availability. Islands with permanent streams: irrigation agriculture. Islands without streams: dryland intensive agriculture (terraces, mulching). Easter, Anuta, Tonga: dryland agriculture highly productive despite geographic handicap. Geographic handicap forced technological adaptation enabling population support. Water geography determined agricultural method → productivity → population density.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Dryland agriculture technology geographic-driven by water scarcity. Polynesian islands lacking streams forced innovation: terraces, mulching, crop rotation enabled intensive production. Geographic water limitation → technological necessity → population density → civilizational complexity. Geography determines not just whether agriculture possible but which agricultural technology required and productivity achievable.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 61,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

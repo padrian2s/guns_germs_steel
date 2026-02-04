@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 146 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 146 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>146 • GUNS, GERMS, AND STEEL</p>
+<p>question by examining the wild grass species still growing wild in the val</p>
+<p>ley today. Leaving aside species with small or unpalatable seeds, they</p>
+<p>picked out 23 of the most palatable and largest-seeded wild grasses. Not</p>
+<p>surprisingly, barley and emmer wheat were on that list.</p>
+<p>But it wasn't true that the 21 other candidates would have been equally</p>
+<p>useful. Among those 23, barley and emmer wheat proved to be the best by</p>
+<p>many criteria. Emmer wheat has the biggest seeds and</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0146">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Fertile Crescent wild grasses analyzed: 23 most palatable, largest-seeded candidates identified. Barley and emmer wheat among top candidates. Not all 23 equally useful: barley, emmer wheat superior by multiple criteria. Emmer wheat largest seeds. Domestication selected naturally from wild population: geography determined which plants available to domesticate. Best crops geography-determined through wild species characteristics.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticable crops geography-determined. Wild plant species distribution geographic. Seed size, nutritional quality, germination characteristics genetics-influenced. Geography determines which plants available for domestication. Fertile Crescent wheat, barley superior: large seeds, high nutritional content, reliable germination. Other regions' wild plants lacked equivalent characteristics. Geography determines domestication candidates available. Human selection from geographic-available options.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: 23 wild grass candidates, barley and emmer wheat emerged superior. Large seed size: more nutrition per seed. Reliable growth: predictable yields. Americas: wild grains inferior (maize ancestral teosinte). Tropical Americas: root crops (manioc, potatoes) instead of grains. Africa: sorghum, millet later development. Geography's wild plant resources determined agriculture foundation crops in each region.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agriculture crops geography-determined through wild species availability. Fertile Crescent superiority traced to wild plant characteristics (seed size, nutrition) geography-provided. Americas agriculture lacked Eurasian grain advantages. Geography determines which crops domesticated, determines agricultural productivity. Superior crops geography-given. Domestication selection from geography-available wild plants. Geography determines crop choice. Crop productivity geography-determined. Agriculture trajectory geography-determined from domesticable plant availability foundation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 146,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

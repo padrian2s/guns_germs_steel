@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 381 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 381 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 381</p>
+<p>lies only 250 miles off the East African coast, much closer to Africa than</p>
+<p>to any other continent, and separated by the whole expanse of the Indian</p>
+<p>Ocean from Asia and Australia. Madagascar's people prove to be a mix</p>
+<p>ture of two elements. Not surprisingly, one element is African blacks, but</p>
+<p>the other consists of people instantly recognizable, from their appearance,</p>
+<p>as tropical Southeast Asians. Specifically, the language spoken by all the</p>
+<p>people of Madagascar—Asians</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0381">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Madagascar 250 miles off East African coast contains mixed population: African blacks and tropical Southeast Asians physically recognizable. Population mixture reflects oceanic migration from Southeast Asia across Indian Ocean to Madagascar. Linguistic evidence confirms—all Madagascar people speak Southeast Asian language despite African proximity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Oceanic migration technology determines population distribution. Southeast Asians possessed seagoing technology (outrigger canoes) enabling long-distance oceanic crossing. African populations (pre-oceanic navigation) confined land routes. Technology determines possible migration routes determines population dispersal. Maritime capability geography-determined—Indian Ocean trade routes enabled Southeast Asian expansion enabling Madagascar settlement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Southeast Asian outrigger canoe technology: seagoing navigation Indian Ocean trade routes (Arab/Indian traders). Madagascar settlement ~400-800 AD from Southeast Asia. Bantu populations reached Madagascar later from Africa (after Austronesian arrival). Madagascar today: mixed Austronesian (lighter skin, Asian features) and Bantu (darker skin, African features) ancestry. Languages: Malagasy (Austronesian language) official despite African location. Population mixture documents two separate migration waves from opposite continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Population geography determined by technology enabling migration. Southeast Asian oceanic technology enabled crossing Indian Ocean (Africa-unreachable without equivalent technology). African Bantu lacked seagoing technology limited land migration. Technology advantage determines possible settlements. Madagascar settlement patterns show technology determinism: Austronesian maritime technology enabled circumcontinental migration; African land-based technology confined to mainland diffusion. Same island received different populations at different times based on technology access determining possible routes.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 381,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,557 @@
+/* Guns, Germs, and Steel - Interactive Study Guide */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #8B4513;
+    --primary-light: #A0522D;
+    --primary-dark: #654321;
+    --accent: #4169E1;
+    --accent-light: #87CEEB;
+    --success: #228B22;
+    --warning: #DAA520;
+    --bg: #f9f7f4;
+    --text: #2c3e50;
+    --text-light: #666;
+    --border: #ddd;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* ===== READER LAYOUT ===== */
+
+.reader-container {
+    display: flex;
+    height: 100vh;
+}
+
+.reader-sidebar {
+    width: 200px;
+    background: var(--primary-dark);
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.reader-sidebar.hidden {
+    transform: translateX(-100%);
+    width: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    left: 10px;
+    top: 15px;
+    z-index: 100;
+    background: var(--primary-dark);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.sidebar-toggle:hover {
+    background: var(--primary-light);
+    transform: scale(1.1);
+}
+
+.sidebar-toggle.hidden {
+    left: 10px;
+}
+
+.reader-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.reader-header {
+    background: white;
+    border-bottom: 2px solid var(--primary);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.reader-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.reader-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.reader-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 30px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ===== PAGE VIEW ===== */
+
+.page-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.page-header:hover {
+    box-shadow: var(--shadow);
+}
+
+.page-header.collapsed {
+    padding: 15px 30px;
+    margin-bottom: 15px;
+}
+
+.page-header.collapsed h1 {
+    margin: 0;
+}
+
+.page-header.collapsed .breadcrumb {
+    display: none;
+}
+
+.header-toggle-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.header-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.page-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.page-header .breadcrumb {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ===== ORIGINAL CONTENT ===== */
+
+.original-content {
+    background: white;
+    border-left: 4px solid var(--primary);
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+}
+
+.original-content h2 {
+    font-size: 18px;
+    color: var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.text-content p {
+    margin: 12px 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.text-content p:first-child {
+    margin-top: 0;
+}
+
+/* ===== COMMENTARY ===== */
+
+.commentary {
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
+    border-left: 4px solid var(--accent);
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+}
+
+.commentary h2 {
+    font-size: 18px;
+    color: var(--accent);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(65, 105, 225, 0.2);
+}
+
+.commentary-placeholder {
+    padding: 10px 0;
+}
+
+.commentary-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 4px;
+    border-left: 3px solid var(--accent-light);
+}
+
+.commentary-section h3 {
+    font-size: 14px;
+    color: var(--accent);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.commentary-section p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ===== CONTROLS ===== */
+
+.nav-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+button:hover {
+    background: var(--primary-light);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button.secondary {
+    background: var(--accent);
+}
+
+button.secondary:hover {
+    background: #3050c0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+}
+
+.page-input {
+    width: 80px;
+    text-align: center;
+}
+
+/* ===== SIDEBAR NAVIGATION ===== */
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sidebar-item {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 13px;
+}
+
+.sidebar-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(4px);
+}
+
+.sidebar-item.active {
+    background: var(--accent);
+    font-weight: bold;
+}
+
+/* ===== PROGRESS BAR ===== */
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--primary-light));
+    transition: width 0.3s ease;
+}
+
+/* ===== ZOOM CONTROLS ===== */
+
+.zoom-panel {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-dark);
+    color: white;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.zoom-panel:hover,
+.zoom-panel.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.zoom-level {
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: background 0.2s ease;
+}
+
+.zoom-level:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.zoom-level.active {
+    background: var(--accent);
+    font-weight: bold;
+}
+
+/* ===== IMAGE VIEW ===== */
+
+.image-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: var(--shadow-lg);
+    border-radius: 4px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+    .reader-sidebar {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .reader-content {
+        padding: 20px;
+    }
+
+    .page-header {
+        padding: 20px;
+    }
+
+    .page-header h1 {
+        font-size: 20px;
+    }
+
+    .nav-controls {
+        flex-wrap: wrap;
+    }
+
+    .page-input {
+        width: 60px;
+    }
+}
+
+/* ===== HELP MODAL ===== */
+
+.help-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s ease;
+}
+
+.help-modal.hidden {
+    display: none;
+}
+
+.help-modal-content {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+}
+
+.help-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-close:hover {
+    color: var(--primary);
+}
+
+.help-modal-content h2 {
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.help-section {
+    margin-bottom: 25px;
+}
+
+.help-section h3 {
+    color: var(--accent);
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.help-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.help-section li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+kbd {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px 6px;
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--primary);
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+}
+
+/* ===== ANIMATIONS ===== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.original-content,
+.commentary {
+    animation: fadeIn 0.3s ease;
+}

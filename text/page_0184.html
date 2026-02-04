@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 184 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 184 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 84 " GUNS, GERMS, AND STEEL</p>
+<p>known as tropical rain forest is confined to within about 10 degrees lati</p>
+<p>tude of the equator, while Mediterranean scrub habitats (such as Califor</p>
+<p>nia's chaparral and Europe's maquis) lie between about 30 and 40 degrees</p>
+<p>of latitude.</p>
+<p>But the germination, growth, and disease resistance of plants are</p>
+<p>adapted to precisely those features of climate. Seasonal changes of day</p>
+<p>length, temperature, and rainfall constitute signals that stimulate seeds to</p>
+<p>germinate, seedlings t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0184">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Plant growth determined by climate features. Tropical rainforest confined ~10 degrees latitude equator. Mediterranean scrub 30-40 degrees latitude. Plant germination, growth, disease resistance adapted to specific climate features. Day-length, temperature, rainfall trigger seed germination. Genetic plant traits match regional climate precisely. Geographic climate determines plant adaptation fundamentally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Plant genetics climate-adapted. Day-length signals: germination cues in northern latitudes. Temperature thresholds: growth season length determines crop viability. Rainfall patterns: germination triggers. Disease resistance: adapted to regional pathogens. Geographic climate variation produces geographic crop variation through genetic adaptation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Tropical crops: short-day triggers adapted to equatorial constant day-length. Temperate crops: long-day triggers adapted to seasonal variation. Mediterranean crops: summer-dry season adaptation. Geographic climate determine crop suitability. Plant distribution across latitudes reflects genetic climate adaptation. Moving crops north/south requires climate compatibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Plant genetics geography-determined through climate adaptation. Geographic latitude determines climate features determining crop genetic requirements. Moving crops across climates fails due to incompatibility. Geographic diffusion success depends on climate/latitude matching. Plant genetics climate-specific: geographic movement limited by climatic boundaries.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 184,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

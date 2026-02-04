@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 224 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 224 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 24 ' GUNS, GERMS, AND STEEL</p>
+<p>3000 B.C. were reinvented, halfway around the world, by early Mesoamer</p>
+<p>ican Indians before 600 B.c.</p>
+<p>W I TH THE POSSIBLE exceptions of the Egyptian, Chinese, and Easter</p>
+<p>Island writing to be considered later, all other writing systems devised any</p>
+<p>where in the world, at any time, appear to have been descendants of sys</p>
+<p>tems modified from or at least inspired by Sumerian or early</p>
+<p>Mesoamerican writing. One reason why there were so few independent</p>
+<p>origins of writing is the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0224">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Writing system origins: only 3-4 independent inventions. Sumerian cuneiform ~3000 BCE (Mesopotamia). Mesoamerican writing before 600 BCE (Americas independent). Egyptian/Chinese/Easter Island possibly independent (debated). All other writing: derivatives/modifications of Sumerian or Mesoamerican. Few independent origins reflects writing complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing system invention complexity limits independent creation. Diffusion easier than parallel invention. Geographic contact determines diffusion likelihood. Isolated geographic regions: independent invention more likely. Connected regions: diffusion probable. Writing constraints: functional/cognitive create similar solutions when parallel.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sumerian origin Mesopotamia: diffused via trade contacts. Egypt: possibly independent or Sumerian-influenced. Americas: completely isolated, independent Mesoamerican writing. European, African, Asian writing: descended from Sumerian/Middle Eastern systems. Geographic isolation enabled Mesoamerican independent development. Geographic contact enabled Eurasian diffusion patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Writing invention complexity necessitates administrative demands. Few civilizations reach writing-trigger complexity independently. Geographic isolation enables independent invention. Geographic connection enables diffusion. Americas geographic isolation: independent writing invention. Old World geographic connection: Sumerian diffusion to multiple civilizations. Geography determines isolation determines diffusion vs invention patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 224,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

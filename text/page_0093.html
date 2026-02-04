@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 93 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 93 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 5</p>
+<p>HISTORY'S HAVES AND</p>
+<p>HAVE-NOTS</p>
+<p>M</p>
+<p>UCH OF HUMAN HISTORY HAS CONSISTED OF UNEQUAL</p>
+<p>conflicts between the haves and the have-nots: between peoples</p>
+<p>with farmer power and those without it, or between those who acquired</p>
+<p>it at different times. It should come as no surprise that food production</p>
+<p>never arose in large areas of the globe, for ecological reasons that still</p>
+<p>make it difficult or impossible there today. For instance, neither farming</p>
+<p>nor herding developed in prehistoric times in Nort</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0093">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chapter 5: "History's Haves and Have-Nots" frames the fundamental pattern: societies with farmer power versus without it. Food production never arose in large globe areas for ecological reasons. Ecological constraints that prevented agriculture in prehistory persist today. Agricultural absence correlates with developmental inequality.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic inequality and agriculture. Societies adopting agriculture early acquired power advantages permanently. Geographic regions where agriculture impossible remained hunter-gatherer powered, militarily/organizationally disadvantaged in contact with agricultural societies. Path dependency and geographic constraints compound over millennia.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Agricultural development unequal globally. Fertile Crescent ~10000 BCE. Sub-Saharan Africa, Australia, Arctic, Pacific islands: agriculture never arose, remained hunter-gatherer societies. Chapter 5 frames this as central to understanding inequality between peoples at moment of European contact (15th-16th centuries).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic determinism explains global inequality. Regions where ecology permitted agriculture → agricultural transition → population growth → specialization → states → military capacity. Regions where ecology prevented agriculture → remained hunter-gatherers → no states → no military capacity. Ecological constraints from thousands of years ago persist in determining contemporary inequality.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 93,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

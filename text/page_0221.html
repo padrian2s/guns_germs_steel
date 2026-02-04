@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 221 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 221 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>BLUEPRINTS AND BORROWED LETTERS • 221</p>
+<p>An example of Babylonian cuneiform writing, derived ultimately from</p>
+<p>Sumerian cuneiform.</p>
+<p>with an additional phonetically interpreted sign (such as selecting the sign</p>
+<p>for two, each, or peak).</p>
+<p>Thus, Sumerian writing came to consist of a complex mixture of three</p>
+<p>types of signs: logograms, referring to a whole word or name; phonetic</p>
+<p>signs, used in effect for spelling syllables, letters, grammatical elements, or</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0221">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Writing system evolution: Sumerian writing → Babylonian cuneiform. Complex mixture of three sign types: logograms (word/name referents), phonetic signs (syllables/letters/grammar), determinatives (clarification marks). Pictorial signs gradually became abstract. Writing system evolution reflects administrative complexity requirements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Writing system sophistication. Sign type evolution: pictorial → abstract. Logogram + phonetic hybrid systems. Administrative complexity requires sophisticated writing. System development follows functional necessity. Writing doesn't emerge fully formed but evolves with civilization demands.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sumerian cuneiform emergence ~3200 BCE accounting records. Babylonian adoption and elaboration. Egyptian hieroglyphics similar timeline and functional origin. Chinese characters similar evolution pictorial→abstract. All agriculture-based civilizations developed sophisticated writing following administrative complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Writing sophistication reflects civilization complexity geography-determined. Geographic agriculture → surplus → administration → sophisticated writing. Writing system types geographically determined by diffusion patterns and independent invention. Complexity of writing corresponds to civilization complexity which geography determines.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 221,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

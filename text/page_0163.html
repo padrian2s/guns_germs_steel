@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 163 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 163 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>ZEBRAS AND UNHAPPY MARRIAGES • 163</p>
+<p>except the red kangaroo became extinct around the time of the continent's</p>
+<p>first colonization by humans.</p>
+<p>Thus, part of the explanation for Eurasia's having been the main site of</p>
+<p>big mammal domestication is that it was the continent with the most can</p>
+<p>didate species of wild mammals to start out with, and lost the fewest can</p>
+<p>didates to extinction in the last 40,000 years. But the numbers in Table 9.2</p>
+<p>warn us that that's not the whole explanation. It's also true tha</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0163">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eurasia domesticable fauna advantage traced to extinction history. Australia: megafauna (giant kangaroos, marsupial lions) except red kangaroo extinct at human colonization. Most continents: large animals extinct by Ice Age end. Eurasia's advantage: retained megafauna through Ice Age. Present-day domestication reflects ancient extinction asymmetry.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Megafauna extinction geography-determined. Extinction timing: Americas ~10000 BCE, Australia ~20000 BCE, Eurasia/Africa: megafauna survived. Causes debated: human hunting, climate change, combination. Result: Eurasia/Africa retained domestication candidates, Americas/Australia lost them. Present-day fauna reflects this ancient divergence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Ice Age extinctions: disproportionate in Americas and Australia. Giant ground sloths, mammoths, horses, camels extinct in Americas by 10000 BCE. Kangaroos, Tasmanian devils extinct in Australia ~20000 BCE. Eurasian megafauna (elephants, rhinoceroses, aurochs) survived Ice Age into Neolithic. This differential extinction created present-day fauna disparity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Ancient extinction events geography-determined through climate/geography interactions. Survival of Eurasian megafauna gave domestication candidate advantage. Americas/Australia megafauna loss removed domestication options. Deep-time geography (climate, environment) cascades to determine present-day fauna, determine present-day domestication capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 163,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

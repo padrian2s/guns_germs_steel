@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 361 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 361 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 361</p>
+<p>Table 18.1 summarizes approximate dates of the appearance of key</p>
+<p>developments in the main "homelands" of each hemisphere (the Fertile</p>
+<p>Crescent and China in Eurasia, the Andes and Amazonia and Mesoamer</p>
+<p>ica in the Americas). It also includes the trajectory for the minor New</p>
+<p>World homeland of the eastern United States, and that for England, which</p>
+<p>is not a homeland at all but is listed to illustrate how rapidly developments</p>
+<p>spread from the Fertile Crescent.</p>
+<p>This table is</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0361">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Table 18.1 summarizes approximate dates of key development appearances in civilization homelands: Eurasia (Fertile Crescent, China), Americas (Andes, Amazonia, Mesoamerica, eastern US). Includes England to illustrate technology diffusion speed from Fertile Crescent. Comparative chronology demonstrates development timing differences between hemispheres. Table simplifies complex history enabling clear pattern visualization of technology adoption sequence timing differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Development chronology reveals geographic determinism: different regions adopted technologies at different rates. Homeland regions produced innovations; periphery regions received them. Timing differences document diffusion patterns. Comparative dates show why Eurasian advantages accumulated—earlier innovation + faster diffusion = greater advantage compounding. Table format enables pattern recognition across hemispheres.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: earliest agriculture, cities, writing, states (9,000-5,000 years ago). China: developed agriculture independently (9,000 years ago). Mesoamerica: agriculture later (5,000 years ago). Andes: agriculture 5,000 years ago. Eastern US: agriculture much later (1,000 years ago). England: technology adopted from Fertile Crescent through diffusion (no independent development). Development timing reflects geography's role—domesticable animals/plants availability determined agriculture timing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Table documents geographic determinism through chronology. Fertile Crescent earliest development reflects geographic advantages (domesticable animals/plants). China independent development reflects geographic advantages (equivalent fauna/flora). Americas delayed development reflects geographic disadvantages (limited domesticates). Timing differences accumulate into technology gaps: earlier innovation + diffusion advantage = compounding development advantages. Table visualizes how geography determines timing determining advantage accumulation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 361,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 395 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 395 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 95</p>
+<p>Figure 19.4. Approximate paths of the expansion that carried people</p>
+<p>speaking Bantu languages, originating from a homeland (designated H)</p>
+<p>in the northwest corner of the current Bantu area, over eastern and south</p>
+<p>ern Africa between 3000 B.C. and A.D. 500.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0395">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Bantu expansion mapping: Figure 19.4 showing approximate expansion paths carrying Bantu-speaking peoples from homeland (H) in northwest Bantu region over eastern and southern Africa between 3000 BCE and CE 500. Traces geographic spread of language/culture across continent. Expansion from concentrated homeland to dispersed geographic range. Population movement traced through linguistic distribution patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic expansion paths determined by environment and technology. Bantu agricultural technology enabled expansion into zones previously forager-occupied. Expansion routes geography-constrained through savannas and woodlands vs. impassable regions. Direction of expansion follows accessible terrain. Timing (3000 BCE to CE 500) reflects agriculture diffusion rate through geographic resistance patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Bantu homeland: Cameroon/Nigeria northwest region—geographic origin point. Expansion paths: eastward through Congo basin forest region, southward through savannas. Geographic barriers slowed expansion rates—forest zones required technology adaptation (land clearing, crop selection). Savannas enabled faster expansion. Coastal zones received Bantu populations differently. Geographic terrain—forest vs. savanna—determined expansion speed and route variation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Population expansion patterns geography-determined through environment resistance and resource availability. Bantu spreading from geographically optimal origin (Cameroon/Nigeria) took multiple centuries. Geographic barriers (forests, deserts) slowed spread. Accessible savannas enabled expansion continuation. Expansion routes and timing directly reflect geographic path optimization. Geographic environment determines sustainable population expansion rate—not cultural differences in expansion vigor but geographic resistance patterns determining spread velocity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 395,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

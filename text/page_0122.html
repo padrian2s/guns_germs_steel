@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 122 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 122 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 22 • GUNS, GERMS, AND STEEL</p>
+<p>that way. They're either hermaphrodites incapable of fertilizing themselves</p>
+<p>and forced to interbreed with other hermaphrodite individuals (my male</p>
+<p>part fertilizes your female part, your male part fertilizes my female part),</p>
+<p>or else they occur as separate male and female individuals, like all normal</p>
+<p>mammals. The former plants are termed self-incompatible hermaphro</p>
+<p>dites; the latter, dioecious species. Both were bad news for ancient farmers,</p>
+<p>who would thereby have pro</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0122">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Plant reproductive barriers preventing easy domestication: self-incompatible hermaphrodites (cannot self-fertilize), dioecious species (separate male/female plants). Domestication requires genetic manipulation overcoming reproductive isolation. Ancient farmers needed mutant self-compatible varieties or orchards with nearby cross-compatible individuals. Reproductive barriers delayed domestication of apples, pears, plums, cherries until classical times.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Reproductive biology as domestication constraint. Self-incompatibility barriers preventing easy seed saving. Dioecy requiring two plant types in same location. Genetic variation in reproduction mechanisms. Regions lacking self-compatible mutants cannot rapidly domesticate self-incompatible species. Reproductive barriers create geographic variation in domestication ease.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: wheat/barley self-compatible enabled rapid domestication. Mediterranean region: apples, pears, cherries self-incompatible → domestication delayed centuries. Mesoamerica: maize self-compatible facilitated domestication. Each region's domestication timeline determined by reproductive characteristics of available wild species.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Wild plant reproductive biology determines domestication speed. Self-compatible species → rapid domestication. Self-incompatible/dioecious species → delayed domestication requiring orchards/conscious management. Geographic variation in wild plant reproductive characteristics → geographic variation in domestication timing → agricultural development timeline variation across continents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 122,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 197 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 197 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT OF LIVESTOCK • 1 97</p>
+<p>from diseases of animals, even though most of the microbes responsible</p>
+<p>for our own epidemic illnesses are paradoxically now almost confined to</p>
+<p>humans. Because diseases have been the biggest killers of people, they have</p>
+<p>also been decisive shapers of history. Until World War II, more victims of</p>
+<p>war died of war-borne microbes than of battle wounds. All those military</p>
+<p>histories glorifying great generals oversimplify the ego-deflating truth: the</p>
+<p>winners of past wars we</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0197">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diseases biggest killers of people historically. War deaths pre-WWII: more from disease than battle wounds. Military history oversimplifies: disease, not general brilliance, determined war winners. Epidemiology determines military outcomes. Population disease immunity determines combat capability. Geographic disease exposure determines war winners independent of military strategy.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diseases as major technological advantage in conquest. Population immunity determines disease resistance in combat contact. Zoonotic disease exposure determines immune system development. Geographic fauna determines disease evolution patterns. Populations with disease-evolved immunity prevail in conquest. Disease epidemiology determines civilization expansion capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Pre-WWII wars: disease casualties exceeded battle wounds. European conquest Americas: disease killed far more than weapons. Epidemiologic advantage: Europeans carried Old World diseases. Americas populations lacked immunity (no Old World domesticated fauna). Disease decimated native populations. Spanish conquest: disease not military superiority. Disease casualties demonstrate geographic determinism outcome.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic fauna determines zoonotic diseases available. Diseases determine population immunity evolution. Immunity determines military capability. Military capability determines conquest outcomes. Technology includes disease weaponization. Geographic fauna thus determines which populations can conquer others. Conquest patterns follow geographic disease distribution patterns not human brilliance. Geography determines war winners through epidemiology.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 197,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

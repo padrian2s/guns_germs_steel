@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 140 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 140 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>140 • GUNS, GERMS, AND STEEL</p>
+<p>TABLE 8.I World Distribution of Large-Seeded Grass Species</p>
+<p>Table 12.1 of Mark Blunder's Ph.D. dissertation, "Seed Weight and Environment in Medi</p>
+<p>terranean-type Grasslands in California and Israel" (University of California, Berkeley,</p>
+<p>1992), listed the world's 56 heaviest-seeded wild grass species (excluding bamboos) for which</p>
+<p>data were available. Grain weight in those species ranged from 10 milligrams to over 40</p>
+<p>milligrams, about 10 times greater than the median valu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0140">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Geographic variation in large-seeded wild grass species: world's 56 heaviest-seeded wild grasses concentrated in specific regions. Grain weight: 10-40 milligrams (10x global median). Large seeds worth harvesting, supporting cultivation transition. Geographic distribution of large-seeded grasses determines agricultural potential.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Seed size and domesticability. Large seeds more calorie-valuable, less effort to harvest. World's largest wild grasses geographically clustered. Fertile Crescent: abundance of large-seeded grasses (wheat, barley). Mesoamerica: teosinte smaller-seeded. Sub-Saharan Africa: limited large-seeded grasses. Geographic distribution of optimal species determines agricultural viability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean/Near East: 56 heaviest grass species concentrated. Southwest Asia, North Africa dominated world's large-seeded grasses. Americas had no large-seeded native grasses (maize is smaller-seeded). Australia: no large-seeded grasses suitable for domestication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic concentration of large-seeded grass species determines crop domestication feasibility. Regions with abundant large-seeded grasses → economic agriculture possible. Regions without large-seeded grasses → smaller yields, longer domestication development. Species availability geography → agricultural productivity geography → civilizational trajectory difference.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 140,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

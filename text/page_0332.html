@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 332 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 332 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 3 2. • GUNS, GERMS, AND STEEL</p>
+<p>hair unbound, and tattooed their bodies. Some of them ate their food with</p>
+<p>out its being cooked by fire." The Zhou author went on to describe wild</p>
+<p>tribes to the south, west, and north as indulging in equally barbaric prac</p>
+<p>tices, such as turning their feet inward, tattooing their foreheads, wearing</p>
+<p>skins, living in caves, not eating cereals, and, of course, eating their food</p>
+<p>raw.</p>
+<p>States organized by or modeled on that Zhou Dynasty of North China</p>
+<p>spread to South Chin</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0332">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Zhou Dynasty written account of southern tribes: descriptions of barbaric practices—unbound hair, tattoos, raw food eating, skin clothing, cave dwelling. Southern groups: east/west/north described equally barbarically—feet inward, forehead tattoos, skins, caves, no cereal eating, raw food consumption. Zhou Dynasty cultural prejudice against non-agricultural populations. Zhou represents agricultural state-level civilization. Tribal peoples represent hunter-gatherer/primitive agricultural societies. Zhou states spread to South China—political expansion of civilized state model.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural societies politically/militarily superior to hunter-gatherer tribes. Written records reflect biased perspective of literate civilizations. State-level societies view tribal societies as "barbaric." Food production determines civilization level. Cereal agriculture determines state formation. Clothing/housing/food preparation reflect development level—civilized agriculture vs. "barbaric" hunter-gathering. Political expansion follows agricultural frontier—states expand southward replacing tribal organizations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Zhou Dynasty north China (2,000 years ago): organized state with agriculture, writing, hierarchy. Southern tribes: geographically isolated regions (mountains, forests), maintained hunter-gatherer/tribal organization despite contact. Northern agricultural expansion gradually replaced southern populations politically. Geographic barriers delayed southern conversion—mountains protected tribal regions enabling long independence despite state expansion. Eventually northern agricultural states absorbed southern tribes through military/political conquest.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural technology determines political organization determines territorial expansion. North China agriculture enabled state formation enabled military expansion. Southern tribes geographically isolated lacked agriculture lacked military capacity lacked state organization. Agricultural geography advantage (northern millet/wheat suitability) determined military expansion patterns. Geographic barriers (mountains protecting southern tribes) temporarily delayed agricultural expansion. Eventually agriculture-enabled state expansion overwhelmed geographically protected tribal regions. Geographic agricultural advantage determines political conquest patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 332,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

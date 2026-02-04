@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 281 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 281 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 2 8 I</p>
+<p>formed by amalgamation or conquest of states—are regularly multiethnic</p>
+<p>and multilingual. State bureaucrats are not selected mainly on the basis of</p>
+<p>kinship, as in chiefdoms, but are professionals selected at least partly on</p>
+<p>the basis of training and ability. In later states, including most today, the</p>
+<p>leadership often became nonhereditary, and many states abandoned the</p>
+<p>entire system of formal hereditary classes carried over from chiefdoms.</p>
+<p>OVER THE PAST 1</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0281">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>State development evolution: empires formed through amalgamation/conquest become multiethnic/multilingual. Bureaucrats selected by merit/training not kinship (unlike chiefdoms). Later states develop nonhereditary leadership replacing hereditary class systems. State complexity grows enabling larger populations enabling specialized professional roles.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>State organization specialization: professional bureaucracy replacing kinship-based leadership. Multiethnic empires: large-scale states inevitably incorporate multiple populations. Merit-based selection: administrative capacity requires trained specialists not family connections. Hereditary class decline: states eventually move beyond initial hereditary hierarchies toward meritocratic organization. Organizational scale: larger populations enable more specialized administrative structures.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Chiefdoms: leadership based on kinship, limited population size. Early states: centralized control via single ethnic group. Empires: conquest/amalgamation requiring integration of diverse populations. Roman Empire: multiethnic requiring professional bureaucracy (administrators, military, engineers). Chinese dynasties: bureaucratic meritocracy enabling administration across vast multiethnic territories. European states: evolution from feudal kinship hierarchies toward meritocratic bureaucracies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>State complexity geography-determined through population size scaling: geographic agriculture advantages enable larger populations requiring administrative sophistication. Bureaucratic meritocracy emerges from necessity: multiethnic empires require skilled administrators transcending kinship networks. Geographic expansion (empires) creates multiethnic situations forcing administrative innovation. State organization complexity reflects geographic population capacity: larger geographically-enabled populations require more sophisticated governmental structures. Geographic advantages driving population growth driving organizational sophistication.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 281,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

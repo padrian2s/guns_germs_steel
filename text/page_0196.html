@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 196 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 196 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 96 • GUNS, GERMS, AND STEEL</p>
+<p>called into a hospital room to deal with a married couple stressed-out by a</p>
+<p>mysterious illness. It did not help that the couple was also having difficulty</p>
+<p>communicating with each other, and with my friend. The husband was a</p>
+<p>small, timid man, sick with pneumonia caused by an unidentified microbe,</p>
+<p>and with only limited command of the English language. Acting as transla</p>
+<p>tor was his beautiful wife, worried about her husband's condition and</p>
+<p>frightened by the unfamiliar h</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0196">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Medical case introduces disease ecology as geographic determinant. Pneumonia patient with language barrier: imported disease demonstrates cross-cultural disease transfer. Microbes from animals represent geographic wildlife available. Disease selection pressure from geography-determined domestication patterns. Medical crisis exemplifies how microbes connect geography to human health outcomes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease as geographic consequence of domestication. Zoonotic diseases: geography determines fauna available. Domestication of Eurasian animals cascaded into disease evolution. Population density determines disease types. Geographic availability of domesticable animals determines disease exposure patterns. Cross-cultural disease introduction: geography determines initial disease resistance levels.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Old World domesticated animals sourced diseases: cattle plague, measles, smallpox. Americas domestic animals limited: only dogs available (no large mammals). Disease ecology Old World vs Americas determined by fauna geography. Pneumonia patient illustrates disease crossing: Old World disease meets New World population lacking acquired immunity. Immigration example shows geographic disease immunity patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography determines domesticable fauna. Fauna geography determines zoonotic disease availability. Disease availability determines population immunity levels. Population immunity determines disease resistance when populations meet. Technology conquest depends on disease advantage. Geographic fauna determines which populations retain disease-evolved immunity advantages in conflict. Geography cascades to disease epidemiology cascades to conquest outcomes.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 196,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

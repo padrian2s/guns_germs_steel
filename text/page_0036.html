@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 36 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 36 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>36 • GUNS, GERMS, AND STEEL</p>
+<p>vides the answer to Yali's question. Hence this chapter will offer a whirl</p>
+<p>wind tour of human history on all the continents, for millions of years,</p>
+<p>from our origins as a species until 13,000 years ago. All that will now be</p>
+<p>summarized in less than 20 pages. Naturally, I shall gloss over details and</p>
+<p>mention only what seem to me the trends most relevant to this book.</p>
+<p>Our closest living relatives are three surviving species of great ape: the</p>
+<p>gorilla, the common chimpanzee</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0036">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond summarizes millions of years of human evolution from ape ancestors (~7 million years ago) to modern humans. Great apes' African origin indicates human evolution also occurred in Africa. Early hominins (Australopithecus, Homo habilis, Homo erectus) developed upright posture, larger brains, and stone tools, but remained confined to Africa for millions of years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Early human evolution was African phenomenon. Homo erectus first spread beyond Africa to Java ~1 million years ago. By 500,000 years ago, Homo sapiens appeared in Africa and Europe. Early stone tools were crude; Australia, Americas remained unpeopled (required boat technology or Siberian occupation).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Human evolution paralleled African geography for millions of years. Geographic barriers (water, climate) prevented human spread to Australia and Americas until much later. Africa's role as humanity's cradle established it as center of early technological development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Africa's early human evolution advantage did not translate to lasting technological superiority. This early head start became irrelevant by 11,000 BCE, proving geography's changing effect on civilizational advantage depending on specific environmental conditions (domesticable species, climate, etc.).</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 36,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 170 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 170 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>170 • GUNS, GERMS, AND STEEL</p>
+<p>like to, either. That's what derailed attempts to domesticate cheetahs, the</p>
+<p>swiftest of all land animals, despite our strong motivation to do so for</p>
+<p>thousands of years.</p>
+<p>As I already mentioned, tame cheetahs were prized by ancient Egyptians</p>
+<p>and Assyrians and modern Indians as hunting animals infinitely superior</p>
+<p>to dogs. One Mogul emperor of India kept a stable of a thousand cheetahs.</p>
+<p>But despite those large investments that many wealthy princes made, all of</p>
+<p>their chee</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0170">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Cheetah domestication failure: example of genetic impossibility. Ancient Egypt/Assyria/modern India: cheetahs desired for hunting (superior to dogs). Mogul emperor: kept 1000 cheetahs stable. Wealthy prince investments: thousands of years, enormous resources. Result: all cheetahs remained wild, never domesticated. Genetic traits preventing domestication despite intense human motivation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Economic motivation insufficient for domestication. Intense desire (hunting advantage) can't overcome genetic impossibility. Taming achievable; domestication impossible. Cheetahs lack genetic docility, breeding compatibility, fertility traits. No selection possible (cheetahs in captivity won't breed). Genetic constraints trump human effort.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Ancient Egypt: prized cheetahs for hunting 4000+ years. Assyrians: similar investment. Modern India: Mogul emperors 1000+ cheetah stables. Consistent failure: despite millennia effort, no domestication achieved. Other predators (lions, leopards): same pattern - taming possible, domestication failed. Herbivores: high domestication success.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Genetic constraints absolute. No amount of human motivation overcomes genetic impossibility. Cheetah example proves geographic species genetics determines civilization capacity. Domestication requires specific genetic traits; some species lack them genetically. Even extreme human investment (stable of 1000) cannot domesticate genetically incompatible species. Geography-determined genetics prove thesis conclusively.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 170,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

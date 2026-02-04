@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 144 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 144 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 44 ' GUNS, GERMS, AND STEEL</p>
+<p>I patiently explained to my Fore companions that I had read about some</p>
+<p>mushrooms' being poisonous, that I had heard of even expert American</p>
+<p>mushroom collectors' dying because of the difficulty of distinguishing safe</p>
+<p>from dangerous mushrooms, and that although we were all hungry, it just</p>
+<p>wasn't worth the risk. At that point my companions got angry and told</p>
+<p>me to shut up and listen while they explained some things to me. After I</p>
+<p>had been quizzing them for years about</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0144">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Author's Papua New Guinea experience: Fore companions had sophisticated knowledge of wild plants, mushroom toxicity. Author (Western-trained) hesitant about unknown mushrooms despite hunger. Fore patience exhausted: lecture author about local botanical knowledge. Episode demonstrates: traditional geographic knowledge accumulated over generations, not recorded writing, constitutes sophisticated understanding. Geographic environment determines knowledge systems required for survival.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic knowledge geography-specific. Papua New Guinea Fore developed mushroom toxicity knowledge through generations. Western knowledge systems (writing, science) different from oral-tradition knowledge systems. Both valid for respective geographies. Geography determines knowledge type: oral traditions sufficient in small societies; writing necessary in large complex societies. Knowledge systems geography-adapted not biology-determined.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Papua New Guinea environment: diverse wild foods including mushrooms. Fore intimate botanical knowledge accumulated generationally. Western scientific knowledge (reading reports) less relevant locally. Geographic knowledge necessary for local survival. Different geographic environments produce different knowledge systems appropriate to local resources/hazards. Knowledge sophistication equal across regions: Western scientific vs. Fore botanical both reflect deep understanding developed through geographic interaction.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Knowledge systems geography-determined through environmental interaction. Papua New Guinea Fore knowledge reflects local geography. Western knowledge reflects Eurasian geography. Oral vs. written knowledge reflects geographic scale and population density differences. Geography determines knowledge type necessity, not knowledge quality/sophistication. Different knowledge systems equally sophisticated: geographic adaptation differs. Geographic environment determines what knowledge types emerge.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 144,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

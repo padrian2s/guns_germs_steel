@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 400 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 400 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>400 • GUNS, GERMS, AND STEEL</p>
+<p>ranean crops that became Egypt's staples require winter rains and seasonal</p>
+<p>variation in day length for their germination. Those crops were unable to</p>
+<p>spread south of the Sudan, beyond which they encountered summer rains</p>
+<p>and little or no seasonal variation in daylight. Egypt's wheat and barley</p>
+<p>never reached the Mediterranean climate at the Cape of Good Hope until</p>
+<p>European colonists brought them in 1652, and the Khoisan never devel</p>
+<p>oped agriculture. Similarly, the Sahel</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0400">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Crop diffusion climate-limited. Mediterranean crops (Egypt's wheat, barley) require winter rains and seasonal daylight variation for germination. Unable spread south of Sudan's summer rainfall zone. Egypt's crops never reached Cape Good Hope until European colonists introduced them 1652. Khoisan never developed agriculture. Climate barriers absolute barriers to crop diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Climate-determined crop limits. Germination requirements geographic-specific. Crop unsuitability for new climate prevents adoption despite proximity. Geographic barriers override cultural diffusion. South Africa Mediterranean climate identical to Egypt's yet never received Egyptian crops until colonization. Climate incompatibility prevents independent adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Egypt wheat/barley agriculture sustainable 3000 BCE. Khoisan Cape region Mediterranean climate similar to Egypt. Despite geographic proximity (same continent) and millennia contact (through slave trade routes), Egyptian agriculture never spread. Only European colonization 1652 brought crops. Climate barriers proving more significant than cultural diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Climate geography proves diffusion limits. Cape Good Hope Mediterranean climate identical to Egypt's. Agricultural incompatibility prevented adoption despite accessibility. Proves geography overrides human agency. Climate determines agriculture feasibility regardless of knowledge/desire to adopt. Geography places absolute limits on civilization development independent of human factors.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 400,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

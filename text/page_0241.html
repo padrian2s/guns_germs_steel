@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 241 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 241 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 241</p>
+<p>to clay without ink. However, those next efforts did not appear until 2,500</p>
+<p>years later in China and 3,100 years later in medieval Europe. Why was</p>
+<p>the disk's precocious technology not widely adopted in Crete or elsewhere</p>
+<p>in the ancient Mediterranean? Why was its printing method invented</p>
+<p>around 1700 B.C. in Crete and not at some other time in Mesopotamia,</p>
+<p>Mexico, or any other ancient center of writing? Why did it then take thou</p>
+<p>sands of years to add the ideas of ink and a</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0241">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Phaistos Disk printing invention (1700 BCE Crete): earliest printing technology. China printing ~2,500 years later; medieval Europe printing 3,100 years later. Central question: Why wasn't precocious Cretan printing technology widely adopted? Why invented in Crete at that time vs. Mesopotamia, Mexico, or other writing centers? Why did ink and roller technology take millennia to develop after initial Cretan stamp printing?</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology timing and geography. Invention occurs when circumstances align—administrative complexity driving need, raw materials available, technical capacity exists. Precocious invention without adoption reveals gap between technology emergence and readiness for implementation. Geography determines whether innovation finds fertile ground or remains isolated. Technology spread rates determine whether independent reinvention or diffusion dominates.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Cretan printing 1700 BCE: advanced administrative system (palace records) created printing need. Crete geographic isolation limited diffusion; Mediterranean trade routes insufficient for technology spread. China printing ~1200 BCE: independent invention driven by similar administrative complexity (imperial bureaucracy). Medieval Europe printing 1450 CE: Gutenberg's invention responded to European economic expansion, demand for books, paper availability from Islamic technology diffusion, and metal-working sophistication enabling movable type.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic conditions determine both invention necessity and diffusion possibility. Crete's initial printing technology failed adoption due to limited practical advantage over hand-writing (Linear B script complex, limited economic incentive). Geographic diffusion barriers meant Mediterranean cultures couldn't copy Cretan methods. Independent reinvention in China and Europe followed geographic development of similar administrative complexity independently. Technology timing and adoption geography-determined by civilization complexity, infrastructure capacity, and communication networks that geography provides.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 241,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

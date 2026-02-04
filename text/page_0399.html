@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 399 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 399 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 99</p>
+<p>It's true, of course, that some large African animals have occasionally</p>
+<p>been tamed. Hannibal enlisted tamed African elephants in his unsuccessful</p>
+<p>war against Rome, and ancient Egyptians may have tamed giraffes and</p>
+<p>other species. But none of those tamed animals was actually domesti</p>
+<p>cated—that is, selectively bred in captivity and genetically modified so as</p>
+<p>to become more useful to humans. Had Africa's rhinos and hippos been</p>
+<p>domesticated and ridden, they would not on</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0399">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African animals occasionally tamed (Hannibal elephants, Egyptian giraffes) but never domesticated. Domestication requires selective breeding in captivity, genetic modification for human utility. Africa lacked domesticated megafauna unlike Eurasia (horses, cattle, camels). Animals unsuitable for domestication prevented development of animal-based technologies (cavalry, carts, plowing).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication requires behavioral/physiological traits geography-distributed. African megafauna: aggressive, solitary, slow-breeding unsuitable domestication. Eurasian megafauna: docile, herding, fast-breeding suited domestication. Genetic traits geography-determined through species distribution geography-determined. Taming temporary behavioral change; domestication genetic change requiring selectable traits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>African megafauna: rhinos, hippos, zebras, cape buffalo—aggressive/dangerous unsuitable domestication. Eurasian megafauna: horses, cattle, sheep, pigs—docile/herding domesticated enabling agriculture expansion (plowing), transportation (cavalry), military advantage. Hannibal taming elephants: temporary control for warfare not sustained domestication. Genetic behavior unsuitable domestication prevented Africa developing animal-based technology infrastructure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Domesticable species geographic distribution determines possible technology. African species distribution unsuitable domestication prevented animal-based technology prevented transport technology prevented cavalry prevented military advantage. Eurasian species distribution suitable domestication enabled animal technology enabled transport enabled military advantage. Geography species distribution determined animal domestication possibility determined technology possibility determined military superiority. African colonization failure partly due animal domestication absence geography-determined through species distribution.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 399,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 26 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 26 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>26 " PROLOGUE</p>
+<p>view is not held in esteem by historians; it is considered wrong or simplis</p>
+<p>tic, or it is caricatured as environmental determinism and dismissed, or</p>
+<p>else the whole subject of trying to understand worldwide differences is</p>
+<p>shelved as too difficult. Yet geography obviously has some effect on his</p>
+<p>tory; the open question concerns how much effect, and whether geography</p>
+<p>can account for history's broad pattern.</p>
+<p>The time is now ripe for a fresh look at these questions, because of</p>
+<p>new inform</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0026">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond argues that while geography's effect on history is obvious, historians dismiss geographical explanations as simplistic, deterministic, or impossible. He counters that new scientific advances in genetics, molecular biology, biogeography, epidemiology, and archaeology make geographical explanations scientifically viable for the first time.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond positions his book as rescuing geography from dismissal through modern scientific tools. Genetics reveals how domesticable plants/animals differed by continent; epidemiology explains disease patterns; archaeology documents technological development. These disciplines provide empirical evidence for geographical determinism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Environmental determinism fell from favor in 20th-century academic circles due to associations with racist theories. Diamond rehabilitates geographical explanation through rigorous scientific methodology, not ideological assertion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This page argues that modern science provides the tools to answer Yali's question through geography. The book will synthesize findings from multiple disciplines to demonstrate geography's causal role in human history.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 26,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

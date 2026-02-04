@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 188 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 188 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>I 8 8 • GUNS, GERMS, AND STEEL</p>
+<p>and all other native societies of Mexico remained without pack animals</p>
+<p>and without any edible domestic mammals except for dogs.</p>
+<p>Conversely, domestic turkeys of Mexico and domestic sunflowers of the</p>
+<p>eastern United States might have thrived in the Andes, but their southward</p>
+<p>spread was stopped by the intervening tropical climates. The mere 700</p>
+<p>miles of north-south distance prevented Mexican corn, squash, and beans</p>
+<p>from reaching the U.S. Southwest for several thousand</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0188">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Americas domesticated animals limited: Mexico had only dogs, no pack animals, no edible livestock. Mexican turkeys/sunflowers would thrive in Andes but tropical climate barrier prevented southward spread. Corn, squash, beans: 700-mile distance separated Mexico from US Southwest but diffusion required thousands of years due to climate gradients. North-south geographic axis constrained crop diffusion speed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>North-south crop diffusion constrained. Geographic distance secondary to climate compatibility. Crops adapted to source climate fail in different climate zones. Americas domesticates capable of thriving elsewhere blocked by intervening climates. Geographic axis orientation determines diffusion speed independent of distance shortness.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mexico domesticated maize, beans, squash, turkeys. Limited domesticated animals (dogs only). Tropical Mexico climate unsuited for northward temperate US or southward Andean diffusion. 700-mile US Southwest distance required millennia for adaptation. Andes would accept turkeys/sunflowers but tropical intervening climate prevented spread. Americas domesticate inventory limited by climate constraints on geographic diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Americas north-south axis geography cascades into domesticate diffusion constraints. Mexico innovations failed to spread north or south across climate zones. Eurasian east-west axis enabled rapid domesticate spread across similar climates. Geographic axis orientation determines which domesticates accessible to which civilizations. Americas geography limited technology diffusion reach.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 188,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

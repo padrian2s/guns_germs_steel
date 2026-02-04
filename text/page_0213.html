@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 213 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 213 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT OF LIVESTOCK • 2 13</p>
+<p>of Eurasian herd animals that became domesticated. Whereas many such</p>
+<p>animals existed in Eurasia, only five animals of any sort became domesti</p>
+<p>cated in the Americas: the turkey in Mexico and the U.S. Southwest, the</p>
+<p>llama / alpaca and the guinea pig in the Andes, the Muscovy duck in tropi</p>
+<p>cal South America, and the dog throughout the Americas.</p>
+<p>In turn, we also saw that this extreme paucity of domestic animals in</p>
+<p>the New World reflects the paucity of wild starting ma</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0213">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Americas domesticated animals extremely limited: only 5 species total. Turkey (Mexico/US Southwest), llama/alpaca (Andes), guinea pig (Andes), Muscovy duck (tropical South America), dog (throughout). Eurasia possessed many herd animals for domestication. Americas animal paucity reflects wild fauna poverty. Domestication potential: Americas fauna limited. Eurasia fauna abundant: multiple domesticable species.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Wild animal diversity determines domestication potential. Domestication potential geographic-determined. Eurasia: diverse large herbivores (horses, cattle, pigs, sheep, goats). Americas: few large domesticable species. Large animals evolved to avoid megafauna hunters now extinct. Megafaunal extinction Americas unique. Small domestication pool → limited zoonotic diseases → limited immunity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasia Holocene fauna: horses, cattle, pigs, sheep, goats, camels, yaks, water buffalo, reindeer. Each domesticated creating epidemic diseases. Americas large mammals: mostly extinct by agricultural period (Pleistocene megafaunal extinction). Surviving Americas fauna: llamas (small), alpacas (small), dogs (not disease reservoir). Geographic animal extinction: created domestication inequality.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic Pleistocene megafaunal extinction created Americas animal poverty. Animal domestication potential geography-determined. Domestication potential determines epidemic disease exposure. Epidemic disease exposure determines population immunity. Americas geographic animal poverty → limited domestication → limited disease → zero immunity → conquest vulnerability. Eurasian animal abundance → extensive domestication → extensive disease → high immunity → conquest advantage. Geography cascades through animal ecology through domestication through epidemiology through conquest.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 213,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

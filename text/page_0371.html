@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 371 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 371 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HEMISPHERES COLLIDING • 3 71</p>
+<p>Alaska established itself across the strait on the opposite Siberian coast.</p>
+<p>The first documented Eurasian attempt to colonize the Americas was by</p>
+<p>the Norse at Arctic and sub-Arctic latitudes (Figure 18.1). Norse from</p>
+<p>Norway colonized Iceland in A.D. 874, then Norse from Iceland colonized</p>
+<p>Greenland in A.D. 986, and finally Norse from Greenland repeatedly vis</p>
+<p>ited the northeastern coast of North America between about A.D. 1000</p>
+<p>and 1350. The sole Norse archaeological si</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0371">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Norse colonization of Americas succeeded in Arctic/sub-Arctic (Iceland A.D. 874, Greenland A.D. 986, North American visits 1000-1350), but ultimately failed. Geographic constraints and population source limitations prevented sustained colonization. Norse attempt demonstrates geography-determined colonization success—latitude, climate, source population wealth determine viability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Colonization success geography-dependent: source population (wealth, size), target climate (food productivity), latitude (agriculture suitability), supporting homeland resources. Arctic/sub-Arctic unsuitable food production limits expansion. Source population limited (Norway) constrains colonization scale. Geographic isolation prevents sustained colonization. Population replacement requires sufficient settler population and productive agriculture.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Norse colonization trajectory: 874-986 AD westward progression (Norway→Iceland→Greenland→North America). Each step moved into progressively colder, less productive climate. Iceland: productive enough sustaining Norse population. Greenland: marginal agriculture, dependent on Iceland/Norway support. North America (Newfoundland area): Arctic climate limiting agriculture, trading posts only, no permanent farming settlements. Norse population source small (Norway) couldn't sustain long-distance colonial population. Colonial enterprise failed by 1350 due to geographic constraints and source population limitations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Colonization success geography-determined through climate determining agriculture productivity determining settler viability. Arctic latitude unsuitable agriculture prevents settlement expansion. Source population wealth geography-determined (temperate climate productivity enables population growth enables exploration funding). Norse poverty relative to Spain reflects geographic origin in marginal northern climate. Colonization failure reflected geographic unsuitability of target and limited source population. Geography determined Norse failure: unfavorable target climate + small source population from marginal homeland = failed colonization.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 371,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

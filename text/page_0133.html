@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 133 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 133 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 1 33</p>
+<p>plant in modern times suggests that ancient peoples really may have</p>
+<p>explored virtually all useful wild plants and domesticated all the ones</p>
+<p>worth domesticating.</p>
+<p>Yet some of the world's failures to domesticate wild plants remain hard</p>
+<p>to explain. The most flagrant cases concern plants that were domesticated</p>
+<p>in one area but not in another. We can thus be sure that it was indeed</p>
+<p>possible to develop the wild plant into a useful crop, and we have to ask</p>
+<p>why that wild species w</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0133">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Archaeological evidence suggests ancient peoples explored virtually all useful wild plants and domesticated all worth domesticating. Yet some failures remain puzzling: domestication successes in one region but failures in another region with the same species. Cases demonstrate feasibility yet regional non-adoption requires explanation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication feasibility vs. adoption. Species domesticable in region A but not adopted in region B. Not technology barrier (know-how spreads). Not feasibility barrier (proven in region A). Regional preference, wild productivity, or diffusion barriers explain differential adoption. Geographic factors other than domesticability determine adoption patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Grapes: domesticated Mediterranean → not adopted Australia despite similar climate. Apples: domesticated Eurasia → not adopted Americas. Wheat: adopted Mediterranean → failed Australia. Pattern repeats: species domesticable proven by adoption elsewhere yet fails in other suitable regions. Suggests geographic barriers, diffusion patterns, or wild plant productivity determine adoption more than domesticability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Domesticability necessary but insufficient for adoption. Geographic factors determine adoption: wild plant productivity (no adoption pressure), diffusion barriers (isolated regions), cultural factors (food preferences). Species geography-determined availability explains adoption patterns. Geographic factors beyond domesticability control which regions adopt which crops.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 133,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

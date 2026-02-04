@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 244 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 244 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>2 44 GUNS, GERMS, AND STEEL</p>
+<p>Inventors often have to persist at their tinkering for a long time in the</p>
+<p>absence of public demand, because early models perform too poorly to be</p>
+<p>useful. The first cameras, typewriters, and television sets were as awful as</p>
+<p>Otto's seven-foot-tall gas engine. That makes it difficult for an inventor to</p>
+<p>foresee whether his or her awful prototype might eventually find a use and</p>
+<p>thus warrant more time and expense to develop it. Each year, the United</p>
+<p>States issues about 70,0</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0244">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Inventors persist tinkering years without public demand—early prototypes too poor for utility. First cameras, typewriters, television sets terrible (like Otto's seven-foot gas engine). Inventors face challenge foreseeing which awful prototypes eventually find use. Development requires continued investment with uncertain payoff. US issues ~70,000 patents annually—most find no commercial use. Invention success requires luck/timing matching invention with receptive market.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology development requires long investment period. Early prototypes inefficient until refinement. Commercial viability uncertain during development phase. Invention perseverance without guaranteed return. Market conditions determining technology success unpredictable. Most inventions never find practical application despite ingenuity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Photography development: decades of refinement cameras → 1900s adoption. Television: 1930s-1950s development → mass adoption post-WWII. Internal combustion: 1870s-1890s refinement → 1900s automobile adoption. Each technology: prototypes terrible then gradual refinement enabling practical application. Geographic conditions (markets, wealth, manufacturing capacity) determine whether refinement investments justified.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic wealth determines invention investment capacity. Wealthy societies (geography-determined through trade advantages) can support long development periods. Poor societies lack resources for development investments. Development success geography-determined: only wealthy regions can afford prototyping/refinement. Technology advancement concentrates in geography-advantaged regions with capital for experimentation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 244,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

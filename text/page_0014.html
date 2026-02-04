@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 14 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 14 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>14 " PROLOGUE</p>
+<p>on every New Guinean's mind—the rapid pace of political developments.</p>
+<p>Papua New Guinea, as Yali's nation is now called, was at that time still</p>
+<p>administered by Australia as a mandate of the United Nations, but inde</p>
+<p>pendence was in the air. Yali explained to me his role in getting local peo</p>
+<p>ple to prepare for self-government.</p>
+<p>After a while, Yali turned the conversation and began to quiz me. He</p>
+<p>had never been outside New Guinea and had not been educated beyond</p>
+<p>high school, but his cur</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0014">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond describes his 1972 meeting with Yali, a New Guinean politician traveling to prepare his people for independence from Australian mandate. Despite high school education and no foreign travel, Yali impressed Diamond with his intelligence, curiosity, and penetrating questions about bird evolution, human migration, and colonization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Yali represents an intellectually capable non-Western individual whose limited access to technology does not reflect limited intelligence. Diamond establishes that the technological gap between New Guinea and Europe cannot be explained by cognitive differences. Yali's questions reveal engagement with complex evolutionary and historical concepts.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Set in 1972, when Papua New Guinea was still under Australian administration but approaching independence, Diamond's encounter occurred during a period of rapid decolonization. Yali embodied the aspirations of newly independent nations questioning why they lacked the "cargo" (technology, material wealth) of colonizers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Yali's intelligence and curiosity undermine biological/racial explanations of technological difference. The personal encounter transforms the abstract question into human terms, motivating Diamond's 25-year investigation into geographical rather than genetic causes of inequality.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 14,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

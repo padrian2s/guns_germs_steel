@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 124 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 124 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>124 " GUNS, GERMS, AND STEEL</p>
+<p>and barley and peas domesticated around 10,000 years ago, arose from</p>
+<p>wild ancestors offering many advantages. They were already edible and</p>
+<p>gave high yields in the wild. They were easily grown, merely by being sown</p>
+<p>or planted. They grew quickly and could be harvested within a few months</p>
+<p>of sowing, a big advantage for incipient farmers still on the borderline</p>
+<p>between nomadic hunters and settled villagers. They could be readily</p>
+<p>stored, unlike many later crops such as st</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0124">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Founder crop advantages enabling agriculture adoption: already edible (no processing barrier), high wild yields, easy to grow (simple sowing/planting), quick maturation (months not years), storability (unlike later crops). Wheat, barley, peas domesticated 10,000 years ago from wild ancestors with these characteristics. Few wild species possessed all advantages simultaneously.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication prerequisite traits. Edibility requirement eliminating processing overhead. Yield sufficiency enabling population growth. Growth speed matching annual cycle. Storability enabling winter survival and surplus. Geographic variation in wild species trait combinations. Regions with all-trait species → rapid agriculture. Regions lacking trait combinations → slow adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: wild wheat/barley/peas possessed all founder traits. Agriculture adoption 8500 BCE. Mesoamerica: maize lacked initial high yield (teosinte cobs tiny) but compensated with storability. New Guinea: taro, banana edible but lacking other traits → slower agricultural transition. Trait availability determined adoption timing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic wild species trait combinations determine agriculture feasibility. Regions with complete founder trait packages → rapid domestication. Regions with partial packages → delayed adoption requiring skill development (processing techniques). Regions lacking critical traits → agriculture impossible. Available wild species characteristics geography-determined control agriculture adoption speed.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 124,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

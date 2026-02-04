@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 84 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 84 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p><em>Visual content - refer to PDF image</em></p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0084">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Visual diagram or map illustrating food production origins and spread globally. Chapter 4 explores how geographic distribution of domesticable species determined which regions adopted agriculture and when, fundamentally shaping societal complexity differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Food production origins geography-determined. Fertile Crescent ~10,000 BCE earliest adoption. China ~9,000 BCE independent domestication. Mesoamerica ~5,000 BCE maize domestication. Sub-Saharan Africa variable timing. Papua New Guinea independent root crop adoption. Geographic variation in domesticable wild species explains adoption timing differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Global food production timeline mapped by geographic region. Fertile Crescent earliest: domesticable wheat, barley, livestock (sheep, goats, pigs, cattle). China: millet, rice, pigs. Mesoamerica: maize, beans, squash. Americas initially: limited domesticable large animals (llamas, alpacas only). Sub-Saharan Africa: sorghum, millet, yams. Geographic availability of suitable species determined agricultural emergence timing and success.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Food production timeline geography-determined through wild species availability by region. Fertile Crescent agricultural success: large-seeded grasses, suitable livestock. Americas delayed adoption: suitable crops eventually developed (maize) but large domesticable animals absent (no horses, cattle, pigs native). Geographic species distribution determines agricultural feasibility. Different regions' agricultural potential geography-provided determines population growth potential determines civilization complexity. Food production adoption timeline geography-determined.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 84,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

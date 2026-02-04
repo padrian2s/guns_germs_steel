@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 56 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 56 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>56 • GUNS, GERMS, AND STEEL</p>
+<p>Figure 2.1. Polynesian islands. (Parentheses denote some non-Polynesian</p>
+<p>lands.)</p>
+<p>tion, the Chathams are relatively small and remote islands, capable of sup</p>
+<p>porting a total population of only about 2,000 hunter-gatherers. With no</p>
+<p>other accessible islands to colonize, the Moriori had to remain in the Chat-</p>
+<p>hams, and to learn how to get along with each other. They did so by</p>
+<p>renouncing war, and they reduced potential conflicts from overpopulation</p>
+<p>by castrating some male in</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0056">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Chathams: small, remote, supporting only ~2,000 hunter-gatherers. Moriori had no other islands to colonize. Instead developed conflict-prevention mechanisms: renounced warfare, reduced overpopulation through male infanticide. Contrasts sharply with New Zealand North's warmth and size supporting large farmer population with chronic warfare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Island size and isolation constraints. Small island → limited population → cannot support specialized craft, military. Geographic limitation (cold climate prevents agriculture) forced reversion to hunting, limited population. Population management through cultural practices (infanticide).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Chatham Islands cold climate unsuitable for Maori crops. Population ~2,000 maximum. New Zealand North capacity: 100,000+. Same colonizing Polynesians diverged dramatically due to island geographic differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography directly determined social complexity: small island → peaceful egalitarian society; large fertile island → complex hierarchical warrior society. Same people, different environments = completely different cultural/political organization within centuries.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 56,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

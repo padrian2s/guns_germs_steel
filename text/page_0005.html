@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 5 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>CONTENTS</p>
+<p>Preface to the Paperback Edition 9</p>
+<p>P R O L O G UE YALI'S QUESTION</p>
+<p>The regionally differing courses of history 1 3</p>
+<p>PART ONE FROM EDEN TO CAJAMARCA 3 3</p>
+<p>CHAPTER 1 UP TO THE STARTING LINE</p>
+<p>What happened on all the continents before 11,000 B.C.} 3 5</p>
+<p>CHAPTER 2 A NATURAL EXPERIMENT</p>
+<p>OF HISTORY</p>
+<p>How geography molded societies on Polynesian islands 5 3</p>
+<p>CHAPTER 3 COLLISION AT CAJAMARCA</p>
+<p>Why the Inca emperor Atahuallpa did not capture</p>
+<p>King Charles I of Spain 6 7</p>
+<p>PART TWO THE RISE AND SPREAD OF FOOD</p>
+<p>PR</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0005">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>This page presents the table of contents, outlining Diamond's four-part structure: the question (Prologue), evidence from history before 1500 CE (Part One), the origins of agriculture and technology (Parts Two-Three), and regional case studies (Part Four).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>The structure reveals Diamond's methodology: establish the question (why inequality?), prove that technological differences existed by 1500 CE, trace these differences to food production advantages, then demonstrate the pattern across different continents. Chapter titles emphasize geographical determinism: "Collision at Cajamarca," "Farmer Power," "Spacious Skies and Tilted Axes."</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The 1500 CE date marks Europe's expansion, making it the pivot point for examining pre-existing technological gaps. Diamond organizes content around three mechanisms: food production's role, domestication of plants and animals, and geographic axes affecting technology transfer.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>The table of contents architecturally supports Diamond's argument: geography determines food production → food production enables civilization development → civilizations develop guns, germs, steel → these advantages allow conquest. This logical progression from geography through biology to technology demonstrates how continental differences cascade into global inequality.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 5,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

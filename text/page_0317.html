@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 317 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 317 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE " 317</p>
+<p>ubiquitous role of geography in the transmission of human culture and</p>
+<p>technology.</p>
+<p>IT REMAINS FOR US to consider the encounters of New Guinea's and</p>
+<p>Australia's Stone Age societies with Iron Age Europeans. A Portuguese</p>
+<p>navigator "discovered" New Guinea in 1526, Holland claimed the west</p>
+<p>ern half in 1828, and Britain and Germany divided the eastern half in</p>
+<p>1884. The first Europeans settled on the coast, and it took them a long</p>
+<p>time to penetrate into the interior, but by 1960 Euro</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0317">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>European contact chronology: Portuguese discovery 1526, Dutch claimed western New Guinea 1828, British/German divided eastern half 1884. Europeans initially settled coast, penetration into interior slow. By 1960 Europeans reached interior. Pre-1526: 12,000+ years independent development with zero European contact. European arrival introduced Iron Age to Stone Age societies. Time lag between discovery (1526) and interior penetration (1960s) significant—geographic terrain barriers slowed European diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>European expansion temporally rapid but geographically slow into New Guinea interior. Terrain barriers (mountains, jungles) restricted European inland movement. Coastal penetration easy; interior penetration required 100+ years. European military superiority ineffective in terrain. Technology transfer slow due to geographic barriers preventing transport/communication. Distance and terrain more limiting than technological superiority.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>New Guinea 1526-1960: 434 years from first European contact to interior penetration. Coastal colonization rapid; interior unknown for centuries. Terrain geography determined penetration rate—interior mountains/jungles protected indigenous peoples longer than coastal populations. Comparison: American interior penetration slower than coastal colonization; Australian interior pastoralism limited by arid climate. New Guinea terrain barrier similar to American mountains slowing westward expansion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic terrain determines technology diffusion rate. Mountains/jungles impede European military expansion. Technology superiority (ships, guns) enables coastal contact but terrain restricts inland diffusion. Interior populations geographically protected 434+ years despite European presence offshore. Geography determines access determining contact rate determining technology adoption timing. European Iron Age technology took centuries diffusing inland due to terrain geography.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 317,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

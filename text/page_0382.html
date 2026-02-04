@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 382 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 382 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 82 • GUNS, GERMS, AND STEEL</p>
+<p>Figure 19.2. Language families of Africa.</p>
+<p>defined human groups: languages of a given language family tend to be</p>
+<p>spoken by distinct people. In particular, Afroasiatic speakers mostly prove</p>
+<p>to be people who would be classified as whites or blacks, Nilo-Saharan</p>
+<p>and Niger-Congo speakers prove to be blacks, Khoisan speakers Khoisan,</p>
+<p>and Austronesian speakers Indonesian. This suggests that languages have</p>
+<p>tended to evolve along with the people who speak them.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0382">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African language families directly correspond to defined ethnic/racial groups: Afroasiatic speakers (whites/blacks), Nilo-Saharan speakers (blacks), Niger-Congo speakers (blacks), Khoisan speakers (Khoisan), Austronesian speakers (Indonesian). Language families evolved along with speaker populations. Linguistic geography documents population geography. Language boundary distribution maps population distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language evolution geography-constrained through population isolation. Geographic barriers create language divergence through isolation. Geographic proximity enables language similarity through contact/interchange. Language geographic distribution indicates population movement patterns. Language family speakers indicating related populations indicate shared origins. Linguistic geography traces population expansion and replacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Afroasiatic: North Africa and Middle East (semitic languages, Arabic, Hebrew)—Mediterranean/Near Eastern origin. Nilo-Saharan: fragmented distribution along Sahel zone—populations displaced by surrounding groups. Niger-Congo: dominant sub-Saharan (Bantu branch dominant)—West African origin expanding southeastward. Khoisan: southern Africa margins—confined to harsh environment after Bantu displacement. Austronesian: Madagascar and maritime Southeast Asia—oceanic dispersal. Language distribution documents population geography—language family geography indicating population success and displacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Language family geography traces population geography geography-determined by technology and resources. Bantu Niger-Congo expansion documents agricultural advantage enabling population growth enabling territory occupation. Khoisan confinement to margins documents displacement by technologically superior populations. Afroasiatic Mediterranean concentration documents geographic homeland where language family originated. Language geographic distribution maps population success geography-determined: agricultural advantages expand language families; technological disadvantages confine populations to margins.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 382,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

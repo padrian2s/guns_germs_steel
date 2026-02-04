@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 289 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 289 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>FROM EGALITARIANISM TO KLEPTOCRACY • 289</p>
+<p>lead to societies on the next level of complexity if conditions permit. Tribes</p>
+<p>conquer or combine with tribes to reach the size of chiefdoms, which con</p>
+<p>quer or combine with other chiefdoms to reach the size of states, which</p>
+<p>conquer or combine with other states to become empires. More generally,</p>
+<p>large units potentially enjoy an advantage over individual small units if—</p>
+<p>and that's a big "if"—the large units can solve the problems that come</p>
+<p>with their larger</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0289">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Political hierarchies consolidate progressively when conditions permit: tribes consolidate into chiefdoms, chiefdoms consolidate into states, states consolidate into empires. Each consolidation driven by military advantage of larger units. Large units potentially enjoy military advantages over small units (superior troop numbers, specialized soldiers, logistical organization)—provided large units internally solve coordination problems. Geography enabling both large unit size and coordination mechanisms drives consolidation. Consolidation continues until geographic carrying capacity limits reached or consolidation costs exceed military-advantage benefits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Military selection pressure drives hierarchical consolidation. Larger militaries defeat smaller militaries when geography enables organization. Organized large armies overcome disorganized populaces. Political consolidation arms race: geography enabling one group to consolidate forces neighbors to consolidate competing larger units. Consolidation stabilizes at scale matching geography's carrying capacity. Geography enables: population density determines achievable unit size; trade routes enable communication enabling coordination; resources enable army support.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean states: geographic proximity forced consolidation into empires. China: large populations enabled early empire formation. Europe fragmented terrain: multiple competing states, incomplete consolidation into empires until 20th century. Americas: similar progression—scattered tribes → chiefdoms → Aztec/Inca empires. Consistent pattern: geography enabling large populations and communication enables military consolidation. Geographic isolation prevents consolidation pressure—Pacific islands remained independent chiefdoms lacking consolidation pressure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Political consolidation geography-driven military selection pressure. Geography permitting large populations → military advantages for consolidation → consolidation arms race → hierarchical escalation. Geography limiting population → weak military advantage from consolidation → tribal/chiefly organization persists. Consolidation level reflects geography's carrying capacity enabling achievable organizational scale. Progression from bands→tribes→chiefdoms→states→empires not cultural evolution but mechanical response to geography-determined military selection pressure. Geographic position determines consolidation necessity and achievable scale.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 289,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

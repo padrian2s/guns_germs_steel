@@ -1,0 +1,89 @@
+{
+  "book": {
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "subtitle": "The Fates of Human Societies",
+    "total_pages": 457,
+    "publisher": "W. W. Norton & Company",
+    "isbn": "0-393-31755-2",
+    "publication_year": 1997,
+    "edition": "Paperback",
+    "description": "A groundbreaking work that explains how the geography and resources of different continents shaped the development of civilizations and their relative power.",
+    "key_themes": ["Geography", "Agriculture", "Disease", "Technology", "Domestication", "History", "Culture", "Evolution"]
+  },
+  "structure": {
+    "preface": {
+      "title": "Preface to the Paperback Edition",
+      "start_page": 9,
+      "end_page": 12
+    },
+    "prologue": {
+      "title": "Prologue: Yali's Question",
+      "subtitle": "The regionally differing courses of history",
+      "start_page": 13,
+      "end_page": 32
+    },
+    "parts": [
+      {
+        "title": "Part One: From Eden to Cajamarca",
+        "start_page": 33,
+        "chapters": [
+          {
+            "number": 1,
+            "title": "Up to the Starting Line",
+            "subtitle": "What happened on all the continents before 11,000 B.C.",
+            "start_page": 35,
+            "end_page": 52,
+            "themes": [
+              "Geography",
+              "Human Evolution",
+              "Hunter-Gatherers"
+            ]
+          },
+          {
+            "number": 2,
+            "title": "A Natural Experiment of History",
+            "subtitle": "How geography molded societies on Polynesian islands",
+            "start_page": 53,
+            "end_page": 66,
+            "themes": [
+              "Geography",
+              "Island Societies",
+              "Culture"
+            ]
+          },
+          {
+            "number": 3,
+            "title": "Collision at Cajamarca",
+            "subtitle": "Why the Inca emperor Atahualpa did not capture King Charles I of Spain",
+            "start_page": 67,
+            "end_page": 82,
+            "themes": [
+              "Technology",
+              "Conquest",
+              "Disease",
+              "Geography"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Part Two: The Rise and Spread of Food Production",
+        "start_page": 83,
+        "chapters": [
+          {
+            "number": 4,
+            "title": "Farmer Power",
+            "subtitle": "The roots of guns, germs, and steel",
+            "start_page": 85,
+            "themes": [
+              "Agriculture",
+              "Technology",
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

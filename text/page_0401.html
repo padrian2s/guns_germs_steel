@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 401 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 401 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 401</p>
+<p>ences between European and African peoples themselves, as white racists</p>
+<p>assume. Rather, it was due to accidents of geography and biogeography—</p>
+<p>in particular, to the continents' different areas, axes, and suites of wild</p>
+<p>plant and animal species. That is, the different historical trajectories of</p>
+<p>Africa and Europe stem ultimately from differences in real estate.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0401">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Africa-Europe technological differences not biological: geographic and biogeographic accidents created different outcomes. Continent size, axis orientation, wild species availability determined divergent trajectories. Historical differences reflect "real estate" advantages not innate population differences. Geographic advantages created technology disparities appearing to reflect biological differences but actually reflecting geographic distribution of resources.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic determinism alternative to racial determinism: technology differences from geography not genes. Biogeographic advantages: available domesticable animals, crops, geographic connectivity determine technological development trajectory. Geographic accident: no population group deliberately chose advantages—geographic distribution of species created differential starting points. Technology differences accumulate: early geographic advantages compound creating widening technological/political gaps appearing biological but rooted in geography.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Eurasia: large continent, east-west axis, abundant domesticable animals (horses, cattle, pigs, sheep), diverse crops enabling intensive agriculture supporting large populations supporting complex technology. Africa: east-west geographic fragmentation, limited domesticable animals (few suitable large mammals), climate diversity preventing unified agricultural system. Europe advantages: geographic connectivity enabling technology diffusion, abundant draft animals enabling complex agriculture, island geography enabling maritime technology development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic determinism refutes racist assumptions: technology differences result from geographic distribution of resources not population biological differences. Africa-Europe differences: geographic fauna distribution, geographic connectivity patterns, climate patterns created advantages favoring European technology development. "Real estate" determines civilization development trajectories: continent size, axis orientation, species availability create differential advantages accumulating over millennia. Population technological capabilities identical: geography determines opportunity for technology development not population ability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 401,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 81 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 81 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>COLLISION AT CAJAMARCA • 81</p>
+<p>nents. Long before anyone began manufacturing guns and steel, others of</p>
+<p>those same factors had led to the expansions of some non-European peo</p>
+<p>ples, as we shall see in later chapters.</p>
+<p>But we are still left with the fundamental question why all those imme</p>
+<p>diate advantages came to lie more with Europe than with the New World.</p>
+<p>Why weren't the Incas the ones to invent guns and steel swords, to be</p>
+<p>mounted on animals as fearsome as horses, to bear diseases to which Euro</p>
+<p>pean</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0081">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Core question: Why did Old World (Europe/Asia/Africa) develop guns, steel, horses, but Americas didn't? Why weren't Incas the ones inventing firearms, steel weapons, riding animals, bearing diseases to Europeans? Question shifts focus from Cajamarca collision narrative to underlying geographic causes determining technology divergence. Book's remaining task: explain why certain geographic regions developed certain technologies, enabling European conquest rather than American counter-conquest.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Core question: Why Eurasia-Africa developed technology, Americas didn't? Guns, steel, horses, diseases—all traceable to geographic differences. Why not Inca conquest of Europeans? Why Americas lacked Eurasian technologies? Question frames remaining book analysis: explaining geographic determinism mechanism. Geography determines technology distribution. Technology distribution determines conquest outcome. Reversing conquest (Americas→Europe) would require Americas possessing Eurasia's technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Cajamarca 1532: Spanish conquered Inca through technology advantage (guns, steel, horses, disease). Opposite scenario never occurred: Inca never conquered Spanish. Historical contingency: Spanish happened to have advantageous technology. Thought experiment: reverse scenario requires Inca possessing guns, steel, horses, diseases. Inca lacked all four. Historical outcome determined by technology access not military capability or organizational sophistication. Technology difference geographic-determined, not random.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Book's remaining chapters answer: Why geographic differences created technology differences? Domesticable animals geography determines horses available. Metallurgy raw materials geography determines steel/guns. Domesticated animals geography determines disease pools. Continental axis geography determines technology diffusion speed. Geography→animals→metallurgy→disease→conquest. Eurasian geography created technology advantages. Americas geography created technology disadvantages. Conquest outcome geographically determined through technology difference cascade. Geographic determinism explains Cajamarca outcome through technology mechanism.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 81,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

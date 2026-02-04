@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 54 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 54 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>54 " GUNS, GERMS, AND STEEL</p>
+<p>toms and we caught all the people. Not one escaped. Some ran away from</p>
+<p>us, these we killed, and others we killed—but what of that? It was in accor</p>
+<p>dance with our custom."</p>
+<p>The brutal outcome of this collision between the Moriori and the Maori</p>
+<p>could have been easily predicted. The Moriori were a small, isolated popu</p>
+<p>lation of hunter-gatherers, equipped with only the simplest technology and</p>
+<p>weapons, entirely inexperienced at war, and lacking strong leadership or</p>
+<p>organiza</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0054">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Moriori's predictable defeat illustrates geographic determinism: Moriori were isolated hunter-gatherers with simple weapons, no war experience, peaceful traditions. Maori were dense-population farmers, chronically warring, advanced weapons, organized leadership. Despite Moriori numerical advantage (2:1), Maori slaughtered, enslaved Moriori population. Disparate development sealed military outcome despite common ancestry.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Military outcome entirely predictable from technology/organization differences. Peaceful vs warlike tradition. Hunter-gatherer vs farmer subsistence. Organizational complexity determines warfare effectiveness. Divergent adaptation of Polynesian peoples produced military disparity despite <1000 years separation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>1835 invasion: 900 Maori conquered Moriori. Moriori tradition: peaceful dispute resolution. Maori tradition: chronic warfare, organized armies. Centuries of geographic isolation created divergent cultural-military systems.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Moriori-Maori collision exemplifies geographic determinism on small scale. Environmental constraints (Chatham cold climate) forced agricultural abandonment, reversed Moriori to hunter-gatherers. New Zealand warm climate maintained agriculture, supporting warrior development. Geographic environment determined military capacity within same founding population.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 54,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

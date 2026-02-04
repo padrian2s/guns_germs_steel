@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 166 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 166 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>I 6 6 • GUNS, GERMS, AND STEEL</p>
+<p>of the last Ice Age. As summarized in Table 9.3, the era of big mammal</p>
+<p>domestication began with the sheep, goat, and pig and ended with camels.</p>
+<p>Since 2500 B.C. there have been no significant additions.</p>
+<p>It's true, of course, that some small mammals were first domesticated</p>
+<p>long after 2500 B.C. For example, rabbits were not domesticated for food</p>
+<p>until the Middle Ages, mice and rats for laboratory research not until the</p>
+<p>20th century, and hamsters for pets not until the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0166">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Big mammal domestication timeline ended ~2500 BCE with camels. No significant large herbivore domestications since then—5000+ years. Small mammals domesticated later (rabbits in Middle Ages, mice/rats 20th century labs, hamsters 20th century pets) but insignificant agriculturally. Large domesticable mammal pool exhausted by ancient times. Genetic limits prevent future big mammal domestication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domestication exhaustion. Only 14 large mammals domesticated globally. No additions for 5000 years despite intensive human effort. Genetic constraints absolute: species lacking domestication traits cannot be domesticated regardless of human motivation. Small mammal domestication unrelated to agriculture (pets, laboratory). Agricultural societies' domesticate inventory frozen since Neolithic.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Big mammal domestication: sheep/goat ~10000 BCE, pig ~9000 BCE, horse ~4000 BCE, camel ~2500 BCE. Post-2500 BCE: zero major domesticates added. Meanwhile, small mammals domesticated much later: rabbits ~1000 CE, mice/rats ~1900 CE, hamsters ~1950 CE. Agricultural societies never found additional large herbivores capable of domestication despite centuries effort.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic domesticable fauna inventory finite and unchanging. 14 species represents complete domestication capacity globally. No new large mammals domesticated in 5000 years proves genetic exhaustion. Present-day domesticate inventory reflects ancient geography's fauna limits. Regions with more large herbivores (Eurasia) achieved higher domestication capacity. Geographic fauna distribution determined Neolithic domestication; that Neolithic inventory persists unchanged.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 166,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

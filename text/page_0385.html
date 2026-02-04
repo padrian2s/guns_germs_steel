@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 385 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 385 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 85</p>
+<p>guages, are packed into a tiny area of Cameroon and adjacent eastern</p>
+<p>Nigeria.</p>
+<p>Evidently, the Niger-Congo language family arose in West Africa; the</p>
+<p>Bantu branch of it arose at the east end of that range, in Cameroon and</p>
+<p>Nigeria; and the Bantu then spread out of that homeland over most of</p>
+<p>subequatorial Africa. That spread must have begun long ago enough that</p>
+<p>the ancestral Bantu language had time to split into 500 daughter lan</p>
+<p>guages, but nevertheless recently enough</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0385">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>"How Africa Became Black" - Bantu expansion explaining African linguistic/cultural geography. Niger-Congo language family arose West Africa. Bantu branch (Niger-Congo subgroup) arose Cameroon/Nigeria region. Bantu languages spread most of subequatorial Africa. Modern evidence: Niger-Congo language diversity packed in tiny Cameroon/Nigeria area (geographic homeland). Bantu split into 500 daughter languages—geographic expansion traced through linguistic diversity. African population replacement through Bantu expansion expansion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language diversity tracks population expansion from geographic origin. Bantu homeland: Cameroon/Nigeria concentrated language diversity. Bantu expansion: daughter languages across Africa. Language family geography reveals population movement direction and timing. 500 daughter languages from single ancestral language indicates long-ago expansion with time for linguistic divergence. Language distribution traces geographic expansion patterns—homeland shows maximum diversity; periphery shows simplified lineages.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Niger-Congo family origin West Africa. Bantu branch Cameroon/Nigeria (geographic homeland today shows language concentration). Bantu expansion timing: began long ago (time for 500 languages) but recently enough for linguistic relations apparent. Expansion path: eastward and southward replacing Khoisan and other hunter-gatherers. Bantu technology advantage: iron-working, crops. Geographic expansion enabled by domestication technology advantage over indigenous hunter-gatherers. Language replacement traces agricultural expansion pattern.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Language distribution geographic evidence of population expansion and replacement. Bantu expansion from Cameroon/Nigeria homeland across Africa: agriculture technology advantage. African domestication advantage (sorghum, millet, etc.) enabled Bantu expansion replacing hunter-gatherers. Geography created agricultural possibility enabling population movement. Language distribution maps geographic conquest/expansion—linguistic diversity concentrated at origin (Cameroon/Nigeria) reveals geographic homeland. African populations replacement geography-determined through agricultural technology advantage enabling Bantu expansion from homeland region.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 385,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

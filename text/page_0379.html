@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 379 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 379 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW AFRICA BECAME BLACK • 3 79</p>
+<p>Figure 19.1. See the text for caveats about describing distributions of Afri</p>
+<p>can peoples in terms of these familiar but problematical groupings.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0379">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>"How Africa Became Black" language distribution maps. Figure 19.1 displays African language families and population distributions. Text notes caveats: language family groupings problematical for describing African peoples. Geographic distribution analysis requires nuance—linguistic boundaries don't neatly separate populations. African linguistic diversity reflects population movements and adaptation geographic regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Language distribution geographic evidence of population history. Linguistic boundaries reflect migration patterns and settlement geography. Language family concentration indicates homeland origins. Dispersed language dialects indicate expansion from geographic center. Geographic map shows population movement history. Linguistic distribution data constrains population history possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>African linguistic families: Niger-Congo (most numerous), Afroasiatic (North Africa), Nilo-Saharan, Khoisan (southern Africa). Distribution reflects Bantu expansion, Afroasiatic expansion from North Africa, Khoisan retreats to geographic margins. Language family concentrations indicate origin centers. Dispersed dialects indicate population movements. Geographic terrain influenced movement patterns and language divergence rates.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>African population movements geography-determined through agricultural expansion capacity and geographic barriers. Bantu expansion followed agricultural domestication geographic possibility. Population movements followed available geographic routes. Language geographic distribution maps resource availability and population expansion rates. Geographic barriers (deserts, rainforests) influenced language development rates and population separation. African linguistic diversity geography-rooted in geographic-determined population expansion and environmental barriers limiting dispersal.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 379,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

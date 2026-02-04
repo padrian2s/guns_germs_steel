@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Advantage Simulator</title>
+    <link rel="stylesheet" href="../css/simulators.css">
+</head>
+<body class="simulator">
+    <div class="simulator-header">
+        <h1>🌾 Agricultural Advantage Simulator</h1>
+        <p>See how early access to domesticable crops and animals accelerates civilization development</p>
+    </div>
+
+    <div class="simulator-container">
+        <!-- Controls -->
+        <div class="simulator-left">
+            <div class="control-section">
+                <h3>Region Parameters</h3>
+
+                <div class="control-group">
+                    <label>Crop Suitability</label>
+                    <input type="range" id="cropSlider" min="0" max="100" value="50" class="slider">
+                    <span id="cropValue">50%</span>
+                </div>
+
+                <div class="control-group">
+                    <label>Animal Domestication</label>
+                    <input type="range" id="animalSlider" min="0" max="100" value="50" class="slider">
+                    <span id="animalValue">50%</span>
+                </div>
+
+                <div class="control-group">
+                    <label>Geographic Advantage</label>
+                    <input type="range" id="geoSlider" min="0" max="100" value="50" class="slider">
+                    <span id="geoValue">50%</span>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="startBtn" class="btn-primary">▶️ Start Simulation</button>
+                    <button id="resetBtn" class="btn-secondary">↺ Reset</button>
+                </div>
+
+                <div class="preset-buttons">
+                    <h4>Presets</h4>
+                    <button class="preset-btn" data-preset="eurasia">Eurasia (High)</button>
+                    <button class="preset-btn" data-preset="americas">Americas (Medium)</button>
+                    <button class="preset-btn" data-preset="africa">Africa (Low)</button>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="control-section">
+                <h3>📊 Civilization Progress</h3>
+                <div class="stat">
+                    <label>Population Growth:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="populationFill" style="width: 0%"></div>
+                    </div>
+                    <span id="populationValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Technology Level:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="techFill" style="width: 0%"></div>
+                    </div>
+                    <span id="techValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Specialization:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="specFill" style="width: 0%"></div>
+                    </div>
+                    <span id="specValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Time to Civilization:</label>
+                    <span id="timeValue" class="time-value">- years</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualization -->
+        <div class="simulator-right">
+            <div class="canvas-container">
+                <canvas id="simulatorCanvas" width="500" height="500"></canvas>
+            </div>
+
+            <!-- Trace Log -->
+            <div class="trace-panel">
+                <h4>📝 Simulation Log</h4>
+                <div id="traceLog" class="trace-log">
+                    <p class="trace-item trace-info">Simulation ready. Adjust parameters and press Start.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/simulators/agricultural-advantage.js"></script>
+</body>
+</html>

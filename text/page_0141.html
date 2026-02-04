@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 141 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 141 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 141</p>
+<p>matter for the first farmers to take the seeds of wild cereals growing on</p>
+<p>hillsides and dependent on unpredictable rains, and to plant those seeds</p>
+<p>in the damp valley bottoms, where they would grow reliably and be less</p>
+<p>dependent on rain.</p>
+<p>The Fertile Crescent's biological diversity over small distances contrib</p>
+<p>uted to a fourth advantage—its wealth in ancestors not only of valuable</p>
+<p>crops but also of domesticated big mammals. As we shall see, there were</p>
+<p>few or no wild mammal</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0141">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Fertile Crescent biological diversity over small distances: key advantage. Farmers transplanted wild cereal seeds from rain-dependent hillsides to damp valley bottoms. Valley bottom irrigation ensured reliable growth independent of rainfall. Microhabitat diversity enabling cultivation optimization. Valleys provided agriculture insurance against climate variation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Microhabitat diversity advantage. Topographic variety enabling crop optimization. Water availability variation across small distances. Predictable water sources enabling confident cultivation. Hillside vs. valley exploitation creating agricultural security. Geographic microvariation enabling farmer flexibility in plant relocation decisions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: hills with rain-dependent wild cereals. Valleys with groundwater-fed damp bottoms. Farmers recognized transportation possibility. By ~9000 BCE: intentional seed translocation from hills to valleys. Early agriculture success partly relied on topographic diversity enabling cultivation experiment. Regions lacking topographic diversity limited to single elevation agricultural strategies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Topographic diversity determines agricultural experimentation capacity. Fertile Crescent valley-hill combination allowed rapid cultivation optimization. Flat regions lack elevation variation enabling different cultivation strategies. Microhabitat diversity geography-determined enables farmer innovation in crop selection/placement. Topographic variation geographic advantage for early agriculture development.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 141,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

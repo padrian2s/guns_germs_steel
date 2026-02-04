@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 123 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 123 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW TO MAKE AN ALMOND • 1 23</p>
+<p>crops as a result of selection by farmers, consciously or unconsciously.</p>
+<p>That is, farmers initially selected seeds of certain wild plant individuals to</p>
+<p>bring into their gardens and then chose certain progeny seeds each year to</p>
+<p>grow in the next year's garden. But much of the transformation was also</p>
+<p>effected as a result of plants' selecting themselves. Darwin's phrase "natu</p>
+<p>ral selection" refers to certain individuals of a species surviving better,</p>
+<p>and / or reproducing</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0123">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Domestication transformation from dual mechanisms: Conscious farmer selection (choosing seeds for replanting) and unconscious natural selection (favorable traits survive cultivation). Darwin's natural selection concept applies within cultivation: certain plant individuals survive/reproduce better under cultivation. Both selection types converge toward domestication traits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Dual selection mechanisms. Conscious harvest decisions creating artificial selection. Unconscious natural selection through cultivation environment. Traits advantageous in wild (dispersal, dormancy) disadvantageous in cultivation. Traits disadvantageous in wild (large seeds, dormancy reduction) advantageous in cultivation. Selection pressure convergence accelerates domestication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent farmers unconsciously selected non-dispersing wheat mutants through harvesting convenience. Simultaneously natural selection favored non-dispersing plants under cultivation. Dual pressure accelerated seed retention evolution. Mesoamerica: similar teosinte selection combining farmer choice and field-survival advantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic wild species genetic variation determines dual selection efficiency. High variation populations → rapid domestication from combined mechanisms. Low variation populations → slow domestication progress. Dual selection mechanisms most effective with genetically diverse wild populations. Geographic variation in wild population diversity → geographic variation in domestication trajectory.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 123,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

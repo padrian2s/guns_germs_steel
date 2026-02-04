@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 179 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 179 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>SPACIOUS SKIES AND TILTED AXES • 1 79</p>
+<p>about by alternative new mutations or alternative courses of selection to</p>
+<p>yield equivalent results. In this light, one can examine a crop widespread</p>
+<p>in prehistoric times and ask whether all of its varieties show the same wild</p>
+<p>mutation or same transforming mutation. The purpose of this examina</p>
+<p>tion is to try to figure out whether the crop was developed in just one area</p>
+<p>or else independently in several areas.</p>
+<p>If one carries out such a genetic analysis for majo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0179">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Genetic analysis determines domestication origin: single vs. multiple independently. Widespread crops show identical mutations (single origin) or different mutations (multiple origins). Genetic examination of crop varieties reveals wild ancestor mutations. Identical mutations indicate diffusion from single origin. Different mutations indicate independent domestication in separate regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Genetic signatures reveal domestication history. Mutation specificity tracks origin. Single origin domestication → single mutation type. Multiple independent domestications → multiple different mutations. Genetic analysis differentiates diffusion (single origin) from independent invention (multiple origins). Geography determines domestication origin clustering vs. dispersal.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Crops widespread in prehistoric times examined genetically. Wheat: genetic analysis shows single origin (Fertile Crescent), spread via diffusion to Europe/Asia. Maize: multiple domestication centers suggested by genetic variation. Potato: South American origin, multiple domestication regions (Andean variation). Genetic evidence distinguishes diffusion vs. independent invention patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation determines domestication independence vs. diffusion. Isolated regions = independent domestication = multiple genetic mutations. Connected regions = diffusion = single genetic mutation spread. Genetic signatures geography-determined through geographic isolation/connection patterns. Geographic isolation enables independent domestication; geographic connectivity enables diffusion replacing independent domestication.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 179,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

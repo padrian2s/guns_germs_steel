@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 25 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 25 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 25</p>
+<p>molded society, occupying lands conquered from Native Americans and</p>
+<p>incorporating the descendants of millions of sub-Saharan black Africans</p>
+<p>brought to America as slaves. Modern Europe is not a society molded by</p>
+<p>sub-Saharan black Africans who brought millions of Native Americans as</p>
+<p>slaves.</p>
+<p>These results are completely lopsided: it was not the case that 51 per</p>
+<p>cent of the Americas, Australia, and Africa was conquered by Europeans,</p>
+<p>while 49 percent of Europe was conquered by Na</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0025">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond emphasizes that global outcomes have been completely lopsided: the Americas, Australia, and Africa were conquered by Europeans, not the reverse. The modern United States is shaped by European settlers and African slaves, not vice versa. This extreme asymmetry demands explanation beyond accident or specific battles. People suspect racist biological explanations persist because no alternative explanation has gained acceptance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies a crisis in historical understanding: racist biological explanations are scientifically wrong, but without a compelling alternative, people default to racism as intuitive. The book's central mission becomes providing a detailed, convincing alternative explanation so the racist default becomes intellectually untenable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Writing in the 1990s, Diamond recognized that despite decades of anti-racist scholarship, public consciousness still privately harbored racist assumptions. He argues the solution requires articulating a comprehensive alternative theory, not just refuting racism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>This page establishes the stakes: geography versus biology as the explanatory variable for history's broadest pattern. Diamond promises a detailed geographical theory so compelling it becomes the default explanation replacing ingrained racist assumptions.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 25,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 174 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 174 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 74 " GUNS, GERMS, AND STEEL</p>
+<p>all the social antelope species for which Africa is famous from being</p>
+<p>domesticated. While one's first association to African antelope is "vast</p>
+<p>dense herds spreading across the horizon," in fact the males of those herds</p>
+<p>space themselves into territories and fight fiercely with each other when</p>
+<p>breeding. Hence those antelope cannot be maintained in crowded enclo</p>
+<p>sures in captivity, as can sheep or goats or cattle. Territorial behavior simi</p>
+<p>larly combines with a fierce</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0174">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African antelope appear domesticable (vast herds) but cannot be domesticated. Males space into territories and fight fiercely during breeding. Cannot be maintained in crowded captive enclosures like sheep/goats/cattle. Territorial aggression prevents herd domestication. Physical abundance (vast herds) irrelevant without behavioral suitability for captivity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Territorial behavior prevents domestication. Herd abundance misleading: territories require dispersed individuals. Domestication requires crowded captive ability. Antelope genetics: territorial spacing incompatible with crowded enclosures. Contrast: sheep/goats/cattle tolerate crowding through non-territorial genetics.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>African antelope abundant in wild herds but never domesticated despite thousands of years availability. Males establish territories, fight over breeding rights. Herds appearance of domestication-readiness misleading. Genetic territorial behavior prevents captive management. Cattle genetic ancestry: non-territorial, crowd-tolerant, domesticated successfully.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic fauna behavioral genetics determine domestication feasibility. African antelope territorial genetics prevent captive domestication. Eurasian livestock non-territorial genetics enable captive domestication. Same continent (Africa) has undomesticable fauna despite abundance. Geographic availability insufficient without behavioral compatibility. Genetic traits geography-distributed determine domestication outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 174,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

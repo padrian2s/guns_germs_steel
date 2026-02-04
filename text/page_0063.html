@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 63 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 63 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT OF HISTORY • 63</p>
+<p>Polynesian standards. The trends reached their zenith on the Hawaiian</p>
+<p>Archipelago, consisting of the largest tropical Polynesian islands, where</p>
+<p>high population densities and large land areas meant that very large labor</p>
+<p>forces were potentially available to individual chiefs.</p>
+<p>The variations among Polynesian societies associated with different</p>
+<p>population densities and sizes were as follows. Economies remained sim</p>
+<p>plest on islands with low population densities (s</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0063">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Economic complexity varied with population density and size. Low-density islands: simple economies, no specialization. High-density islands: craft specialists, part-time workers freed from food production. Hawaii reached complexity peak: large labor forces available to chiefs. Population size × density determined specialization and organizational hierarchy. Geography → population → specialization → complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Population density determines specialization and economic complexity. Low-density islands: all labor devoted to food production, simple economy. High-density islands: population surplus enables craft specialists, priests, administrators. Population surplus requires agricultural surplus—geography determining carrying capacity determines specialization possibility. Complexity scales directly with population density: geographic population capacity determines economic organization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Low-population-density islands (poor soils, limited resources): simple economies, no specialization. High-population-density islands (rich soils, abundant resources): economies diverse with craft specialists. Hawaii: largest tropical islands → highest population density → most complex economy. Specialization tiers correlate perfectly with population density. Geography determining population capacity determining economic specialization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Economic complexity geography-determined through population density. Geographic island carrying capacity determines population magnitude. Population magnitude determines whether surplus labor available for specialization. Geographic resource abundance (soil quality, food productivity) determines carrying capacity determines population density determines economic complexity. Economic organization directly scales to geography-determined population capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 63,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 47 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 47 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>UP TO THE STARTING LINE " 47</p>
+<p>mammals whose bones are available in greatest abundance and have been</p>
+<p>dated especially accurately, one can pinpoint the extinctions as having</p>
+<p>occurred around 11,000 B.C. Perhaps the two most accurately dated</p>
+<p>extinctions are those of the Shasta ground sloth and Harrington's moun</p>
+<p>tain goat in the Grand Canyon area; both of those populations disap</p>
+<p>peared within a century or two of 11,100 B.C. Whether coincidentally or</p>
+<p>not, that date is identical, within experimental err</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0047">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>American megafauna extinctions occurred ~11,100 BCE (within century or two), with Shasta ground sloth and Harrington's mountain goat dated with exceptional precision in Grand Canyon area. This extinction timing precisely matches Clovis arrival (~11,000 BCE), supporting the overkill hypothesis that human hunting caused megafauna collapse across the Americas.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Extinction timing coincides with Clovis arrival. Rapid megafauna extinction continent-wide. Accuracy: extinctions within century of 11,100 BCE. Temporal correlation supports human-caused extinction pattern. Same pattern as Australia/New Guinea—human arrival precedes megafauna collapse.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>~11,100 BCE megafauna extinction in Americas. Clovis sites appearing just before 11,000 BCE. Extinction timing (century-precise dating) matches colonization timing. Sloth and goat extinctions well-documented in Grand Canyon archaeological record.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Americas megafauna extinction removed potential domestication animals (unlike Eurasia's horses, cattle). Geographic difference in megafauna survival/extinction created domestication disparity. Late colonization + megafauna extinction = no livestock base, limiting agricultural surplus and technological development compared to Eurasia.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 47,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 72 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 72 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>72 • GUNS, GERMS, AND STEEL</p>
+<p>"Atahuallpa asked for the Book, that he might look at it, and the Friar</p>
+<p>gave it to him closed. Atahuallpa did not know how to open the Book,</p>
+<p>and the Friar was extending his arm to do so, when Atahuallpa, in great</p>
+<p>anger, gave him a blow on the arm, not wishing that it should be opened.</p>
+<p>Then he opened it himself, and, without any astonishment at the letters</p>
+<p>and paper he threw it away from him five or six paces, his face a deep</p>
+<p>crimson.</p>
+<p>"The Friar returned to Pizarro, sh</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0072">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Atahuallpa dismisses Bible offered by Spanish friar, showing contempt for written word unfamiliar to Inca. Inability to handle book demonstrates writing/literacy gap—technology unique to Old World (and Mesoamerica). Inca illiteracy contrasted with Spanish written culture. Atahuallpa's rejection signals disdain for unknown technology, foreshadowing miscalculation. First encounter shows cultural/technological differences explicitly: literacy as literacy advantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Literacy technology gap demonstrated explicitly. Inca empire lack writing: Atahuallpa unable to open book. Writing unique to Eurasian civilizations (except Mesoamerica). Inca quipu (knotted cord records) sophisticated but not writing. Inca elite unfamiliar with book technology. Writing-literacy gap foreshadows information technology advantage. Literacy enabling military coordination, record-keeping, organizational complexity. Writing geography-constrained: developed only certain regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Spanish friar offered Bible to Atahuallpa at Cajamarca. Atahuallpa unfamiliar with book: unable to open, threw it away after looking. Atahuallpa anger at unfamiliar technology (book/writing). Spanish literacy contrast highlighted. Inca quipu records sophisticated but not alphabetic writing. Writing technology developed only Eurasia (Egypt, Mesopotamia, China). Americas developed writing only Mesoamerica (Mayan, Aztec). Inca uniquely lacked writing despite empire sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Writing technology gap demonstrates geographic determinism. Writing emergence traced to agricultural civilization surplus. Inca agriculture-enabled empire but never developed writing independently. Writing invented separately only few regions: Fertile Crescent, Egypt, China, Mesoamerica. Inca missed independent writing invention. Geographic plant/animal availability determined civilization emergence but not writing. Inca received agriculture-technology but not writing-technology. Technology geography-determined through diffusion patterns and regional invention centers. Atahuallpa's unfamiliarity with book documents technology gap consequences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 72,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

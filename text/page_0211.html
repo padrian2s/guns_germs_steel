@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 211 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 211 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT OF LIVESTOCK • 211</p>
+<p>ter 3, the result of the throne's being left vacant was that two other sons</p>
+<p>of Huayna Capac, Atahuallpa and Huascar, became embroiled in a civil</p>
+<p>war that Pizarro exploited to conquer the divided Incas.</p>
+<p>When we in the United States think of the most populous New World</p>
+<p>societies existing in 1492, only those of the Aztecs and the Incas tend to</p>
+<p>come to our minds. We forget that North America also supported popu</p>
+<p>lous Indian societies in the most logical place, the Missi</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0211">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Inca civil war: Huayna Capac death created succession crisis. Two sons Atahualpa and Huascar fought civil war. Pizarro exploited divided Inca state to achieve conquest. Disease (epidemic) killed Huayna Capac weakening succession. Smallpox-driven civil war enabled Spanish conquest. North America also supported populous societies (Mississippi region) beyond Aztecs/Incas—often forgotten.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Disease enabling conquest. Epidemic creating succession crises. Civil war opportunity for external conquest. Old World diseases absent in Americas before contact. Eurasian disease immunity from domesticated animal pathogens. Disease advantage enabling technology-inferior force to conquer technology-advanced civilizations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Inca: population devastated by smallpox 1520s-1530s. Leadership succession disrupted. Spanish conquest 1532-1572 exploited disease-weakened state. Aztec similarly decimated by disease before final conquest. Mississippi societies: collapsed before European contact (disease from northerly contact routes). Disease geographic advantage enabled conquest.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic disease availability determined conquest capacity. Eurasia domesticated animals → diseases → immunity → conquest advantage. Americas lacked domesticated animals → no endemic diseases → zero immunity → catastrophic depopulation → easy conquest. Geography → domestication → disease → immunity → military advantage. Geographic animal availability determines everything.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 211,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+226 • GUNS, GERMS, AND STEEL
+past. But it's still possible to compare newly emerged alphabets of the past
+with previously existing ones, and to deduce from letter forms which
+existing ones served as models. For the same reason, we can be sure that
+the Linear B syllabary of Mycenaean Greece had been adapted by around
+1400 B.c. from the Linear A syllabary of Minoan Crete.
+At all of the hundreds of times when an existing writing system of one
+language has been used as a blueprint to adapt to a different language,
+some problems have arisen, because no two languages have exactly the
+same sets of sounds. Some inherited letters or signs may simply be
+dropped, when the sounds that those letters represent in the lending lan
+guage do not exist in the borrowing language. For example, Finnish lacks
+the sounds that many other European languages express by the letters b,
+c, f, g, w, x, and z, so the Finns dropped these letters from their version of
+the Roman alphabet. There has also been a frequent reverse problem, of
+devising letters to represent "new" sounds present in the borrowing lan
+guage but absent in the lending language. That problem has been solved
+in several different ways: such as using an arbitrary combination of two
+or more letters (like the English th to represent a sound for which the
+Greek and runic alphabets used a single letter); adding a small distinguish
+ing mark to an existing letter (like the Spanish tilde n, the German umlaut
+6, and the proliferation of marks dancing around Polish and Turkish let
+ters); co-opting existing letters for which the borrowing language had no
+use (such as modern Czechs recycling the letter c of the Roman alphabet to
+express the Czech sound ts); or just inventing a new letter (as our medieval
+ancestors did when they created the new letters j, u, and w).
+The Roman alphabet itself was the end product of a long sequence of
+blueprint copying. Alphabets apparently arose only once in human his
+tory: among speakers of Semitic languages, in the area from modern Syria
+to the Sinai, during the second millennium B.C. All of the hundreds of
+historical and now existing alphabets were ultimately derived from that
+ancestral Semitic alphabet, in a few cases (such as the Irish ogham alpha
+bet) by idea diffusion, but in most by actual copying and modification of
+letter forms.
+That evolution of the alphabet can be traced back to Egyptian hiero
+glyphs, which included a complete set of 24 signs for the 24 Egyptian
+consonants. The Egyptians never took the logical (to us) next step of dis
+carding all their logograms, determinatives, and signs for pairs and trios
+of consonants, and using just their consonantal alphabet. Starting around

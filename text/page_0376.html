@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 376 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 376 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>C H A P T ER 19</p>
+<p>H ow A F R I CA BECAME</p>
+<p>BLACK</p>
+<p>N</p>
+<p>O MATTER HOW MUCH ONE HAS READ ABOUT AFRICA</p>
+<p>beforehand, one's first impressions from actually being there are</p>
+<p>overwhelming. On the streets of Windhoek, capital of newly independent</p>
+<p>Namibia, I saw black Herero people, black Ovambos, whites, and Namas,</p>
+<p>different again from both blacks and whites. They were no longer mere</p>
+<p>pictures in a textbook, but living humans in front of me. Outside Wind</p>
+<p>hoek, the last of the formerly widespread Kalahari Bushmen we</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0376">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>African demographic diversity in Windhoek: Herero people, Ovambos, Namas (distinct from both blacks and whites), plus whites—visible illustration of Africa's racial complexity. Kalahari Bushmen nearly extinct remnants of formerly widespread populations. Multi-racial population reflects geography-driven historical population movements and replacements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic population movements create demographic change. Agricultural expansion enables population growth enables territory occupation enables earlier population displacement. African racial categories reflect recent (< 2000 years) population movements not ancient populations. Windhoek diversity document geographic-driven population dynamics. Population replacement geography-determined by agricultural advantage determines survival of populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Namibia population history: San/Bushmen first inhabitants (hunter-gatherers). Khoi herders/pastoralists entered (unknown date). Bantu farmers expanded southward ~1500 years ago displacing/absorbing San/Khoi. Nama (Khoi subgroup) retreated to harsh environments. Whites (Dutch Afrikaners) arrived 1650s establishing Cape Colony, expanding northward. Modern Namibia reflects all population strata—Herero/Ovambos (Bantu), Nama (Khoi remnants), whites (colonial), Bushmen (San survivors in marginal areas). Visible diversity documents multiple population replacement waves geography-driven.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Africa's racial composition reflects geography-driven population replacement history. Bantu agricultural expansion displaced hunter-gatherer populations to geographic margins. Colonial expansion displaced both earlier populations. Modern African racial diversity reflects geographic-determined population movements over 2000+ years. Population visibility in cities (Herero, Ovambos dominant) reflects their successful geographic expansion. Bushmen near-extinction reflects displacement to marginal habitat. Namibian diversity visual evidence of geographic determinism—geography determined population expansion rates determined which populations persisted.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 376,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

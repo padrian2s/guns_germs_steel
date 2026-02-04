@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 106 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 106 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>106 " GUNS, GERMS, AND STEEL</p>
+<p>shall see, food production evolved as a by-product of decisions made with</p>
+<p>out awareness of their consequences. Hence the question that we have to</p>
+<p>ask is why food production did evolve, why it evolved in some places but</p>
+<p>not others, why at different times in different places, and why not instead</p>
+<p>at some earlier or later date.</p>
+<p>Another misconception is that there is necessarily a sharp divide</p>
+<p>between nomadic hunter-gatherers and sedentary food producers. In real</p>
+<p>ity, alt</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0106">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Food production evolution unconsciously driven. Early farmers didn't intentionally invent agriculture—byproduct of harvesting strategies on increasingly abundant wild plants. Regional variation in agriculture adoption timing explained by differing wild plant availability and population pressures, not conscious intent.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Agricultural transitions gradual, unintentional. Harvest efficiency improvements → sedentary settlement → cultivation → domestication. Hunter-gatherers to farmers spectrum blurred. Geography determining available species determines adoption timeline and intensity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Fertile Crescent: wild cereals abundance ~11000 BCE triggers harvesting tools invention. Europe: agriculture adoption 5000 years later via diffusion. California: no wild large-seeded grasses → no agriculture adoption despite environmental capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography (wild species availability) determines whether agriculture adoption occurs at all, regardless of human intention or capacity. Regions without domesticable species remain hunter-gatherers indefinitely. Regions with species transition through unconscious adoption process. Species availability, not human agency, determines trajectory.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 106,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

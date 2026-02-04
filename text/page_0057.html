@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 57 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 57 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT OF HISTORY • 57</p>
+<p>Thus, Moriori and Maori societies developed from the same ancestral</p>
+<p>society, but along very different lines. The resulting two societies lost</p>
+<p>awareness even of each other's existence and did not come into contact</p>
+<p>again for many centuries, perhaps for as long as 500 years. Finally, an</p>
+<p>Australian seal-hunting ship visiting the Chathams en route to New</p>
+<p>Zealand brought the news to New Zealand of islands where "there is an</p>
+<p>abundance of sea and shellfish; the lakes</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0057">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Moriori and Maori diverged completely despite common ancestry and contact-free separation. Australian seal ship brought knowledge of Chathams to New Zealand, triggering 1835 invasion. Message advertised Chathams' resources and unwarlike inhabitants—this geographic knowledge gap caused invasion. Centuries of isolation created distinct societies: one peaceful hunter-gatherers, one warlike farmers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Divergent evolutionary paths from same ancestor. Geographic isolation produced: opposite subsistence modes, opposite warfare traditions, opposite technology complexity. Knowledge gap from isolation triggered collision. Demonstrates environmental determination of societal type.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Moriori separated from Maori ~500+ years. No contact until 1835. Each developed independently: Moriori toward simplification, Maori toward complexity. Geographic isolation enabled divergence; knowledge deficit enabled invasion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geography shaped opposite outcomes from same population. Shows environmental determination operates quickly (centuries) and completely. Larger point: continental-scale geographic differences would produce even larger divergence over 13,000 years. Polynesia tests model before applying to continents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 57,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

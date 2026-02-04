@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 256 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 256 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>256 • GUNS, GERMS, AND STEEL</p>
+<p>When societies do adopt a new technology from the society that</p>
+<p>invented it, the diffusion may occur in many different contexts. They</p>
+<p>include peaceful trade (as in the spread of transistors from the United</p>
+<p>States to Japan in 1954), espionage (the smuggling of silkworms from</p>
+<p>Southeast Asia to the Mideast in A.D. 552), emigration (the spread of</p>
+<p>French glass and clothing manufacturing techniques over Europe by the</p>
+<p>200,000 Huguenots expelled from France in 1685), and war.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0256">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Technology diffusion occurs through multiple pathways: peaceful trade (transistors US→Japan 1954), espionage (silkworm smuggling Southeast Asia→Mideast 552 CE), emigration (200,000 French Huguenots spreading glass/clothing manufacturing across Europe 1685), and war. Diffusion method determines technology transfer effectiveness and adoption speed. Geographic proximity and trade infrastructure enable peaceful diffusion. Geographic barriers increase reliance on espionage or emigration pathways.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Technology diffusion methods geography-dependent. Trade networks determine peaceful diffusion—geographic isolation restricts trade routes. Espionage and emigration bypass geographic barriers but require willing knowledge transfers (captured artisans, expelled refugees). Military conquest forces technology transfer in conquered territories. Geographic accessibility to trade routes determines primary diffusion mechanism. Societies with extensive trade networks access innovations faster than isolated societies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Transistor diffusion: post-WWII US-Japan trade routes enabled rapid peaceful technology transfer. Silkworms: Byzantine Empire espionage from China through Persia, required covert geographic smuggling routes. Huguenots: geography of religious persecution (France) forced emigration creating technology transfer vectors to receiving societies (Protestant Northern Europe, colonies). Medieval Islamic world: geographic position at intersection of Asian-European-African trade enabled technology aggregation from all continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic connectivity determines technology diffusion pathway available. Continental position along major trade routes (Islamic Middle East, Medieval Europe) enables rapid peaceful diffusion. Geographic isolation (Australia, New Guinea) blocks peaceful diffusion unless espionage succeeds. Refugee emigration primarily follows geographic safety corridors. Military conquest follows geographic feasibility. Geography determines not just whether technology transfers but which transfer mechanism becomes viable, affecting adoption speed and completeness.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 256,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

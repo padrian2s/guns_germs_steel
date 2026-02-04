@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 302 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 302 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>302 GUNS, GERMS, AND STEEL</p>
+<p>Aboriginal Australians and New Guineans have also diverged geneti</p>
+<p>cally, physically, and linguistically from each other. For instance, among</p>
+<p>the major (genetically determined) human blood groups, groups B of the</p>
+<p>so-called ABO system and S of the MNS system occur in New Guinea as</p>
+<p>well as in most of the rest of the world, but both are virtually absent in</p>
+<p>Australia. The tightly coiled hair of most New Guineans contrasts with</p>
+<p>the straight or wavy hair of most Australians.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0302">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australians and New Guineans genetically diverged despite geographic proximity. Blood group differences: ABO group B and MNS group S present in New Guinea, absent in Australia. Physical differences: New Guineans tightly coiled hair; Australians straight/wavy hair. Linguistic divergence: distinct language families. 50,000+ years geographic separation created measurable genetic divergence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Genetic isolation creates divergence over millennia. Population separation enables independent mutation/selection. Blood groups reflect population history. Physical adaptation to climate/environment creates phenotypic differences. Language divergence indicates communication barrier duration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Australia/New Guinea separated 50,000+ years enabling genetic drift creating observable differences. Tightly coiled hair adaptation to New Guinea's tropical moisture. Blood group distributions reflect population bottlenecks/founder effects. Language families diversified without external influence during separation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic isolation determines population divergence patterns. Water barriers preventing gene flow create genetic differentiation. Climate differences enable adaptive evolution (hair types). Geographic separation enables independent linguistic evolution. Population differences reflect geographic separation duration and isolation degree.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 302,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

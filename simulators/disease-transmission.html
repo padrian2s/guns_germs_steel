@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Transmission Simulator</title>
+    <link rel="stylesheet" href="../css/simulators.css">
+</head>
+<body class="simulator">
+    <div class="simulator-header">
+        <h1>🦠 Disease Transmission Simulator</h1>
+        <p>Explore how domestication and population density enable epidemic diseases</p>
+    </div>
+
+    <div class="simulator-container">
+        <!-- Controls -->
+        <div class="simulator-left">
+            <div class="control-section">
+                <h3>Simulation Parameters</h3>
+
+                <div class="control-group">
+                    <label>Population Density</label>
+                    <input type="range" id="densitySlider" min="10" max="100" value="50" class="slider">
+                    <span id="densityValue">50%</span>
+                </div>
+
+                <div class="control-group">
+                    <label>Animal Domestication</label>
+                    <input type="range" id="domesticSlider" min="0" max="100" value="50" class="slider">
+                    <span id="domesticValue">50%</span>
+                </div>
+
+                <div class="control-group">
+                    <label>Disease Virulence</label>
+                    <input type="range" id="virulenceSlider" min="10" max="100" value="60" class="slider">
+                    <span id="virulenceValue">60%</span>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="startBtn" class="btn-primary">▶️ Start Transmission</button>
+                    <button id="resetBtn" class="btn-secondary">↺ Reset</button>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="control-section">
+                <h3>📊 Transmission Metrics</h3>
+                <div class="stat">
+                    <label>Infection Rate:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="infectionFill" style="width: 0%; background: #DC143C;"></div>
+                    </div>
+                    <span id="infectionValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Mortality Rate:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="mortalityFill" style="width: 0%; background: #8B0000;"></div>
+                    </div>
+                    <span id="mortalityValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Immunity Development:</label>
+                    <div class="stat-bar">
+                        <div class="stat-fill" id="immunityFill" style="width: 0%; background: #228B22;"></div>
+                    </div>
+                    <span id="immunityValue">0%</span>
+                </div>
+
+                <div class="stat">
+                    <label>Total Infected:</label>
+                    <span id="totalInfected" class="time-value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visualization -->
+        <div class="simulator-right">
+            <div class="canvas-container">
+                <canvas id="simulatorCanvas" width="500" height="500"></canvas>
+            </div>
+
+            <!-- Trace Log -->
+            <div class="trace-panel">
+                <h4>📝 Transmission Log</h4>
+                <div id="traceLog" class="trace-log">
+                    <p class="trace-item trace-info">Ready to simulate disease transmission.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/simulators/disease-transmission.js"></script>
+</body>
+</html>

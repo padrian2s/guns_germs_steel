@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 80 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 80 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>80 • GUNS, GERMS, AND STEEL</p>
+<p>army, into delivering himself to the Spaniards. Chalcuchima's miscalcula</p>
+<p>tion marked a turning point in the collapse of Inca resistance, a moment</p>
+<p>almost as significant as the capture of Atahuallpa himself. The Aztec</p>
+<p>emperor Montezuma miscalculated even more grossly when he took Cor</p>
+<p>tes for a returning god and admitted him and his tiny army into the Aztec</p>
+<p>capital of Tenochtitlan. The result was that Cortes captured Montezuma,</p>
+<p>then went on to conquer Tenochtitlan and th</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0080">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Inca general Chalcuchima miscalculates, believes Spanish deception, allows himself captured—turning point in Inca collapse. Aztec emperor Montezuma mistakes Cortes for god Viracocha, admits Spanish into Tenochtitlan. Both miscalculations stem from cultural unfamiliarity with foreigners, inability to predict Spanish tactics/technology effects. Miscalculation argument undermines: Spanish victories required both technology and Inca/Aztec command errors, not technology alone.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Military technology advantage: Spanish horses, steel swords, firearms provided superior weaponry. But technological advantage alone insufficient without Inca/Aztec errors. Conquistador advantages compound: technology + communication/organization + indigenous political division + misunderstandings. Individual decisions (Chalcuchima capture, Montezuma deception) mattered enormously within technologically-determined framework.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Cajamarca Inca capture: Atahualpa overconfident, Chalcuchima betrayed by Spanish deception, Inca disorganization permitted Spanish victory. Tenochtitlan: Montezuma's god-myth interpretation (Cortes as Viracocha returning) enabled Spanish entry into defended city. Spanish technology (horses, steel, guns) crucial but insufficient without indigenous command errors enabling Spanish inside fortified positions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic determinism compatible with individual agency and tactical accidents. Geographic advantages (Spanish horses, steel, guns) result from geographic domestication advantages (European domesticable animals, geographic iron deposits). Technological advantages created by geography but implementation requires tactically-effective decision-making. Geographic technology advantages determine capability but don't guarantee success without sound military judgment. Inca/Aztec errors undermined by geographic technology disadvantages: Spanish could survive errors more readily due to technological superiority.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 80,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

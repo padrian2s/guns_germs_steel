@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 360 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 360 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>3 60 • GUNS, GERMS, AND STEEL</p>
+<p>in Eurasia were largely confined to the Arctic reindeer herders, the Siberian</p>
+<p>hunter-gatherers, and the hunter-gatherer enclaves in the Indian subconti</p>
+<p>nent and tropical Southeast Asia.</p>
+<p>The Americas had two empires, those of the Aztecs and Incas, which</p>
+<p>resembled their Eurasian counterparts in size, population, polyglot make</p>
+<p>up, official religions, and origins in the conquest of smaller states. In the</p>
+<p>Americas those were the sole two political units capable of mobili</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0360">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eurasian empires dominated. Americas had sole two empires: Aztec and Inca. Resembled Eurasian counterparts: large size, populations, polyglot composition, official religions, conquest origins. However: only two empires in Americas. Eurasian empires: multiple (Roman, Persian, Chinese, Mongol, Ottoman). Difference reflects geographic capacity for civilization complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Empire rarity in Americas. Geography limited civilization complexity. Domesticable animals scarcity limited military power. Diseases fewer in Americas limited epidemic effects on population control. Writing (Mayan) didn't diffuse widely enabling empire administration. Eurasian animal domestication enabled cavalry, military technology advantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Aztec Empire: lacked large domestic animals, used hand weapons, relied on numerical advantage. Inca Empire: lacked horses and pigs limiting cavalry warfare. Eurasian empires: cavalry-dominant, iron tools, epidemic diseases reducing conquered population's resistance. Conquistador handful defeated empires lacking equivalent military technology.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Empire development geography-contingent. Geographic domesticable animals → military technology → empire feasibility. Americas' animal limitation → empire rarity and military technological disadvantage. Eurasian animal advantage → multiple empires and technological dominance. Geographic animal distribution geography determines empire development capacity and military superiority.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 360,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

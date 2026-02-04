@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 331 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 331 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>HOW CHINA BECAME CHINESE - 3 31</p>
+<p>coalesce, just as exchanges of domesticates between ecologically diverse</p>
+<p>regions enriched Chinese food production, exchanges between culturally</p>
+<p>diverse regions enriched Chinese culture and technology, and fierce compe</p>
+<p>tition between warring chiefdoms drove the formation of ever larger and</p>
+<p>more centralized states (Chapter 14).</p>
+<p>While China's north-south gradient retarded crop diffusion, the gradi</p>
+<p>ent was less of a barrier there than in the Americas or Africa, becaus</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0331">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>China's development through regional integration: exchanges of domesticates between ecologically diverse regions (north/south) enriched food production. Cultural/technology exchanges between diverse regions enriched innovation. Warfare between competing chiefdoms drove state formation (Chapter 14—hierarchical consolidation). North-south gradient retarded crop diffusion but less so than in Americas/Africa. China's geographic advantage: directional gradient less severe than other continents, enabling integration despite climatic variation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Regional diversity enables innovation accumulation. North-south climate gradients constrain diffusion. China's gradient more moderate than Americas/Africa enabling integration. Competition drives political consolidation. Geographic diversity + manageable barriers = rapid innovation accumulation. Ecological diversity creates specialization creating trade creating wealth creating military capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>China: north millet/wheat, south rice creating regional specialization. Trade exchanges millet/wheat south, rice north, enriched both regions. Northern horses/cattle technologies south. Southern tropical crops/techniques north. Ecological diversity advantage compared: Americas north-south climate too extreme (arctic-tropical) preventing specialization; Africa north-south desert barriers prevented exchange. China's moderate north-south gradient enabled maximum exchange minimum barrier.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic gradient severity determines diffusion capacity. Moderate gradient (China) enables exchange; extreme gradient (Americas north-south) prevents exchange. Geographic container size and diversity determines innovation accumulation rate. China's geography—moderately diverse with accessible terrain—enabled maximum innovation accumulation. Americas/Africa geography limited integration limiting innovation accumulation. Continent shape and climate gradients geography-determined determine innovation accumulation rates.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 331,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+BLUEPRINTS AND BORROWED LETTERS • 2 17
+today by most peoples is the alphabet, which ideally would provide a
+unique sign (termed a letter) for each basic sound of the language (a pho
+neme). Actually, most alphabets consist of only about 20 or 30 letters, and
+most languages have more phonemes than their alphabets have letters. For
+example, English transcribes about 40 phonemes with a mere 26 letters.
+Hence most alphabetically written languages, including English, are forced
+to assign several different phonemes to the same letter and to represent
+some phonemes by combinations of letters, such as the English two-letter
+combinations sh and tb (each represented by a single letter in the Russian
+and Greek alphabets, respectively).
+The second strategy uses so-called logograms, meaning that one written
+sign stands for a whole word. That's the function of many signs of Chinese
+writing and of the predominant Japanese writing system (termed kanji).
+Before the spread of alphabetic writing, systems making much use of logo
+grams were more common and included Egyptian hieroglyphs, Maya
+glyphs, and Sumerian cuneiform.
+The third strategy, least familiar to most readers of this book, uses a
+sign for each syllable. In practice, most such writing systems (termed sylla
+baries) provide distinct signs just for syllables of one consonant followed
+by one vowel (like the syllables of the word "fa-mi-ly"), and resort to
+various tricks in order to write other types of syllables by means of those
+signs. Syllabaries were common in ancient times, as exemplified by the
+Linear B writing of Mycenaean Greece. Some syllabaries persist today, the
+most important being the kana syllabary that the Japanese use for tele
+grams, bank statements, and texts for blind readers.
+I've intentionally termed these three approaches strategies rather than
+writing systems. No actual writing system employs one strategy exclu
+sively. Chinese writing is not purely logographic, nor is English writing
+purely alphabetic. Like all alphabetic writing systems, English uses many
+logograms, such as numerals, $, %, and + : that is, arbitrary signs, not
+made up of phonetic elements, representing whole words. "Syllabic" Lin
+ear B had many logograms, and "logographic" Egyptian hieroglyphs
+included many syllabic signs as well as a virtual alphabet of individual
+letters for each consonant.
+INVENTING A WRITING system from scratch must have been incompa
+rably more difficult than borrowing and adapting one. The first scribes

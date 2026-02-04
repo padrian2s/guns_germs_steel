@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 310 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 310 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>310 GUNS, GERMS, AND STEEL</p>
+<p>We think of Australian Aborigines as desert people, but most of them</p>
+<p>were not. Instead, their population densities varied with rainfall (because</p>
+<p>it controls the production of terrestrial wild plant and animal foods) and</p>
+<p>with abundance of aquatic foods in the sea, rivers, and lakes. The highest</p>
+<p>population densities of Aborigines were in Australia's wettest and most</p>
+<p>productive regions: the Murray-Darling river system of the Southeast, the</p>
+<p>eastern and northern coasts, and</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0310">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Australian Aborigines not uniformly desert people: population density determined by water availability and food productivity. Highest densities in wettest regions: Murray-Darling river system, eastern/northern coasts. Geographic resources determined population distribution. Geography constrains population capacity: arid regions support sparse populations; water-rich regions support higher density settlements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic resource limits population carrying capacity. Rainfall determines plant/animal food abundance. Aquatic resources enable higher density settlement. Population distribution reflects geographic productivity: dense populations where resources concentrated, sparse elsewhere. Geography determines societal scale: rich geographic regions support larger settlements enabling social complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Murray-Darling river system: fertile river valley supporting highest Aborigine population densities. Eastern coast: abundant aquatic resources (fish, shellfish) enabling coastal settlements. Northern regions: tropical productivity enabling higher population concentration. Interior arid zones: sparse water limiting population density. Aboriginal population distribution matched geographic resource geography exactly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic resources directly determine population density and settlement patterns. Australia overall carries lower population density than Eurasia due to lower overall productivity (poor soils, limited domesticables). Within Australia, population concentrated in geographically-advantaged regions. Geographic constraints appear as cultural/social organization differences but reflect underlying resource availability. Aboriginal technology sophisticated but limited by geographic resource constraints preventing large-scale civilizational development. Geography determines maximum sustainable population.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 310,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

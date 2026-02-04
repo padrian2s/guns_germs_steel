@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 152 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 152 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>1 5 2. • GUNS, GERMS, AND STEEL</p>
+<p>hickory). Local Native Americans did develop an agriculture based on</p>
+<p>local domesticates, did thereby support themselves in villages, and even</p>
+<p>developed a cultural florescence (the Hopewell culture centered on what is</p>
+<p>today Ohio) around 200 B.C.-A.D. 400. They were thus in a position for</p>
+<p>several thousand years to exploit as potential crops the most useful avail</p>
+<p>able wild plants, whatever those should be.</p>
+<p>Nevertheless, the Hopewell florescence sprang up nearly 9,000</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0152">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Eastern U.S. Native Americans developed agriculture locally (from local domesticates), supported sedentary villages, and developed cultural florescence (Hopewell culture 200 BCE-400 CE). Possessed thousands of years to exploit available wild plants for potential crops. Geographic constraints determined available species, not human effort.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Domesticable species availability geographic-determined. Hopewell agriculture supported villages and florescence: evidence of adequate agricultural base. Limited species available in eastern U.S. flora limited agricultural expansion beyond adopted domesticates. Geography—not effort or capability—determined species ceiling.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Hopewell culture 200 BCE-400 CE: sedentary villages, food storage, craft specialization, cultural florescence (mounds, artifacts). Agricultural base: maize, beans, squash domesticated thousands of years prior. Indigenous population demonstrated thousands-of-years timespan for adopting other crops if available. Yet agriculture never expanded beyond existing domesticates.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Hopewell success with existing crops proves geographic determinism explicitly. Population had ample time (millennia) and demonstrated capability (florescence achieved). Yet no additional crops domesticated. Available wild species in eastern U.S. lacked domesticability. Geography's flora distribution determined adoption ceiling independent of human factors.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 152,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

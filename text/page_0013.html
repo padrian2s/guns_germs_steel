@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 13 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 13 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>P R O L O G UE</p>
+<p>YALI'S Q U E S T I ON</p>
+<p>W</p>
+<p>E ALL KNOW THAT HISTORY HAS PROCEEDED VERY DIF-</p>
+<p>ferently for peoples from different parts of the globe. In the</p>
+<p>13,000 years since the end of the last Ice Age, some parts of the world</p>
+<p>developed literate industrial societies with metal tools, other parts devel</p>
+<p>oped only nonliterate farming societies, and still others retained societies</p>
+<p>of hunter-gatherers with stone tools. Those historical inequalities have cast</p>
+<p>long shadows on the modern world, because the l</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0013">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Diamond opens the Prologue by establishing that over 13,000 years since the Ice Age, different continents developed vastly different technologies: some achieved literate industrial societies with metal tools, others developed only farming societies, and still others remained hunter-gatherers with stone tools. These differences shaped the modern world fundamentally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Diamond identifies "history's broadest pattern": differential development rates across continents in 13,000 years. Three tiers of societies (literate/metal, farming, hunter-gatherer) reflect increasing technological sophistication. These technological differences were the proximate cause of modern global inequality through conquest and genocide.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>The 11,000 BCE benchmark marks the end of the last Ice Age, when humans began food production. By 1500 CE, this 13,000-year process had created dramatic divergence: some continents industrialized while others remained in pre-agricultural states.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Diamond frames his investigation: why did continents develop at different rates? This question—the book's central puzzle—requires understanding what geographical advantages allowed some regions to develop agriculture, metallurgy, and complex organization thousands of years before others.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 13,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

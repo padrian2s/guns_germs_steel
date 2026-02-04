@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 100 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 100 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>100 • GUNS, GERMS, AND STEEL</p>
+<p>TABLE 5.1 Examples of Species Domesticated in Each Area</p>
+<p>couple of local plants or animals, but where food production depended</p>
+<p>mainly on crops and animals that were domesticated elsewhere. Those</p>
+<p>imported domesticates may be thought of as "founder" crops and animals,</p>
+<p>because they founded local food production. The arrival of founder</p>
+<p>domesticates enabled local people to become sedentary, and thereby</p>
+<p>increased the likelihood of local crops' evolving from wild plants that</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0100">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Some regions domesticated multiple local species, others received "founder" crops/animals from elsewhere, enabling sedentary settlement and local agriculture development. Imported domesticates catalyzed local domestication of remaining wild species. Geographic spread of farming facilitated by these founder species establishing agricultural base.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Founder crops/animals enable transition to sedentary food production. Agricultural diffusion via founder domesticates. Imported crops establish agricultural system, enabling local crop domestication from wild plants previously unsuitable for farming. Founder species determine agriculture feasibility in new regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Sub-Saharan Africa: millet, sorghum from founder crops diffused from Sahel. India: rice agriculture built on founder crops diffused from China. Europe: founder crops from Near East enabled European agriculture expansion northward. Japan, Americas: founder domesticates enabled regional agricultural specialization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Agricultural diffusion depends on geographic proximity and climate similarity. Founder crops succeed in similar climates, enabling agriculture adoption. Regions geographically distant from agricultural centers develop agriculture later/never. Geographic barriers limit founder crop diffusion. Isolation determines whether agriculture adopted locally versus received as diffusion.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 100,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

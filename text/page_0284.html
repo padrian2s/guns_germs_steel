@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 284 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 284 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>284 " GUNS, GERMS, AND STEEL</p>
+<p>Mesoamerica and the Andes, irrigation systems always remained small-</p>
+<p>scale ones that local communities could build and maintain themselves.</p>
+<p>Thus, even in those areas where complex systems of hydraulic manage</p>
+<p>ment did emerge, they were a secondary consequence of states that must</p>
+<p>have formed for other reasons.</p>
+<p>What seems to me to point to a fundamentally correct view of state</p>
+<p>formation is an undoubted fact of much wider validity than the correlation</p>
+<p>between irrigation</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0284">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Irrigation system hypothesis: states formed through necessity to coordinate irrigation systems. However, evidence disproves: Mesoamerica and Andes irrigation systems remained small-scale, locally maintainable without central authority. States formed there for reasons other than irrigation necessity. Irrigation emerged as secondary consequence of formed states, not cause. Geographic pattern: irrigation-necessary states (Egypt, Mesopotamia, China) centralized, but irrigation-unnecessary states (Europe, Americas) also centralized. Irrigation not explaining state formation universally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Irrigation causation questioned by evidence. Large-scale irrigation (Egypt Nile, China Yellow River) correlates with states. Small-scale irrigation (Americas, temperate Europe) sustains without states. Correlation insufficient for causation. Alternative: states form through population pressure; once formed, states often build irrigation. Irrigation consequence not cause. Complex societies capable building large systems; causation runs state→irrigation not irrigation→state.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Egypt: Nile flooding required large-scale irrigation → coordination necessity → state formation. Mesopotamia: Tigris/Euphrates controlled irrigation → state coordination. China: Yellow River irrigation → state coordination. Americas: local irrigation systems → no state necessity. Europe temperate: minimal irrigation need → states formed for other reasons (trade, conflict coordination). Geographic pattern shows: where irrigation essential geography-imposes, states necessary; where irrigation unnecessary, states formed through other geographic pressures (trade networks, defense needs).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>State formation multiply-determined by various geographic factors, not single cause. Irrigation one factor where geography makes it essential (Egypt, Mesopotamia). Other factors: trade network coordination needs, military defense against competitors, population density coordination. All these factors ultimately geographic-derived: climate determines irrigation necessity, geography determines trade routes, population density geography-determined. Geography causes various pressures, different regions experiencing different pressures, all leading to state formation. No single mechanism, all mechanisms geographic.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 284,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

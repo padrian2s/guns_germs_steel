@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 70 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 70 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>70 " GUNS, GERMS, AND STEEL</p>
+<p>killed us. So we made a show of good spirits, and after carefully observing</p>
+<p>the town and the tents, we descended into the valley and entered Caja¬</p>
+<p>marca.</p>
+<p>"We talked a lot among ourselves about what to do. All of us were full</p>
+<p>of fear, because we were so few in number and we had penetrated so far</p>
+<p>into a land where we could not hope to receive reinforcements. We all met</p>
+<p>with the Governor to debate what we should undertake the next day. Few</p>
+<p>of us slept that night, and we</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0070">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Spanish soldiers' eyewitness account entering Cajamarca: Pizarro with 168 men confronting 80,000 Inca warriors. Spanish fear evident despite numerical advantage. Elaborate Inca camp visible. Spanish ambushed Inca force in plaza, capturing and executing Atahualpa. Account emphasizes Spanish military trepidation despite small numbers—contrasts Spanish technological edge (guns, horses, steel) against overwhelming Inca numerical superiority.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Military asymmetry: 168 Spanish vs 80,000+ Incas. Spanish advantages: horses, guns, steel weapons, armor, organization. Inca lack: horses, firearms, organized response to Spanish tactics. Psychological novelty of Spanish weapons: initial Inca paralysis from unfamiliarity with horses/guns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>1532 Cajamarca collision. Inca Empire at height: organized military, large armies. Spanish conquistadors: small, outnumbered expedition. Pizarro's tactics: deception, surprise, cavalry charges. Atahualpa captured/executed, triggering Inca political collapse.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Technology determined outcome despite numerical disadvantage. Geographic factors (Old World horses, metallurgy, firearms) gave Spanish military superiority. Americas lacked these technologies due to geographic isolation, different fauna, independent technology development. Technology gap resulted from geographic difference in domesticable species.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 70,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

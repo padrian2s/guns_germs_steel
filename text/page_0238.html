@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 238 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 238 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>238 GUNS, GERMS, AND STEEL</p>
+<p>alphabet had to travel from its homeland on the eastern shores of the Med</p>
+<p>iterranean to reach Ireland, Ethiopia, and Southeast Asia within 2,000</p>
+<p>years of its invention. But humans are slowed by ecological and water</p>
+<p>barriers that crows can fly over. The states of North Africa (with writing)</p>
+<p>and West Africa (without writing) were separated from each other by</p>
+<p>Saharan desert unsuitable for agriculture and cities. The deserts of north</p>
+<p>ern Mexico similarly separated the urba</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0238">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Writing/alphabet diffusion geography-determined. Mediterranean alphabet traveled from eastern Mediterranean to Ireland, Ethiopia, Southeast Asia within 2,000 years. Humans slower than wildlife migration—constrained by ecological/water barriers. North Africa (writing) vs West Africa (no writing): separated by Sahara Desert unsuitable agriculture/cities. Northern Mexico deserts separated urban civilizations preventing technology diffusion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Geographic barriers determine technology diffusion patterns. Desert/water barriers prevent writing system spread despite human advantage over wildlife. Agricultural barriers create cultural divides. Desert regions separate literate from non-literate civilizations. Geography shapes technology distribution independent of human capability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Mediterranean alphabet: geographic advantage enabling rapid spread via trade routes. Sahara Desert: absolute barrier preventing North Africa-West Africa technology exchange. Mexican deserts: limited technology diffusion north-south. Geographic barriers create technology isolation zones. Geography determines which civilizations access which technologies through trade contact patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic barriers determine technology diffusion success. Mediterranean geography enables rapid alphabet spread (connected trade routes). Saharan geography prevents writing diffusion (absolute desert barrier). Desert barriers create technology divides. Geography determines technology access independent of civilization development level. Civilizations with favorable geographic barriers access technologies; civilizations without favorable geography remain isolated despite having capacity to adopt technologies.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 238,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

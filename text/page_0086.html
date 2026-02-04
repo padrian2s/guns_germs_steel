@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 86 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 86 of 457</h1>
+        <p class="breadcrumb">📖 Guns, Germs, and Steel: The Fates of Human Societies</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Original Content</h2>
+            <div class="text-content">
+                <p>8 6 • GUNS, GERMS, AND STEEL</p>
+<p>of the American West. Fred Hirschy's family was proud of him, as a pio</p>
+<p>neer farmer who had succeeded under difficult conditions. But Levi's tribe</p>
+<p>of hunters and famous warriors had been robbed of its lands by the immi</p>
+<p>grant white farmers. How did the farmers win out over the famous war</p>
+<p>riors?</p>
+<p>For most of the time since the ancestors of modern humans diverged</p>
+<p>from the ancestors of the living great apes, around 7 million years ago, all</p>
+<p>humans on Earth fed themselves ex</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0086">
+            <h2>📚 Educational Analysis</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Summary</h3>
+                    <p>Why did farmers defeat hunters? The answer lies in abundance: agriculture produces more calories per hectare than hunting-gathering, enabling larger populations. For 7 million years post-divergence, all humans foraged. But agriculture's caloric advantage altered the power balance irreversibly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Key Concepts</h3>
+                    <p>Caloric productivity. Agricultural societies support 10-100x higher population density than hunter-gatherers. More people = more soldiers, craftspeople, administrators. Numerical advantage compounds technological advantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Historical & Geographic Context</h3>
+                    <p>Seven million years of human evolution: all humans hunted and gathered. Agricultural transition occurred recently (last 13,000 years) and unevenly. Early adoption in Fertile Crescent ~10,000 BCE. Later or never in many Americas regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Connection to Main Thesis</h3>
+                    <p>Geographic distribution of domesticable species determines agricultural adoption timing. Regions with suitable wild plants/animals transitioned to farming earlier. This generated population density, which generated military/technological superiority. Different geography → different timeline → different outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 86,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>
