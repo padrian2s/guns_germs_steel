@@ -33,6 +33,10 @@ class DocumentReader {
         this.helpBtn = document.getElementById('helpBtn');
         this.helpModal = document.getElementById('helpModal');
         this.helpClose = document.getElementById('helpClose');
+        this.bottomMenu = document.getElementById('bottomMenu');
+        this.bottomMenuToggle = document.getElementById('bottomMenuToggle');
+        this.bottomMenuContent = document.getElementById('bottomMenuContent');
+        this.bottomMenuVisible = this.getStoredBottomMenuState() !== false;
     }
 
     attachEventListeners() {
@@ -123,6 +127,20 @@ class DocumentReader {
                 const page = e.target.dataset.page;
                 if (page) {
                     this.loadPage(parseInt(page));
+                }
+            });
+        });
+
+        // Bottom menu toggle
+        this.bottomMenuToggle.addEventListener('click', () => this.toggleBottomMenu());
+
+        // Bottom menu navigation
+        document.querySelectorAll('.bottom-menu-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                const page = e.target.dataset.page;
+                if (page) {
+                    this.loadPage(parseInt(page));
+                    this.closeBottomMenu();
                 }
             });
         });
@@ -222,12 +240,32 @@ class DocumentReader {
     }
 
     toggleMenu() {
-        this.toggleSidebar();
+        this.toggleBottomMenu();
     }
 
     closeMenu() {
-        if (this.sidebarVisible) {
-            this.toggleSidebar();
+        this.closeBottomMenu();
+    }
+
+    toggleBottomMenu() {
+        this.bottomMenuVisible = !this.bottomMenuVisible;
+        this.storeBottomMenuState();
+        this.updateBottomMenuVisibility();
+    }
+
+    closeBottomMenu() {
+        if (this.bottomMenuVisible) {
+            this.bottomMenuVisible = false;
+            this.storeBottomMenuState();
+            this.updateBottomMenuVisibility();
+        }
+    }
+
+    updateBottomMenuVisibility() {
+        if (this.bottomMenuVisible) {
+            this.bottomMenuContent.style.display = 'flex';
+        } else {
+            this.bottomMenuContent.style.display = 'none';
         }
     }
 
@@ -294,6 +332,9 @@ class DocumentReader {
 
         // Update sidebar visibility
         this.updateSidebarVisibility();
+
+        // Update bottom menu visibility
+        this.updateBottomMenuVisibility();
     }
 
     storeState() {
@@ -329,6 +370,15 @@ class DocumentReader {
     getStoredSidebarState() {
         const stored = localStorage.getItem('ggs_sidebarVisible');
         return stored ? stored === 'true' : true;
+    }
+
+    storeBottomMenuState() {
+        localStorage.setItem('ggs_bottomMenuVisible', this.bottomMenuVisible);
+    }
+
+    getStoredBottomMenuState() {
+        const stored = localStorage.getItem('ggs_bottomMenuVisible');
+        return stored ? stored === 'true' : false;
     }
 }
 
