@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 89 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 89 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>FARMER POWER • 89</p>
+<p>cattle, și yak / cow hybrids. Here este one example din their value: the first</p>
+<p>prehistoric farmers din central Europe, the so-called Linearbandkeramik</p>
+<p>cultură acela arose slightly before 5000 B.C., erau initially confined pentru soils</p>
+<p>light enough pentru fi tilled de means din hand-held digging sticks. Only over</p>
+<p>a thousand years later, cu the Introducere din the ox-drawn plow, erau</p>
+<p>aceia farmers able pentru extend cultivation pentru a much wider range din heavy</p>
+<p>soils și tough sods. Similarly, Nat</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0089">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Animale domesticite provided agricol productivity avantaj: plow-capable animals (oxen, cattle, yak) enabled cultivation din heavy soils. Linearbandkeramik cultură (5000 BCE) confined pentru hand-dig soils; ox-drawn plows arrived 1000+ years later, expanding cultivation exponentially pentru new agricol zones.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Animal-powered agricultură. Plows drawn de animals dramatically increase arable land. Tehnologie adoption depends pe available animale domesticite. Societies cu horses/oxen/yaks could expand rapidly; societies without suitable animals remained limited pentru manual cultivation or pastoralism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Neolithic Europe: Light-soil agricultură ~5000 BCE, manual labor. Plow adoption 4000-3000 BCE opened heavy soil agricultură în Central Europe (Danube basin). Eurasian steppes: horse domesticire enabled vast territory exploitation. Americas: llamas/alpacas insufficient pentru plow-agricultură dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Available domesticable animals determine agricol tehnologie trajectory. Eurasian faună (horses, oxen, yak) enabled plow tehnologie, expanding arable land dramatically. Americas lacked such animals, limiting agricol expansion pentru small-scale manual cultivation. Geografic faună variation cascades into agricol productivity divergence.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 89,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

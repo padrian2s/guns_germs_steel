@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 401 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 401 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>CUM AFRICA BECAME BLACK • 401</p>
+<p>ences between European și African peoples themselves, ca white racists</p>
+<p>assume. Rather, it era due pentru accidents din geografie și biogeografie—</p>
+<p>în particular, pentru the continents' different areas, axes, și suites din sălbatic</p>
+<p>plant și animal specie. Acela este, the different istoric trajectories din</p>
+<p>Africa și Europe stem ultimately din differences în real estate.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0401">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Africa-Europe tehnologic differences not biologic: geografic și biogeographic accidents created different outcomes. Continent size, axis orientation, sălbatic specie availability a determinat divergent trajectories. Istoric differences reflect "real estate" advantages not innate populație differences. Geografic advantages created tehnologie disparities appearing pentru reflect biologic differences but actually reflecting geografic distribution din resources.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Geografic determinism alternative pentru racial determinism: tehnologie differences din geografie not genes. Biogeographic advantages: available domesticable animals, crops, geografic connectivity determine tehnologic dezvoltare trajectory. Geografic accident: no populație group deliberately chose advantages—geografic distribution din specie created differential starting points. Tehnologie differences accumulate: early geografic advantages compound creating widening tehnologic/political gaps appearing biologic but rooted în geografie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Eurasia: large continent, east-west axis, abundant domesticable animals (horses, cattle, pigs, sheep), diverse crops enabling intensive agricultură supporting large populations supporting complex tehnologie. Africa: east-west geografic fragmentation, limited domesticable animals (few suitable large mammals), climat diversity preventing unified agricol system. Europe advantages: geografic connectivity enabling difuzarea tehnologiei, abundant draft animals enabling complex agricultură, island geografie enabling maritime tehnologie dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic determinism refutes racist assumptions: tehnologie differences result din geografic distribution din resources not populație biologic differences. Africa-Europe differences: geografic faună distribution, geografic connectivity patterns, climat patterns created advantages favoring European tehnologie dezvoltare. "Real estate" determină civilizație dezvoltare trajectories: continent size, axis orientation, specie availability create differential advantages accumulating over millennia. Populație tehnologic capabilities identical: geografie determină opportunity pentru tehnologie dezvoltare not populație ability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 401,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

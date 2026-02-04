@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 92 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 92 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>92 • ARME, GERMENI ȘI OȚEL</p>
+<p>Din equal importance în wars din cucerire erau the germs acela evolved în</p>
+<p>societăți umane cu domestic animals. Infectious diseases like smallpox,</p>
+<p>measles, și flu arose ca specialized germs din humans, derived de muta</p>
+<p>tions din very similar ancestral germs acela had infected animals (Capitolul</p>
+<p>11). The humans cine animale domesticite erau the first pentru fall victim</p>
+<p>pentru the newly evolved germs, but aceia humans then evolved substantial</p>
+<p>resistance pentru the new diseases. When such</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0092">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diseases a apărut din domestic animals (smallpox, measles, flu din animal-derived pathogens). Animal-domesticating societies experienced boală first, then evolved resistance through natural selection. Americas lacked animale domesticite, so Americans never encountered aceștia pathogens, had no evolved imunitate. Cucerire avantaj tied pentru centuries din prior boală exposure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Boală evoluție și imunitate. Eurasian animale domesticite → epidemie diseases → evolved imunitate în Eurasian populations. Americas: no animale domesticite → no epidemie diseases → no imunitate dezvoltare. Pathogen exposure differentials created immunological avantaj în cucerire.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Smallpox, measles, influenza: major killers în Eurasian history de 1500 CE. Eurasian populations carried partial imunitate. Americas 1492: no populations had measles, smallpox, or influenza imunitate due pentru lack din animale domesticite. Pathogens killed 95% din American populations, Spanish faced previously healthy adult populations lacking imunitate defenses.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic faună distribution determină boală burden și imunitate evoluție. Eurasian animale domesticite provided boală pressure și imunitate. Americas lacked domesticates, lacked boală pressure, lacked imunitate. Accident din geografie (faună distribution) a determinat immunological capacity difference în 1492 contact. Cucerire depended not pe Spanish superiority but pe pathogenic accident din history.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 92,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

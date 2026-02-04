@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 29 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 29 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 29</p>
+<p>sisting din Chapters 4-10, este devoted pentru ce I believe pentru fi the most</p>
+<p>important constellation din ultimate causes. Capitolul 4 sketches cum food</p>
+<p>production—acela este, the growing din food de agricultură or herding, instead</p>
+<p>din the hunting și gathering din sălbatic foods—ultimately led pentru the immedi</p>
+<p>ate factors permitting Pizarro's triumph. But the rise din food production</p>
+<p>varied around the globe. Ca we shall see în Capitolul 5, peoples în some</p>
+<p>parts din the world a dezvoltat food production</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0029">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Part 2 identifies food production ca history's most important constellation din ultimate causes. Food production (agricultură/herding vs. hunting-gathering) ultimately enabled Pizarro's conquests. Capitolul 5 arată food production's adoption varied globally—some peoples independently a dezvoltat it, some acquired it din others, others remained hunter-gatherers. Chapters 7-9 explain crop/livestock domesticire din sălbatic ancestors, showing geografie a determinat available domesticable specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Food production's geografie-dependence proves crucial: sălbatic plants și animals available pentru domesticire varied de continent. Only a few continental areas independently a dezvoltat food production. Once established, spread rates varied based pe continental axes: east-west Eurasian orientation facilitated spread; north-south Americas/African orientation retarded it.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Food production a apărut independently în ~10 locations worldwide (Fertile Crescent, China, Americas, etc.) but only because aceia regions contained domesticable specie. Most regions adopted agricultură through difuzare din aceștia centers. Axis orientation a determinat whether difuzare could occur (east-west sharing climat/latitude vs. north-south crossing diverse climates).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic differences în sălbatic specie și continental orientation directly a determinat whether regions a dezvoltat/adopted food production early or late. Food production enabled populație density, social stratification, armies, și tehnologie—the proximate causes din Pizarro's success traced back pentru geografie's ultimate causation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 29,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

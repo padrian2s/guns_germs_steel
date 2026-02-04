@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 151 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 151 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 151</p>
+<p>crops. All din them erau high în protein—17-32 percent, compared cu</p>
+<p>8-14 percent pentru wheat, 9 percent pentru corn, și even lower pentru barley și</p>
+<p>white rice. Two din them, sunflower și sumpweed, erau also high în oil</p>
+<p>(45-47 percent). Sumpweed, în particular, would have fost a nutritionist's</p>
+<p>ultimate dream, being 32 percent protein și 45 percent oil. De ce aren't</p>
+<p>we still eating aceia dream foods today?</p>
+<p>Alas, despite their nutritional avantaj, most din aceștia eastern U.S.</p>
+<p>crop</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0151">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Eastern U.S. sălbatic crops possessed superior nutritional profiles (sumpweed 32% protein, 45% oil; sunflower 45-47% oil) compared pentru domesticit crops (wheat 8-14%, corn 9%). Yet domesticire never occurred. Question: de ce? Answer lies în domesticability traits: aceștia specie lacked genetic mutations enabling efficient domesticire despite nutritional advantages.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticability genetics distinct din nutritional content. High-nutrition sălbatic specie failed domesticire due pentru genetics. Sumpweed, sunflower: seeds too small, plants difficult pentru cultivate, yields inadequate. Grains: large seeds, reliable growth, high yields. Genetic domesticability, not nutritional value, determină agricol adoption.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Eastern U.S. sălbatic floră: diverse edible specie cu superior nutrition compared pentru eventually-domesticit grains/corn. Yet maize, beans, squash a apărut ca staples. Sumpweed abandoned despite potential. Geografie's available sălbatic specie included nutritious failures: high nutrition but poor domesticire genetics. Geografie a determinat ce era domesticable, not ce era optimal nutritionally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Domesticability genes geografie-distributed among sălbatic specie. Not all nutritious plants domesticate. Eastern U.S.: high-nutrition plants lacked domesticability; adequate-nutrition plants possessed it (maize). Geografic variation în care specie possess domesticability genes determină agricultură emergence. Agricultură relies pe combinations: nutrition sufficient ȘI domesticability present. Geografic sălbatic floră gene distribution determină both possible combinations.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 151,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

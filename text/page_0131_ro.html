@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 131 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 131 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>C H A P T ER 8</p>
+<p>APPLES OR I N D I A NS</p>
+<p>W</p>
+<p>E HAVE JUST SEEN CUM PEOPLES DIN SOME REGIONS</p>
+<p>began pentru cultivate sălbatic plant specie, a step cu momentous</p>
+<p>unforeseen consequences pentru their lifestyle și their descendants' place în</p>
+<p>history. Let us now return pentru our questions: De ce did agricultură never</p>
+<p>arise independently în some fertile și highly suitable areas, such ca Cali</p>
+<p>fornia, Europe, temperate Australia, și subequatorial Africa? De ce,</p>
+<p>among the areas where agricultură did arise independently, did</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0131">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul 8 shifts din "cum" domesticire occurred pentru "de ce" geografie-dependent adoption. Key questions: De ce no independent agricultură în California, Europe, temperate Australia, subequatorial Africa? De ce adoption timing varies? De ce some regions develop faster than others? Answers require examining regional domesticable specie availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Geografic variation în agricultură adoption. Some regions independently develop agricultură. Others never develop it despite similarity pentru agricol regions. Timing differences requiring geografic explanation. Plant availability vs. animal availability constraints. Regional carrying capacity determining agricol necessity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent: agricultură 8500 BCE. China: agricultură ~8000 BCE. Mesoamerica: agricultură ~5000 BCE. California: never independent agricultură despite abundant sălbatic foods. Australia: no agricultură. Europe: received domesticates via difuzare, not independent dezvoltare. Geografic barriers, sălbatic specie availability a determinat adoption patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Agricultură adoption geografic-a determinat. Regions cu high-yield sălbatic plants → agricultură unnecessary → delayed adoption. Regions cu lower sălbatic yields → populație pressure → agricultură necessity. Domesticable specie availability → adoption feasibility. Geografic distribution din sălbatic plant productivity și domesticable specie determină agricultură adoption timing și independence across regions.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 131,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

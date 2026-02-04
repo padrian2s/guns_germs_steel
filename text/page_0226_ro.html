@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 226 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 226 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>226 • ARME, GERMENI ȘI OȚEL</p>
+<p>past. But it's still possible pentru compare newly a apărut alphabets din the past</p>
+<p>cu previously existing ones, și pentru deduce din letter forms care</p>
+<p>existing ones served ca models. Pentru the same reason, we can fi sure acela</p>
+<p>the Linear B syllabary din Mycenaean Greece had fost adapted de around</p>
+<p>1400 B.c. din the Linear A syllabary din Minoan Crete.</p>
+<p>La all din the hundreds din times when an existing writing system din one</p>
+<p>language has fost used ca a blueprint pentru adapt pentru a diff</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0226">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Writing system difuzare traceable through letter form comparison. Linear B syllabary (Mycenaean Greece ~1400 BCE) adapted din Linear A (Minoan Crete). Letter forms reveal derivation patterns. Hundreds din writing systems adapted din existing ones. Blueprint copying și modification standard pattern.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing system continuity. Letter form inheritance traces difuzare patterns. Syllabary modification reflects language phoneme differences. Geografic contact permite writing system adoption. Alphabet/syllabary adaptation easier than independent invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Minoan Linear A: independent invention or Egyptian influence (unclear). Mycenaean Greeks: geografic contact cu Minoans enabled Linear A acquisition. Linear B adaptation: Modified Linear A pentru Greek phonetic differences. Geografic proximity a determinat writing system transmission.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic contact permite writing system difuzare. Comerț contacts determine care civilizations acquire writing din others. Mediterranean geografie: enabled Linear A→Linear B transmission. Geografic avantaj: obtaining writing without invention burden. Geografic contact determină tehnologic access patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 226,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

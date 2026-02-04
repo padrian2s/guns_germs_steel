@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 91 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 91 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>FARMER POWER • 91</p>
+<p>ing our main means din land transport until the dezvoltare din railroads</p>
+<p>în the 19th century. Before domesticirea animalelor, the sole means din trans</p>
+<p>porting goods și people de land era pe the backs din humans. Large</p>
+<p>mammals changed acela: pentru the first time în human history, it became pos</p>
+<p>sible pentru move heavy goods în large quantities, ca well ca people, rapidly</p>
+<p>overland pentru long distances. The domestic animals acela erau ridden erau</p>
+<p>the horse, donkey, yak, reindeer, și Arabian și</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0091">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Animale domesticite revolutionized land transport. Pre-animal: humans carried goods pe backs, limiting quantity și distance. Domestic animals (horse, donkey, yak, camel) enabled heavy goods movement în large quantities over long distances rapidly, until railroad dezvoltare în 19th century.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Animal transport permite comerț, military logistics, imperial administration. Horses allowed cavalry armies, rapid communication, supply lines over vast distances. Animal transport preceded mechanical transport de millennia, fundamental pentru imperiu-building capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Eurasian steppes: horse domesticire enabled vast imperiu expansion (Mongols, Persians, Romans). Americas: llamas/alpacas, burden-capable only în Andes mountains la high altitudes. No continent-spanning animal transport possible în Americas, limiting military/administrative reach.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Available animale domesticite determine transport infrastructure și imperial capacity. Horse-domesticating societies build continent-spanning empires. Animal-poor societies remain regionally fragmented. Geografic faună distribution determină military logistics, rețele comerciale, imperiu-building potential.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 91,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

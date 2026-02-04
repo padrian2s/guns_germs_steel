@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 72 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 72 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>72 • ARME, GERMENI ȘI OȚEL</p>
+<p>"Atahuallpa asked pentru the Book, acela he might look la it, și the Friar</p>
+<p>gave it pentru him closed. Atahuallpa did not know cum pentru open the Book,</p>
+<p>și the Friar era extending his arm pentru do so, when Atahuallpa, în great</p>
+<p>anger, gave him a blow pe the arm, not wishing acela it should fi opened.</p>
+<p>Then he opened it himself, și, without any astonishment la the letters</p>
+<p>și paper he threw it away din him five or six paces, his face a deep</p>
+<p>crimson.</p>
+<p>"The Friar returned pentru Pizarro, sh</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0072">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Atahuallpa dismisses Bible offered de Spanish friar, showing contempt pentru written word unfamiliar pentru Inca. Inability pentru handle book demonstrează writing/literacy gap—tehnologie unique pentru Old World (și Mesoamerica). Inca illiteracy contrasted cu Spanish written cultură. Atahuallpa's rejection signals disdain pentru unknown tehnologie, foreshadowing miscalculation. First encounter arată cultural/tehnologic differences explicitly: literacy ca literacy avantaj.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Literacy tehnologie gap demonstrated explicitly. Inca imperiu lack writing: Atahuallpa unable pentru open book. Writing unique pentru Eurasian civilizations (except Mesoamerica). Inca quipu (knotted cord records) sophisticated but not writing. Inca elite unfamiliar cu book tehnologie. Writing-literacy gap foreshadows information tehnologie avantaj. Literacy enabling military coordination, record-keeping, organizational complexity. Writing geografie-constrained: a dezvoltat only certain regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Spanish friar offered Bible pentru Atahuallpa la Cajamarca. Atahuallpa unfamiliar cu book: unable pentru open, threw it away after looking. Atahuallpa anger la unfamiliar tehnologie (book/writing). Spanish literacy contrast highlighted. Inca quipu records sophisticated but not alphabetic writing. Writing tehnologie a dezvoltat only Eurasia (Egypt, Mesopotamia, China). Americas a dezvoltat writing only Mesoamerica (Mayan, Aztec). Inca uniquely lacked writing despite imperiu sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Writing tehnologie gap demonstrează geografic determinism. Writing emergence traced pentru agricol civilizație excedent. Inca agricultură-enabled imperiu but never a dezvoltat writing independently. Writing invented separately only few regions: Fertile Crescent, Egypt, China, Mesoamerica. Inca missed independent writing invention. Geografic plant/animal availability a determinat civilizație emergence but not writing. Inca received agricultură-tehnologie but not writing-tehnologie. Tehnologie geografie-a determinat through difuzare patterns și regional invention centers. Atahuallpa's unfamiliarity cu book documents tehnologie gap consequences.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 72,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

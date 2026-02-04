@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 122 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 122 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>1 22 • ARME, GERMENI ȘI OȚEL</p>
+<p>acela way. They're either hermaphrodites incapable din fertilizing themselves</p>
+<p>și forced pentru interbreed cu other hermaphrodite individuals (my male</p>
+<p>part fertilizes your female part, your male part fertilizes my female part),</p>
+<p>or else they occur ca separate male și female individuals, like all normal</p>
+<p>mammals. The former plants sunt termed self-incompatible hermaphro</p>
+<p>dites; the latter, dioecious specie. Both erau bad news pentru antic farmers,</p>
+<p>cine would thereby have pro</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0122">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Plant reproductive barriers preventing easy domesticire: self-incompatible hermaphrodites (cannot self-fertilize), dioecious specie (separate male/female plants). Domesticire requires genetic manipulation overcoming reproductive isolation. Antic farmers needed mutant self-compatible varieties or orchards cu nearby cross-compatible individuals. Reproductive barriers delayed domesticire din apples, pears, plums, cherries until classical times.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Reproductive biology ca domesticire constraint. Self-incompatibility barriers preventing easy seed saving. Dioecy requiring two plant types în same location. Genetic variation în reproduction mechanisms. Regions lacking self-compatible mutants cannot rapidly domesticate self-incompatible specie. Reproductive barriers create geografic variation în domesticire ease.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent: wheat/barley self-compatible enabled rapid domesticire. Mediterranean region: apples, pears, cherries self-incompatible → domesticire delayed centuries. Mesoamerica: maize self-compatible facilitated domesticire. Each region's domesticire timeline a determinat de reproductive characteristics din available sălbatic specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Sălbatic plant reproductive biology determină domesticire speed. Self-compatible specie → rapid domesticire. Self-incompatible/dioecious specie → delayed domesticire requiring orchards/conscious management. Geografic variation în sălbatic plant reproductive characteristics → geografic variation în domesticire timing → agricol dezvoltare timeline variation across continents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 122,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 313 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 313 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>YALI'S PEOPLE • 31 3</p>
+<p>the Tasmanian archaeological record documents the disappearance din</p>
+<p>fishing, și din awls, needles, și other bone tools, around 1500 B.c. Pe</p>
+<p>la least three smaller islands (Flinders, Kangaroo, și King) acela erau iso</p>
+<p>lated din Australia or Tasmania de rising sea levels around 10,000 years</p>
+<p>ago, human populations acela would initially have numbered around 200</p>
+<p>pentru 400 died out completely.</p>
+<p>Tasmania și aceia three smaller islands thus illustrate în extreme form</p>
+<p>a Concluzie din bro</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0313">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Tasmania archaeological record arată tehnologie loss: fishing disappeared around 1500 B.C., bone tools (awls, needles) also disappeared. Three smaller islands (Flinders, Kangaroo, King) isolated de rising sea levels ~10,000 years ago: initial populations 200-400 all went extinct. Geografic isolation through water barriers combined cu small initial populație created extinction threshold. Populație below viable knowledge transmission size could not maintain tehnologic knowledge over generations. Rising sea level geografie-created isolation destroyed populations maintaining complex technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Populație size determină tehnologie survival. Small populations cannot maintain complex tehnologic knowledge across generations. Geografic isolation through water barriers reduces viable populație. Populație isolation multiplies extinction risk. Knowledge loss în isolated populations creates tehnologie abandonment. Minimum populație size pentru tehnologie transmission geografie-a determinat through isolation degree.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Tasmania: separated din Australia ~10,000 years ago de water barrier, fishing tehnologie maintained but later abandoned. Small islands: populations 200-400 isolated completely, extinction occurred. Comparison: Australia cu larger populație maintained fishing; Tasmania medium populație lost tehnologie; islands tiny populations went extinct. Populație size inversely correlated cu extinction risk și knowledge loss.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic water barriers determine populație isolation determine populație size determine knowledge survival. Rising sea levels geografie-created isolation created populație thresholds pentru extinction. Tehnologie loss geografic consequence through isolation-created small populations. Tasmania/island extinctions demonstrate geografie determină civilizație sustainability through populație viability. Isolation geografie-a determinat tehnologie knowledge persistence.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 313,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

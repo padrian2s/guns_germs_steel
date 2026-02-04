@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 21 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 21 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 2 1</p>
+<p>major cause din death, while murders erau relatively uncommon și a state</p>
+<p>din war era the exception rather than the rule. Most Europeans cine</p>
+<p>escaped fatal infections also escaped other potential causes din death și</p>
+<p>proceeded pentru pass pe their genes. Today, most live-born Western infants</p>
+<p>survive fatal infections ca well și reproduce themselves, regardless din</p>
+<p>their intelligence și the genes they bear. În contrast, New Guineans have</p>
+<p>fost living în societies where human numbers</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0021">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Based pe 33 years cu New Guineans, Diamond susține they sunt genetically more intelligent than Westerners. He explică two mechanisms: (1) Natural selection în Europe favored boală resistance genes (not intelligence) because epidemie diseases killed regardless din intelligence; în New Guinea, murder și warfare killed the unintelligent, selecting pentru intelligence. (2) New Guinean children experience intensive active stimulation versus Western children's passive TV consumption, boosting mental dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond inverts racist assumptions: different selection pressures between continents favored different traits. European epidemics selected pentru boală resistance genes; New Guinean violence selected pentru intelligence genes. Childhood mediu profoundly shapes brain dezvoltare—active engagement versus passive entertainment creates measurable cognitive differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>European epidemics (smallpox, plague) killed millions regardless din intelligence pentru millennia. New Guinea's lower populație density prevented epidemie diseases but increased tribal warfare. Aceștia different selective pressures shaped different genetic predispositions pentru cognitive traits.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>If New Guineans sunt probably genetically superior în intelligence, tehnologic difference cannot result din genetic inferiority. Geografie shaped different selection pressures și childhood environments—ultimately determining cine a dezvoltat tehnologie, not innate ability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 21,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

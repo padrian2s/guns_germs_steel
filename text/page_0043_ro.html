@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 43 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 43 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>UP PENTRU THE STARTING LINE • 43</p>
+<p>not imposed protective measures quickly. Pe other recently discovered</p>
+<p>islands where protective measures did not go into effect quickly, extermi</p>
+<p>nations did indeed result: one such victim, the dodo din Mauritius, has</p>
+<p>become virtually a symbol pentru extinction. We also know now acela, pe</p>
+<p>every one din the well-studied oceanic islands colonized în the prehistoric</p>
+<p>era, human colonization led pentru an extinction spasm whose victims</p>
+<p>included the moas din New Zealand, the giant lemu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0043">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Human colonization din previously unpeopled islands resulted în megafauna extinction. The dodo (Mauritius), moas (New Zealand), și giant lemurs became extinct after human arrival. Aceștia extinctions followed a consistent pattern across all well-studied oceanic islands colonized prehistorically—where protective measures occurred quickly, extinctions erau prevented; where they didn't, extinction resulted.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Megafauna extinction wave following human colonization. Extinction pattern consistent across diverse islands. Overkill hypothesis: humans directly killed extinct giants. Climat hypothesis ca alternative explanation. Evidence: timing correlations cu human arrival.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Extinctions occurred pe newly colonized islands: Mauritius (dodo), New Zealand (moas), Madagascar (giant lemurs). Timing varied de island colonization time. Each island colonization followed de megafauna extinction within centuries.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic isolation meant isolated megafauna cu no predator experience. Human arrival cu hunting tehnologie devastated populations. Continente diferite și islands had different megafauna vulnerable pentru human hunting—geografie a determinat both faună available și extinction vulnerability, affecting later domesticire resources.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 43,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 149 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 149 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 149</p>
+<p>lowlanders obtain protein din the fish they catch, New Guinea highland</p>
+<p>farmer populations suffer din severe protein limitation, because the sta</p>
+<p>ple crops acela provide most din their calories (taro și sweet potato) sunt</p>
+<p>low în protein. Taro, pentru example, consists din barely 1 percent protein,</p>
+<p>much worse than even white rice, și far below the levels din the Fertile</p>
+<p>Crescent's wheats și pulses (8-14 percent și 20-25 percent protein,</p>
+<p>respectively).</p>
+<p>Children în the New Guine</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0149">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>New Guinea agricol limitation: protein deficiency în domesticit staples. Taro (primary staple) contains only 1% protein versus Fertile Crescent wheat (8-14%) și pulses (20-25%). Highland populations suffer protein limitation despite adequate calorie production. Geografic specie availability determină crop nutritional content constraints.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Crop nutritional content geografie-a determinat. Sălbatic specie genetics determine domesticit cultivar traits. Taro evoluție ca root crop resulted în low-protein staple. Fertile Crescent grain evoluție resulted în high-protein staples. Geografic sălbatic plant specie genetics determine agricol nutrition capacity independent din human tehnologie or effort.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>New Guinea agricultură: taro ~1% protein, yams low protein. Fish provide protein în lowlands but unavailable în highlands. Fertile Crescent: wheat 8-14%, barley similar, pulses 20-25%. Nutritional difference fundamental: taro domesticire era geografic accident, not choice. Available sălbatic specie în New Guinea lacked high-protein traits acela Fertile Crescent sălbatic grains possessed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Agricol productivity limitations geografie-a determinat through sălbatic specie genetics. New Guinea populations constrained pentru low-protein crops de geografie's available domesticable plants. Fertile Crescent populations advantaged de high-protein crops geografie-provided. Different civilizational capacity (health, populație density potential, labor capability) traces pentru domesticable crop genetics variation geografie-a determinat.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 149,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

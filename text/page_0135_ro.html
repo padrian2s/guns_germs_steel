@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 135 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 135 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 1 35</p>
+<p>crescent-like shape din its uplands pe a map: see Figure 8.1). Acela area</p>
+<p>appears pentru have fost the earliest site pentru a whole string din developments,</p>
+<p>including cities, writing, empires, și ce we term (pentru better or worse)</p>
+<p>civilizație. All aceia developments sprang, în turn, din the dense human</p>
+<p>populations, stored food surpluses, și feeding din nonfarming specialists</p>
+<p>made possible de the rise din food production în the form din crop cultiva</p>
+<p>tion și animal husbandry. Food</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0135">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Fertile Crescent (crescent-shaped upland region): earliest independent agricultură origin. Food production excedent enabled civilizational cascade: dense human populations → stored food → non-farming specialist feeding → cities, writing, empires, civilizație. Agricultură foundation a determinat all subsequent developments. Geografic region's sălbatic plant/animal availability enabled civilizație birth.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricultură → excedent → populație density → specialization → civilizație. Fertile Crescent advantages: large-seeded grasses, domesticable animals (sheep, goats, cattle, pigs), climat stability. Food production feasibility created excedent enabling specialist populations. Specialist populations (craftspeople, soldiers, rulers) require agricol excedent supporting them.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent 8500 BCE: agricultură transition. De 8000 BCE: permanent settlements. De 3500 BCE: cities (Uruk), writing, empires. Direct causal chain: geografie → agricultură → excedent → civilizație. Other regions followed same pattern but delayed de geografic constraints limiting agricultură adoption speed or specie availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Civilizational dezvoltare geografie-dependent through agricultură. Geografic domesticable specie → agricultură → excedent → civilizație. Regions lacking domesticable specie → no agricultură → no excedent → no specialization → no civilizație. Civilizație emergence geografie-a determinat de available sălbatic floră/faună enabling agricultură first.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 135,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

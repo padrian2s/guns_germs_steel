@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 115 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 115 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>CUM PENTRU MAKE AN ALMOND • I I 5</p>
+<p>opment este today a conscious, highly specialized effort carried out de pro</p>
+<p>fessional scientists. They already know despre the hundreds din existing</p>
+<p>crops și set out pentru develop yet another one. Pentru achieve acela goal, they</p>
+<p>plant many different seeds or roots, select the best progeny și plant their</p>
+<p>seeds, apply knowledge din genetics pentru develop good varieties acela breed</p>
+<p>true, și perhaps even use the latest techniques din genetic engineering pentru</p>
+<p>transfer specific useful gen</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0115">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Modern crop dezvoltare: professional, genetics-informed, deliberate. Selects din existing crop diversity. Applies genetics knowledge. Modern dezvoltare builds pe sălbatic specie genetic diversity availability. Regions cu fewer sălbatic domesticable specie had fewer crop options historically, limiting agricol dezvoltare trajectory.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Genetic variation în sălbatic populations determină domesticire success și yield improvement potential. Regions cu genetically diverse sălbatic crops achieve greater yields. Regions cu limited genetic diversity capped la lower yields. Modern genetics cannot overcome sălbatic specie absence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Old World crops benefited din extensive genetic diversity dezvoltare over millennia. New World crops limited pentru available sălbatic specie genetic diversity. Genetic limitations cascaded into agricol productivity limitations across civilizations și continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Sălbatic genetic diversity geografic. Fertile Crescent sălbatic crops genetically diverse enabled high yields. Americas sălbatic crops genetically limited enabled moderate yields. Geografic distribution din sălbatic specie genetic diversity a determinat civilizational agricol productivity trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 115,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

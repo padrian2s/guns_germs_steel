@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 36 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 36 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>36 • ARME, GERMENI ȘI OȚEL</p>
+<p>vides the answer pentru Yali's question. Hence acesta Capitolul will offer a whirl</p>
+<p>wind tour din human history pe all the continents, pentru millions din years,</p>
+<p>din our origins ca a specie until 13,000 years ago. All acela will now fi</p>
+<p>summarized în less than 20 pages. Naturally, I shall gloss over details și</p>
+<p>mention only ce seem pentru me the trends most relevant pentru acesta book.</p>
+<p>Our closest living relatives sunt three surviving specie din great ape: the</p>
+<p>gorilla, the common chimpanzee</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0036">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond summarizes millions din years din human evoluție din ape ancestors (~7 million years ago) pentru modern humans. Great apes' African origin indicates human evoluție also occurred în Africa. Early hominins (Australopithecus, Homo habilis, Homo erectus) a dezvoltat upright posture, larger brains, și stone tools, but remained confined pentru Africa pentru millions din years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Early human evoluție era African phenomenon. Homo erectus first spread beyond Africa pentru Java ~1 million years ago. De 500,000 years ago, Homo sapiens appeared în Africa și Europe. Early stone tools erau crude; Australia, Americas remained unpeopled (required boat tehnologie or Siberian occupation).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Human evoluție paralleled African geografie pentru millions din years. Geografic barriers (water, climat) prevented human spread pentru Australia și Americas until much later. Africa's role ca humanity's cradle established it ca center din early tehnologic dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Africa's early human evoluție avantaj did not translate pentru lasting superioritate tehnologică. Acesta early head start became irrelevant de 11,000 BCE, proving geografie's changing effect pe civilizational avantaj depending pe specific ambiental conditions (domesticable specie, climat, etc.).</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 36,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

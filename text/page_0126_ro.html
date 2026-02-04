@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 126 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 126 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>1 26 • ARME, GERMENI ȘI OȚEL</p>
+<p>TABLE 7.1. Examples din Early Major Crop Types around the</p>
+<p>Antic World</p>
+<p>Mesoamerica, India, Ethiopia, sub-Saharan Africa, și South America,</p>
+<p>supplemented în several din aceia areas de wool din domestic animals. Din</p>
+<p>the centers din early food production, only the eastern United States și</p>
+<p>New Guinea remained without a fiber crop.</p>
+<p>Alongside aceștia parallels, there erau also some major differences în</p>
+<p>food production systems around the world. One este acela agricultură în</p>
+<p>much</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0126">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Table 7.1 comparing early major crop types: grain crops dominant globally but regionally distinct. Fertile Crescent: wheat, barley, lentils, peas. Mesoamerica: maize, beans, squash. China: millet, rice. Africa: sorghum, African rice, yam. Fiber crops present în Mesoamerica, India, Ethiopia, sub-Saharan Africa. Eastern US și New Guinea lacked fiber crops.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Regional crop diversity reflecting available sălbatic specie. Grain crop universality but specie variation. Fiber crop presence indicating available sălbatic fiber plants. Absence patterns showing geografic sălbatic plant constraints. Regional crop diversity serving different consumption/production needs. Geografic sălbatic floră determină crop diversity possible.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent: grass specie diversity enabled grain crop diversity. Sub-Saharan Africa: yam domesticire reflecting sălbatic tuber availability. Mesoamerica: three sisters (maize-beans-squash) suite reflecting available specie. Eastern US: limited crop diversity reflecting sălbatic specie constraints. New Guinea: taro, banana absence din fiber crops showing ambiental constraints.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic sălbatic plant availability determină crop diversity. Regions cu diverse sălbatic domesticable specie → diverse crops achievable. Regions cu limited sălbatic specie → narrow crop suite. Fiber crop presence/absence geografic-a determinat de available sălbatic fiber plants. Agricol productivity variation fundamentally reflects geografic sălbatic specie diversity variation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 126,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

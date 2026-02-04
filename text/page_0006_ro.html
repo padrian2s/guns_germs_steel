@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 6 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 6 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>6 • CONTENTS</p>
+<p>CAPITOLUL 5 HISTORY'S HAVES ȘI</p>
+<p>HAVE-NOTS</p>
+<p>Geografic differences în the onset din food production 9 3</p>
+<p>CAPITOLUL 6 PENTRU FARM OR NOT PENTRU FARM</p>
+<p>Causes din the spread din food production 104</p>
+<p>CHAPTER7 CUM PENTRU MAKE AN ALMOND</p>
+<p>The unconscious dezvoltare din antic crops 1 1 4</p>
+<p>CAPITOLUL 8 APPLES OR INDIANS</p>
+<p>De ce did peoples din some regions fail pentru domesticate</p>
+<p>plants? 13 1</p>
+<p>CAPITOLUL 9 ZEBRAS, UNHAPPY MARRIAGES, ȘI</p>
+<p>THE ANNA KARENINA PRINCIPLE</p>
+<p>De ce erau most big sălbatic mammal specie never</p>
+<p>domesticit? 1 57</p>
+<p>CHAP</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0006">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Acesta Pagina continues the table din contents, detailing Partea A Treia și Four chapters. Partea A Treia tracks cum food production leads pentru germs, writing, tehnologie, și government. Partea A Patra examinează regional histories: Australia/New Guinea, Americas, Africa, Eurasia, și Polynesia.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Key Capitolul titles reveal cause-și-effect logic: "Lethal Gift din Livestock" (where germs originated), "Blueprints și Borrowed Letters" (writing's role), "Necessity's Mother" (tehnologie's evoluție), și "Din Egalitarianism pentru Kleptocracy" (cum governments a dezvoltat). The regional chapters test whether the geographical pattern holds globally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Diamond's choice din regions reflects istoric significance: the Americas și Australia showcase areas cu limited food-producing animals; Polynesia demonstrează cum geografie afectează island societies; Eurasia și Africa show where domesticire succeeded. Each region's trajectory reflects its geographical constraints și opportunities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>The contents structure proves Diamond's argument: Partea A Doua/Three establish the causal chain (geografie → agricultură → tehnologie/boală), while Partea A Patra arată acesta pattern operating across all societăți umane. Acesta organization demonstrează acela geographical determinism este universal, not specific pentru any cultură.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 6,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

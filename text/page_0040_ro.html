@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 40 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 40 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>40 • ARME, GERMENI ȘI OȚEL</p>
+<p>bulls și horses în the Lascaux Cave din southwestern France will under</p>
+<p>stand la once acela their creators must have fost ca modern în their minds</p>
+<p>ca they erau în their skeletons.</p>
+<p>Obviously, some momentous change took place în our ancestors' capa</p>
+<p>bilities between despre 100,000 și 50,000 years ago. Acela Great Leap</p>
+<p>Forward poses two major unresolved questions, regarding its triggering</p>
+<p>cause și its geografic location. Ca pentru its cause, I argued în my book</p>
+<p>The Third Chim</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0040">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Between 100,000-50,000 years ago, a "Great Leap Forward" revolutionized human capability. Lascaux Cave paintings din bulls și horses demonstrate creators erau mentally modern. Acesta momentous change poses two unresolved questions: its triggering cause și geografic origin—did it occur în Africa, multiregionally, or elsewhere?</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Great Leap Forward: sudden behavioral modernity emergence. Art production, standardized tools, complex hunting. Unresolved cause: language evoluție? Brain reorganization? Genetic mutation? Geografic origin debated—African origin vs multiregional dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Great Leap Forward ~50,000 years ago correlates cu Cro-Magnon emergence în Europe, replacing Neanderthals. Lascaux Cave art (~17,000 BCE) represents cognitive sophistication indicating mental modernity achieved well before.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic location din Great Leap Forward a determinat care regions first possessed modern behavioral capacity. Early geografic origin would provide head start pentru tehnologic și civilizație dezvoltare. Acesta initiates geografic divergence în human capability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 40,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

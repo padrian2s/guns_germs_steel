@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 178 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 178 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>1 78 • ARME, GERMENI ȘI OȚEL</p>
+<p>American California din the U.S. Southwest or pentru reach Australia din</p>
+<p>New Guinea și Indonesia, și the failure din farming pentru spread din</p>
+<p>South Africa's Natal Province pentru South Africa's Cape. Even among all</p>
+<p>aceia areas where food production did spread în the prehistoric era, the</p>
+<p>rates și dates din spread varied considerably. La the one extreme era its</p>
+<p>rapid spread along east-west axes: din Southwest Asia both west pentru</p>
+<p>Europe și Egypt și east pentru the Indus Valley (</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0178">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Agricol difuzare failures illustrate geografic constraints pe spread. California farming failed pentru spread din U.S. Southwest (climat/ecologie barriers). Australia failed pentru receive farming din New Guinea/Indonesia (ocean barriers + climat mismatch). South Africa Cape failed pentru receive farming din Natal Province (climat barriers). Spread rates varied dramatically across regions. East-west spread rapid; north-south spread slow/failed.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Geografic barriers prevent agricol difuzare. Climat-compatible zones enable spread; climat-mismatched zones prevent spread. Ocean barriers prevent difuzare (Australia isolation). North-south climat gradients prevent tehnologie transfer (California/Southwest). East-west similar-latitude zones enable rapid spread. Geografic proximity insufficient without climat/latitude compatibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>California Mediterranean climat differs din U.S. Southwest arid climat. Australia tropical not compatible cu New Guinea montane. South Africa Cape Mediterranean not compatible cu Natal Province subtropical. Rapid spread: Southwest Asia → Mediterranean Egypt/Greece (similar latitude zone). Contrast arată climat/latitude critical pentru difuzare feasibility. Geografic barriers absolute constraint.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic latitude/climat determină difuzare success. East-west axes enable difuzare (same latitude/season/climat). North-south axes prevent difuzare (different climat/growing season). Barriers (ocean, climat zones) absolute. Civilizations separated de incompatible climat zones cannot achieve agricol tehnologie transfer. Geografie determină care regions receive difuzarea tehnologiei versus remain isolated.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 178,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

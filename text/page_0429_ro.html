@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 429 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 429 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS</p>
+<p>ACEȘTIA SUGGESTIONS SUNT PENTRU ACEIA INTERESTED ÎN READ-</p>
+<p>ing further. Hence, în addition pentru key books și papers, I have</p>
+<p>favored references acela provide comprehensive listings din the earlier litera</p>
+<p>ture. A journal title (în italics) este followed de the volume number, followed</p>
+<p>after a colon de the first și last Pagina numbers, și then the year din publi</p>
+<p>cation în parentheses.</p>
+<p>Prologul</p>
+<p>Among references relevant pentru most chapters din acesta book este an enormous</p>
+<p>compendium din human gene frequen</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0429">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Acesta Pagina explorează Concepte Cheie related pentru Content, Analysis. The content demonstrează cum content shaped societăți umane și their dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Main topics include Content, Analysis. Understanding aceștia concepts este essential pentru Diamond's broader argument despre geographical determinism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Pagina 429 situates the discussion within the framework din Content, Analysis. Acesta reflects Diamond's comparative approach pentru civilizations across continente diferite.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Acesta material supports Diamond's central argument acela geografie—including climat, available faună și floră, și continental axis—determină tehnologic și social dezvoltare. The evidence presented here demonstrează cum content factors created divergent paths pentru societăți umane.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 429,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

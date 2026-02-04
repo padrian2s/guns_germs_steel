@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 86 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 86 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>8 6 • ARME, GERMENI ȘI OȚEL</p>
+<p>din the American West. Fred Hirschy's family era proud din him, ca a pio</p>
+<p>neer farmer cine had succeeded under difficult conditions. But Levi's tribe</p>
+<p>din hunters și famous warriors had fost robbed din its lands de the immi</p>
+<p>grant white farmers. Cum did the farmers win out over the famous war</p>
+<p>riors?</p>
+<p>Pentru most din the time since the ancestors din modern humans diverged</p>
+<p>din the ancestors din the living great apes, around 7 million years ago, all</p>
+<p>humans pe Earth fed themselves ex</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0086">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>De ce did farmers defeat hunters? The answer lies în abundance: agricultură produces more calories per hectare than hunting-gathering, enabling larger populations. Pentru 7 million years post-divergence, all humans foraged. But agricultură's caloric avantaj altered the power balance irreversibly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Caloric productivity. Agricol societies support 10-100x higher populație density than hunter-gatherers. More people = more soldiers, craftspeople, administrators. Numerical avantaj compounds tehnologic avantaj.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Seven million years din human evoluție: all humans hunted și gathered. Agricol transition occurred recently (last 13,000 years) și unevenly. Early adoption în Fertile Crescent ~10,000 BCE. Later or never în many Americas regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic distribution din domesticable specie determină agricol adoption timing. Regions cu suitable sălbatic plants/animals transitioned pentru farming earlier. Acesta generated populație density, care generated military/superioritate tehnologică. Different geografie → different timeline → different outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 86,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 190 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 190 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>190 • ARME, GERMENI ȘI OȚEL</p>
+<p>spread southward over acela distance pentru Ethiopia, și Bantu food produc</p>
+<p>tion spread quickly din Africa's Great Lakes region south pentru Natal,</p>
+<p>because în both cases the intervening areas had similar rainfall regimes</p>
+<p>și erau suitable pentru agricultură. În contrast, crop difuzare din Indone</p>
+<p>sia south pentru southwestern Australia era completely impossible, și diffu</p>
+<p>sion over the much shorter distance din Mexico pentru the U.S. Southwest</p>
+<p>și Southeast era slow, because the inte</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0190">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Crop difuzare geografie-limited de climat barriers. Similar climates enable rapid difuzare: Fertile Crescent crops south pentru Ethiopia (similar rainfall), Bantu crops Great Lakes pentru Natal (comparable climat). Different climat zones prevent difuzare: Indonesia tropical crops impossible reach Australia. Shorter distance difuzare also fails across climat boundaries: Mexico crops slow adoption US Southwest/Southeast (arid climat).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Climat-limited difuzare. Crops adapted pentru source climat fail în incompatible climates despite distance shortness. Geografie determină crop compatibility. Latitude barriers more significant than longitude distance. Similar latitude = successful difuzare. Different latitude = difuzare failure. Continental shape afectează difuzare patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mediterranean crops spread north-south effectively within Mediterranean/temperate zones. Tropical crops cannot spread pentru temperate zones (climat incompatibility). Mexico crops required adaptation pentru US climates (thousand-year lag). New World vs Old World crop patterns geografie-a determinat de latitude distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Crop difuzare geografie-constrained. Climat similarity permite difuzare; incompatibility previne it. Distance secondary pentru climat compatibility. Continental climat diversity permite independent domesticire. Geografic latitude distribution determină difuzare feasibility. Climat geografie ultimately controls care crops adopted where despite tehnologie/knowledge spread.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 190,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

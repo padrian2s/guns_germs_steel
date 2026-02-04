@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 110 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 110 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>110 • ARME, GERMENI ȘI OȚEL</p>
+<p>problem din disentangling cause și effect în the rise din food production.</p>
+<p>However, five main contributing factors can still fi identified; the contro</p>
+<p>versies revolve mainly around their relative importance.</p>
+<p>One factor este the decline în the availability din sălbatic foods. The lifestyle</p>
+<p>din hunter-gatherers has become increasingly less rewarding over the past</p>
+<p>13,000 years, ca resources pe care they depended (especially animal</p>
+<p>resources) have become less abundant or even di</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0110">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>De ce did agricultură rise? Five main contributing factors: (1) Decline în sălbatic food availability - big game extinction ~11,000 years ago forced alternative subzistență. (2) Climat change enabled plant growth. (3) Populație growth required increased food production. (4) Available domesticable sălbatic specie. (5) Social/cultural factors. Geografic factors a determinat factor importance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Five factors în agricultură rise: sălbatic animal decline, climat change, populație pressure, specie availability, cultural readiness. Geografic variation determină care factors mattered where. Regions cu specie ȘI populație pressure → agricultură. Regions without specie OR without pressure → no agricultură despite other factors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Post-Ice Age (~13,000 BP): megafauna extinctions globally. Climat warming 11000-9000 BP. Populație growth pressure increased 10000-8000 BP. Fertile Crescent: all five factors combined → agricultură. Australia: no suitable domesticable specie despite populație pressure → no agricultură despite hunter-gatherer success.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Agricol emergence requires geografic coincidence din multiple factors. Specie availability essential - without suitable specie, agricultură impossible regardless din populație pressure. Geografic distribution din domesticable sălbatic specie determină agricol feasibility. Regions cu specie transition pentru farming; regions without specie remain hunter-gatherers despite identical pressure.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 110,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

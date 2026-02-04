@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 133 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 133 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>APPLES OR INDIANS • 1 33</p>
+<p>plant în modern times sugerează acela antic peoples really may have</p>
+<p>explored virtually all useful sălbatic plants și domesticit all the ones</p>
+<p>worth domesticating.</p>
+<p>Yet some din the world's failures pentru domesticate sălbatic plants remain hard</p>
+<p>pentru explain. The most flagrant cases concern plants acela erau domesticit</p>
+<p>în one area but not în another. We can thus fi sure acela it era indeed</p>
+<p>possible pentru develop the sălbatic plant into a useful crop, și we have pentru ask</p>
+<p>de ce acela sălbatic specie w</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0133">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Archaeological evidence sugerează antic peoples explored virtually all useful sălbatic plants și domesticit all worth domesticating. Yet some failures remain puzzling: domesticire successes în one region but failures în another region cu the same specie. Cases demonstrate feasibility yet regional non-adoption requires explanation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticire feasibility vs. adoption. Specie domesticable în region A but not adopted în region B. Not tehnologie barrier (know-cum spreads). Not feasibility barrier (proven în region A). Regional preference, sălbatic productivity, or difuzare barriers explain differential adoption. Geografic factors other than domesticability determine adoption patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Grapes: domesticit Mediterranean → not adopted Australia despite similar climat. Apples: domesticit Eurasia → not adopted Americas. Wheat: adopted Mediterranean → failed Australia. Pattern repeats: specie domesticable proven de adoption elsewhere yet fails în other suitable regions. Sugerează geografic barriers, difuzare patterns, or sălbatic plant productivity determine adoption more than domesticability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Domesticability necessary but insufficient pentru adoption. Geografic factors determine adoption: sălbatic plant productivity (no adoption pressure), difuzare barriers (isolated regions), cultural factors (food preferences). Specie geografie-a determinat availability explică adoption patterns. Geografic factors beyond domesticability control care regions adopt care crops.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 133,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

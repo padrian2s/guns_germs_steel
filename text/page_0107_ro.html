@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 107 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 107 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>PENTRU FARM OR NOT PENTRU FARM • 107</p>
+<p>sago trees. Aboriginal Australians cine never reached the stage din farming</p>
+<p>yams și seed plants nonetheless anticipated several elements din farming.</p>
+<p>They managed the landscape de burning it, pentru encourage the growth din</p>
+<p>edible seed plants acela sprout after fires. În gathering sălbatic yams, they cut</p>
+<p>off most din the edible tuber but replaced the provine și tops din the tubers</p>
+<p>în the ground so acela the tubers would regrow. Their digging pentru extract</p>
+<p>the tuber loosened și aerated</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0107">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Aboriginal Australians: sophisticated landscape management without agricultură. Burning fields pentru encourage edible seed plants. Yam cultivation including replanting pentru regeneration. Mimicked agricultură mechanics without full adoption. Lack din suitable domesticable plants prevented transition despite ambiental management sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricol practices without agricultură domesticire. Proto-agricol techniques insufficient without domesticable specie. Mediu management alone cannot substitute pentru lacking sălbatic plants. Geografic specie constraints override cultural capability or management sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Aboriginal Australia: landscape burning, yam tending, seed plant management pentru millennia. Never transitioned pentru agricultură despite proto-agricol practices. Lack din large grain crops, herbivorous animals prevented agricol dezvoltare. Geografic isolation și specie limitations a determinat outcome.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Aboriginal management sophistication irrelevant without domesticable specie. Proves geografie, not capability, determină agricultură. Australia's isolation prevented specie difuzare. Australians could manage introduce crops successfully post-contact. Lack din agricultură pre-contact purely geografic, not cultural limitation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 107,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

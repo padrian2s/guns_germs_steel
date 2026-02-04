@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 64 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 64 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>64 " ARME, GERMENI ȘI OȚEL</p>
+<p>conscripted them pentru work pe large construction projects, whose form var</p>
+<p>ied din island pentru island: irrigation projects și fishponds pe Hawaii,</p>
+<p>dance și feast centers pe the Marquesas, chiefs' tombs pe Tonga, și</p>
+<p>temples pe Hawaii, the Societies, și Easter.</p>
+<p>La the time din Europeans' arrival în the 18th century, the Tongan chief-</p>
+<p>dom or state had already become an inter-archipelagal imperiu. Because</p>
+<p>the Tongan Archipelago itself era geographically close-knit și inclu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0064">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Chiefs controlled large labor forces pentru monumental construction: Hawaiian irrigation systems, Marquesan feast centers, Tongan tombs, temples throughout. Tonga became inter-archipelago imperiu conquering 500 miles distant. Hawaii's large islands supported archipelago unification de 18th century. Political complexity reached imperiu-level only pe largest, most populous islands. Geografie enabled imperiu formation directly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Large labor forces enable monumental construction reflecting status și power. Chief authority depends pe conscription capacity. Labor excedent available only în high-density populations. Geografic carrying capacity permite large populație → conscriptable labor → monumental projects → visible chiefly authority. Monumentality demonstrează geografic avantaj: high-populație islands build large temples/fishponds; low-populație islands cannot.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Hawaii: large islands, high populație density, large labor forces available → massive irrigation projects, temples. Marquesas: medium islands → feast centers. Tonga: inter-archipelago imperiu conquering 500 miles. Geografic island size și populație density a determinat labor conscription magnitude. Tonga imperiu unification geografic-enabled de archipelago proximity. Hawaii monuments reflect geografic populație excedent enabling authority display.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Monumental construction geografie-enabled through populație density determining labor availability. Imperiu formation geografie-enabled de island proximity (Tonga inter-archipelago imperiu). Geografic carrying capacity determină populație → labor → monument construction → political power visibility. Geografic resursă abundance enabling dense populație enabling conscription enabling monumental authority display. Political complexity correlates perfectly cu geografie-a determinat populație capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 64,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

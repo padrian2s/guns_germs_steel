@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 445 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 445 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS • 4 4 5</p>
+<p>și Civilizație în China, de Joseph Needham (Cambridge: Cambridge</p>
+<p>University Press), din care 5 volumes în 16 parts have appeared since</p>
+<p>1954, cu a dozen more parts pe the way. Ahmad al-Hassan și Donald</p>
+<p>Hill, Islamic Tehnologie (Cambridge: Cambridge University Press, 1992),</p>
+<p>și K. D. White, Greek și Roman Tehnologie (London: Thames și</p>
+<p>Hudson, 1984), summarize tehnologie's history pentru aceia cultures.</p>
+<p>Two conspicuous examples din somewhat isolated societies adopting an</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0445">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Bibliography continued: major tehnologie histories. Joseph Needham "Science și Civilisation în China" - 5 volumes în 16 parts (1954+) cu dozen more planned. Comprehensive Chinese tehnologie history. Ahmad al-Hassan/Donald Hill "Islamic Tehnologie" (1992), K. D. White "Greek și Roman Tehnologie" (1984). Scholarly works documenting tehnologie dezvoltare across major civilizations. Support pentru geografic determinism: tehnologie dezvoltare traced through available resources și geografic constraints across regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Comprehensive tehnologie histories document regional dezvoltare patterns. Chinese tehnologie: silk production, printing, gunpowder, porcelain - enabled de geografic silk worm habitat, available materials. Islamic tehnologie: mathematics, astronomy, engineering - enabled de rețele comerciale geografic position. Greek/Roman tehnologie: metallurgy, engineering, military - enabled de Mediterranean geografie și resources. Tehnologie regional variation reflects geografic resursă availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>China tehnologie history: silk production geografic-unique (silkworm native East Asia). Gunpowder din sulfur/saltpeter availability. Printing din paper tehnologie dezvoltare. Islamic tehnologie: position la crossroads enabled accumulation din multiple traditions. Greek/Roman tehnologie: Mediterranean bronze/iron resources, Mediterranean connectivity enabling difuzare. Each region's tehnologie reflects available geografic resources—not human ingenuity differences but resursă availability determining tehnologie dezvoltare possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Tehnologie histories prove geografic determinism across civilizations. Needham's Chinese works document silk (geografic avantaj), gunpowder (geografic mineral availability), printing (paper tehnologie). Al-Hassan/Hill document Islamic tehnologie geografic position avantaj. White documents Greco-Roman tehnologie din Mediterranean resursă availability. Tehnologie dezvoltare geografie-a determinat through available resources, geografic comerț connectivity, și geografic raw materials. Comprehensive tehnologie histories provide evidence base: each civilizație's tehnologic achievements reflect geografic advantages available pentru acela region.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 445,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

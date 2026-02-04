@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 168 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 168 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>I 6 8 • ARME, GERMENI ȘI OȚEL</p>
+<p>Ukraine, ca well ca în England, Kenya, Zimbabwe, și South Africa; an</p>
+<p>experimental farm pentru elk (red deer, în British terminology) has fost oper</p>
+<p>ated de the Rowett Research Institute la Aberdeen, Scotland; și an</p>
+<p>experimental farm pentru moose has operated în the Pechero-Ilych National</p>
+<p>Park în Russia. Yet aceștia modern efforts have achieved only very limited</p>
+<p>successes. While bison meat occasionally appears în some U.S. supermar</p>
+<p>kets, și while moose have fost ridden, m</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0168">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Modern domesticirea animalelor experiments: elk (red deer) farms Scotland, moose farms Russia, bison experiments Ukraine, Kenya, Zimbabwe, South Africa. Modern attempts achieved only limited success. Bison meat occasionally appears în supermarkets; moose rarely ridden/worked. Modern tehnologie cannot domesticate animals acela antic peoples couldn't. Demonstrează domesticirea animalelor biology-constrained, not culturally-optional.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticirea animalelor limits biologically-a determinat. Modern tehnologie unable pentru overcome behavioral/physiological constraints. Temperament, breeding patterns, diet, growth rate genetic constraints. Geografic faună distribution determină domesticire feasibility. Geografic limitations absolute: modern tehnologie confirms antic constraints real și insurmountable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Modern experiments: Rowett Research Institute elk farming; Russian moose programs; African game farm attempts. Limited success despite modern infrastructure, veterinary knowledge, selective breeding tehnologie. Moose unsuitable pentru riding despite efforts. Bison retained sălbatic temperament. Confirms antic peoples exploited only truly domesticable specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Domesticirea animalelor geografie-a determinat through specie biology. Geografic faună distribution absolute constraint. Modern tehnologie cannot overcome biologic constraints pe domesticire. Geografic specie distribution determină agricol tehnologie feasibility independent din cultural effort. Animals unavailable pentru antic peoples remain unavailable pentru moderns. Geografie determină domesticire opportunities absolutely.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 168,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

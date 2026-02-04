@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 120 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 120 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>120 • ARME, GERMENI ȘI OȚEL</p>
+<p>berry pickers caused changes either de harvesting available plants while</p>
+<p>other plants remained unavailable pentru invisible reasons, or de changing the</p>
+<p>selective conditions acting pe plants.</p>
+<p>The first such change affected sălbatic mechanisms pentru the dispersal din</p>
+<p>seeds. Many plants have specialized mechanisms acela scatter seeds (și</p>
+<p>thereby prevent humans din gathering them efficiently). Only mutant</p>
+<p>seeds lacking aceia mechanisms would have fost harvested și would</p>
+<p>thus hav</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0120">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Domesticirea plantelor involved multiple morphological changes. First: seed dispersal mechanisms. Sălbatic plants have specialized dispersal (seeds scatter, preventing human harvest). Only mutant seeds lacking dispersal could fi harvested efficiently. Humans inadvertently selected pentru non-dispersing seeds through harvesting practices.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Artificial selection through harvesting. Humans selecting mutant plants cu favorable traits (non-dispersing seeds, larger seeds, reduced bitterness). Selection pressures different between sălbatic și cultivated conditions. Unconscious artificial selection created crop differences gradually.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent: sălbatic wheat/barley naturally prone pentru seed dispersal. Seed collection selection favored non-dispersing mutants. Mesoamerica: teosinte pentru maize transition involved morphological selection. Each region's crop domesticire involved similar selection pressures pe available sălbatic specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Domesticire success depends pe available genetic variation în sălbatic specie. Regions cu genetically diverse sălbatic plants → successful domesticire → agricol specialization. Geografic variation în sălbatic specie genetic diversity → variation în domesticire success → civilizational capacity difference.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 120,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

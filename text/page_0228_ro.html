@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 228 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 228 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>228 • ARME, GERMENI ȘI OȚEL</p>
+<p>pentru the Etruscans în the same century, și în the next century pentru the</p>
+<p>Romans, whose alphabet cu slight modifications este the one used pentru print</p>
+<p>acesta book. Thanks pentru their potential avantaj din combining precision</p>
+<p>cu simplicity, alphabets have now fost adopted în most areas din the</p>
+<p>modern world.</p>
+<p>WHILE BLUEPRINT COPYING și modification sunt the most straight</p>
+<p>forward option pentru transmitting tehnologie, acela option este sometimes</p>
+<p>unavailable. Blueprints may fi kept secret</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0228">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Alphabet difuzare path: Greeks adopted Phoenician alphabet (~800 BCE), modified adding vowels. Etruscans adopted Greek alphabet same century. Romans adopted Etruscan alphabet cu modifications (forming modern alphabet used today). Alphabet advantages: precision + simplicity combination. Modern world: alphabets dominant writing system worldwide.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Difuzarea tehnologiei efficiency. Alphabet superiority drives adoption globally. Blueprint copying și modification pattern: each civilizație modifies pentru language needs. Simplicity avantaj: permite rapid difuzare. Mediterranean geografie: enabled rapid alphabet spread din Phoenician origin through Greek pentru Romans pentru European spread.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Phoenician origin ~1500-1000 BCE: Mediterranean comerț region. Greek adoption ~800 BCE: Mediterranean contact, comerț necessity. Etruscan adoption same era: Italian geografic proximity pentru Greeks. Roman adoption following: Etruscan cultural influence. European alphabet spread: Roman cucerire și colonization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Alphabet advantages drive difuzare patterns. Geografie determină difuzare paths through comerț contacts. Mediterranean geografie enabled alphabet westward difuzare. Alphabet superiority over logographic systems enabled global dominance. Geografic avantaj: obtaining superior tehnologie through contact. Alphabet worldwide adoption arată geografic factors determining care technologies triumph globally.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 228,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

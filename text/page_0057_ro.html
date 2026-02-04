@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 57 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 57 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT DIN HISTORY • 57</p>
+<p>Thus, Moriori și Maori societies a dezvoltat din the same ancestral</p>
+<p>societate, but along very different lines. The resulting two societies lost</p>
+<p>awareness even din each other's existence și did not come into contact</p>
+<p>again pentru many centuries, perhaps pentru ca long ca 500 years. Finally, an</p>
+<p>Australian seal-hunting ship visiting the Chathams en route pentru New</p>
+<p>Zealand brought the news pentru New Zealand din islands where "there este an</p>
+<p>abundance din sea și shellfish; the lakes</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0057">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Moriori și Maori diverged completely despite common ancestry și contact-free separation. Australian seal ship brought knowledge din Chathams pentru New Zealand, triggering 1835 invasion. Message advertised Chathams' resources și unwarlike inhabitants—acesta geografic knowledge gap caused invasion. Centuries din isolation created distinct societies: one peaceful hunter-gatherers, one warlike farmers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Divergent evolutionary paths din same ancestor. Geografic isolation produced: opposite subzistență modes, opposite warfare traditions, opposite tehnologie complexity. Knowledge gap din isolation triggered collision. Demonstrează ambiental determination din societal type.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Moriori separated din Maori ~500+ years. No contact until 1835. Each a dezvoltat independently: Moriori toward simplification, Maori toward complexity. Geografic isolation enabled divergence; knowledge deficit enabled invasion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografie shaped opposite outcomes din same populație. Arată ambiental determination operates quickly (centuries) și completely. Larger point: continental-scale geografic differences would produce even larger divergence over 13,000 years. Polynesia tests model before applying pentru continents.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 57,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

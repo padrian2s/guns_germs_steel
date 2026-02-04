@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 103 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 103 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>HISTORY'S HAVES ȘI HAVE-NOTS • 103</p>
+<p>there can fi no doubt despre populație replacement because the newly</p>
+<p>arriving food producers differed markedly în their skeletons din the</p>
+<p>hunter-gatherers whom they replaced, și because the food producers</p>
+<p>introduce not only crops și animals but also pottery. Later chapters will</p>
+<p>describe the two clearest such examples: the Austronesian expansion din</p>
+<p>South China into the Philippines și Indonesia (Capitolul 17), și the</p>
+<p>Bantu expansion over subequatorial Afri</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0103">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Populație replacement versus cultural difuzare. Austronesian expansion (Philippines, Indonesia) și Bantu expansion (sub-Saharan Africa) involved populație replacement - new peoples replacing hunter-gatherers. Skeletal evidence arată morphological difference. Agricol difuzare can occur via new peoples replacing old, or via local adoption. Geografic și genetic evidence distinguishes patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Two agricol spread mechanisms: difuzare (local adoption) versus demic expansion (populație replacement). Austronesian și Bantu: replacement patterns cu new peoples bringing agricultură. Mediterranean/Atlantic: adoption patterns without replacement. Geografic barriers și populație densities determine care pattern occurs.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Austronesian expansion ~4000 BP: Agricol populations din South China colonized Philippines, Indonesia, eventually Pacific. Bantu expansion ~3000 BP: Agricol populations din West Africa colonized sub-Saharan Africa. Both displacement patterns visible archaeologically through pottery changes și skeletal replacement. Different din Mediterranean adoption patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic context determină populație replacement versus adoption. Island environments (Philippines, Indonesia) enabled agricol replacement. Vast continents (Africa) enabled Bantu expansion și local replacement. Geografic scale și barriers determine whether agricultură spreads de difuzare or de populație movement. Geografic factors determine care peoples end up cu agricol avantaj.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 103,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

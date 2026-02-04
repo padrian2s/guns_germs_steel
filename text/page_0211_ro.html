@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 211 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 211 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>LETHAL GIFT DIN LIVESTOCK • 211</p>
+<p>ter 3, the result din the throne's being left vacant era acela two other sons</p>
+<p>din Huayna Capac, Atahuallpa și Huascar, became embroiled în a civil</p>
+<p>war acela Pizarro exploited pentru conquer the divided Incas.</p>
+<p>When we în the United States think din the most populous New World</p>
+<p>societies existing în 1492, only aceia din the Aztecs și the Incas tend pentru</p>
+<p>come pentru our minds. We forget acela North America also supported popu</p>
+<p>lous Indian societies în the most logical place, the Missi</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0211">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Inca civil war: Huayna Capac death created succession crisis. Two sons Atahualpa și Huascar fought civil war. Pizarro exploited divided Inca state pentru achieve cucerire. Boală (epidemie) killed Huayna Capac weakening succession. Smallpox-driven civil war enabled Spanish cucerire. North America also supported populous societies (Mississippi region) beyond Aztecs/Incas—often forgotten.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Boală enabling cucerire. Epidemie creating succession crises. Civil war opportunity pentru external cucerire. Old World diseases absent în Americas before contact. Eurasian boală imunitate din domesticit animal pathogens. Boală avantaj enabling tehnologie-inferior force pentru conquer tehnologie-avansat civilizations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Inca: populație devastated de smallpox 1520s-1530s. Leadership succession disrupted. Spanish cucerire 1532-1572 exploited boală-weakened state. Aztec similarly decimated de boală before final cucerire. Mississippi societies: collapsed before European contact (boală din northerly contact routes). Boală geografic avantaj enabled cucerire.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic boală availability a determinat cucerire capacity. Eurasia animale domesticite → diseases → imunitate → cucerire avantaj. Americas lacked animale domesticite → no endemic diseases → zero imunitate → catastrophic depopulation → easy cucerire. Geografie → domesticire → boală → imunitate → military avantaj. Geografic animal availability determină everything.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 211,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

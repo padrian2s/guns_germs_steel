@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 453 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 453 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>FURTHER READINGS • 4 5 3</p>
+<p>entrances into acela controversial literature: Colin Renfrew, Arheologie</p>
+<p>și Language: The Puzzle din Indo-European Origins (Cambridge: Cam</p>
+<p>bridge University Press, 1987), și J. P. Mallory, În Search din the Indo-</p>
+<p>Europeans (London: Thames și Hudson, 1989). Sources pe the Russian</p>
+<p>expansion across Siberia sunt George Lantzeff și Richard Pierce, East</p>
+<p>ward pentru Imperiu (Montreal: McGill-Queens University Press, 1973), și</p>
+<p>W. Bruce Lincoln, The Cucerire din a Continent (New York</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0453">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Bibliography pe Indo-European origins și language distribution: Renfrew (Arheologie și Language) și Mallory (În Search din Indo-Europeans) examining controversial Indo-European origin questions. Russian Siberian expansion sources: Lantzeff/Pierce (Eastward pentru Imperiu) și Lincoln (Cucerire din a Continent). Comprehensive documentation din geografic populație expansion și language dispersal patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Indo-European expansion: geografic dispersal din language family din Central Asian origin. Language distribution reflects populație movement patterns. Russian Siberian cucerire: geografic expansion across vast territories. Colonial expansion: populație movement enabled de tehnologie advantages. Geografic expansion permite language difuzare: new populations speak expanding language replacing previous language families.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Indo-European origins ~4000 BCE Central Asia. Expansion eastward pentru India, westward pentru Europe, southward pentru Middle East. Geografic horse domesticire avantaj enabled cavalry-based expansion. Russian Siberia cucerire: 16th-17th century geografic expansion using firearms avantaj. Geografic expansion patterns: mounted warriors (Indo-European), firearms (Russians) enable geografic cucerire enabling language replacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Language distribution reflects geografic-enabled expansion patterns. Geografic tehnologie advantages (horses, firearms) enable populație expansion enabling language replacement. Indo-European expansion geografie-a determinat: Central Asian geografie enabled horse domesticire enabling cavalry enabling expansion enabling language spread. Russian Siberian expansion: firearms avantaj enabled geografic cucerire enabling Russian language expansion. Language family distribution documents geografic-a determinat populație movements. Populație expansion success reflects geografic resursă availability enabling tehnologie dezvoltare enabling cucerire.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 453,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 102 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 102 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>102 • ARME, GERMENI ȘI OȚEL</p>
+<p>În Egypt it seems likely acela the former happened: local hunter-gather</p>
+<p>ers simply added Southwest Asian domesticates și farming și herding</p>
+<p>techniques pentru their own diet din sălbatic plants și animals, then gradually</p>
+<p>phased out the sălbatic foods. Acela este, ce arrived pentru launch food production</p>
+<p>în Egypt era foreign crops și animals, not foreign peoples. The same</p>
+<p>may have fost true pe the Atlantic coast din Europe, where local hunter-</p>
+<p>gatherers apparently adopted Southwest Ca</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0102">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Agricol difuzare mechanisms: Egypt received Southwest Asian crops/animals; local hunter-gatherers adopted agricultură without populație replacement. Gradual phase-out din sălbatic foods ca agricol productivity increased. Similar pattern Atlantic Europe. Difuzare permite adoption without invasion - geografic tehnologie spread permite local transformation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Difuzare without migrație. Domesticit specie spread între populații peacefully. Adoption gradual over generations ca agricultură proved advantageous. No required populație replacement - same people adopt new tehnologie. Geografic contact permite tehnologie transmission without forced displacement.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Egypt ~7000 BCE: Nile Valley populations adopted Southwest Asian agricultură gradually. Hunter-gatherers added farming pentru sălbatic subzistență mix. Generations later, full agricol transition. Atlantic Europe: coastal populations similarly adopted without demographic replacement. Same pattern globally în contiguous difuzare zones.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Difuzare speed a determinat de geografic obstacles. Contiguous regions adopting technologies via difuzare remain genetically similar populations. Geografic barriers create isolation → independent invention versus difuzare dichotomy. Populations adopting agricultură via difuzare develop civilizations faster than independent inventors → geografic centrality determină dezvoltare timeline.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 102,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

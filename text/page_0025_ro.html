@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 25 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 25 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 25</p>
+<p>molded societate, occupying lands conquered din Native Americans și</p>
+<p>incorporating the descendants din millions din sub-Saharan black Africans</p>
+<p>brought pentru America ca slaves. Modern Europe este not a societate molded de</p>
+<p>sub-Saharan black Africans cine brought millions din Native Americans ca</p>
+<p>slaves.</p>
+<p>Aceștia results sunt completely lopsided: it era not the case acela 51 per</p>
+<p>cent din the Americas, Australia, și Africa era conquered de Europeans,</p>
+<p>while 49 percent din Europe era conquered de Na</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0025">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond emphasizes acela global outcomes have fost completely lopsided: the Americas, Australia, și Africa erau conquered de Europeans, not the reverse. The modern United States este shaped de European settlers și African slaves, not vice versa. Acesta extreme asymmetry demands explanation beyond accident or specific battles. People suspect racist biologic explanations persist because no alternative explanation has gained acceptance.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond identifies a crisis în istoric understanding: racist biologic explanations sunt scientifically wrong, but without a compelling alternative, people default pentru racism ca intuitive. The book's central mission becomes providing a detailed, convincing alternative explanation so the racist default becomes intellectually untenable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Writing în the 1990s, Diamond recognized acela despite decades din anti-racist scholarship, public consciousness still privately harbored racist assumptions. He susține the solution requires articulating a comprehensive alternative theory, not just refuting racism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Acesta Pagina stabilește the stakes: geografie versus biology ca the explanatory variable pentru history's broadest pattern. Diamond promite a detailed geographical theory so compelling it becomes the default explanation replacing ingrained racist assumptions.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 25,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

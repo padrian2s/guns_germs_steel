@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 210 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 210 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>210 • ARME, GERMENI ȘI OȚEL</p>
+<p>Pentru a similar example în humans, we have only pentru consider the surpris</p>
+<p>ing evoluție din syphilis. Today, our two immediate associations pentru syphilis</p>
+<p>sunt genital sores și a very slowly developing boală, leading pentru the death</p>
+<p>din many untreated victims only after many years. However, when syphilis</p>
+<p>era first definitely recorded în Europe în 1495, its pustules often covered</p>
+<p>the body din the head pentru the knees, caused flesh pentru fall off people's faces,</p>
+<p>și led pentru death cu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0210">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Syphilis evoluție: initially virulent (1495 Europe), became milder. Early syphilis: pustules head-pentru-knees, facial flesh loss, rapid death. Modern syphilis: genital focus, slow dezvoltare, eventual death after years. Pathogen-host coevolution: mutation toward reduced virulence. Evoluție favors transmission over mortality. Milder strains spread more than fatal variants.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Pathogen evoluție toward coexistence. Extreme virulence paradoxically limits spread (kills host before transmission). Mild virulence permite transmission chain continuation. Selection pressure toward reduced virulence over generations. Host-pathogen arms race. Virulence-transmission tradeoff determină evolutionary outcome.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Syphilis 1495 Europe: extreme virulence indicates recent host jump (animal pentru human). Over centuries: virulence declined ca transmission-selected milder variants. Similar pattern expected: plague bubonic form deadlier than pneumonic. Cholera evoluție similarly predictable toward lower virulence given sufficient generations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Boală epidemiologie geografie-a determinat. Populație density determină boală spread rate determină selection pentru virulence level. Dense populations: epidemie diseases persist, virulence evoluție occurs. Sparse populations: diseases disappear, no evoluție. Agricol geografie → density → epidemiologie → boală evoluție. Fundamental geografic determinism.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 210,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

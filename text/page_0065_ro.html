@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 65 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 65 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>A NATURAL EXPERIMENT DIN HISTORY • 65</p>
+<p>care lacked granite, flint, și other continental rocks but did la least</p>
+<p>have volcanic rocks, care Polynesians worked into ground or polished</p>
+<p>stone adzes used pentru clear land pentru farming.</p>
+<p>Ca pentru the types din artifacts made, the Chatham Islanders required little</p>
+<p>more than hand-held clubs și sticks pentru kill seals, birds, și lobsters.</p>
+<p>Most other islanders produced a diverse array din fishhooks, adzes, jewelry,</p>
+<p>și other objects. Pe the atolls, ca pe the Chathams</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0065">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Material cultură variation: din simplu personal utensils pentru monumental stone architecture. Available stone a determinat tools: atolls (no stone) forced clamshell adzes; volcanic islands (basalt available) enabled diverse stoneworking. New Zealand (continental fragment) accessed jade. Geografic geology directly a determinat tool types, craft complexity, monumental construction capacity. Raw material availability constrained cultural dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Raw material constraints determine tehnologie dezvoltare. Stone type availability (basalt, volcanic, granite) determină tool types. Geografie without stone deposits (atolls) forces alternative materials (shell). Monumental construction impossible without sufficient stone/labor excedent. Geografic resursă distribution determină craft specialization capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Polynesian islands demonstrate raw material variation: Chathams (no granite/flint, volcanic rocks only) produced simplu tools; volcanic islands (basalt available) enabled diverse fishhooks/adzes/jewelry; New Zealand (continental fragment) accessed jade. Same cultură, same starting tehnologie, different raw materials produced completely divergent craft traditions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Polynesian material cultură diversity proves geografic determinism through resursă constraints. Identical populations/cultures produced divergent technologies through geology variation alone. Stone availability → tool type → craft specialization → cultural complexity. Geografic resursă distribution determină tehnologic trajectory independent din cultural capability or effort.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 65,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

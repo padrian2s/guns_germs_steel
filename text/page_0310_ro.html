@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 310 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 310 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>310 ARME, GERMENI ȘI OȚEL</p>
+<p>We think din Australian Aborigines ca desert people, but most din them</p>
+<p>erau not. Instead, their populație densities varied cu rainfall (because</p>
+<p>it controls the production din terrestrial sălbatic plant și animal foods) și</p>
+<p>cu abundance din aquatic foods în the sea, rivers, și lakes. The highest</p>
+<p>populație densities din Aborigines erau în Australia's wettest și most</p>
+<p>productive regions: the Murray-Darling river system din the Southeast, the</p>
+<p>eastern și northern coasts, și</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0310">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Australian Aborigines not uniformly desert people: populație density a determinat de water availability și food productivity. Highest densities în wettest regions: Murray-Darling river system, eastern/northern coasts. Geografic resources a determinat populație distribution. Geografie constrains populație capacity: arid regions support sparse populations; water-rich regions support higher density settlements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Geografic resursă limits populație carrying capacity. Rainfall determină plant/animal food abundance. Aquatic resources enable higher density așezare. Populație distribution reflects geografic productivity: dense populations where resources concentrated, sparse elsewhere. Geografie determină societal scale: rich geografic regions support larger settlements enabling social complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Murray-Darling river system: fertile river valley supporting highest Aborigine populație densities. Eastern coast: abundant aquatic resources (fish, shellfish) enabling coastal settlements. Northern regions: tropical productivity enabling higher populație concentration. Interior arid zones: sparse water limiting populație density. Aboriginal populație distribution matched geografic resursă geografie exactly.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic resources directly determine populație density și așezare patterns. Australia overall carries lower populație density than Eurasia due pentru lower overall productivity (poor soils, limited domesticables). Within Australia, populație concentrated în geographically-advantaged regions. Geografic constraints appear ca cultural/social organization differences but reflect underlying resursă availability. Aboriginal tehnologie sophisticated but limited de geografic resursă constraints preventing large-scale civilizational dezvoltare. Geografie determină maximum sustainable populație.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 310,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

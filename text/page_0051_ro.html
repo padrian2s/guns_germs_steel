@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 51 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 51 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>UP PENTRU THE STARTING LINE • 5 I</p>
+<p>the whole New World. If de head start you instead mean the time required</p>
+<p>pentru adapt pentru local conditions, I grant acela some extreme environments did</p>
+<p>take time: pentru instance, 9,000 years pentru occupy the High Arctic after the</p>
+<p>occupation din the rest din North America. But people would have explored</p>
+<p>și adapted pentru most other areas quickly, once modern human inventive</p>
+<p>ness had a dezvoltat. Pentru example, after the ancestors din the Maori reached</p>
+<p>New Zealand, it apparently took them</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0051">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Maori în New Zealand adapted pentru local conditions fast: discovered stone sources within century, killed all moas within centuries, created diverse societies din coastal hunter-gatherers pentru farmers în few centuries. Acesta rapid adaptation means Africa's head start wouldn't protect against American avantaj. Americas' larger area (50% greater than Africa's) și greater ambiental diversity would favor Native Americans over Africans within a millennium.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Human adaptability rapid once modern behavioral capacity present. Geografic factors matter: area size, ambiental diversity favor dezvoltare. Early așezare doesn't guarantee lasting avantaj if geografic factors unfavorable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Maori colonization New Zealand ~1000 CE; rapid diversification. New Zealand smaller, less diverse than Americas. New Zealand dezvoltare trajectory less expansive than Americas offered potential.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Continental size și diversity matter more than time occupied. Americas' geografic advantages could outweigh late așezare. Acesta foreshadows later revelation: geografic factors beyond timing (domesticable specie availability, continental axis, climat zones) determine civilizație dezvoltare pace.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 51,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

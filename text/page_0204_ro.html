@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 204 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 204 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>204 • ARME, GERMENI ȘI OȚEL</p>
+<p>de a sailor pe the whaling ship Active killed 51 out din the 56 Sadlermiut</p>
+<p>Eskimos, a very isolated band din people living pe Southampton Island în</p>
+<p>the Canadian Arctic. În addition, measles și some din our other "child</p>
+<p>hood" diseases sunt more likely pentru kill infected adults than children, și all</p>
+<p>adults în the tribelet sunt susceptible. (În contrast, modern Americans rarely</p>
+<p>contract measles ca adults, because most din them get either measles or the</p>
+<p>vaccine against it ca c</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0204">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Sailor din whaling ship introduce measles: killed 51/56 Sadlermiut Eskimos (isolated Southampton Island). Measles kills adults more than children în unexposed populations. All adults în tribe susceptible (no prior exposure). Modern Americans: rare measles în adults (vaccinated or infected ca children). Geografic isolation a determinat imunitate absence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Boală mortality inverse cu populație imunitate. Isolated populations naive pentru diseases. Measles deadlier pentru isolated populație adults than Old World children. First contact: boală mortality catastrophic în unexposed groups. Endemic childhood boală burden: mild în populations cu endemic childhood exposure vs catastrophic în naive adult populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sadlermiut Eskimos: isolated Arctic band. No contact cu Old World epidemics. Measles endemic în European populations: children sick, adults immune. Whaling ship brought boală pentru isolated populație. All adults susceptible (geografie isolated them din endemic exposure). Measles în naive adults: 90% mortality. Americas endemic populație example: massive death din single boală Introducere.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic isolation prevented endemic boală exposure. Isolated populație lacked acquired imunitate. Old World endemic diseases killed naive populations. Sadlermiut example: single boală contact = 91% mortality. Americas populations: geographically isolated din Old World epidemics. Cucerire success: boală weaponization against naive populations. Isolation geografie a determinat imunitate absence a determinat cucerire outcomes. Geografie isolated → imunitate vulnerable → cucerire feasible.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 204,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

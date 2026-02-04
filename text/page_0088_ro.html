@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 88 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 88 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>8 8 • ARME, GERMENI ȘI OȚEL</p>
+<p>able calories means more people. Among sălbatic plant și animal specie,</p>
+<p>only a small minority sunt edible pentru humans or worth hunting or gathering.</p>
+<p>Most specie sunt useless pentru us ca food, pentru one or more din the following</p>
+<p>reasons: they sunt indigestible (like bark), poisonous (monarch butterflies</p>
+<p>și death-cap mushrooms), low în nutritional value (jellyfish), tedious pentru</p>
+<p>prepare (very small nuts), difficult pentru gather (larvae din most insects), or</p>
+<p>dangerous pentru hunt (rhinocero</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0088">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>De ce agricultură over hunting-gathering? Agricol calories exceed sălbatic food productivity. But agricultură depends pe suitable sălbatic specie pentru domesticire. Only small minority din sălbatic specie sunt: edible pentru humans, worth hunting, edible when processed, possible pentru gather efficiently, safe pentru approach.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Sălbatic specie limitations. Most specie unsuitable pentru human food: indigestible (bark), poisonous (monarch butterflies, mushrooms), low nutrition (jellyfish), tedious pentru prepare (tiny nuts), hard pentru gather (insect larvae), dangerous pentru hunt (rhinoceros). Geografie determină care usable specie available.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Agricol transition requires specie availability. Fertile Crescent had sălbatic wheat, barley, lentils, sheep, goats (domesticable). Americas had maize, beans, squash (adequate) but no large domesticable mammals. Africa și Australia: limited domesticable crops. Specie availability geografic constraint.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic variation în specie determină agricol feasibility. Regions cu naturally occurring large-seeded grasses și domesticable animals transition pentru farming. Regions lacking such specie remain hunter-gatherers or adopt agricultură much later. Acesta determină populație trajectory și civilizational capacity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 88,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

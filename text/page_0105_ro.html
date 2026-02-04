@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 105 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 105 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>PENTRU FARM OR NOT PENTRU FARM • 105</p>
+<p>herders, cine constitute the great majority din the world's actual food pro</p>
+<p>ducers, aren't necessarily better off than hunter-gatherers. Time budget</p>
+<p>studies show acela they may spend more rather than fewer hours per day</p>
+<p>la work than hunter-gatherers do. Archaeologists have demonstrated acela</p>
+<p>the first farmers în many areas erau smaller și less well nourished, suf</p>
+<p>fered din more serious diseases, și died pe the average la a younger age</p>
+<p>than the hunter-gatherers they re</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0105">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Agricultură paradox: Farmers often worse off than hunter-gatherers. Time budget studies: farmers work ca many or more hours than hunters. Archaeological evidence: first farmers shorter, less healthy, suffered more boală, lower life expectancy than preceding hunters. Yet agricultură spread - de ce adopt inferior system? Answer: populație growth pressure forced adoption despite quality-din-life decline.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricultură ca necessity, not preference. Agricultură supports higher populație density despite lower individual health/leisure. Populations forced pentru agricultură de numbers exceeding sălbatic food carrying capacity. Agricultură spreads not because superior pentru individuals but because necessary pentru populație survival la higher densities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Post-Ice Age ~11000 BP: megafauna extinction, sălbatic food decline. Populație growth continued. Regions unable pentru support hunter-gatherer density adopted agricultură despite health costs. Archaeological record arată first farmers malnourished, boală-prone compared pentru hunters. Populație pressure forced transition despite individual disadvantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic sălbatic food carrying capacity determină adoption necessity. Regions cu abundant game/sălbatic plants supported hunter-gatherers despite populație growth. Regions cu declining sălbatic food forced agricultură adoption. Populație pressure din geografie → nutrition decline → civilizational dezvoltare paradox. Geografie determină whether agricultură chosen or forced.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 105,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

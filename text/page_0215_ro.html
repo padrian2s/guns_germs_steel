@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 215 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 215 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>C H A P T ER 12</p>
+<p>BLUEPRINTS ȘI</p>
+<p>BORROWED LETTERS</p>
+<p>N</p>
+<p>INETEENTH-CENTURY AUTHORS TENDED PENTRU INTERPRET</p>
+<p>history ca a progression din savagery pentru civilizație. Key hall</p>
+<p>marks din acesta transition included the dezvoltare din agricultură, metal</p>
+<p>lurgy, complex tehnologie, centralized government, și writing. Din aceștia,</p>
+<p>writing era traditionally the one most restricted geographically: until the</p>
+<p>expansions din Islam și din colonial Europeans, it era absent din Austra</p>
+<p>lia, Pacific islands, subequatorial Africa,</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0215">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul 12: "Blueprints și Borrowed Letters"—writing ca civilizational marker. 19th-century historians: progression savagery→civilizație marked de agricultură, metallurgy, tehnologie, government, writing. Writing historically most geographically restricted: absent Australia, Pacific islands, subequatorial Africa until Islam/European expansion. Writing ca geografie-a determinat tehnologie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing ca geografic marker. Geografic distribution din writing reflects civilizational dezvoltare. Writing requires administrative complexity. Administrative complexity requires agricol excedent. Geografic agricultură availability → excedent → administration → writing. Writing spread follows difuzarea tehnologiei patterns geografie-a determinat.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sumerian writing ~3200 BCE a apărut cu state formation. Egyptian writing similar timing. Mesoamerican writing (Olmec, Mayan) a apărut later cu civilizational dezvoltare. Africa: writing arrived via difuzare (Arabic, European). Pacific: writing absent until colonization. Writing emergence geografie-correlated cu civilizational complexity dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Writing geografie-dependent. Geografic domesticable specie → agricultură → excedent → state → writing dezvoltare. Regions lacking agricultură never a dezvoltat writing independently. Writing represents consequence din geografic advantages enabling civilizație. Geografie determină all markers din civilizație including writing itself.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 215,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

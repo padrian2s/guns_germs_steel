@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 49 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 49 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>UP PENTRU THE STARTING LINE • 49</p>
+<p>15,000 years ago. It too now seems convincing pentru many archaeologists,</p>
+<p>but caution este warranted în view din all the previous disillusionments.</p>
+<p>If there really erau pre-Clovis people în the Americas, de ce este it still so</p>
+<p>hard pentru prove acela they existed? Archaeologists have excavated hundreds</p>
+<p>din American sites unequivocally dating pentru between 2000 și 11,000 B.C.,</p>
+<p>including dozens din Clovis sites în the North American West, rock shelters</p>
+<p>în the Appalachians, și sites în co</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0049">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>De ce este pre-Clovis evidence hard pentru prove if people really arrived earlier? Hundreds din American sites date 2000-11,000 BCE cu unquestioned human remains, yet deeper older layers la same sites contain only animal remains—no human evidence. Europe's pre-Clovis evidence overwhelmingly exceeds Americas. Australia/New Guinea has even fewer archaeologists but many more unequivocal pre-Clovis sites.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Logical problem: if pre-Clovis așezare existed, evidence should fi abundant de now. Long hidden populations la low density/poor archaeological visibility unprecedented elsewhere. Either Americas settled ~11,000 BCE quickly, or earlier but invisibly cu little impact until 11,000 BCE. Either way: shortest human prehistory pe New World continents.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Clovis cultură securely dated 11,000 BCE. Earlier claims disputed despite intense archaeological effort. Australia/New Guinea evidence overwhelming de contrast. Geografic determinism requires accurate așezare chronologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Americas așezare timing stabilește baseline pentru comparing continental dezvoltare. Shortest occupation = least time accumulating tehnologic advantages. Geografic isolation + late așezare = compounded disadvantage în civilizație dezvoltare versus Old World.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 49,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

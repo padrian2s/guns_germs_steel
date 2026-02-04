@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 403 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 403 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>E P I L O G UE</p>
+<p>T HE F U T U RE DIN</p>
+<p>H U M AN H I S T O RY</p>
+<p>CA A S C I E N CE</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0403">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Epilogul: "The Future din Human History ca a Science" - Transitions din istoric analysis pentru methodological reflection. Book's core thesis complete: geografic determinism explică human history. Final section addresses: Can history become predictive science? Can geografic principles predict dezvoltare outcomes? Can methodology illuminate future? Marks shift din explanation pentru prediction/methodology.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Istoric science: explaining observed patterns through mechanistic understanding. Geografic principles enable prediction: given geografic data could predict civilizație dezvoltare. History ca testable science: geografic determinism generates falsifiable predictions. Methodology: systematically comparing geografic factors across societies testing explanatory power.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Epilogul introduces meta-level analysis: History traditionally non-predictive (humanities discipline). Arme, Germeni și Oțel proposed geografic mechanisms enabling istoric prediction: domesticable specie availability predicts agricol dezvoltare; continental axis predicts difuzare rate; boală ecologie predicts colonization ease. Epilogul addresses whether such predictions hold explanatory power across cases. Geografic framework permite systematic istoric testing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic determinism generates testable predictions enabling history ca science. Proposed mechanisms (domesticire determining agricultură, difuzare determining tehnologie spread, boală determining cucerire) operate systematically across cases. Epilogul explorează: Do geografic principles reliably predict istoric outcomes? Can we distinguish geografic determination din other causal factors? Can principle-based history guide future policy? Central argument: yes—geografie determină dezvoltare trajectories predictably enabling history ca rigorous scientific discipline.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 403,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

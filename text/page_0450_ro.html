@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 450 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 450 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>4 5° " FURTHER READINGS</p>
+<p>tionships. Takeru Akazawa și Emoke Szathmary, eds., Prehistoric Mon</p>
+<p>goloid Dispersals (Oxford: Oxford University Press, 1996), și Dennis</p>
+<p>Etler, "Recent developments în the study din human biology în China: A</p>
+<p>review," Human Biology 64:567-85 (1992), discuss evidence din Chinese</p>
+<p>or East Asian relationships și dispersal. Alan Thorne și Robert Ray</p>
+<p>mond, Man pe the Rim (North Ryde: Angus și Robertson, 1989),</p>
+<p>descrie the arheologie, history, și cultură din Pacific peoples</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0450">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Further readings cite Akazawa & Szathmary pe prehistoric Mongoloid dispersals. Etler pe human biology în China. Thorne & Raymond pe Pacific peoples arheologie, history, cultură. Academic sources supporting geografic/biologic perspective pe civilizație dezvoltare. Scholarly foundation pentru geografic determinism argument throughout book.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Biologic evidence pentru geografic populations. Prehistoric dispersal patterns geografie-a determinat. Regional genetic variation reflecting geografic isolation. Archaeological evidence supporting geografic determinism. Comparative biology și antropologie evidence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mongoloid dispersal patterns reflect Pacific geografic barriers. Chinese human biology distinct din other Asian populations reflecting geografic isolation. Pacific populations represent adaptation pentru island geografie. Prehistoric populations' geografic distribution a determinat de continental proximity și ocean barriers. Human biology geografie-a determinat.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic determinism extends beyond civilizație pentru human biology. Prehistoric dispersal patterns geografie-a determinat. Regional populations' biologic characteristics reflect geografic adaptation. Genetic variation geografic-distributed. Physical antropologie evidence supports geografic determinism: human dezvoltare fundamentally geografie-contingent din earliest prehistory through modern civilizație.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 450,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 425 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 425 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>THE FUTURE DIN HUMAN HISTORY CA A SCIENCE • 4 25</p>
+<p>societăți umane de comparing recent Polynesian populations living pe</p>
+<p>islands differing naturally în resursă abundance. The student din human</p>
+<p>history can draw pe many more natural experiments than just compari</p>
+<p>sons among the five inhabited continents. Comparisons can also utilize</p>
+<p>large islands acela have a dezvoltat complex societies în a considerable</p>
+<p>degree din isolation (such ca Japan, Madagascar, Native American Hispan¬</p>
+<p>iola, New Guinea, Hawaii, și</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0425">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Natural experiment methodology: comparing societăți umane through natural geografic variation. Polynesian island populations: controlled experiment cu islands varying în resursă abundance—test cum mediu determină societal dezvoltare. Student din human history can draw pe natural experiments beyond continents. Large isolated islands cu complex independent societies: Japan, Madagascar, Hispaniola, New Guinea, Hawaii. Geografic variation permite hypothesis testing despre mediu/dezvoltare relationship.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Natural experiments: geografic variation enabling controlled societal comparison. Islands differing în resources but similar populations test mediu hypothesis. Resursă-rich islands → complex societies; resursă-poor islands → simplu societies? Testing geografic determinism empirically. Isolated large islands → independent societal dezvoltare without external influence. Natural geografic experiments replace impossible human experimentation. Multiple geografic variations enable pattern identification.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Polynesian islands: resursă variation (Hawaii resursă-rich → complex chiefdoms; small poor atolls → simplu societies). Madagascar: Africa-isolated island → unique dezvoltare. New Guinea: high ambiental diversity → diverse political organizations. Hispaniola: island settled de similar populations din different directions → different outcomes (Spanish colonization vs. Taíno indigenous). Japan: isolated island cu resursă-rich geografie → state dezvoltare. Natural geografic variation permite hypothesis: mediu determină organizational complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Natural experiments prove geografic determinism empirically. Polynesian islands similar populations cu resursă variation → complexity varies cu resources (mediu-a determinat). Isolated large islands independent dezvoltare enabling observation: complex societies emerge where geografie permits (Japan, New Guinea)). Simplu societies persist where geografie limits (poor atolls). Geografic variation permite controlled observation impossible în continental history cu multiple confounding variables. Natural islands experiments provide cleaner evidence: mediu determină societate complexity through resursă availability și geografie constraints.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 425,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

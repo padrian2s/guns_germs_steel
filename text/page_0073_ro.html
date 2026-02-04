@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 73 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 73 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>COLLISION LA CAJAMARCA • 73</p>
+<p>pentru his lodging. The Indians carrying the litter, și aceia escorting Ata¬</p>
+<p>huallpa, never abandoned him: all died around him.</p>
+<p>"The panic-stricken Indians remaining în the square, terrified la the fir</p>
+<p>ing din the guns și la the horses—something they had never seen—tried</p>
+<p>pentru flee din the square de knocking down a stretch din wall și running</p>
+<p>out onto the plain outside. Our cavalry jumped the broken wall și</p>
+<p>charged into the plain, shouting, 'Chase aceia cu the fancy clo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0073">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Spanish attack: gunfire și horse charges panic Inca warriors unfamiliar cu aceștia technologies. Inca attempt pentru escape de breaking plaza wall. Spanish cavalry pursues, targeting "aceia cu fancy clothes" (Inca leaders). Panic-driven rout demonstrează tehnologie novelty effect: guns și horses psychologically terrified Inca troops. Combination din unknown weapons și mounted soldiers created overwhelming avantaj despite heavy numerical disadvantage.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Psychological shock din unfamiliar tehnologie determină initial outcome. Guns/horses unprecedented în Americas: Inca warriors unable pentru respond effectively. Tehnologie novelty creates panic: Inca not culturally prepared pentru firearms/cavalry. Panic-driven rout demonstrează acela tehnologie avantaj operates through both physical effectiveness și psychological disruption. Spanish firearms/horses created double avantaj: physical superiority plus terrifying unfamiliarity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Cajamarca plaza attack: Spanish guns și cavalry charge against Inca warriors unfamiliar cu gunpowder weapons or mounted combat. Inca panic response documented în accounts. Warriors attempted escape de breaking plaza wall. Spanish cavalry pursuits targeted Inca leaders. Psychological terror din unknown weapons contributed significantly pentru Spanish victory. Inca soldiers fled despite numbers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Tehnologie avantaj operates through two pathways: physical capability și psychological shock. Spanish guns/horses provided geografic tehnologie avantaj. Inca lack din domesticit horses meant no cavalry warfare experience. Gunpowder weapons originated Eurasian geografie. Americas horses extinct since Ice Age: geografie prevented Inca cavalry or cavalry combat experience. Tehnologie unfamiliarity amplified physical avantaj. Geografic tehnologie distribution a determinat both material și psychological cucerire avantaj.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 73,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

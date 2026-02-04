@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 200 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 200 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>200 • ARME, GERMENI ȘI OȚEL</p>
+<p>microbes. Yes, an untreated cholera patient may eventually die din pro</p>
+<p>ducing diarrheal fluid la a rate din several gallons per day. La least pentru a</p>
+<p>while, though, ca long ca the patient este still alive, the cholera bacterium</p>
+<p>profits din being massively broadcast into the water supplies din its next</p>
+<p>victims. Provided acela each victim thereby infects pe the average more</p>
+<p>than one new victim, the bacterium will spread, even though the first host</p>
+<p>happens pentru die.</p>
+<p>So MUCH FO</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0200">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Cholera boală strategy: bacterial spreading justifies host death. Untreated cholera: patient produces gallons diarrhea/day. Death results but successful infection spread occurs. Bacterium profits if each victim infects 1+ new victims. Host death irrelevant if reproduction threshold met. Boală fitness measured de transmission rate not host survival.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Epidemie boală threshold. Transmission rate >1 permite persistence despite host death. Host death comerț-off acceptable if spread exceeds mortality. Dense populations enable high transmission. Urban boală epidemiologie. Populație density determină boală persistence.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Cholera: a apărut ca epidemie boală în high-density populations. Dense urban concentrations: water-spread boală thrives. Hunter-gatherer populations: insufficient density pentru epidemie maintenance. Agricol revolution: dense populations enabled cholera epidemiologie. Geografic populație density determină epidemie boală feasibility.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic agricol dezvoltare permite epidemie diseases. Dense populations agricultură-dependent. Epidemie diseases enabled de populație density. Food production → density → epidemie diseases. Geografie determining carrying capacity determină boală evoluție. Agricol geografie thus determină epidemiological mediu.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 200,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

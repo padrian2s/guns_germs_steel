@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 326 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 326 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>Figure 16.1. The four language families din China și Southeast Asia.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0326">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Figure arată four language families din China și Southeast Asia: Sino-Tibetan (northern China dominating), Tai-Kadai (southern China/Southeast Asia), Austroasiatic (Southeast Asia), și others. Visual mapping demonstrează geografic language distribution. Language family boundaries visible geographically—mountains și rivers shape distributions. Northern language family (Sino-Tibetan) concentrated în accessible lowlands. Southern language families (Tai-Kadai, Austroasiatic) fragmented across mountainous regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Language family maps geografic populație distribution. Mountain/river geografie visible în language family boundaries. Continuous language territories indicate connected populations. Fragmented language territories indicate geografic isolation. Geografic barriers determine language boundaries. Physical map și linguistic map correlation demonstrează geografie determină language distribution.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>China și Southeast Asia: accessible lowlands (Yellow River, Yangtze) contain consolidated language families (Sino-Tibetan north, Austroasiatic southeast). Mountain regions contain fragmented language families (Tai-Kadai scattered across southern mountains). Geografic terrain directly correlates cu language diversity. Lowland regions enable populație consolidation enabling linguistic unification. Mountain regions fragment populations enabling language diversity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic terrain determină language distribution determining observed linguistic map. Terrain accessibility determină populație consolidation determining linguistic consolidation. Mountains create isolation creating language fragmentation. Rivers enable connectivity enabling language spread. Map visualization demonstrează geografic determinism—language patterns follow geografic patterns directly. Geografic barriers determine care language families emerge și expand versus fragment și remain localized.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 326,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

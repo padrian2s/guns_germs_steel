@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 251 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 251 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 251</p>
+<p>War I launched whole new fields din tehnologie. But wars can also deal</p>
+<p>devastating setbacks pentru tehnologic dezvoltare. (2) Strong centralized</p>
+<p>government boosted tehnologie în late-19th-century Germany și Japan,</p>
+<p>și crushed it în China after A.D. 1500. (3) Many northern Europeans</p>
+<p>assume acela tehnologie thrives în a rigorous climat where survival este</p>
+<p>impossible without tehnologie, și withers în a benign climat where</p>
+<p>clothing este unnecessary și bananas supposedly fall</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0251">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Tehnologie dezvoltare factors: (1) war impact—WWI created new technologies, war can devastate tehnologie dezvoltare. (2) Centralized government—boosts tehnologie (19th-century Germany/Japan) or crushes it (China after 1500). (3) Climat assumptions—northern Europeans assume rigorous climat drives tehnologie invention, benign climat discourages it. Multiple factors beyond geografie affect tehnologie dezvoltare rates.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Tehnologie determinants: geografic factors (climat) influence but don't solely determine tehnologie dezvoltare. Political organization: centralized government permite or suppresses tehnologie. War role: conflict drives some innovations, previne others. Climat perception: cultural beliefs despre climat-tehnologie relationship. Competing theories: geografic determinism vs. political factors vs. cultural factors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>WWI tehnologic inovație: aircraft, tanks, communications tehnologie driven de military competition. China ~1500 CE: centralized government explicitly suppressed maritime tehnologie ending Zheng He voyages. Germany/Japan 1800s: centralized government invested în military tehnologie enabling rapid industrial dezvoltare. Northern European assumption: harsh climat driving tehnologie need versus tropical abundance removing motivation. Evidence mixed: tropics (Indonesia, Mesoamerica) a dezvoltat complex tehnologie; cold regions without government (Inuit) a dezvoltat specialized tehnologie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic determinism compatible cu political/war factors: geografie creates tehnologie opportunities (via agricultură/boală/domesticire) but political organization determină implementation. Centralized government prerequisite pentru tehnologie investment but geografie determină whether government emerges. Climat influence pe tehnologie real but mediated through political choice: harsh climat permite but doesn't require tehnologie dezvoltare. Geografic advantages compound through political organization: geografic agricultură advantages → populație growth → political organization → tehnologie investment → accumulated advantages.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 251,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

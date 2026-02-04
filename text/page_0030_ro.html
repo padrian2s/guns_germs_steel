@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 30 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 30 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>30 • PROLOGUL</p>
+<p>(Capitolul 12). Writing has evolved de novo only a few times în human</p>
+<p>history, în areas acela had fost the earliest sites din the rise din food produc</p>
+<p>tion în their respective regions. All other societies acela have become literate</p>
+<p>did so de the difuzare din writing systems or din the idea din writing din</p>
+<p>one din aceia few primary centers. Hence, pentru the student din world history,</p>
+<p>the phenomenon din writing este particularly useful pentru explorând another</p>
+<p>important constellation din causes: geogr</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0030">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Part 3 traces proximate factors (guns, germs, steel) pentru ultimate causes. Writing evolved de novo only în regions acela first a dezvoltat food production (Fertile Crescent, Egypt, China). All other literate societies acquired writing through difuzare din aceștia centers. Writing demonstrează geografie's effect pe inovație spread—ideas/technologies spread easily along east-west axes, poorly along north-south axes due pentru climat discontinuities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing's geografie-dependence arată cum difuzare patterns differ de continental orientation. Food production → societal complexity → need pentru record-keeping/administration → writing dezvoltare. Writing ability la cucerire-time gave Europeans administrative avantaj over non-literate peoples, yet writing itself depended pe geografic conditions enabling civilizație acela required writing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Independent writing invention occurred în Mesopotamia (~3200 BCE), Egypt (~3200 BCE), China (~1200 BCE), Mesoamerica (~600 BCE)—all în food-producing centers. Difuzare followed geographical pathways, explaining de ce Eurasia became literate while Australia never did.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Writing traces back through food production pentru geografie. Each level din causation originates în geographical differences: geografie → food production → complex societate → writing → administrative capability la cucerire. The causal chain linking geografie pentru Pizarro's cucerire becomes explicit.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 30,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 4 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 4 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>Pentru Esa, Kariniga, Omwai, Paran, Sauakari, Wiwor,</p>
+<p>și all my other New Guinea friends și teachers—</p>
+<p>masters din a difficult mediu</p>
+<p>Copyright © 1999,1997 de Jared Diamond</p>
+<p>All rights reserved</p>
+<p>Printed în the United States din America</p>
+<p>First publicată ca a Norton paperback 1999</p>
+<p>Pentru information despre permission pentru reproduce selections din acesta book,</p>
+<p>write pentru Permissions, W. W. Norton & Company, Inc., 500 Fifth Avenue, New</p>
+<p>York, NY 10110.</p>
+<p>The text din acesta book este composed în Sabon</p>
+<p>cu the display s</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0004">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Acesta Pagina contains Diamond's dedication pentru his New Guinea colleagues și the copyright/publication information. The dedication honors aceia cine taught him despre mastering difficult environments, reflecting his years din fieldwork în New Guinea.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond acknowledges New Guineans ca "masters din a difficult mediu"—a respectful framing acela directly counters racist narratives. His field experience cu New Guinean peoples informs his entire thesis despre ambiental adaptation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Diamond's decades din ornithological research în New Guinea (1960s-1970s) provided firsthand experience cu a challenging tropical mediu. Acesta personal connection grounded his understanding din cum geografie shapes societies și made Yali's question personal rather than abstract.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>The dedication pentru New Guinean teachers stabilește Diamond's respect pentru their civilizație while asking de ce it produced different technologies than Europe. Acesta respects their mastery din their own mediu while investigating de ce geographical differences led pentru different developmental trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 4,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

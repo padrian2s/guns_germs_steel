@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 94 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 94 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>94 ' ARME, GERMENI ȘI OȚEL</p>
+<p>surprised too la several other modern breadbaskets acela erau still then</p>
+<p>without it—including all the rest din the United States, England și much</p>
+<p>din France, Indonesia, și all din subequatorial Africa. When we trace food</p>
+<p>production back pentru its beginnings, the earliest sites provide another sur</p>
+<p>prise. Far din being modern breadbaskets, they include areas ranking</p>
+<p>today ca somewhat dry or ecologically degraded: Iraq și Iran, Mexico,</p>
+<p>the Andes, parts din China, și Africa'</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0094">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Counterintuitive finding: earliest agricol sites (Iraq, Iran, Mexico, Andes, parts din China) erau dry or ecologically degraded regions, not modern breadbaskets. Later, agricultură spread pentru modern breadbaskets (US, England, France, Indonesia, sub-equatorial Africa) care erau still hunter-gatherer în prehistory. Agricultură arose în marginal lands first, spread secondarily.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricol difuzare și timing. Agricultură not inevitable globally, emerges where suitable sălbatic specie available (regardless din current ambiental quality). Difuzare delayed agricol adoption în high-potential zones. Early adopters achieved critical advantages long before agricultură reached more environmentally favorable regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent: dry climat, early domesticire ~10000 BCE. Mesoamerica: marginal maize origins, ~5000 BCE. China: millet/rice în suboptimal zones. European temperate zones: agricultură arrived 5000-3000 BCE din difuzare, not independent invention. American Great Plains: agricultură limited de continental latitude barriers.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Timing matters: regions adopting agricultură first a dezvoltat civilizational advantages before agricultură reached neighboring regions. Ambiental quality irrelevant if lacking domesticable specie. Agricol spread limited de geografie (continental axes, climat barriers). Early-adopting regions perpetuated avantaj de 1492. Geografic location (not resursă richness) a determinat power differential la contact.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 94,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 118 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 118 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>I I 8 • ARME, GERMENI ȘI OȚEL</p>
+<p>tion pentru generation. Similarly, supermarket apples sunt typically around</p>
+<p>three inches în diameter, sălbatic apples only one inch. The oldest corn cobs</p>
+<p>sunt barely more than half an inch long, but Mexican Indian farmers din</p>
+<p>A.D. 1500 already had a dezvoltat six-inch cobs, și some modern cobs sunt</p>
+<p>one și a half feet long.</p>
+<p>Another obvious difference between seeds acela we grow și many din</p>
+<p>their sălbatic ancestors este în bitterness. Many sălbatic seeds evolved pentru fi bitter,</p>
+<p>bad-tasting,</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0118">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Artificial selection through harvesting dramatically alters crop morphology. Supermarket apples: 3 inches diameter vs. 1 inch sălbatic. Corn cobs: 0.5 inches original vs. 6 inches de 1500 AD vs. 18 inches modern. Bitterness reduction through selection. Fleshiness increase (squash, pumpkins) din seed-heavy sălbatic ancestors. Size increases arise din genetic variation în sălbatic populations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Genetic variation în sălbatic crops permite artificial selection. Humans unconsciously selecting larger seeds/fruits through harvesting. Bitterness reduction through repeated harvesting. Size accumulation over generations din available genetic variation. Different regions had different sălbatic crop genetic diversity determining achievable improvements.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sălbatic wheat varied în grain size naturally. Fertile Crescent farmers collected largest grains generation after generation. De 8500 BCE: noticeable size increases în domesticit wheat. Mesoamerica: teosinte kernel size increase reflected available genetic variation. Regions selecting pentru different traits (size vs. taste vs. storability).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Genetic variation în sălbatic specie determină domesticire trajectory. High-variation specie: rapid morphological improvement possible. Low-variation specie: slow or minimal improvement. Geografic variation în sălbatic crop genetic diversity → geografic variation în achievable agricol productivity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 118,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

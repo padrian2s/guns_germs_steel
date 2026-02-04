@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 9 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 9 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>P R E F A CE PENTRU THE P A P E R B A CK E D I T I PE</p>
+<p>W HY ESTE W O R LD HISTORY</p>
+<p>LIKE AN O N I O N?</p>
+<p>ACESTA BOOK ATTEMPTS PENTRU PROVIDE A SHORT HISTORY DIN</p>
+<p>everybody pentru the last 13,000 years. The question motivating the</p>
+<p>book este: De ce did history unfold differently pe continente diferite? În case</p>
+<p>acesta question immediately makes you shudder la the thought acela you sunt</p>
+<p>despre pentru read a racist treatise, you aren't: ca you will see, the answers</p>
+<p>pentru the question don't involve human racial differences la all. The bo</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0009">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>The Prefață pentru the Paperback Edition uses the "onion" metaphor pentru explain Diamond's approach. He promite a short 13,000-year history addressing de ce continente diferite a dezvoltat differently—while explicitly rejecting racial explanations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond emphasizes seeking "ultimate explanations" rather than proximate causes. The onion metaphor sugerează peeling back layers pentru understand foundational forces. He commits pentru tracing causation ca far back ca possible, particularly into prehistory (99.9% din human history before writing)</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Written pentru the 1999 paperback edition, Diamond addresses concerns despre racist interpretation din his theory. He notes acela de 1500 CE, tehnologic gaps already existed—requiring explanation din pre-1500 history, not post-1500 colonialism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>The Prefață frames history ca an "onion" where modern inequality's roots lie deep în geografie și prehistory. Acesta justifies examining geografie's influence 13,000 years ago rather than assuming writing's emergence caused tehnologic divergence.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 9,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

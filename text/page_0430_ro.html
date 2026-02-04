@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 430 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 430 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>4 3° " FURTHER READINGS</p>
+<p>material but este written pentru the general reader rather than pentru specialists.</p>
+<p>Another convenient source este a series din five volumes entitled The Illus</p>
+<p>trated History din Humankind, ed. Goran Burenhult (San Francisco: Har</p>
+<p>perCollins, 1993-94). The five individual volumes în acesta series sunt enti</p>
+<p>tled, respectively, The First Humans, People din the Stone Age, Old World</p>
+<p>Civilizations, New World și Pacific Civilizations, și Traditional Peo</p>
+<p>ples Today.</p>
+<p>Several series din volumes p</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0430">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Further Readings bibliography: Burenhult's "Illustrated History din Humankind" five-volume series: The First Humans, People din the Stone Age, Old World Civilizations, New World/Pacific Civilizations, Traditional Peoples Today. Comprehensive human history din prehistory pentru contemporary. Geografic coverage across all regions. Source evidence pentru geografic determinism argument.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Comparative human history evidence. First humans geografic origins și dispersal. Stone Age human adaptation pentru diverse geographies. Civilizație emergence geografie-specific. Regional civilizație variation patterns. Contemporary peoples maintaining traditional geografic adaptations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Burenhult series: First Humans documents African origins și geografic dispersal. Stone Age volumes document geografic human adaptation diversity. Old World Civilizations arată geografic centers (Middle East, Egypt, Indus, China). New World/Pacific arată independent geografic dezvoltare. Traditional Peoples arată geografic resursă adaptation. Comprehensive geografic approach throughout series.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Comprehensive bibliography substantiating geografic determinism across human history. Humans distributed geographically achieving different developments based pe geografie. Antic humans adapted regionally through geografic pressure. Civilizations a apărut geographically în multiple independent centers. Burenhult series provides evidence foundation: human history geografie-a determinat din Africa origins through modern regional variation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 430,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

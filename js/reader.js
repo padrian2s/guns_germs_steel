@@ -42,6 +42,7 @@ class DocumentReader {
         this.themeToggle = document.getElementById('themeToggle');
         this.menuThemeToggle = document.getElementById('menuThemeToggle');
         this.langToggle = document.getElementById('langToggle');
+        this.menuLangToggle = document.getElementById('menuLangToggle');
     }
 
     attachEventListeners() {
@@ -221,9 +222,27 @@ class DocumentReader {
             this.langToggle.addEventListener('click', () => {
                 const currentLang = localStorage.getItem('language') || 'en';
                 const newLang = currentLang === 'en' ? 'ro' : 'en';
-                
+
                 localStorage.setItem('language', newLang);
                 this.updateLanguageToggle(newLang);
+                this.updateMenuLanguageToggle(newLang);
+                this.loadPage(this.currentPage); // Reload page with new language
+            });
+        }
+
+        // Menu Language toggle
+        if (this.menuLangToggle) {
+            // Load saved language preference
+            const savedLang = localStorage.getItem('language') || 'en';
+            this.updateMenuLanguageToggle(savedLang);
+
+            this.menuLangToggle.addEventListener('click', () => {
+                const currentLang = localStorage.getItem('language') || 'en';
+                const newLang = currentLang === 'en' ? 'ro' : 'en';
+
+                localStorage.setItem('language', newLang);
+                this.updateLanguageToggle(newLang);
+                this.updateMenuLanguageToggle(newLang);
                 this.loadPage(this.currentPage); // Reload page with new language
             });
         }
@@ -401,6 +420,13 @@ class DocumentReader {
         if (this.langToggle) {
             this.langToggle.textContent = lang === 'en' ? '🌐 EN' : '🌐 RO';
             this.langToggle.title = lang === 'en' ? 'Switch to Romanian' : 'Switch to English';
+        }
+    }
+
+    updateMenuLanguageToggle(lang) {
+        if (this.menuLangToggle) {
+            this.menuLangToggle.textContent = lang === 'en' ? '🌐 English' : '🌐 Română';
+            this.menuLangToggle.title = lang === 'en' ? 'Switch to Romanian' : 'Switch to English';
         }
     }
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 218 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 218 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>218 • ARME, GERMENI ȘI OȚEL</p>
+<p>had pentru settle pe basic principles acela we now take pentru granted. Pentru exam</p>
+<p>ple, they had pentru figure out cum pentru decompose a continuous utterance into</p>
+<p>speech units, regardless din whether aceia units erau taken ca words, sylla</p>
+<p>bles, or phonemes. They had pentru learn pentru recognize the same sound or</p>
+<p>speech unit through all our normal variations în speech volume, pitch,</p>
+<p>speed, emphasis, phrase grouping, și individual idiosyncrasies din pro</p>
+<p>nunciation. They had pentru decide acela a wr</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0218">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Writing invention requires settling pe basic principles. Decompose continuous speech into units: words, syllables, or phonemes. Recognize same sound through speech variations (volume, pitch, speed, emphasis, pronunciation differences). Assign written symbols matching speech units. Writing system standardization necessary pentru communication across individuals/time.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing system standardization: requires collective agreement. Phonemic awareness: speech abstraction into sound categories. Sound-pentru-symbol mapping: requires consistent symbols. Communication consistency: permite writing utility. Independent invention: requires solving same problems identically (unlikely). Writing difuzare: simpler than parallel invention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sumerian writing: solved phonemic recognition. Egyptian hieroglyphics: separate solution pentru same problems. Chinese writing: different approach (logographic rather than alphabetic). Each writing system: solved basic principles independently or through difuzare. Multiple solutions: phonemic, syllabic, logographic approaches a dezvoltat în different regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Writing system standardization requires populație density. Density permite consistent communication/record-keeping. Writing solves problem created de complexity. Complexity results din agricultură. Geografie → agricultură → density → writing standardization need → writing invention. Geografic complexity determină writing invention trigger.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 218,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

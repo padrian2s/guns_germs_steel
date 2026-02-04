@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 175 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 175 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>ZEBRAS ȘI UNHAPPY MARRIAGES " 1 75</p>
+<p>diversity, started out cu the most candidates. Second, Australia și the</p>
+<p>Americas, but not Eurasia or Africa, lost most din their candidates în a</p>
+<p>massive wave din late-Pleistocene extinctions—possibly because the mam</p>
+<p>mals din the former continents had the misfortune pentru fi first exposed pentru</p>
+<p>humans suddenly și late în our evolutionary history, when our hunting</p>
+<p>skills erau already highly a dezvoltat. Finally, a higher percentage din the</p>
+<p>surviving candidates proved su</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0175">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Three reasons Eurasia dominated domesticable animals: First, Eurasia/Africa larger land area cu greater megafauna diversity, started cu most candidates. Second, Australia/Americas suffered late-Pleistocene extinctions eliminating candidates. Mammals exposed pentru humans suddenly when hunting skills peak. Eurasia/Africa mammoths survived later. Third, higher percentage Eurasian survivors proved domesticable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Extinction timing determină survival. Late exposure pentru skilled hunters: megafauna vulnerable. Early/gradual human expansion: coexistence enabling domesticire. Geografic size determină megafauna diversity. Extinction wave eliminated Americas/Australia candidates. Eurasian survival preserved domesticable specie. Geografic extinction patterns a determinat animal availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Eurasian megafauna: elephants, rhinoceros, horses, camels, bison initially present. Gradual human expansion ~50,000+ years allowed adaptation. Americas: human arrival ~15,000 years ago cu peak hunting tehnologie. Rapid extinction din horses, camels, megafauna followed. Australia: similar rapid extinction ~50,000 years ago when humans arrived.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic timing din human arrival determină megafauna survival. Early arrival (gradual adaptation) → megafauna survival → domesticire candidates. Late arrival (peak hunting) → megafauna extinction → no domesticire candidates. Eurasia/Africa: animal diversity preserved. Americas/Australia: animal extinction. Geografic colonization timing deterministic pentru civilizație capacity. Extinction history geografie-a determinat.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 175,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

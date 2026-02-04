@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 134 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 134 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>1 34 ' ARME, GERMENI ȘI OȚEL</p>
+<p>Africa, southern Asia, și eastern Australia, some din them closely related</p>
+<p>pentru Olea europea, but none din them era ever domesticit. Similarly, while</p>
+<p>a sălbatic apple specie și a sălbatic grape specie erau domesticit în Eurasia,</p>
+<p>there sunt many related sălbatic apple și grape specie în North America,</p>
+<p>some din care have în modern times fost hybridized cu the crops</p>
+<p>derived din their sălbatic Eurasian counterparts în order pentru improve aceia</p>
+<p>crops. De ce, then, didn't Native Ameri</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0134">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Failed domestications: similar specie different domesticire outcomes. Olives: sălbatic specie în Africa, southern Asia, eastern Australia never domesticit. Apples/grapes: Eurasian sălbatic ancestors domesticit; North American sălbatic relatives cu same traits never domesticit. Modern hybridization uses sălbatic American genetics pentru improve Eurasian crops.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticire ca geografic-cultural choice. Specie suitability necessary but not sufficient. Cultural, economic, geografic factors determine adoption. Availability alone doesn't guarantee domesticire. Time, location, populație pressure influence domesticire selectivity. Genetic similarity between domesticit și sălbatic undocumented specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Olives: Eurasian domesticire ~7000 BCE. Related African specie available but never domesticit (difuzare barriers, sălbatic olive preference, cultural factors). Apples: Eurasian domesticire classical times. American sălbatic apples available pentru indigenous peoples pentru millennia but never domesticit (no adoption pressure, difuzare barriers).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Specie availability insufficient pentru domesticire. Geografic difuzare, sălbatic productivity, cultural factors determine adoption. Americas' lack din apple/grape domesticire not genetic barrier but geografic isolation preventing difuzare, sălbatic food abundance reducing adoption pressure. Geografic location determină domesticire adoption independent din genetic feasibility.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 134,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

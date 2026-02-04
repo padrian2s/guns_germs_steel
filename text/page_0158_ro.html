@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 158 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 158 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>1 58 • ARME, GERMENI ȘI OȚEL</p>
+<p>plant specie seemingly suitable pentru domesticire erau never domesti</p>
+<p>cated, we shall now tackle the corresponding question pentru domestic mam</p>
+<p>mals. Our former question despre apples or Indians becomes a question din</p>
+<p>zebras or Africans.</p>
+<p>ÎN CAPITOLUL 4 we reminded ourselves din the many ways în care big</p>
+<p>domestic mammals erau crucial pentru aceia societăți umane possessing them.</p>
+<p>Most notably, they provided meat, milk products, fertilizer, land trans</p>
+<p>port, leather, military assa</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0158">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul 9 explorează de ce certain animals domesticit while others never erau. Plant question becomes animal question: "apples or Indians" becomes "zebras or Africans." Big domestic mammals provided: meat, milk, fertilizer, land transport, leather, military assault capability. Geografic variation în available domesticable animals determină civilizational capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticirea animalelor crucial pentru civilizație dezvoltare. Domesticable animals provide multiple advantages: food, fertilizer, power, transport, military capability. Societies lacking large domesticable animals lack aceștia advantages. Geografic faună distribution determină domesticirea animalelor availability și therefore civilizational capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Domestic mammals: central pentru Eurasian civilizație. Horses: cavalry, transport, agricultură (plow). Cattle/sheep/goats/pigs: meat, milk, leather, fertilizer. Americas: llamas/alpacas only (limited geografic distribution, small size, limited power). Africa: insufficient domesticable large mammals. Geografic faună determină available domesticire options.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Large mammal domesticire explică Eurasian tehnologic avantaj. Horses, cattle, sheep enabled agricultură, transport, military power, boală pools. Americas lacked horses/cattle/pigs → no cavalry, limited agricultură, limited transport, limited boală exposure. Geografic faună distribution determină animal availability → determină agricol tehnologie → determină military capacity → determină civilizational outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 158,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 308 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 308 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>308 • ARME, GERMENI ȘI OȚEL</p>
+<p>Moluccas și truncated Indonesia's separate train din developments. When</p>
+<p>Europeans reached New Guinea soon thereafter, its inhabitants erau still</p>
+<p>living în bands or în fiercely independent little villages, și still using stone</p>
+<p>tools.</p>
+<p>W H I LE THE NEW Guinea hemi-continent din Greater Australia thus</p>
+<p>a dezvoltat both animal husbandry și agricultură, the Australian hemi¬</p>
+<p>continent a dezvoltat neither. During the Ice Ages Australia had supported</p>
+<p>even more big marsupials than</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0308">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Greater Australia (New Guinea + Australia): a dezvoltat both animal husbandry și agricultură. But Australian hemisphere a dezvoltat neither. During Ice Ages Australia supported even more large marsupials than currently. Aboriginal Australians lacked domesticable animals (unlike Eurasian megafauna). Animals went extinct ~50,000 years ago before domesticire possibility. Geografie a determinat care megafauna persisted enabling domesticire.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Megafauna extinction determină domesticire possibility. Large animals available determine whether herding possible. Australia lost large marsupials; inability pentru domesticate sălbatic remainders prevented pastoral economy. Geografie a determinat care animals survived Ice Ages. Surviving animals determine economic possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Australia Ice Age faună: larger marsupials than present, megafauna extinctions 50,000 years ago. Remaining animals (kangaroo, wallaby) not suitable domesticire. New Guinea/Southeast Asia: maintained megafauna suitable domesticire (pigs). Eurasia: horses, cattle, sheep, goats available. Megafauna extinction before domesticire window closed Australia's pastoral possibilities.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic megafauna distribution determină pastoral possibility. Extinction timing geografic contingency determining whether domesticire occurred. Australia: extinction before domesticire window. New Guinea/Eurasia: animals persisted enabling domesticire. Geografic contingency (extinction timing) a determinat domesticire availability determining subzistență mode. Geografie through faună availability determină economic dezvoltare trajectory.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 308,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

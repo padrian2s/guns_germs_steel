@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 360 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 360 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>3 60 • ARME, GERMENI ȘI OȚEL</p>
+<p>în Eurasia erau largely confined pentru the Arctic reindeer herders, the Siberian</p>
+<p>hunter-gatherers, și the hunter-gatherer enclaves în the Indian subconti</p>
+<p>nent și tropical Southeast Asia.</p>
+<p>The Americas had two empires, aceia din the Aztecs și Incas, care</p>
+<p>resembled their Eurasian counterparts în size, populație, polyglot make</p>
+<p>up, official religions, și origins în the cucerire din smaller states. În the</p>
+<p>Americas aceia erau the sole two political units capable din mobili</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0360">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Eurasian empires dominated. Americas had sole two empires: Aztec și Inca. Resembled Eurasian counterparts: large size, populations, polyglot composition, official religions, cucerire origins. However: only two empires în Americas. Eurasian empires: multiple (Roman, Persian, Chinese, Mongol, Ottoman). Difference reflects geografic capacity pentru civilizație complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Imperiu rarity în Americas. Geografie limited civilizație complexity. Domesticable animals scarcity limited military power. Diseases fewer în Americas limited epidemie effects pe populație control. Writing (Mayan) didn't diffuse widely enabling imperiu administration. Eurasian domesticirea animalelor enabled cavalry, military tehnologie avantaj.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Aztec Imperiu: lacked large domestic animals, used hand weapons, relied pe numerical avantaj. Inca Imperiu: lacked horses și pigs limiting cavalry warfare. Eurasian empires: cavalry-dominant, iron tools, epidemie diseases reducing conquered populație's resistance. Conquistador handful defeated empires lacking equivalent military tehnologie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Imperiu dezvoltare geografie-contingent. Geografic domesticable animals → military tehnologie → imperiu feasibility. Americas' animal limitation → imperiu rarity și military tehnologic disadvantage. Eurasian animal avantaj → multiple empires și tehnologic dominance. Geografic animal distribution geografie determină imperiu dezvoltare capacity și military superiority.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 360,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

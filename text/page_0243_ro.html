@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 243 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 243 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 43</p>
+<p>ipated purposes. It may come ca a surprise pentru learn acela aceștia inventions</p>
+<p>în search din a use include most din the major tehnologic breakthroughs</p>
+<p>din modern times, ranging din the airplane și automobile, through the</p>
+<p>internal combustion engine și electric light bulb, pentru the phonograph și</p>
+<p>transistor. Thus, invention este often the mother din necessity, rather than</p>
+<p>vice versa.</p>
+<p>A good example este the history din Thomas Edison's phonograph, the</p>
+<p>most original invention din the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0243">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul title "Necessity's Mother" inverts "Necessity este mother din invention." Most major tehnologic breakthroughs invented without anticipated purposes: airplane, automobile, internal combustion engine, electric light, phonograph, transistor. Inventions în search din use → only later finding practical application. Invention often precedes necessity rather than following din it.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Tehnologie timing decoupled din necessity. Inovație can precede application. Inventors create solutions before problems identified. Tehnologie acceptance requires matching invention cu suitable application. Timing determină whether innovations find adoption or remain unused. Tehnologie success depends pe circumstances aligning cu invention, not advance preparation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Airplane: invented ca transportation inovație; warfare application a apărut later. Automobile: tehnologie a dezvoltat; economic conditions (cheap labor, resursă access) enabled adoption. Internal combustion engine: created before petroleum availability a determinat its dominance. Phonograph Edison: original purpose (dictation) never realized; entertainment application a apărut later. Each tehnologie: invention preceded practical necessity de decades.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Tehnologie inovație geografie-independent but adoption geografie-dependent. Geografic conditions determine whether inventions find practical application. Wealth/industrial capacity (geografie-a determinat) permite tehnologie experimentation. Cheap labor și resources (geografie-a determinat) make technologies economically viable. Inovație emerges din geografic infrastructure enabling experimentation; adoption follows din geografic conditions enabling practical application.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 243,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

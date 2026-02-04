@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 127 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 127 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>CUM PENTRU MAKE AN ALMOND • 127</p>
+<p>The table gives major crops, din five crop classes, din early agricol sites în various</p>
+<p>parts din the world. Square brackets enclose names din crops first domesticit elsewhere;</p>
+<p>names not enclosed în brackets refer pentru local domesticates. Omitted sunt crops acela arrived or</p>
+<p>became important only later, such ca bananas în Africa, corn și beans în the eastern United</p>
+<p>States, și sweet potato în New Guinea. Cottons sunt four specie din the genus Gossypium,</p>
+<p>each specie fi</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0127">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Table documentation: bracketed crop names indicate foreign domesticire imported pentru region. Unbracketed names indicate local domesticire. Crops arriving later omitted (bananas Africa, maize/beans eastern US, sweet potato New Guinea). Cotton genus Gossypium: four specie independently domesticit regionally (geografic isolation producing separate domestications).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Domesticire difuzare vs. local origin. Imported crop dependence vs. independent domesticire. Geografic isolation enabling separate domesticire events. Crop arrival timing determining early agricol foundation. Multiple specie cotton indicating geografic domesticire repetition. Difuzare patterns showing comerț/migrație networks.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent crops spread pentru Europe via difuzare. Mesoamerica: independent domesticire three sisters suite. Bananas: Old World domesticire arrived Africa later. Cotton: four specie, multiple geografic origins showing repeated domesticire. Eastern US: received maize/beans din Mesoamerica rather than local domesticire.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic isolation determină independent domesticire likelihood. Isolated regions cu domesticable specie → independent domesticire. Connected regions → receive domesticates via difuzare. Crop difuzare maps follow geografic barriers. Geografic isolation permite separate cotton domesticire events. Distance și barriers geografie-a determinat control domesticire independence vs. difuzare.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 127,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 85 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 85 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>C H A P T ER 4</p>
+<p>FARMER P O W ER</p>
+<p>A</p>
+<p>S A TEENAGER, I SPENT THE SUMMER DIN 1956 ÎN MON-</p>
+<p>. tana, working pentru an elderly farmer named Fred Hirschy. Born în</p>
+<p>Switzerland, Fred had come pentru southwestern Montana ca a teenager în the</p>
+<p>1890s și proceeded pentru develop one din the first farms în the area. La the</p>
+<p>time din his arrival, much din the original Native American populație din</p>
+<p>hunter-gatherers era still living there.</p>
+<p>My fellow farmhands erau, pentru the most part, tough whites whose nor</p>
+<p>mal speech featured strin</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0085">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul 4 opens cu Diamond's personal experience din the power differential: a Swiss immigrant farmer succeeded în displacing Native American hunters din their ancestral lands. Istoric question: de ce did farmers win against famous warriors? Answer: agricultură, not inherent superiority, created the tehnologic și organizational advantages.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricol power dynamic. Pentru millions din years, all humans hunted-gathered. Agricultură enabled sedentary populations, food storage, populație growth, military specialization. Farmers could support non-food-producing warriors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Montana 1956: Swiss immigrant farmer Fred Hirschy represents Old World agricol societate. Native American hunters represent pre-Columbian Americas societies acela never fully adopted agricultură despite plant/animal availability. Contest arată agricol power's decisive role.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic avantaj determină agricol adoption. Fertile Crescent și Eurasian steppes had domesticable specie enabling food production. Americas lacked equivalent specie pentru millennia. Geografic difference → agricol timing difference → populație/tehnologie difference → cucerire outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 85,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

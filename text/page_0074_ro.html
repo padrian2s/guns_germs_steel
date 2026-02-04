@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 74 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 74 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>74 ' ARME, GERMENI ȘI OȚEL</p>
+<p>greater kingdoms than yours, și have defeated other more powerful</p>
+<p>lords than you, imposing upon them the dominion din the Emperor, whose</p>
+<p>vassal I am, și cine este King din Spain și din the universal world. We come</p>
+<p>pentru conquer acesta land de his command, acela all may come pentru a knowledge</p>
+<p>din God și din His Holy Catholic Faith; și de reason din our good mis</p>
+<p>sion, God, the Creator din heaven și earth și din all things în them, per</p>
+<p>mits acesta, în order acela you may know Him și co</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0074">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Pizarro's speech pentru Atahuallpa: claims Spanish conquered greater kingdoms cu Emperor's authority, bringing God's knowledge. Represents justification din cucerire through claims din religious/political superiority și prior military success elsewhere. Rhetorical device frames cucerire ca extension din European expansion pattern, not unique pentru Americas. Emphasizes Spanish self-perception din tehnologic/religious superiority.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Cucerire ideology reflects tehnologic confidence. Spanish claim pentru conquered "greater kingdoms" elsewhere. Religious justification mask pentru tehnologie-enabled expansion. Spanish self-perception din superiority justified de prior military successes. Pizarro rhetoric demonstrează Spanish understanding din tehnologie advantages enabling cucerire. Ideological justification follows din tehnologic capacity: Spanish conquered because tehnologie-equipped, not because mission-justified.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Pizarro's statement references prior Spanish conquests claiming Holy Roman Emperor authority. Spanish conquistador justifies cucerire through religious duty și royal mandate. Spanish ideology: Christian imperiu expansion righteous. Inca perspective absent din account: only Spanish narrative recorded. Cucerire framed ca divinely-sanctioned European expansion pattern documented în Spanish writings.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Cucerire ideology obscures geografic tehnologie basis. Spanish justify cucerire through religion/imperiu authority, not through tehnologie avantaj. Yet tehnologie enabled cucerire: guns/horses/steel made possible ce Spanish ideology claimed justified. Geografic tehnologie distribution created material cucerire capacity acela Spanish rhetoric attributed pentru religious mission. Actual mechanism: geografic tehnologie avantaj. Stated mechanism: religious-political mandate. Tehnologie avantaj made cucerire possible; ideology provided post-hoc justification.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 74,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

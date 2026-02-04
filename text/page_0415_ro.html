@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 415 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 415 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>Comparison din the coastlines din China și din Europe, drawn pentru the same</p>
+<p>scale. Note acela Europe's este much more indented și includes more large</p>
+<p>peninsulas și two large islands.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0415">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>China vs. Europe coastline comparison la equal scale. Europe: much more indented, more large peninsulas, two large islands (Britain, Iceland). China: smoother, less fragmented coastline. Geografic coastline complexity dramatically different. Visual evidence din geografic avantaj—Europe's fragmentation enabled maritime dezvoltare, independent city-states, naval competition. China's unified geografie enabled continental consolidation rather than maritime competition.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Coastline geografie determină maritime dezvoltare patterns. Fragmented coastlines (Europe): multiple independent maritime powers, naval competition, tehnologie inovație pressure. Unified coastlines (China): continental focus, centralized political power, less naval dezvoltare necessity. Geografic fragmentation permite plural dezvoltare paths; unified terrain permite single-power consolidation. Tehnologie dezvoltare reflects competition pressure—fragmented geografie creates competitive selection pentru naval tehnologie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Europe coastline: Mediterranean fragmentation enabled Greek city-states, Italian merchant republics, Spanish/Portuguese naval dezvoltare through competition. Atlantic coast fragmentation enabled English/Dutch naval competition driving maritime tehnologie. China coastline: unified political consolidation under dynasties—unified direction pentru maritime or land focus. Europe fragmentation → competitive maritime dezvoltare. China consolidation → strategic focus pe land imperiu (Great Wall, Silk Road) rather than ocean exploration.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Coastline geografie determină political organization și maritime dezvoltare. Fragmented coasts enable plural political units competing pentru maritime avantaj. Unified coasts enable single political entities directing maritime policy (or ignoring maritime opportunities). Europe's geografic fragmentation enabled competitive naval tehnologie dezvoltare through multiple independent competing powers. China's geografic consolidation enabled internal focus. Columbus sailing 1492: European geografic fragmentation creating competitive pressure pentru tehnologie investment. Chinese treasure voyages abandoned 1433: unified political decision-making without competitive pressure. Coastline geografie determină maritime dezvoltare necessity și intensity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 415,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

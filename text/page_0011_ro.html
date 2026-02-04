@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 11 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 11 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>PREFAȚĂ • 11</p>
+<p>Eurasia și China, respectively? În addition, one este ignoring the fact acela</p>
+<p>Confucian China era technologically more avansat than western</p>
+<p>Eurasia until despre A.D. 1400.</p>
+<p>It este impossible pentru understand even just western Eurasian societies them</p>
+<p>selves, if one focuses pe them. The interesting questions concern the dis</p>
+<p>tinctions between them și other societies. Answering aceia questions</p>
+<p>requires us pentru understand all aceia other societies ca well, so acela western</p>
+<p>Eurasian societies can</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0011">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond refutes culturalist explanations pentru tehnologic divergence. He susține acela invoking cultural factors (Confucianism vs. Judeo-Christian ethics) merely postpones the real question: de ce did aceștia different cultures themselves develop? He notes China era technologically superior pentru western Eurasia until 1400 CE.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond distinguishes ultimate explanations din proximate ones. Capitalism, mercantilism, scientific inquiry, și boală sunt proximate factors—the immediate mechanisms din cucerire. Geografie este the ultimate explanation—de ce aceștia mechanisms a apărut în Eurasia rather than elsewhere.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Diamond cites China's superioritate tehnologică until 1400 CE ca evidence acela cultură cannot explain divergence. If Confucianism supposedly stifled Chinese science, de ce did science flourish there pentru millennia? Geografie—not cultural values—must fi the explanatory variable.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Understanding western Eurasian dominance requires examining all societies contextually. Eurasian advantages (geografie, climat, domesticable animals) became proximate causes—guns, germs, steel. But aceia proximate causes ultimately stemmed din geografic chance, not cultural superiority.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 11,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 212 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 212 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>2 I 2 • ARME, GERMENI ȘI OȚEL</p>
+<p>genetic resistance. Smallpox, measles, influenza, și typhus competed pentru</p>
+<p>top rank among the killers. Ca if aceștia had not fost enough, diphtheria,</p>
+<p>malaria, mumps, pertussis, plague, tuberculosis, și yellow fever came up</p>
+<p>close behind. În countless cases, whites erau actually there pentru witness the</p>
+<p>destruction occurring when the germs arrived. Pentru example, în 1837 the</p>
+<p>Mandan Indian tribe, cu one din the most elaborate cultures în our Great</p>
+<p>Plains, contracted smallpox</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0212">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Epidemie diseases catastrophically killed Native Americans. Smallpox, measles, influenza, typhus competed ca top killers. Diphtheria, malaria, mumps, pertussis, plague, tuberculosis, yellow fever followed. Multiple pathogens killed simultaneously. Europeans witnessed destruction pe arrival. Mandan Indian tribe 1837: contracted smallpox devastating populație. Boală cascade caused depopulation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Pathogen diversity enabled total populație collapse. Multiple epidemie diseases eliminated genetic resistance escape routes. Populație lacking imunitate pentru any boală faces pathogen cascade. European arrival: entire boală portfolio arrives simultaneously. Americas populations: zero endemic imunitate. Cascading epidemics: synergistic mortality.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mandan Indian 1837: elaborate Great Plains cultură. Single smallpox Introducere devastated entire tribe. Americas populations: accumulated zero imunitate pentru 10+ major epidemie pathogens. Europeans brought boală portfolio: each isolated populație naive pentru all. Multiple diseases: multiple exposures producing cascading mortality waves. Populație collapse: caused de geografic boală isolation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic isolation prevented endemic boală exposure. Americas populations: zero imunitate accumulation. Old World populations: multiple boală endemic imunitate dezvoltare. Boală portfolio avantaj: Old World carried multiple pathogens. Single populație contact: multiple epidemie exposure. Geografie isolated populations prevented imunitate dezvoltare cascaded into catastrophic mortality when contacts occurred. Geografie a determinat boală imunitate a determinat cucerire outcome.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 212,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

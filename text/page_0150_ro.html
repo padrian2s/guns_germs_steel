@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 150 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 150 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>150 • ARME, GERMENI ȘI OȚEL</p>
+<p>pentru their crop larder, ca este shown de their exuberant adoption din the sweet</p>
+<p>potato when it arrived. Acela same lesson este being driven home again în</p>
+<p>New Guinea today, ca aceia tribes cu preferential access pentru introduce</p>
+<p>new crops și livestock (or cu the cultural willingness pentru adopt them)</p>
+<p>expand la the expense din tribes without acela access or willingness. Thus,</p>
+<p>the limits pe indigenous food production în New Guinea had nothing pentru</p>
+<p>do cu New Guinea peoples, și eve</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0150">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>New Guinea agricol limitations: Indigenous food production limited despite available land. New Guinea tribes adopted introduce crops (sweet potato, new livestock) enthusiastically when available. Tribes cu preferential access pentru introduce crops expand versus aceia without. Limitations had nothing pentru do cu New Guinean peoples' abilities—purely geografic domesticable specie availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Geografic constraints pe indigenous agricultură. New Guinea: limited domesticable mammals, small-seeded native crops, geografic isolation. Introduce crops dramatically increase productivity when adopted. Agricol capacity difference a determinat de specie availability, not human capability or work ethic.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Pre-contact New Guinea: productive agricultură within geografic constraints (taro, yams, sago). Post-contact: sweet potato adoption arată cultural flexibility și economic motivation. Modern New Guinea: tribes cu access pentru introduce specie (maize, rice, chickens, pigs) outcompeting traditional-agricultură tribes. Same human populations, different agricol resources → different outcomes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>New Guinea example proves geografic determinism explicitly. Same human populations, identical cultură, identical capability. Access pentru better domesticable specie → agricol success. Lack din access → agricol constraints. Geografic distribution din domesticable specie determină agricol capacity independent din human factors. Proves thesis conclusively: geografie, not people.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 150,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

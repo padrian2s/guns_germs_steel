@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 42 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 42 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>42 • ARME, GERMENI ȘI OȚEL</p>
+<p>after New Guinea itself, de around 35,000 years ago. Aceia islands erau</p>
+<p>New Britain și New Ireland, în the Bismarck Archipelago, și Buka, în</p>
+<p>the Solomon Archipelago. Buka lies out din sight din the closest island pentru the</p>
+<p>west și could have fost reached only de crossing a water gap din despre</p>
+<p>100 miles. Thus, early Australians și New Guineans erau probably</p>
+<p>capable din intentionally traveling over water pentru visible islands, și erau</p>
+<p>using watercraft sufficiently often acela</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0042">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>After Australia/New Guinea colonization came intentional island colonization. De 35,000 years ago, humans reached Bismarck Archipelago (New Britain, New Ireland) și Solomon Islands. Buka lies 100 miles din nearest visible island—requiring deliberate watercraft navigation across open ocean, not accidental drift.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Intentional watercraft colonization, not accidental drift. 100-mile water gaps crossed deliberately. Evidence din navigation skills și seaworthy tehnologie. Frequent enough use pentru populate multiple islands. Demonstrează Great Leap Forward behavioral sophistication.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>35,000 years ago în Western Pacific. Bismarck și Solomon archipelagos inhabited. Multiple islands populated requiring sustained maritime tehnologie și navigation knowledge.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Watercraft tehnologie a determinat colonization din island chains. Geografic dispersion created isolated populations. Isolated populations a dezvoltat independently—tehnologic avantaj or disadvantage depended pe island resources, leading pentru differentiated dezvoltare trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 42,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

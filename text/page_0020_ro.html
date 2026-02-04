@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 20 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 20 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>20 • PROLOGUL</p>
+<p>An enormous effort de cognitive psychologists has gone into the search</p>
+<p>pentru differences în IQ between peoples din different geografic origins now</p>
+<p>living în the same country. În particular, numerous white American psy</p>
+<p>chologists have fost trying pentru decades pentru demonstrate acela black Ameri</p>
+<p>cans din African origins sunt innately less intelligent than white Americans</p>
+<p>din European origins. However, ca este well known, the peoples compared</p>
+<p>differ greatly în their social mediu și educati</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0020">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond critiques decades din IQ research de white American psychologists attempting pentru prove African Americans genetically inferior pentru European Americans. He susține aceștia efforts fail because compared populations differ vastly în social mediu și educational opportunities, making it impossible pentru isolate genetic factors. IQ tests measure cultural learning și childhood opportunities, not "pure innate intelligence."</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond distinguishes between genetic intelligence și culturally-shaped abilities. Childhood mediu profoundly afectează brain dezvoltare și IQ test performance. The scientific inability pentru isolate genetic intelligence din factori ambientali undermines racist claims despre genetic racial differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>The 1960s-1990s saw contentious debate over IQ differences between racial groups. Psychologist Arthur Jensen și others claimed genetic racial differences în intelligence. Diamond's critique reflects late-20th-century scientific consensus acela mediu confounds such studies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>If genetic intelligence differences cannot fi demonstrated even when groups live în the same country, racial explanations pentru continental-level tehnologic differences become scientifically untenable. Geografie, not genetics, must fi the causal factor.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 20,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

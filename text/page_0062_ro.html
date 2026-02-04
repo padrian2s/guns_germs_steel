@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 62 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 62 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>62 • ARME, GERMENI ȘI OȚEL</p>
+<p>single island. Pe the one hand, islands near one another might become</p>
+<p>combined into a single political unit. Pe the other hand, single large rug</p>
+<p>ged islands erau divided into many independent political units. Hence the</p>
+<p>area din the political unit varied not only cu an island's area but also cu</p>
+<p>its fragmentation și isolation.</p>
+<p>Pentru small isolated islands without strong barriers pentru internal communi</p>
+<p>cation, the entire island constituted the political unit—ca în the cas</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0062">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Political unit size a determinat de island area și terrain fragmentation. Small isolated islands formed single political units. Large rugged islands divided into many independent units. Island proximity a determinat if neighboring islands unified. Political fragmentation affected dezvoltare capacity: small units cannot support large construction projects or armies. Geografie directly determină political organization scale.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Political unit size geografie-a determinat de island size și terrain fragmentation. Terrain communication barriers create fragmentation: large rugged islands → multiple political units. Island isolation permite unification: nearby small islands → single political unit. Political fragmentation afectează capacity: small units cannot execute large projects or field large armies. Geografie → political scale → military/construction capacity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Small isolated islands: single political unit (unified authority). Large rugged islands: many independent political units (geografic fragmentation previne unification). Geografic proximity: multiple small islands coalesce (common politics). Political unit size directly reflects island geografie: size și internal terrain. Hawaii: large islands enabled imperiu-scale political unit. Polynesian islands: fragmented terrain created political multiplicity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Political organization geografie-a determinat through island size și terrain. Terrain fragmentation creates political fragmentation: geografie enforces political multiplicity pe large rugged islands. Island isolation previne unification: geografie enforces political separation. Political scale geografie-limited: small islands cannot support large political units requiring extensive populație/resources. Geografie determină feasible political organization through populație size și terrain communication barriers.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 62,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 125 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 125 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>CUM PENTRU MAKE AN ALMOND • 125</p>
+<p>cross-pollinated de another plant belonging pentru a genetically different vari</p>
+<p>ety din their specie. Hence early farmers either had pentru find mutant trees not</p>
+<p>requiring cross-pollination, or had consciously pentru plant genetically differ</p>
+<p>ent varieties or else male și female individuals nearby în the same</p>
+<p>orchard. All aceia problems delayed the domesticire din apples, pears,</p>
+<p>plums, și cherries until around classical times. La despre the same time,</p>
+<p>though, another group din la</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0125">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Domesticire din self-incompatible trees requires cross-pollination or genetic mutation. Early farmers either found mutant self-compatible individuals or consciously planted genetically different varieties nearby. Apples, pears, plums, cherries: reproductive barriers delayed domesticire until classical times. Self-compatibility mutations rare → reduced domesticire speed relative pentru self-compatible specie.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Reproductive isolation solving strategies. Conscious orchard design: genetic diversity requirement. Mutation availability determining speed. Regions cu many self-compatible sălbatic specie domesticate faster. Regions predominantly self-incompatible delay domesticire centuries. Genetic mutation rarity creates geografic domesticire delays.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mediterranean region: orchards required cross-compatible variety pairs. De classical times: apple domesticire achieved through genetic solutions. Regions lacking self-compatible mutants delayed crop domesticire. Fertile Crescent: majority self-compatible specie avoided acesta delay entirely.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic sălbatic specie reproductive characteristics determine domesticire timeline. Regions cu self-compatible specie → rapid domesticire. Regions cu self-incompatible predominance → delayed domesticire. Reproductive barriers geografic distribution creates agricol dezvoltare timeline geografic variation. Sălbatic plant reproductive biology fundamentally geografic determină civilizație dezvoltare speed.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 125,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 18 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 18 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>I 8 • PROLOGUL</p>
+<p>America în the modern world? Isn't acela prominence just an ephemeral</p>
+<p>phenomenon din the last few centuries, now fading behind the prominence</p>
+<p>din Japan și Southeast Asia? În fact, most din acesta book will deal cu</p>
+<p>peoples other than Europeans. Rather than focus solely pe interactions</p>
+<p>between Europeans și non-Europeans, we shall also examine interac</p>
+<p>tions between different non-European peoples—especially aceia acela took</p>
+<p>place within sub-Saharan Africa, Southeast Asia, Indonesia, și</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0018">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond refutes potential objections pentru investigating Yali's question. First, explaining domination does not justify it—understanding causes permite interrupting them, like treating diseases. Second, addressing the question este not Eurocentric—the book primarily examinează non-European societies și their internal interactions. Third, "civilizație" terminology does not assume progress—modern states have tradeoffs (better medicine but less social support than hunter-gatherers).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond distinguishes explanation din endorsement. Geografic determination din inequality este scientifically interesting precisely because it avoids racist or Eurocentric conclusions. The book examinează cum geografie affected all societăți umane, not celebrating industrial civilizație but understanding cum geografie shaped different adaptations.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Diamond addresses late-20th-century academic concerns despre appearing pentru justify imperialism or Western dominance. His personal experience living în both U.S. cities și New Guinea villages gave him perspective pe tradeoffs between industrial și indigenous lifestyles.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>De framing the book's methodology—comparing all societies' dezvoltare without assuming Western superiority—Diamond stabilește acela geographical determinism explică inequality without implying any societate este inherently better. Geografie shaped different paths pentru different regions, but value judgments require separate ethical analysis din causal explanation.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 18,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

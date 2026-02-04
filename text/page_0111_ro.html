@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 111 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 111 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>PENTRU FARM OR NOT PENTRU FARM • 111</p>
+<p>appeared rapidly în the Fertile Crescent after 11,000 B.C., having fost</p>
+<p>invented pentru dealing cu the newly available abundance din sălbatic cereals.</p>
+<p>Aceia inventions included sickles din flint blades cemented into wooden</p>
+<p>or bone handles, pentru harvesting sălbatic grains; baskets în care pentru carry the</p>
+<p>grains home din the hillsides where they grew; mortars și pestles, or</p>
+<p>grinding slabs, pentru remove the husks; the technique din roasting grains so</p>
+<p>acela they could fi stored without s</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0111">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Agricol tehnologie invention follows sălbatic food abundance. Fertile Crescent: sălbatic cereals abundant ~11000 BCE → sickles, baskets, mortars, pestles, roasting techniques invented rapidly. Tools preceded domesticire. Geografie determining sălbatic grain availability prompted tehnologie inovație. Tehnologie dezvoltare follows geografic opportunity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricol tehnologie ca response pentru geografic opportunity. Available sălbatic specie determine care tools invented. Harvesting tools required pentru abundant sălbatic grains. Regions without large-seeded grasses never invent such tools. Geografic sălbatic plant distribution determină tehnologie trajectory.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Fertile Crescent large-seeded sălbatic grasses abundant → harvesting tools invention. Grinding, storage, roasting techniques follow. Americas teosinte smaller-seeded → different tool dezvoltare path. Geografie determining sălbatic grain size determină tehnologie specialty.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Tehnologie invention geografic. Sălbatic plant distribution determină care technologies invented. Fertile Crescent grain tools a dezvoltat because grains present. California lack din large-seeded grasses prevented similar tehnologie dezvoltare. Geografic sălbatic specie determine tehnologic inovație direction.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 111,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

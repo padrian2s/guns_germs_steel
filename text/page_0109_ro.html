@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 109 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 109 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>PENTRU FARM OR NOT PENTRU FARM • 109</p>
+<p>wholesale în southeastern și central Europe because the hunter-gatherer</p>
+<p>lifestyle there era less productive și less competitive. În contrast, food</p>
+<p>production era adopted piecemeal în southwestern Europe (southern</p>
+<p>France, Spain, și Italy), where sheep arrived first și cereals later. The</p>
+<p>adoption din intensive food production din the Asian mainland era also</p>
+<p>very slow și piecemeal în Japan, probably because the hunter-gatherer</p>
+<p>lifestyle based pe seafood și local p</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0109">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Agricol adoption speed varies de sălbatic food productivity. Central/southeastern Europe: less productive hunting-gathering → rapid wholesale agricultură adoption. Southwestern Europe (Spain, France, Italy): highly productive foraging → slow piecemeal agricultură adoption (sheep first, cereals later). Japan: seafood-based foraging → slow agricultură adoption despite proximity pentru Asian sources.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Agricultură adoption rate inverse pentru sălbatic food abundance. Rich foraging regions resist agricol transition longer. Difuzarea tehnologiei speeds vary de local carrying capacity saturation. Geografic sălbatic food productivity determină adoption timeline regardless din crop availability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mediterranean Europe: diverse sălbatic foods supported populație. Gradual agricultură adoption over centuries. Atlantic Europe: productive shellfish/fish resources delayed agricultură adoption. Japan: marine resources abundance resisted continental agricultură adoption pentru thousands din years.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic sălbatic food abundance determină agricultură adoption resistance. Regions geographically rich în sălbatic resources maintain foraging longest. Geografic poverty în sălbatic resources forces rapid agricultură adoption. Same domesticit crops diffused differently based pe local geografic carrying capacity. Geografie determină adoption speed regardless din tehnologie availability.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 109,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

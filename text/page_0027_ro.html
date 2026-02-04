@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 27 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 27 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>YALI'S QUESTION • 27</p>
+<p>research. However, throughout my school și undergraduate years, my</p>
+<p>training era mainly în languages, history, și writing. Even after deciding</p>
+<p>pentru obtain a Ph.D. în physiology, I nearly dropped out din science during my</p>
+<p>first year din graduate school pentru become a linguist.</p>
+<p>Since completing my Ph.D. în 1961, I have divided my scientific</p>
+<p>research efforts between two fields: molecular physiology pe the one hand,</p>
+<p>evolutionary biology și biogeografie pe the other hand. Ca an unfore</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0027">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond explică his unique qualifications: his father era a physician-geneticist; his mother, a linguist și teacher. He became a biologist studying bird evoluție în South America, Africa, Indonesia, Australia, și especially New Guinea. His 33 years din fieldwork provided firsthand experience cu technologically diverse societies. His interest în language era rekindled working cu ~100 New Guinea languages pentru identify bird names.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond's background bridged biology, genetics, linguistics, și field experience—unusual combination pentru addressing Yali's question. His evolutionary biology training made him comfortable cu istoric causation în complex systems. Living în diverse societies provided intimate understanding unavailable pentru armchair historians.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Diamond's multidisciplinary career (1961 onward) positioned him uniquely during the 1970s-1990s pentru synthesize findings across fragmented academic disciplines. His New Guinea work gave him insider perspective pe non-Western societies during decolonization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Diamond stabilește credibility pentru addressing Yali's question: his scientific background provides methodological rigor; his fieldwork provides empirical knowledge din diverse societies; his previous book "The Third Chimpanzee" already explored intercultural encounters. He este uniquely positioned pentru synthesize geographical explanations.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 27,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

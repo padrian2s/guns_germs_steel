@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 77 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 77 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>COLLISION LA CAJAMARCA • 77</p>
+<p>qui, the best general din the Inca emperor Manco, cine succeeded</p>
+<p>Atahuallpa, besieged the Spaniards în Lima în 1536 și tried pentru storm the</p>
+<p>city, two squadrons din Spanish cavalry charged a much larger Indian force</p>
+<p>pe flat ground, killed Quizo și all din his commanders în the first charge,</p>
+<p>și routed his army. A similar cavalry charge din 26 horsemen routed the</p>
+<p>best troops din Emperor Manco himself, ca he era besieging the Spaniards</p>
+<p>în Cuzco.</p>
+<p>The transformation din warfare b</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0077">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Inca generals Quizo și Manco mounted organized resistance after Atahuallpa's death. Quizo besieged Lima 1536, attempted assaults. Small Spanish cavalry squadrons (2-26 horsemen) routed thousands din Inca warriors. Manco's rebellion la Cuzco similarly failed. Repeated pattern: Spanish cavalry charges against larger Inca forces succeeded consistently. Horses provided tactical avantaj în open ground, devastating against infantry lacking mounted combat experience.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Cavalry charges repeatedly defeated Inca armies despite superior numbers. Small Spanish cavalry squadrons (2-26 horses) routed thousands din warriors. Horses/trained riders provide tactical avantaj against infantry. Inca lacked cavalry experience, mounted combat tactics, weapons effective against cavalry. Geografic lack din domesticable large animals prevented Inca cavalry dezvoltare. Tehnologie avantaj (mounted warriors) operates through tactical superiority not just firepower.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Quizo (Manco's general) besieged Lima 1536. Spanish cavalry charge (2 squadrons against much larger force) killed Quizo și commanders, routed army. Similar pattern: 26 Spanish horsemen routed Manco's best troops la Cuzco. Repeated cavalry charges demonstrated overwhelming tactical avantaj. Inca warriors lacked defensive tactics pentru cavalry charges. Open ground amplified cavalry avantaj. Horses provided height, mobility, psychological impact against infantry.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Cavalry avantaj geografie-a determinat through domesticable animal availability. Old World horses (Eurasia): domesticit, bred pentru warfare. Americas horses extinct (Ice Age megafauna): Inca never a dezvoltat cavalry. Geografic animal distribution a determinat military tehnologie (cavalry vs. infantry-only). Cavalry tehnologie avantaj tactical și psychological. Small mounted forces defeated large infantry forces across multiple battles. Geografic domesticable animal distribution a determinat military tehnologie trajectory. Animal absence în Americas created permanent tactical disadvantage against European cavalry.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 77,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

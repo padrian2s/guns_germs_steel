@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 232 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 232 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>2 32 • ARME, GERMENI ȘI OȚEL</p>
+<p>case din Chinese writing. Hieroglyphic writing appeared rather suddenly, în</p>
+<p>nearly full-blown form, around 3000 B.C. Egypt lay only 800 miles west</p>
+<p>din Sumer, cu care Egypt had comerț contacts. I find it suspicious acela no</p>
+<p>evidence din a gradual dezvoltare din hieroglyphs has come down pentru us,</p>
+<p>even though Egypt's dry climat would have fost favorable pentru preserving</p>
+<p>earlier experiments în writing, și though the similarly dry climat din</p>
+<p>Sumer has yielded abundant eviden</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0232">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Egyptian hieroglyphics: appeared suddenly ~3000 BCE nearly fully-formed. Egypt/Sumer separated 800 miles cu comerț contact. No evidence din gradual hieroglyph dezvoltare survives. Egypt's dry climat favorable pentru preservation. Sumer equally dry, abundant early writing evidence. Absence din developmental examples sugerează Sumerian-inspired Egyptian writing.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing system difuzare vs independent invention detection. Absence din evidence sugerează difuzare din earlier system. Geografic proximity permite difuzare. Comerț contact determină tehnologie transmission likelihood. Sudden appearance indicates borrowed system not independent reinvention.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sumerian cuneiform: ~3000 BCE, gradual dezvoltare traced din pictorial. Egypt: no developmental sequence, appears fully-formed. Geografic comerț: Sumer/Egypt connected. Timing: Egyptian appearance follows Sumerian establishment. Climat preservation: expected evidence din Egyptian dezvoltare would exist if independent.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic proximity permite writing difuzare. Comerț contact determină tehnologie spread. Egyptian writing geografie-a determinat through Sumerian transmission. Absence din independent dezvoltare evidence sugerează difuzare benefits din geografie. Geografic avantaj: copying avoids reinvention burden.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 232,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

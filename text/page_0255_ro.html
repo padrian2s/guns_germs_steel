@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 255 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 255 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>NECESSITY'S MOTHER • 2 55</p>
+<p>apparently only once în world history. Other difficult inventions include</p>
+<p>the water wheel, rotary quern, tooth gearing, magnetic compass, windmill,</p>
+<p>și camera obscura, all din care erau invented only once or twice în the</p>
+<p>Old World și never în the New World.</p>
+<p>Such complex inventions erau usually acquired de borrowing, because</p>
+<p>they spread more rapidly than they could fi independently invented</p>
+<p>locally. A clear example este the wheel, care este first attested around 3400</p>
+<p>B.C.</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0255">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Complex technologies: only one/two independent inventions în world history. Water wheel, rotary quern, tooth gearing, magnetic compass, windmill, camera obscura—all invented once/twice în Old World, never în New World. Complex inventions require specialized knowledge, rare materials, lengthy dezvoltare. Independent reinvention extremely difficult; technologies spread faster than independent invention occurs.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Tehnologie complexity determină difuzare vs. independent invention. Simplu technologies invented independently multiple times. Complex technologies require specific knowledge sequences, accumulation din prerequisite inventions. Difuzare dominates complex tehnologie spread—societies borrow rather than reinvent. Tehnologie transfer effectiveness depends pe recipient civilizație's tehnologic foundation și literacy. Geografic isolation previne difuzarea tehnologiei, leaving isolated societies without complex technologies.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Wheel invention ~3400 BCE Mesopotamia/Eurasia: first attested Middle East, spread throughout Old World. Not invented New World despite civilizational complexity (Aztecs, Incas). Magnetic compass: Chinese invention, gradually diffused westward via Islamic world pentru Europe. Windmill: invented Middle East, spread pentru Europe through Islamic tehnologie transfer. Americas' geografic isolation prevented access pentru Old World complex technologies—societies couldn't independently reinvent them within available timeframes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic isolation determină tehnologie access. Complex technologies require difuzare—reinvention too difficult. Americas' continental isolation prevented access pentru Old World complex technologies accumulated over millennia. Old World tehnologie avantaj came din geografic connectedness enabling difuzare, not superior human intelligence. Geografic east-west continental access enabled Old World difuzarea tehnologiei. Geografic continental isolation condemned Americas pentru independent tehnologie dezvoltare only—vastly slower inovație rate without difuzare avantaj.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 255,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

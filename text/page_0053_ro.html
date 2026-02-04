@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 53 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 53 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>C H A P T ER 2</p>
+<p>A NATURAL EXPERIMENT</p>
+<p>DIN HISTORY</p>
+<p>O</p>
+<p>N THE CHATHAM ISLANDS, 500 MILES EAST DIN NEW</p>
+<p>Zealand, centuries din independence came pentru a brutal end pentru the</p>
+<p>Moriori people în December 1835. Pe November 19 din acela year, a ship</p>
+<p>carrying 500 Maori armed cu guns, clubs, și axes arrived, followed pe</p>
+<p>December 5 de a shipload din 400 more Maori. Groups din Maori began pentru</p>
+<p>walk through Moriori settlements, announcing acela the Moriori erau now</p>
+<p>their slaves, și killing aceia cine objected. An organized r</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0053">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Capitolul 2 opens cu Moriori-Maori collision (1835): Maori invaded Chatham Islands cu 900 warriors, enslaved și killed Moriori populație. Outcome easily predictable: Moriori erau hunter-gatherers cu simplu tehnologie, peaceful traditions, no war experience; Maori erau farmers, chronically warlike, avansat weapons, organized leadership. Disparate dezvoltare din two Polynesian peoples provided template pentru understanding broader continental differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Moriori-Maori collision: small-scale natural experiment testing environmental effects on societies. Both groups Polynesian, diverged <1000 years prior. Environment shaped opposite development trajectories. Chatham Islands: cold, small, limited agriculture → hunter-gatherers. New Zealand North: warm, large, suitable crops → farmers/warriors.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Moriori așezare Chatham Islands after Maori colonized New Zealand ~1000 CE. Centuries din separation. 1835: Australian seal-ship brought news din Chathams pentru New Zealand, triggering Maori invasion. Direct cause: geografic isolation creating knowledge lag.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Capitolul 2 stabilește smaller-scale natural experiment before examining continents. Same founding populație diverged dramatically based pe ambiental constraints. Demonstrează geografie's powerful influence pe tehnologie, politics, warfare capacity within short timeframe. Sets up detailed Polynesian analysis showing factori ambientali driving societal complexity.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 53,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

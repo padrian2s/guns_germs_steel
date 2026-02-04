@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 26 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 26 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>26 " PROLOGUL</p>
+<p>view este not held în esteem de historians; it este considered wrong or simplis</p>
+<p>tic, or it este caricatured ca ambiental determinism și dismissed, or</p>
+<p>else the whole subject din trying pentru understand worldwide differences este</p>
+<p>shelved ca too difficult. Yet geografie obviously has some effect pe his</p>
+<p>tory; the open question concerns cum much effect, și whether geografie</p>
+<p>can account pentru history's broad pattern.</p>
+<p>The time este now ripe pentru a fresh look la aceștia questions, because din</p>
+<p>new inform</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0026">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond susține acela while geografie's effect pe history este obvious, historians dismiss geographical explanations ca simplistic, deterministic, or impossible. He counters acela new scientific advances în genetics, molecular biology, biogeografie, epidemiologie, și arheologie make geographical explanations scientifically viable pentru the first time.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond positions his book ca rescuing geografie din dismissal through modern scientific tools. Genetics relevă cum domesticable plants/animals differed de continent; epidemiologie explică boală patterns; arheologie documents tehnologic dezvoltare. Aceștia disciplines provide empirical evidence pentru geographical determinism.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Ambiental determinism fell din favor în 20th-century academic circles due pentru associations cu racist theories. Diamond rehabilitates geographical explanation through rigorous scientific methodology, not ideological assertion.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Acesta Pagina susține acela modern science provides the tools pentru answer Yali's question through geografie. The book will synthesize findings din multiple disciplines pentru demonstrate geografie's causal role în human history.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 26,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

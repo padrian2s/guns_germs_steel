@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 440 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 440 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>4 4° " FURTHER READINGS</p>
+<p>și Peoples (Garden City, N.Y.: Doubleday, 1976). The last book, written</p>
+<p>de a distinguished historian rather than de a physician, has fost especially</p>
+<p>influential în bringing historians pentru recognize the impacts din boală, ca</p>
+<p>have fost the two books de Alfred Crosby listed under the further read</p>
+<p>ings pentru the Prologul.</p>
+<p>Friedrich Vogel și Arno Motulsky, Human Genetics, 2nd ed. (Berlin:</p>
+<p>Springer, 1986), the standard textbook pe human genetics, este a convenient</p>
+<p>reference pentru n</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0440">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Further Readings bibliography: istoric perspective pe boală impact. McNeill și Crosby influential works. Vogel & Motulsky human genetics textbook. Scholarly sources establishing multiple evidence domains: boală history, genetic evidence, istoric analysis. Comprehensive academic foundation supporting geografic determinism din multiple disciplinary perspectives.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Interdisciplinary evidence: history, genetics, epidemiologie. Boală shaped civilizație dezvoltare. Genetic evidence arată regional human variation. Istoric analysis documents geografic factors influencing events. Multiple sources converge pe geografic determinism thesis.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>McNeill boală history: plagues shaped European history. Crosby biologic exchange: Americas boală impact. Vogel/Motulsky genetics: regional human populations genetically adapted. Multiple evidence sources point same direction: geografie determină human outcomes through resursă distribution, boală exposure, biologic adaptation.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic determinism supported de historians, geneticists, epidemiologists. Boală distribution geografie-a determinat. Genetic variation geografic-a determinat. Istoric patterns reflect geografic factors. Comprehensive scholarship stabilește geografic determinism foundation across human biology, boală ecologie, istoric dezvoltare demonstrating geografie centrality pentru civilizație outcomes.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 440,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

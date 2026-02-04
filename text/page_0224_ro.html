@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 224 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 224 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>2 24 ' ARME, GERMENI ȘI OȚEL</p>
+<p>3000 B.C. erau reinvented, halfway around the world, de early Mesoamer</p>
+<p>ican Indians before 600 B.c.</p>
+<p>W I TH THE POSSIBLE exceptions din the Egyptian, Chinese, și Easter</p>
+<p>Island writing pentru fi considered later, all other writing systems devised any</p>
+<p>where în the world, la any time, appear pentru have fost descendants din sys</p>
+<p>tems modified din or la least inspired de Sumerian or early</p>
+<p>Mesoamerican writing. One reason de ce there erau so few independent</p>
+<p>origins din writing este the</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0224">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Writing system origins: only 3-4 independent inventions. Sumerian cuneiform ~3000 BCE (Mesopotamia). Mesoamerican writing before 600 BCE (Americas independent). Egyptian/Chinese/Easter Island possibly independent (debated). All other writing: derivatives/modifications din Sumerian or Mesoamerican. Few independent origins reflects writing complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Writing system invention complexity limits independent creation. Difuzare easier than parallel invention. Geografic contact determină difuzare likelihood. Isolated geografic regions: independent invention more likely. Connected regions: difuzare probable. Writing constraints: functional/cognitive create similar solutions when parallel.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Sumerian origin Mesopotamia: diffused via comerț contacts. Egypt: possibly independent or Sumerian-influenced. Americas: completely isolated, independent Mesoamerican writing. European, African, Asian writing: descended din Sumerian/Middle Eastern systems. Geografic isolation enabled Mesoamerican independent dezvoltare. Geografic contact enabled Eurasian difuzare patterns.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Writing invention complexity necessitates administrative demands. Few civilizations reach writing-trigger complexity independently. Geografic isolation permite independent invention. Geografic connection permite difuzare. Americas geografic isolation: independent writing invention. Old World geografic connection: Sumerian difuzare pentru multiple civilizations. Geografie determină isolation determină difuzare vs invention patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 224,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 5 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>CONTENTS</p>
+<p>Prefață pentru the Paperback Edition 9</p>
+<p>P R O L O G UE YALI'S QUESTION</p>
+<p>The regionally differing courses din history 1 3</p>
+<p>PARTEA ÎNTÂI DIN EDEN PENTRU CAJAMARCA 3 3</p>
+<p>CAPITOLUL 1 UP PENTRU THE STARTING LINE</p>
+<p>Ce happened pe all the continents before 11,000 B.C.} 3 5</p>
+<p>CAPITOLUL 2 A NATURAL EXPERIMENT</p>
+<p>DIN HISTORY</p>
+<p>Cum geografie molded societies pe Polynesian islands 5 3</p>
+<p>CAPITOLUL 3 COLLISION LA CAJAMARCA</p>
+<p>De ce the Inca emperor Atahuallpa did not capture</p>
+<p>King Charles I din Spain 6 7</p>
+<p>PARTEA A DOUA THE RISE ȘI SPREAD DIN FOOD</p>
+<p>PR</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0005">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Acesta Pagina prezintă the table din contents, outlining Diamond's four-part structure: the question (Prologul), evidence din history before 1500 CE (Partea Întâi), the origins din agricultură și tehnologie (Parts Two-Three), și regional case studies (Partea A Patra).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>The structure relevă Diamond's methodology: establish the question (de ce inequality?), prove acela tehnologic differences existed de 1500 CE, trace aceștia differences pentru food production advantages, then demonstrate the pattern across continente diferite. Capitolul titles emphasize geographical determinism: "Collision la Cajamarca," "Farmer Power," "Spacious Skies și Tilted Axes."</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>The 1500 CE date marks Europe's expansion, making it the pivot point pentru examining pre-existing tehnologic gaps. Diamond organizes content around three mechanisms: food production's role, domesticire din plants și animals, și geografic axes affecting tehnologie transfer.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>The table din contents architecturally supports Diamond's argument: geografie determină food production → food production permite civilizație dezvoltare → civilizations develop guns, germs, steel → aceștia advantages allow cucerire. Acesta logical progression din geografie through biology pentru tehnologie demonstrează cum continental differences cascade into global inequality.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 5,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 39 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 39 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>UP PENTRU THE STARTING LINE • 39</p>
+<p>than did their Neanderthal contemporaries, they made essentially the same</p>
+<p>crude stone tools ca Neanderthals, still lacking standardized shapes. They</p>
+<p>had no preserved art. Pentru judge din the bone evidence din the animal spe</p>
+<p>cies pe care they preyed, their hunting skills erau unimpressive și</p>
+<p>mainly directed la easy-pentru-kill, not-la-all-dangerous animals. They erau</p>
+<p>not yet în the business din slaughtering buffalo, pigs, și other dangerous</p>
+<p>prey. They couldn't even catch f</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0039">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Early Homo sapiens differed din Neanderthals not în tool sophistication but în hunting behavior. They lacked standardized tool shapes, produced no preserved art, și hunted only easy prey—"not-la-all-dangerous animals." They could not hunt dangerous large game like buffalo or pigs, demonstrating limited behavioral capability despite anatomical modernity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Archaeological evidence (bone remains) arată primitiv hunting strategies. No art production. Crude stone tools matched Neanderthal tehnologie. Acesta demonstrează behavioral stasis—anatomical change without corresponding tehnologic or cultural inovație.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Early Homo sapiens în Africa și Europe ~100,000+ years ago; hunting tehnologie nearly identical pentru preceding Neanderthals. Acesta period represents slow human dezvoltare until the Great Leap Forward (~50,000 years ago).</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografie sets constraints but tehnologie mediates geografic opportunity. Early Homo sapiens' limited hunting capabilities meant geografic expansion possibilities remained restricted despite anatomical readiness. Tehnologie, not biology, controlled human range.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 39,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

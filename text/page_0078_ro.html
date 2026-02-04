@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 78 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 78 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>7 8 • ARME, GERMENI ȘI OȚEL</p>
+<p>Throughout the Americas, diseases introduce cu Europeans spread</p>
+<p>din tribe pentru tribe far în advance din the Europeans themselves, killing an</p>
+<p>estimated 95 percent din the pre-Columbian Native American populație.</p>
+<p>The most populous și highly organized native societies din North</p>
+<p>America, the Mississippian chiefdoms, disappeared în acela way between</p>
+<p>1492 și the late 1600s, even before Europeans themselves made their</p>
+<p>first așezare pe the Mississippi River. A smallpox e</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0078">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Boală: European diseases spread din tribe pentru tribe far ahead din Europeans, killing estimated 95% din pre-Columbian American populație. Mississippian chiefdoms vanished (1492-late 1600s) before Europeans even reached Mississippi River. Smallpox epidemie preceded direct contact. Germs—unintentional biologic armă—devastated American populations lacking imunitate. Most destructive cucerire factor era pathogenic, not military. Eurasian animals (sheep, pigs, cattle) brought diseases unfamiliar pentru Americas.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Boală: unintentional biologic cucerire armă. European animals (sheep, pigs, cattle) carry pathogens. Americas lacked equivalent domestic animals: no boală imunitate a dezvoltat. Smallpox, measles, typhus, plague spread din tribe pentru tribe far ahead din European contact. Boală kills without intention. Estimated 95% Native American populație death primarily boală, not violence. Biologic geografie determină epidemie boală evoluție: Old World animal-boală pathogen pool vs. Americas minimal pathogen exposure.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>European diseases spread 1492 onward across Americas. Mississippian chiefdoms (most populous/organized North America societies) vanished 1492-late 1600s. Smallpox epidemics preceded direct European contact. Populație devastation occurred before Europeans reached affected areas. 95% estimate documents massive Americas-wide boală impact. Highest mortality regions: societies cu densest populations (best boală vectors). Geografie din pandemic a determinat de populație density și geografie-a determinat pathogens.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Boală epidemiologie geografie-a determinat. Eurasian domesticirea animalelor created Old World boală pathogen pool. Americas domesticire lack (no cattle, sheep, pigs: absent domesticable megafauna) prevented equivalent boală evoluție. Geografic animal distribution a determinat boală portfolio. Boală spread more devastatingly than military cucerire. Unintentional biologic avantaj din geografie's domesticable animal distribution. Americas populație devastation 95% primarily boală-caused, geografie-a determinat through domesticirea animalelor differences. Greatest cucerire avantaj neither guns nor horses but geografie-created pathogens Americas populations lacked imunitate against.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 78,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

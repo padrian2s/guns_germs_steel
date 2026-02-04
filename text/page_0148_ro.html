@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 148 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 148 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>148 • ARME, GERMENI ȘI OȚEL</p>
+<p>Archaeological evidence arată acela the origins din New Guinea agricul</p>
+<p>ture sunt antic, dating pentru around 7000 B.C. La aceia early dates all the</p>
+<p>landmasses surrounding New Guinea erau still occupied exclusively de</p>
+<p>hunter-gatherers, so acesta antic agricultură must have a dezvoltat indepen</p>
+<p>dently în New Guinea. While unequivocal remains din crops have not fost</p>
+<p>recovered din aceia early fields, they sunt likely pentru have included some din</p>
+<p>the same crops acela erau being grown i</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0148">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>New Guinea agricultură a apărut independently around 7000 BCE, contemporary cu Fertile Crescent transition. Archaeological evidence arată domesticire din root crops (taro, yams) în New Guinea highlands while surrounding regions remained hunter-gatherer. Geografic isolation enabled independent agricol dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Independent agricol origins geografie-a determinat. New Guinea: available root crops (taro, yams) enabled domesticire. Surrounding regions lacked equivalent domesticable specie, remained hunter-gatherers. Same timeframe ca Fertile Crescent arată agricultură a apărut independently when suitable specie available.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>New Guinea 7000 BCE: agricultură a apărut din taro, yam domesticire. Fertile Crescent 10000 BCE: wheat, barley, livestock domesticire. Two independent centers ~3000 years apart. Different specie availability a determinat timing difference. Americas maize domesticire ~5000 BCE even later. Geografic specie distribution determină agricol timing globally.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>New Guinea independent agricultură proves geografic determinism. Same continents, different regions showed independent agricol emergence when suitable specie available. Geografic distribution din sălbatic domesticable specie a determinat agricol transition timing. Earlier specie availability (Fertile Crescent wheat) enabled earlier transition. Later specie availability (Americas maize) enabled later transition. Geografie's specie distribution determină agricultură emergence timing.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 148,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

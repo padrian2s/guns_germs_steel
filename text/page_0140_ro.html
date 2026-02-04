@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 140 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 140 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>140 • ARME, GERMENI ȘI OȚEL</p>
+<p>TABLE 8.I World Distribution din Large-Seeded Grass Specie</p>
+<p>Table 12.1 din Mark Blunder's Ph.D. dissertation, "Seed Weight și Mediu în Medi</p>
+<p>terranean-type Grasslands în California și Israel" (University din California, Berkeley,</p>
+<p>1992), listed the world's 56 heaviest-seeded sălbatic grass specie (excluding bamboos) pentru care</p>
+<p>data erau available. Grain weight în aceia specie ranged din 10 milligrams pentru over 40</p>
+<p>milligrams, despre 10 times greater than the median valu</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0140">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Geografic variation în large-seeded sălbatic grass specie: world's 56 heaviest-seeded sălbatic grasses concentrated în specific regions. Grain weight: 10-40 milligrams (10x global median). Large seeds worth harvesting, supporting cultivation transition. Geografic distribution din large-seeded grasses determină agricol potential.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Seed size și domesticability. Large seeds more calorie-valuable, less effort pentru harvest. World's largest sălbatic grasses geographically clustered. Fertile Crescent: abundance din large-seeded grasses (wheat, barley). Mesoamerica: teosinte smaller-seeded. Sub-Saharan Africa: limited large-seeded grasses. Geografic distribution din optimal specie determină agricol viability.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>Mediterranean/Near East: 56 heaviest grass specie concentrated. Southwest Asia, North Africa dominated world's large-seeded grasses. Americas had no large-seeded native grasses (maize este smaller-seeded). Australia: no large-seeded grasses suitable pentru domesticire.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic concentration din large-seeded grass specie determină crop domesticire feasibility. Regions cu abundant large-seeded grasses → economic agricultură possible. Regions without large-seeded grasses → smaller yields, longer domesticire dezvoltare. Specie availability geografie → agricol productivity geografie → civilizational trajectory difference.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 140,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 16 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 16 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>I 6 • PROLOGUL</p>
+<p>islands, much din the Americas, și small parts din sub-Saharan Africa—</p>
+<p>lived ca farming tribes or even still ca hunter-gatherer bands using stone</p>
+<p>tools.</p>
+<p>Din course, aceia tehnologic și political differences ca din A.D. 1500</p>
+<p>erau the immediate cause din the modern world's inequalities. Empires cu</p>
+<p>steel weapons erau able pentru conquer or exterminate tribes cu weapons din</p>
+<p>stone și wood. Cum, though, did the world get pentru fi the way it era în</p>
+<p>A.D. 1500?</p>
+<p>Once again, we can easily push</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0016">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>Diamond extends the question din 1500 CE back pentru 11,000 BCE. De the end din the Ice Age, all humans erau hunter-gatherers. Between then și 1500 CE, some continents a dezvoltat agricultură, metallurgy, și writing while others remained hunter-gatherers. Acesta differential dezvoltare rate este history's fundamental pattern și the book's core subject.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Diamond identifies "history's broadest pattern": the different dezvoltare rates din continents din 11,000 BCE pentru 1500 CE. Eurasia achieved all major technologies thousands din years before other continents. The pattern indicates geografie, not cultură or biology, must have channeled different advantages pentru different regions.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>The 11,000 BCE starting point marks when all continents stood la equal tehnologic ground zero. The subsequent divergence had 13 millennia pentru develop, indicating geografie's power pentru shape long-term developmental outcomes.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Acesta Pagina frames the investigation scientifically: comparing parallel dezvoltare across continents din identical starting conditions relevă geographical influențează. The fact acela bronze production appeared 4,000 years earlier în Eurasia than the Americas, și acela Tasmania's tehnologie regressed relative pentru Upper Paleolithic Europe, proves geografie shaped tehnologic trajectories.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 16,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>

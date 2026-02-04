@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 1 | Arme, Germeni și Oțel</title>
+    <title>Page 1 | Guns, Germs, and Steel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pagina 1 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
+        <h1>Pagina 1 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
@@ -17,13 +17,13 @@
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>ARME,</p>
-                <p>GERMENI ȘI</p>
-                <p>OȚEL</p>
-                <p>DESTINELE SOCIETĂȚILOR UMANE</p>
-                <p>Jared Diamond</p>
-                <p>W. W. Norton & Company</p>
-                <p>New York Londra</p>
+                <p>GUNS,</p>
+<p>GERMS ȘI</p>
+<p>STEEL</p>
+<p>SOARTA SOCIETĂȚILOR UMANE</p>
+<p>Jared Diamond</p>
+<p>W. W. Norton & Company</p>
+<p>New York London</p>
             </div>
         </div>
 
@@ -32,24 +32,47 @@
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Pagina de titlu prezintă lucrarea seminală a lui Jared Diamond despre societățile umane. Publicată de W.W. Norton, această carte promite să exploreze de ce unele civilizații au înflorit, în timp ce altele au rămas în urmă în ceea ce privește progresul tehnologic și societal.</p>
+                    <p>The Pagina de titlu prezintă Jared Diamond's lucrare de referință despre societăți umane. Publicată de W.W. Norton, acesta book promite pentru explore de ce some civilizations a prosperat while others a întârziat behind în tehnologic și progres social.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Lucrarea introduce întrebarea centrală a lui Diamond despre mecanismele civilizației: examinarea rolului geografie, resurselor naturale și factorilor de mediu în formarea traiectoriei societăților umane pe diferite continente.</p>
+                    <p>The work introduces Diamond's investigația centrală into the mecanismele civilizației: examining the role din geografie, resurse naturale, și factori ambientali în shaping the trajectory din societăți umane across continente diferite.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Publicată în anii 1990, această carte a apărut într-o perioadă de globalizare crescută și de interes sporit în înțelegerea motivului pentru care anumite regiuni au atins superioritate tehnologică. Ea contestă presupunerile predominante despre diferențe umane inerente între populații.</p>
+                    <p>Publicată în the 1990s, acesta book a apărut during a period din globalizare crescândă și heightened interest în understanding de ce certain regions achieved superioritate tehnologică. It contestă asumptiile prevalente despre inherent human differences între populații.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Această pagină de titlu stabilește premisa centrală a lui Diamond: că diferențele în destinele societăților umane provin din factori geografici și de mediu, și nu din inferioritate biologică sau culturală. Ea pregătește terenul pentru explorarea modului în care geografia - climă, floră, faună și configurația continentală - a determinat cine a deținut arme, germeni și oțel.</p>
+                    <p>Acesta Pagina de titlu stabilește Diamond's premisă esențială: acela differences în Soarta Societăților Umane stem din factori geografici și ambientali rather than inferioritate biologică sau culturală. It pregătește scenariul pentru explorând cum geografie—climat, floră, faună, și configurația continentului—a determinat cine possessed Arme, Germeni și Oțel.</p>
                 </section>
             </div>
         </div>
     </div>
 
-    <script src="../js/reader.js"></script>
+    <script>
+        // Page data
+        const pageData = {
+            number: 1,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
 </body>
 </html>

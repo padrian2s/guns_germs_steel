@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 298 | Guns, Germs, and Steel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Pagina 298 din 460</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>298 ARME, GERMENI ȘI OȚEL</p>
+<p>people, erau farmers și swineherds. They lived în settled villages și</p>
+<p>erau organized politically into tribes rather than bands. All New Guineans</p>
+<p>had bows și arrows, și many used pottery. New Guineans tended pentru</p>
+<p>have much more substantial dwellings, more seaworthy boats, și more</p>
+<p>numerous și more varied utensils than did Australians. Ca a consequence</p>
+<p>din being food producers instead din hunter-gatherers, New Guineans lived</p>
+<p>la much higher average populație densities t</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0298">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>New Guinea-Australia contrast: New Guinea farmers/swineherds, settled villages, tribal organization, bows/arrows, pottery. Substantial dwellings, seaworthy boats, varied utensils. Higher populație density than Australians due pentru food production. Australia: hunter-gatherers, nomadic bands, no agricultură, lower populație density. Geografic resursă availability determină subzistență mode determină populație density determină societal complexity.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Food production geografie-a determinat through domesticable specie availability. Agricultură permite settled villages, higher density, tribal organization. Hunting/gathering permite only bands, low density. Tehnologie complexity (pottery, boats, tools) permite higher living standards. Populație density permite political complexity (tribes vs. bands). Geografie determină resursă availability determină subzistență determină density determină organization.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>New Guinea: tropical crops available (taro, yams, sago), pigs available pentru domesticire. Food production viable. Agricol excedent supported settled populations, crafts dezvoltare (pottery, boats). Australia: minimal domesticable plants/animals, hunting-gathering only viable subzistență. No food excedent, no populație concentration, no craft specialization, no tribal organization dezvoltare.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Geografic domesticable specie availability determină subzistență mode determină populație density determină societal organization. New Guinea geografie enabled agricultură enabling complexity. Australia geografie prevented agricultură forcing hunter-gatherer adaptation. Difference în resources created difference în dezvoltare not human capability difference. Same people în opposite geographies would show opposite dezvoltare patterns.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 298,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>
