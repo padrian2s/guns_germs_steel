@@ -323,8 +323,9 @@ class DocumentReader {
         if (this.currentView === 'image') {
             this.loadPage(this.currentPage);
         } else {
-            // Apply font scaling to text view
-            this.readerContent.style.fontSize = (15 * zoomScale) + 'px';
+            // Apply scaling to text view content
+            this.readerContent.style.transform = `scale(${zoomScale})`;
+            this.readerContent.style.transformOrigin = 'top left';
         }
     }
 
