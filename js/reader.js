@@ -41,6 +41,7 @@ class DocumentReader {
         this.menuPageDisplay = document.getElementById('menuPageDisplay');
         this.themeToggle = document.getElementById('themeToggle');
         this.menuThemeToggle = document.getElementById('menuThemeToggle');
+        this.langToggle = document.getElementById('langToggle');
     }
 
     attachEventListeners() {
@@ -86,6 +87,9 @@ class DocumentReader {
                     break;
                 case 't':
                     this.toggleTheme();
+                    break;
+                case 'l':
+                    this.toggleLanguage();
                     break;
                 case 'm':
                     this.toggleMenu();
@@ -207,6 +211,22 @@ class DocumentReader {
                 this.updateMenuThemeIcon(newTheme);
             });
         }
+
+        // Language toggle
+        if (this.langToggle) {
+            // Load saved language preference
+            const savedLang = localStorage.getItem('language') || 'en';
+            this.updateLanguageToggle(savedLang);
+
+            this.langToggle.addEventListener('click', () => {
+                const currentLang = localStorage.getItem('language') || 'en';
+                const newLang = currentLang === 'en' ? 'ro' : 'en';
+                
+                localStorage.setItem('language', newLang);
+                this.updateLanguageToggle(newLang);
+                this.loadPage(this.currentPage); // Reload page with new language
+            });
+        }
     }
 
     async loadPage(pageNum) {
@@ -218,8 +238,10 @@ class DocumentReader {
         this.updateUI();
         this.storeState();
 
-        // Load the page content
-        const pageFile = `text/page_${String(pageNum).padStart(4, '0')}.html`;
+        // Load the page content with language support
+        const language = localStorage.getItem('language') || 'en';
+        const langSuffix = language === 'ro' ? '_ro' : '';
+        const pageFile = `text/page_${String(pageNum).padStart(4, '0')}${langSuffix}.html`;
 
         try {
             const response = await fetch(pageFile);
@@ -236,7 +258,22 @@ class DocumentReader {
                     this.readerContent.innerHTML = content.innerHTML;
                 }
             } else {
-                this.readerContent.innerHTML = `<p>Error loading page ${pageNum}</p>`;
+                // If Romanian version doesn't exist, fall back to English
+                if (language === 'ro') {
+                    const fallbackFile = `text/page_${String(pageNum).padStart(4, '0')}.html`;
+                    const fallbackResponse = await fetch(fallbackFile);
+                    if (fallbackResponse.ok) {
+                        const html = await fallbackResponse.text();
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+                        const content = doc.querySelector('.page-container') || doc.body;
+                        this.readerContent.innerHTML = content.innerHTML;
+                    } else {
+                        this.readerContent.innerHTML = `<p>Error loading page ${pageNum}</p>`;
+                    }
+                } else {
+                    this.readerContent.innerHTML = `<p>Error loading page ${pageNum}</p>`;
+                }
             }
         } catch (error) {
             this.readerContent.innerHTML = `
@@ -360,6 +397,13 @@ class DocumentReader {
         }
     }
 
+    updateLanguageToggle(lang) {
+        if (this.langToggle) {
+            this.langToggle.textContent = lang === 'en' ? '🌐 EN' : '🌐 RO';
+            this.langToggle.title = lang === 'en' ? 'Switch to Romanian' : 'Switch to English';
+        }
+    }
+
     toggleTheme() {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         const themes = ['default', 'soft-sepia', 'sepia', 'dark'];
@@ -370,6 +414,15 @@ class DocumentReader {
         localStorage.setItem('theme', newTheme);
         this.updateThemeIcon(newTheme);
         this.updateMenuThemeIcon(newTheme);
+    }
+
+    toggleLanguage() {
+        const currentLang = localStorage.getItem('language') || 'en';
+        const newLang = currentLang === 'en' ? 'ro' : 'en';
+        
+        localStorage.setItem('language', newLang);
+        this.updateLanguageToggle(newLang);
+        this.loadPage(this.currentPage); // Reload page with new language
     }
 
     toggleMenu() {
