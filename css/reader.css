@@ -196,7 +196,6 @@ body {
     padding: 15px;
     background: white;
     border-radius: 4px;
-    border-left: 3px solid var(--accent-light);
 }
 
 .commentary-section h3 {
