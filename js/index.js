@@ -4,6 +4,54 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        // Load saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const themes = ['default', 'soft-sepia', 'sepia', 'dark'];
+            const currentIndex = themes.indexOf(currentTheme || 'default');
+            const newTheme = themes[(currentIndex + 1) % themes.length];
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+    }
+
+    function updateThemeIcon(theme) {
+        if (themeToggle) {
+            let icon, title;
+            switch(theme) {
+                case 'soft-sepia':
+                    icon = '🌞';
+                    title = 'Switch to classic sepia theme';
+                    break;
+                case 'sepia':
+                    icon = '🌚';
+                    title = 'Switch to dark theme';
+                    break;
+                case 'dark':
+                    icon = '🌙';
+                    title = 'Switch to default theme';
+                    break;
+                default: // default theme
+                    icon = '🌓';
+                    title = 'Switch to soft sepia theme';
+                    break;
+            }
+            themeToggle.textContent = icon;
+            themeToggle.title = title;
+        }
+    }
+
     // TOC item click handlers
     document.querySelectorAll('.toc-item').forEach(item => {
         item.addEventListener('click', () => {

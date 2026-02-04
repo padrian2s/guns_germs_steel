@@ -39,6 +39,8 @@ class DocumentReader {
         this.bottomMenuVisible = this.getStoredBottomMenuState();
         this.menuPageInput = document.getElementById('menuPageInput');
         this.menuPageDisplay = document.getElementById('menuPageDisplay');
+        this.themeToggle = document.getElementById('themeToggle');
+        this.menuThemeToggle = document.getElementById('menuThemeToggle');
     }
 
     attachEventListeners() {
@@ -81,6 +83,9 @@ class DocumentReader {
                     break;
                 case 'n':
                     this.toggleSidebar();
+                    break;
+                case 't':
+                    this.toggleTheme();
                     break;
                 case 'm':
                     this.toggleMenu();
@@ -164,6 +169,44 @@ class DocumentReader {
                 }
             }
         });
+
+        // Theme toggle
+        if (this.themeToggle) {
+            // Load saved theme preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+                this.updateThemeIcon(savedTheme);
+                this.updateMenuThemeIcon(savedTheme);
+            }
+
+            this.themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const themes = ['default', 'soft-sepia', 'sepia', 'dark'];
+                const currentIndex = themes.indexOf(currentTheme || 'default');
+                const newTheme = themes[(currentIndex + 1) % themes.length];
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                this.updateThemeIcon(newTheme);
+                this.updateMenuThemeIcon(newTheme);
+            });
+        }
+
+        // Menu theme toggle
+        if (this.menuThemeToggle) {
+            this.menuThemeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const themes = ['default', 'soft-sepia', 'sepia', 'dark'];
+                const currentIndex = themes.indexOf(currentTheme || 'default');
+                const newTheme = themes[(currentIndex + 1) % themes.length];
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                this.updateThemeIcon(newTheme);
+                this.updateMenuThemeIcon(newTheme);
+            });
+        }
     }
 
     async loadPage(pageNum) {
@@ -259,6 +302,74 @@ class DocumentReader {
         } else {
             this.toggleViewBtn.textContent = '📝 Text';
         }
+    }
+
+    updateThemeIcon(theme) {
+        if (this.themeToggle) {
+            let icon, title;
+            switch(theme) {
+                case 'soft-sepia':
+                    icon = '🌞';
+                    title = 'Switch to classic sepia theme';
+                    break;
+                case 'sepia':
+                    icon = '🌚';
+                    title = 'Switch to dark theme';
+                    break;
+                case 'dark':
+                    icon = '🌙';
+                    title = 'Switch to default theme';
+                    break;
+                default: // default theme
+                    icon = '🌓';
+                    title = 'Switch to soft sepia theme';
+                    break;
+            }
+            this.themeToggle.textContent = icon;
+            this.themeToggle.title = title;
+        }
+    }
+
+    updateMenuThemeIcon(theme) {
+        if (this.menuThemeToggle) {
+            let icon, text, title;
+            switch(theme) {
+                case 'soft-sepia':
+                    icon = '🌞';
+                    text = 'Soft Sepia';
+                    title = 'Switch to classic sepia theme';
+                    break;
+                case 'sepia':
+                    icon = '🌚';
+                    text = 'Classic Sepia';
+                    title = 'Switch to dark theme';
+                    break;
+                case 'dark':
+                    icon = '🌙';
+                    text = 'Tokyo Night';
+                    title = 'Switch to default theme';
+                    break;
+                default: // default theme
+                    icon = '🌓';
+                    text = 'Default Theme';
+                    title = 'Switch to soft sepia theme';
+                    break;
+            }
+            this.menuThemeToggle.textContent = `${icon} ${text}`;
+            this.menuThemeToggle.title = title;
+        }
+    }
+
+    toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const themes = ['default', 'soft-sepia', 'sepia', 'dark'];
+        const currentIndex = themes.indexOf(currentTheme || 'default');
+        const newTheme = themes[(currentIndex + 1) % themes.length];
+        
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        this.updateThemeIcon(newTheme);
+        this.updateMenuThemeIcon(newTheme);
     }
 
     toggleMenu() {

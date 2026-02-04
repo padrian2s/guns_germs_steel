@@ -41,6 +41,7 @@
             <div class="reader-header">
                 <div class="reader-title">Guns, Germs, and Steel</div>
                 <div class="reader-controls">
+                    <button id="themeToggle" class="secondary" title="Toggle theme">🌓</button>
                     <button id="prevBtn" title="Previous page (←)">← Previous</button>
                     <input type="number" id="pageInput" class="page-input" min="1" max="457" value="1" title="Jump to page">
                     <span id="pageDisplay">1 / 457</span>
@@ -98,6 +99,10 @@
                 <input type="number" id="menuPageInput" class="menu-page-input" min="1" max="457" placeholder="1-457" title="Enter page number">
                 <span id="menuPageDisplay" class="menu-page-display">1/457</span>
             </div>
+            <div class="bottom-menu-section">
+                <strong>Theme:</strong>
+                <button id="menuThemeToggle" class="menu-theme-toggle" title="Toggle theme">🌓 Theme</button>
+            </div>
         </div>
     </div>
 
@@ -118,6 +123,7 @@
                 <ul>
                     <li><kbd>V</kbd> Toggle Image/Text view</li>
                     <li><kbd>N</kbd> Toggle Sidebar navigation</li>
+                    <li><kbd>T</kbd> Cycle Themes (Default → Soft Sepia → Classic Sepia → Tokyo Night)</li>
                     <li><kbd>+</kbd> Zoom in</li>
                     <li><kbd>-</kbd> Zoom out</li>
                     <li><kbd>0</kbd> Reset zoom to 100%</li>
