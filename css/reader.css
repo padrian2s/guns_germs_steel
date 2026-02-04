@@ -508,6 +508,13 @@ kbd {
     border-radius: 8px 8px 0 0;
     max-width: 600px;
     width: 90%;
+    max-height: 45px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.bottom-menu.expanded {
+    max-height: 200px;
 }
 
 .bottom-menu-toggle {
@@ -517,11 +524,14 @@ kbd {
     font-weight: bold;
     user-select: none;
     transition: all 0.2s ease;
+    display: block;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .bottom-menu-toggle:hover {
     background: var(--primary);
-    padding: 8px 12px;
 }
 
 .bottom-menu-content {

@@ -273,9 +273,9 @@ class DocumentReader {
 
     updateBottomMenuVisibility() {
         if (this.bottomMenuVisible) {
-            this.bottomMenuContent.style.display = 'flex';
+            this.bottomMenu.classList.add('expanded');
         } else {
-            this.bottomMenuContent.style.display = 'none';
+            this.bottomMenu.classList.remove('expanded');
         }
     }
 
