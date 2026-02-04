@@ -499,12 +499,15 @@ kbd {
 .bottom-menu {
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background: var(--primary-dark);
     color: white;
     z-index: 50;
     border-top: 1px solid var(--primary);
+    border-radius: 8px 8px 0 0;
+    max-width: 600px;
+    width: 90%;
 }
 
 .bottom-menu-toggle {
