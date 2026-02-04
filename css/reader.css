@@ -508,13 +508,12 @@ kbd {
     border-radius: 8px 8px 0 0;
     max-width: 600px;
     width: 90%;
-    max-height: 28px;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
 }
 
 .bottom-menu.expanded {
-    max-height: 250px;
+    opacity: 1;
 }
 
 .bottom-menu-toggle {
