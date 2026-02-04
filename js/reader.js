@@ -65,23 +65,22 @@ class DocumentReader {
         document.addEventListener('keydown', (e) => {
             if (e.target === this.pageInput) return;
 
-            switch(e.key) {
-                case 'ArrowLeft':
+            const key = e.key.toLowerCase();
+
+            switch(key) {
+                case 'arrowleft':
                     this.previousPage();
                     break;
-                case 'ArrowRight':
+                case 'arrowright':
                     this.nextPage();
                     break;
                 case 'v':
-                case 'V':
                     this.toggleView();
                     break;
                 case 'n':
-                case 'N':
                     this.toggleSidebar();
                     break;
                 case 'm':
-                case 'M':
                     this.toggleMenu();
                     break;
                 case '+':
@@ -103,13 +102,22 @@ class DocumentReader {
                     e.preventDefault();
                     this.showHelp();
                     break;
-                case 'Escape':
+                case 'escape':
                     if (this.helpModal.style.display !== 'none') {
                         this.hideHelp();
                     } else {
                         this.closeMenu();
                     }
                     break;
+            }
+
+            // Handle zoom with Ctrl/Cmd + and -
+            if ((e.ctrlKey || e.metaKey) && (key === '+' || key === '=')) {
+                e.preventDefault();
+                this.zoomIn();
+            } else if ((e.ctrlKey || e.metaKey) && (key === '-' || key === '_')) {
+                e.preventDefault();
+                this.zoomOut();
             }
         });
 
