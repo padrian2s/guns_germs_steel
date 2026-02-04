@@ -51,13 +51,7 @@ body {
 }
 
 .reader-header {
-    background: white;
-    border-bottom: 2px solid var(--primary);
-    padding: 15px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: var(--shadow);
+    display: none;
 }
 
 .reader-title {
@@ -308,11 +302,7 @@ select {
 /* ===== PROGRESS BAR ===== */
 
 .progress-bar {
-    width: 100%;
-    height: 6px;
-    background: var(--border);
-    border-radius: 3px;
-    overflow: hidden;
+    display: none;
 }
 
 .progress-fill {
