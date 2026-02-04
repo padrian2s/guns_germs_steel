@@ -37,41 +37,11 @@ body {
 }
 
 .reader-sidebar {
-    width: 200px;
-    background: var(--primary-dark);
-    color: white;
-    padding: 20px;
-    overflow-y: auto;
-    box-shadow: var(--shadow-lg);
-    transition: transform 0.3s ease, width 0.3s ease;
-}
-
-.reader-sidebar.hidden {
     display: none;
 }
 
 .sidebar-toggle {
-    position: fixed;
-    left: 10px;
-    top: 15px;
-    z-index: 100;
-    background: var(--primary-dark);
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.2s ease;
-}
-
-.sidebar-toggle:hover {
-    background: var(--primary-light);
-    transform: scale(1.1);
-}
-
-.sidebar-toggle.hidden {
-    left: 10px;
+    display: none;
 }
 
 .reader-main {
