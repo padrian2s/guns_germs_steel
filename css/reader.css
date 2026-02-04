@@ -47,10 +47,7 @@ body {
 }
 
 .reader-sidebar.hidden {
-    transform: translateX(-100%);
-    width: 0;
-    padding: 0;
-    min-width: 0;
+    display: none;
 }
 
 .sidebar-toggle {
