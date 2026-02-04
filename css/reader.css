@@ -570,6 +570,32 @@ kbd {
     transform: translateY(-1px);
 }
 
+.menu-page-input {
+    padding: 4px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    width: 50px;
+    text-align: center;
+}
+
+.menu-page-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-page-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-page-display {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
 /* ===== ANIMATIONS ===== */
 
 @keyframes fadeIn {

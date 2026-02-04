@@ -37,6 +37,8 @@ class DocumentReader {
         this.bottomMenuToggle = document.getElementById('bottomMenuToggle');
         this.bottomMenuContent = document.getElementById('bottomMenuContent');
         this.bottomMenuVisible = this.getStoredBottomMenuState();
+        this.menuPageInput = document.getElementById('menuPageInput');
+        this.menuPageDisplay = document.getElementById('menuPageDisplay');
     }
 
     attachEventListeners() {
@@ -151,6 +153,16 @@ class DocumentReader {
                     this.closeBottomMenu();
                 }
             });
+        });
+
+        // Menu page input
+        this.menuPageInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                const page = parseInt(this.menuPageInput.value);
+                if (!isNaN(page)) {
+                    this.loadPage(page);
+                }
+            }
         });
     }
 
@@ -333,6 +345,10 @@ class DocumentReader {
         // Update page display
         this.pageInput.value = this.currentPage;
         this.pageDisplay.textContent = `${this.currentPage} / ${this.totalPages}`;
+
+        // Update menu page display
+        this.menuPageInput.value = this.currentPage;
+        this.menuPageDisplay.textContent = `${this.currentPage}/${this.totalPages}`;
 
         // Update progress bar
         const progress = (this.currentPage / this.totalPages) * 100;
