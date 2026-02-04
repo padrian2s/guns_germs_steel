@@ -325,7 +325,7 @@ class DocumentReader {
         } else {
             // Apply scaling to text view content
             this.readerContent.style.transform = `scale(${zoomScale})`;
-            this.readerContent.style.transformOrigin = 'top left';
+            this.readerContent.style.transformOrigin = 'center';
         }
     }
 
