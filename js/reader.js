@@ -36,7 +36,7 @@ class DocumentReader {
         this.bottomMenu = document.getElementById('bottomMenu');
         this.bottomMenuToggle = document.getElementById('bottomMenuToggle');
         this.bottomMenuContent = document.getElementById('bottomMenuContent');
-        this.bottomMenuVisible = this.getStoredBottomMenuState() !== false;
+        this.bottomMenuVisible = this.getStoredBottomMenuState();
     }
 
     attachEventListeners() {
