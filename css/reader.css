@@ -73,6 +73,8 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
+    font-size: 15px;
+    transition: font-size 0.2s ease;
 }
 
 /* ===== PAGE VIEW ===== */
@@ -145,7 +147,6 @@ body {
 
 .original-content {
     background: white;
-    border-left: 4px solid var(--primary);
     padding: 25px;
     border-radius: 6px;
     box-shadow: var(--shadow);
@@ -173,7 +174,6 @@ body {
 
 .commentary {
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
-    border-left: 4px solid var(--accent);
     padding: 25px;
     border-radius: 6px;
     box-shadow: var(--shadow);

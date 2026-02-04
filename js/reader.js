@@ -199,6 +199,8 @@ class DocumentReader {
         this.storeView();
         this.updateViewButton();
         this.loadPage(this.currentPage);
+        // Apply zoom level to new view
+        setTimeout(() => this.setZoom(this.currentZoom), 100);
     }
 
     toggleSidebar() {
@@ -308,9 +310,13 @@ class DocumentReader {
             }
         });
 
-        // Reload page with new zoom
+        // Apply zoom to both image and text views
+        const zoomScale = zoomLevel / 100;
         if (this.currentView === 'image') {
             this.loadPage(this.currentPage);
+        } else {
+            // Apply font scaling to text view
+            this.readerContent.style.fontSize = (15 * zoomScale) + 'px';
         }
     }
 
