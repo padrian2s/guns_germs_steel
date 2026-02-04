@@ -222,13 +222,13 @@ class DocumentReader {
     }
 
     toggleMenu() {
-        // Placeholder for menu functionality
-        console.log('Menu toggled');
+        this.toggleSidebar();
     }
 
     closeMenu() {
-        // Placeholder for menu functionality
-        console.log('Menu closed');
+        if (this.sidebarVisible) {
+            this.toggleSidebar();
+        }
     }
 
     showHelp() {
