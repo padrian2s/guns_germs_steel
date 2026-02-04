@@ -3,55 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 33 | Guns, Germs, and Steel</title>
+    <title>Pagina 33 | Arme, Microbi și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pagina 33 din 460</h1>
-        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <h1>Pagina 33 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
-
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>F R OM E D EN PENTRU</p>
-<p>C A J A M A R CA</p>
+                <p>DE LA EDEN LA CAJAMARCA</p>
             </div>
         </div>
-
         <div class="commentary" id="commentary-0033">
             <h2>📚 Analiză Educațională</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Part 1 Pagina de titlu introduces "Din Eden pentru Cajamarca"—spanning human origins în Africa pentru the 1532 Spanish cucerire din the Inca în Peru. Acesta temporal și geographical arc encompasses all human evoluție și history relevant pentru understanding cum tehnologic gaps a apărut.</p>
+                    <p>Titlul Părții 1 introduce "De la Eden la Cajamarca"—întinzând de la originile umane în Africa la cucerirea spaniolă din 1532 a Imperiului Inca din Peru. Acest arc temporal și geografic cuprinde toată evoluția și istoria umană relevante pentru înțelegerea cum au apărut decalajele tehnologice.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>The metaphorical "Eden" references human origins; "Cajamarca" symbolizes the moment when tehnologic inequality translated into cucerire. The title frames history ca movement din biologic/evolutionary origins pentru civilizație's intersection cu tehnologie.</p>
+                    <p>"Eden" metaforic se referă la originile umane; "Cajamarca" simbolizează momentul când inegalitatea tehnologică s-a tradus în cucerire. Titlul cadrul istoria ca mișcare de la origini biologice/evolutive la intersecția civilizației cu tehnologia.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Part 1 covers 13,000 years din the Ice Age's end (~11,000 BCE) pentru Cajamarca (1532 CE). Acesta period encompasses the rise din civilizație, dezvoltare din tehnologie, și establishment din global inequality.</p>
+                    <p>Partea 1 acoperă 13.000 de ani de la sfârșitul Epocii de Gheață (~11.000 î.H.) la Cajamarca (1532 H.C.). Această perioadă cuprinde apariția civilizației, dezvoltarea tehnologiei și stabilirea inegalității globale.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>The title sugerează geografie shaped humanity's path din origin pentru civilizație. Part 1 will demonstrate cum geographical advantages established de 1532 a determinat Pizarro's cucerire din Atahuallpa.</p>
+                    <p>Titlul sugerează că geografia a modelat calea umanității de la origine la civilizație. Partea 1 va demonstra cum avantajele geografice stabilite până în 1532 au determinat cucerit de Pizarro al lui Atahuallpa.</p>
                 </section>
             </div>
         </div>
     </div>
-
     <script>
-        // Page data
-        const pageData = {
-            number: 33,
-            totalPages: 457
-        };
-
+        const pageData = { number: 33, totalPages: 457 };
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -59,8 +50,6 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
-
-        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {
