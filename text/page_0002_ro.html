@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2 | Arme, Germeni și Oțel</title>
+    <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body class="page-view">
+    <div class="page-header" id="pageHeader">
+        <h1>Page 2 of 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
+        <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
+    </div>
+
+    <div class="page-container">
+        <div class="original-content">
+            <h2>Conținut Original</h2>
+            <div class="text-content">
+                <p>More praise for</p>
+<p>Arme, Germeni și Oțel</p>
+<p>"No scientist brings more experience from the laboratory and field, none</p>
+<p>thinks more deeply about social issues or addresses them with greater clar</p>
+<p>ity, than Jared Diamond as illustrated by Arme, Germeni și Oțel. In this</p>
+<p>remarkably readable book he shows how history and biology can enrich</p>
+<p>one another to produce a deeper understanding of the human condition."</p>
+<p>—Edward O. Wilson, Pellegrino University Professor, Harvard University</p>
+<p>"Serious, groundbreaking bio</p>
+            </div>
+        </div>
+
+        <div class="commentary" id="commentary-0002">
+            <h2>📚 Analiză Educațională</h2>
+            <div class="commentary-sections">
+                <section class="commentary-section">
+                    <h3>Rezumat</h3>
+                    <p>This page contains praise for Diamond's groundbreaking work from leading scientists and historians. Endorsements highlight how the book synthesizes biology, history, and multiple academic disciplines to explain human societal development.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Concepte Cheie</h3>
+                    <p>Critics emphasize Diamond's interdisciplinary approach combining laboratory science, field experience, history, and anthropology. The work is praised for offering a scientific alternative to racist explanations of human inequality.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>The endorsements reflect late 1990s academic consensus emerging against racial determinism. Prominent scholars like Edward O. Wilson (evolutionary biologist), Luca Cavalli-Sforza (geneticist), and historians recognize the need for environmental rather than genetic explanations of civilizational differences.</p>
+                </section>
+                <section class="commentary-section">
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>These endorsements establish that Diamond's thesis—geography rather than race determines societal development—addresses a fundamental historical question that previous scholarship either ignored or answered incorrectly. The book's synthesis of evidence from archaeology, epidemiology, and ecology strengthens this central argument.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Page data
+        const pageData = {
+            number: 2,
+            totalPages: 457
+        };
+
+        function togglePageHeader() {
+            const header = document.getElementById('pageHeader');
+            header.classList.toggle('collapsed');
+            const btn = header.querySelector('.header-toggle-btn');
+            btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
+            localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
+        }
+
+        // Restore header state on load
+        window.addEventListener('load', () => {
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
+            }
+        });
+    </script>
+</body>
+</html>
