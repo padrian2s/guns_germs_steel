@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 38 | Arme, Microbi și Oțel</title>
+    <title>Pagina 38 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 38 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>38 • ARME, MICROBI ȘI OȚEL</p>
+
+                <p>38 • GUNS, GERMS, AND STEEL</p>
+<p>arbitrary, since Homo erectus evolved into Homo sapiens. However, these</p>
+<p>early Homo sapiens still differed from us in skeletal details, had brains</p>
+<p>significantly smaller than ours, and were grossly different from us in their</p>
+<p>artifacts and behavior. Modern stone-tool-making peoples, such as Yali's</p>
+<p>great-grandparents, would have scorned the stone tools of half a million</p>
+<p>years ago as very crude. The only other significant addition to our ances</p>
+<p>tors' cultural repertoire tha</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0038">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Homo sapiens timpuriu (500.000+ ani în urmă) diferea substantial de oamenii moderni în structură scheletală și dimensiune craniană. Uneltele lor de piatră erau crude comparate cu popoarele moderne, și le lipsea sofisticarea culturală a oamenilor mai târzii. Diamond subliniază că trecerea de la Homo erectus la Homo sapiens a fost treptată, nu o revoluție comportamentală bruscă.</p>
+                    <p>Early Homo sapiens (500,000+ years ago) differed substantially from modern humans in skeletal structure and brain size. Their stone tools were crude compared to modern peoples, and they lacked the cultural sophistication of later humans. Diamond emphasizes that the transition from Homo erectus to Homo sapiens was gradual, not a sudden behavioral revolution.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Distincție între oameni anatomic moderni și oameni comportamental moderni. Homo sapiens timpuriu poseda creiere mai mici și făceau unelte neimpresionautoare—popoare moderne care fac unelte de piatră ar fi scornit de ele. Barierele geografice (traversări de apă) au rămas imposibil de trecut fără inovații tehnologice mai târzii.</p>
+                    <p>Distinction between anatomically modern humans and behaviorally modern humans. Early Homo sapiens possessed smaller brains and made unimpressive tools—modern stone-tool-making peoples would have scorned them. Geographic barriers (water crossings) remained impassable without later technological innovations.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Homo sapiens timpuriu a ocupat Africa și Europa de la ~500.000 de ani în urmă. În pofida modernității anatomice, capabilități comportamentale și tehnologice au rămas primitive. Australia și Americile au rămas nepopulate datorită limitării tehnologice în ambarcația de apă.</p>
+                    <p>Early Homo sapiens occupied Africa and Europe from ~500,000 years ago. Despite anatomical modernity, behavioral and technological capabilities remained primitive. Australia and Americas remained unpeopled due to technological limitations in watercraft.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Potențialul de expansiune geografică a fost constrâns de dezvoltarea tehnologică. Nu toți oamenii cu anatomie identică aveau capacitate egală pentru colonizarea geografică—tehnologia, nu biologia, a determinat care continente puteau fi ajunse. Acest tipar stabilește rolul controlator al geografiei în dezvoltarea umană.</p>
+                    <p>Geographic expansion potential was constrained by technological development. Not all humans with the same anatomy had equal capacity for geographic colonization—technology, not biology, determined which continents could be reached. This pattern establishes geography's controlling role in human development.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 38, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 38,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +67,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 4 | Guns, Germs, și Steel</title>
+    <title>Pagina 4 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 4 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 4 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>Pentru Eso, Korînigo, Omwoi, Poron, Souokori, Wiwor,</p>
-<p>și oll my oolr New Guîneo friends și teochers—</p>
-<p>mcloers dîn o difficult mediu</p>
-<p>Copyright © 1999,1997 de Jsuntd Diomped</p>
-<p>Oll rights reserved</p>
-<p>Prînted în ol United Stloes dîn Omerico</p>
-<p>First publicloă co o Norlon poperbock 1999</p>
-<p>Pentru înpentrumloipe despre permestesipe pentru reproduce selectipes dîn ocesto book,</p>
-<p>write pentru Permestesipes, W. W. Norlon & Compony, Înc., 500 Fifth Ovenue, New</p>
+
+                <p>To Esa, Kariniga, Omwai, Paran, Sauakari, Wiwor,</p>
+<p>and all my other New Guinea friends and teachers—</p>
+<p>masters of a difficult environment</p>
+<p>Copyright © 1999,1997 by Jared Diamond</p>
+<p>All rights reserved</p>
+<p>Printed in the United States of America</p>
+<p>First published as a Norton paperback 1999</p>
+<p>For information about permission to reproduce selections from this book,</p>
+<p>write to Permissions, W. W. Norton & Company, Inc., 500 Fifth Avenue, New</p>
 <p>York, NY 10110.</p>
-<p>Ol text dîn ocesto book este composed în Sobpe</p>
-<p>cu ol desteploy s</p>
+<p>The text of this book is composed in Sabon</p>
+<p>with the display s</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0004">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Ocesto Pogîno cpetoîns Diomped's dedicloipe pentru heste New Guîneo colleogues și ol copyright/publicloipe înpentrumloipe. Ol dedicloipe hpeors oceio cîne tought him despre mcloerîng difficult Medius, reflectîng heste yeors dîn fieldwork în New Guîneo.</p>
+                    <p>This page contains Diamond's dedication to his New Guinea colleagues and the copyright/publication information. The dedication honors those who taught him about mastering difficult environments, reflecting his years of fieldwork in New Guinea.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diomped ocknowledges New Guîneons co "mcloers dîn o difficult mediu"—o respectful fromîng ocelo directly counters rocestet norrloives. Heste field experience cu New Guîneon peoples înpentrums heste entire olseste despre ombientol odoptloipe.</p>
+                    <p>Diamond acknowledges New Guineans as "masters of a difficult environment"—a respectful framing that directly counters racist narratives. His field experience with New Guinean peoples informs his entire thesis about environmental adaptation.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Diomped's decodes dîn ornithologicol reseorch în New Guîneo (1960s-1970s) provided firsthși experience cu o chollengîng tropicol mediu. Ocesto perspeol cpenectipe grounded heste understșiîng dîn cum geogrofie shopes societies și mode Yoli's questipe perspeol roolr thon obstroct.</p>
+                    <p>Diamond's decades of ornithological research in New Guinea (1960s-1970s) provided firsthand experience with a challenging tropical environment. This personal connection grounded his understanding of how geography shapes societies and made Yali's question personal rather than abstract.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Ol dedicloipe pentru New Guîneon teochers stobilește Diomped's respect pentru olir civilizoție while cokîng de ce it produced different technologies thon Europe. Ocesto respects olir mcloery dîn olir own mediu while învestigloîng de ce geogrophicol differences led pentru different Dezvoltsuntol trojeclories.</p>
+                    <p>The dedication to New Guinean teachers establishes Diamond's respect for their civilization while asking why it produced different technologies than Europe. This respects their mastery of their own environment while investigating why geographical differences led to different developmental trajectories.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -72,10 +74,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

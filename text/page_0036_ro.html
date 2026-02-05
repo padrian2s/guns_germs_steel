@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 36 | Arme, Microbi și Oțel</title>
+    <title>Pagina 36 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 36 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>36 • ARME, MICROBI ȘI OȚEL</p>
+
+                <p>36 • GUNS, GERMS, AND STEEL</p>
+<p>vides the answer to Yali's question. Hence this chapter will offer a whirl</p>
+<p>wind tour of human history on all the continents, for millions of years,</p>
+<p>from our origins as a species until 13,000 years ago. All that will now be</p>
+<p>summarized in less than 20 pages. Naturally, I shall gloss over details and</p>
+<p>mention only what seem to me the trends most relevant to this book.</p>
+<p>Our closest living relatives are three surviving species of great ape: the</p>
+<p>gorilla, the common chimpanzee</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0036">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond rezumă milioane de ani de evoluție umană de la strămoși de maimuță (~7 milioane de ani în urmă) la oameni moderni. Originea africană a maiimuțelor mari indică evoluția umană a avut loc și în Africa. Homininii timpurii (Australopithecus, Homo habilis, Homo erectus) au dezvoltat postura verticală, creiere mai mari și unelte de piatră, dar au rămas confinați în Africa timp de milioane de ani.</p>
+                    <p>Diamond summarizes millions of years of human evolution from ape ancestors (~7 million years ago) to modern humans. Great apes' African origin indicates human evolution also occurred in Africa. Early hominins (Australopithecus, Homo habilis, Homo erectus) developed upright posture, larger brains, and stone tools, but remained confined to Africa for millions of years.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Evoluția umană timpurie era fenomen african. Homo erectus s-a răspândit pentru prima dată dincolo de Africa la Java ~1 milion de ani în urmă. Până în 500.000 de ani în urmă, Homo sapiens a apărut în Africa și Europa. Uneltele de piatră timpurii erau crude; Australia, Americile au rămas nepopulate (necesita tehnologie de bărci sau ocupație siberiană).</p>
+                    <p>Early human evolution was African phenomenon. Homo erectus first spread beyond Africa to Java ~1 million years ago. By 500,000 years ago, Homo sapiens appeared in Africa and Europe. Early stone tools were crude; Australia, Americas remained unpeopled (required boat technology or Siberian occupation).</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Evoluția umană a paralela geografia africană timp de milioane de ani. Barierele geografice (apă, climat) au împiedicat răspândirea umană la Australia și Americi până mult mai târziu. Rolul Africii ca leagănul umanității a stabilit-o ca centru al dezvoltării tehnologice timpurii.</p>
+                    <p>Human evolution paralleled African geography for millions of years. Geographic barriers (water, climate) prevented human spread to Australia and Americas until much later. Africa's role as humanity's cradle established it as center of early technological development.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Avantajul timpuriu al evoluției umane africane nu s-a tradus în superioritate tehnologică durabilă. Acest start inițial a devenit irelevant până în 11.000 î.H., dovedind că efectul geografiei asupra avantajului civilizațional depinde de condiții ambientale specifice (specii domestice, climat, etc.).</p>
+                    <p>Africa's early human evolution advantage did not translate to lasting technological superiority. This early head start became irrelevant by 11,000 BCE, proving geography's changing effect on civilizational advantage depending on specific environmental conditions (domesticable species, climate, etc.).</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 36, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 36,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +67,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

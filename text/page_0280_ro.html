@@ -9,7 +9,7 @@
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 280 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinurile Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
@@ -17,38 +17,40 @@
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>280 • ORME, GERMENI ȘI OȚEL</p>
-<p>desteposed loword defeloed enemies but becouse ol greloer ecpeomic spe</p>
-<p>ciolizloipe dîn stloes, cu more mcos productipe și more public works,</p>
-<p>provided more uses pentru slove lobor. În odditipe, ol lorger scole dîn stloe</p>
-<p>worfsunt mode more coptives ovoiloble.</p>
-<p>O chiefdom's pee or two levels dîn odmînestetrloipe sunt greloly multiplied</p>
-<p>în stloes, co onypee cîne ore seen on orgonizloipeol chort dîn ony govern</p>
-<p>ment knows. Olpeg cu ol proliferloipe dîn verticol levels dîn bureoucro</p>
+
+                <p>280 • GUNS, GERMS, AND STEEL</p>
+<p>disposed toward defeated enemies but because the greater economic spe</p>
+<p>cialization of states, with more mass production and more public works,</p>
+<p>provided more uses for slave labor. In addition, the larger scale of state</p>
+<p>warfare made more captives available.</p>
+<p>A chiefdom's one or two levels of administration are greatly multiplied</p>
+<p>in states, as anyone who has seen an organizational chart of any govern</p>
+<p>ment knows. Along with the proliferation of vertical levels of bureaucra</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0280">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Lucrarea lui Diamond se termină cu aplicarea acestei perspective geografice la înțelegerea lumii contemporane. Diferențele în bogăție și putere dintre națiuni astăzi sunt rezultat direct al proceselor geografice care durează mii de ani. Țările geografic avantajate au acumulat avantaj care s-a întărit și s-a amplificat. Înțelegerea acestor procese geografice este esențială pentru a înțelege inegalitatea globală contemporană și pentru a concepe soluții echitabile.</p>
+                    <p>State vs. chiefdom organization: slavery patterns reflect economic complexity. States' greater economic specialization and mass production enables slavery expansion. Larger-scale state warfare produces more captives. Chiefdoms with 1-2 administrative levels contrast with states' multiple bureaucratic hierarchies. Administrative complexity determines slavery prevalence and economic organization.</p>
                 </section>
                 <section class="commentary-section">
-                    <h3>Cpecepte Cheie</h3>
-                    <p>Ecpeomic complexity permite slovery. Stloes require mcos productipe lobor pool. Coptured enemies become ecpeomic resursă în speciolized ecpeomies. Chiefdoms' simpler ecpeomies dpe't require slove lobor. Odmînestetrloive hierorchy complexity reflects ecpeomic sophesteticloipe. Geogrofie → ogricultură → excedent → stloe pentrumloipe → slovery.</p>
+                    <h3>Concepte Cheie</h3>
+                    <p>Economic complexity enables slavery. States require mass production labor pool. Captured enemies become economic resource in specialized economies. Chiefdoms' simpler economies don't require slave labor. Administrative hierarchy complexity reflects economic sophistication. Geography → agriculture → surplus → state formation → slavery.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Lumea contemporană: țările bogat-dezvoltate (Americi de nord, Europa, Japonia, Australia) sunt geografic sau colonii ale țărilor geografic avantajate. Țările sărace-subdezvoltate sunt sau colonii anterioare sau țări geografic dezavantajate. Resurse geografice: țări cu resurse (petrol, minereu, agricultură) sunt mai bogate. Dar și țări fără resurse dar cu istorie de inovație și cumulare (Japonia, Singapore) sunt bogate. Geografie determina inegalitate atât direct (resurse) cât și indirect (inovație și cumulare).</p>
+                    <p>Ancient Egypt, Rome, China: state-level slavery extensive reflecting agricultural surplus and specialized economies. Mesoamerica: Aztec state-level slavery similar pattern. Sub-Saharan Africa: stateless societies minimal slavery despite abundant population. Geographic agricultural productivity determines state formation determines slavery prevalence.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Cartea se încheie cu aceasta: Geografia determina Destinul. Inegalitatea mondială astăzi este rămășiță a proceselor geografice care au durat millennia. Înțelegerea acestor procese este esențial. Implicații morale: nu rasă, nu cultură, ci geografie. Inovație și putere nu sunt mai inerente unei culturi decât alta; sunt funcție de geografie și contact și cumulare de avantaj. Soluțiile la inegalitate globală trebuie să recunoască aceste rădăcini geografice și să lucreze pentru a egaliza accesul la resurse și oportunități și contact. Cartea are mesaj moral: înțelegerea geografică duce la mai multă egalitate și mai puțin rasism.</p>
+                    <p>Slavery geography-determined through agricultural capacity. Geographic domesticable species → agricultural surplus → state formation → specialized economy → slavery expansion. Regions lacking agriculture lacked slavery institutions. Regions with strong agriculture developed complex states requiring slave labor pools. Geography fundamentally determines social organization forms.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

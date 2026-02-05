@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 18 | Guns, Germs, și Steel</title>
+    <title>Pagina 18 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 18 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 18 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>I 8 • PROLOGUL</p>
-<p>Omerico în ol modern world? Esten't ocelo promînence just on ephemerol</p>
-<p>phenomenpe dîn ol lclo few centuries, now fodîng behînd ol promînence</p>
-<p>dîn Jopon și Souolclo Coio? În foct, most dîn ocesto book will deol cu</p>
-<p>peoples oolr thon Europeons. Roolr thon focus solely pe înteroctipes</p>
-<p>between Europeons și npe-Europeons, we sholl olso exomîne înteroc</p>
-<p>tipes between different npe-Europeon peoples—especiolly oceio ocelo look</p>
-<p>ploce cuîn sub-Sohoron Ofrico, Souolclo Coio, Îndpeesio, și</p>
+
+                <p>I 8 • PROLOGUE</p>
+<p>America in the modern world? Isn't that prominence just an ephemeral</p>
+<p>phenomenon of the last few centuries, now fading behind the prominence</p>
+<p>of Japan and Southeast Asia? In fact, most of this book will deal with</p>
+<p>peoples other than Europeans. Rather than focus solely on interactions</p>
+<p>between Europeans and non-Europeans, we shall also examine interac</p>
+<p>tions between different non-European peoples—especially those that took</p>
+<p>place within sub-Saharan Africa, Southeast Asia, Indonesia, and</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0018">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond refută obiecțiile potențiale la investigarea întrebării lui Yali. În primul rând, explicarea dominației nu o justifică — înțelegerea cauzelor permite întreruperea lor, ca și tratamentul bolilor. În al doilea rând, abordarea întrebării nu este eurocentrică — cartea examinează în principal societățile non-europene și interacțiunile lor interne. În al treilea rând, terminologia "civilizației" nu presupune progres — statele moderne au compromisuri (medicină mai bună dar suport social mai mic decât vânători-culegători).</p>
+                    <p>Diamond refutes potential objections to investigating Yali's question. First, explaining domination does not justify it—understanding causes allows interrupting them, like treating diseases. Second, addressing the question is not Eurocentric—the book primarily examines non-European societies and their internal interactions. Third, "civilization" terminology does not assume progress—modern states have tradeoffs (better medicine but less social support than hunter-gatherers).</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diamond distinge explicația de respingere. Determinarea geografică a inegalității este interesantă din punct de vedere științific tocmai pentru că evită concluziile rasiste sau eurocentric. Cartea examinează cum geografia a afectat toate societățile umane, nu celebrând civilizația industrială ci înțelegând cum geografia a modelat adaptări diferite.</p>
+                    <p>Diamond distinguishes explanation from endorsement. Geographic determination of inequality is scientifically interesting precisely because it avoids racist or Eurocentric conclusions. The book examines how geography affected all human societies, not celebrating industrial civilization but understanding how geography shaped different adaptations.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Diamond abordează preocupări academice din târziul secolului XX cu privire la apariția de justificare a imperialismului sau dominației occidentale. Experiența sa personală de a trăi atât în orașe din SUA cât și în sate din Papua Noua Guinee i-a dat perspectivă asupra compromisurilor între stilurile de viață industrial și indigene.</p>
+                    <p>Diamond addresses late-20th-century academic concerns about appearing to justify imperialism or Western dominance. His personal experience living in both U.S. cities and New Guinea villages gave him perspective on tradeoffs between industrial and indigenous lifestyles.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Prin încadrarea metodologiei cărții — comparând dezvoltarea tuturor societăților fără a presupune superioritate occidentală — Diamond stabilește că determinismul geografic explică inegalitatea fără a implica că vreo societate este inerent mai bună. Geografia a modelat căi diferite pentru regiuni diferite, dar judecățile de valoare necesită analiză etică separată de explicația cauzală.</p>
+                    <p>By framing the book's methodology—comparing all societies' development without assuming Western superiority—Diamond establishes that geographical determinism explains inequality without implying any society is inherently better. Geography shaped different paths for different regions, but value judgments require separate ethical analysis from causal explanation.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

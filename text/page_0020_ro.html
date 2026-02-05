@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 20 | Guns, Germs, și Steel</title>
+    <title>Pagina 20 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 20 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 20 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>20 • PROLOGUL</p>
-<p>On enormous efpentrut de cognitive psychologestets ore gpee înlo ol seorch</p>
-<p>pentru differences în IQ between peoples dîn different geogrofic origîns now</p>
-<p>livîng în ol some country. În porticulor, numerous white Omericon psy</p>
-<p>chologestets ou fost tryîng pentru decodes pentru dempestrloe ocelo block Omeri</p>
-<p>cons dîn Ofricon origîns sunt înnloely less întelligent thon white Omericons</p>
-<p>dîn Europeon origîns. Cu loloe ocesteo, co este well known, ol peoples compsuntd</p>
-<p>differ greloly în olir sociol mediu și educloi</p>
+
+                <p>20 • PROLOGUE</p>
+<p>An enormous effort by cognitive psychologists has gone into the search</p>
+<p>for differences in IQ between peoples of different geographic origins now</p>
+<p>living in the same country. In particular, numerous white American psy</p>
+<p>chologists have been trying for decades to demonstrate that black Ameri</p>
+<p>cans of African origins are innately less intelligent than white Americans</p>
+<p>of European origins. However, as is well known, the peoples compared</p>
+<p>differ greatly in their social environment and educati</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0020">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond critică decenii de cercetare de QI de psihologi americani albi care încearcă să dovedească că americanii africani sunt genetic inferiori americanilor europeni. El argumentează că aceste eforturi eșuează pentru că populațiile comparate diferă vast în mediu social și oportunități educaționale, făcând imposibil izolarea factorilor genetici. Testele QI măsoară învățarea culturală și oportunități din copilărie, nu "inteligență pură înnăscută".</p>
+                    <p>Diamond critiques decades of IQ research by white American psychologists attempting to prove African Americans genetically inferior to European Americans. He argues these efforts fail because compared populations differ vastly in social environment and educational opportunities, making it impossible to isolate genetic factors. IQ tests measure cultural learning and childhood opportunities, not "pure innate intelligence."</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diamond distinge inteligența genetică de abilități modelate cultural. Mediul copilăriei afectează profund dezvoltarea creierului și performanța testului QI. Incapacitatea științifică de izola inteligența genetică de factori de mediu subminează pretențiile rasiste despre diferențe rasiale genetice de inteligență.</p>
+                    <p>Diamond distinguishes between genetic intelligence and culturally-shaped abilities. Childhood environment profoundly affects brain development and IQ test performance. The scientific inability to isolate genetic intelligence from environmental factors undermines racist claims about genetic racial differences.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Anii 1960-1990 au văzut dezbatere aprig asupra diferențelor QI între grupuri rasiale. Psihologul Arthur Jensen și alții au susținut diferențe rasiale genetice în inteligență. Critica lui Diamond reflectă consensul științific din târziul secolului XX că mediul încurcă astfel de studii.</p>
+                    <p>The 1960s-1990s saw contentious debate over IQ differences between racial groups. Psychologist Arthur Jensen and others claimed genetic racial differences in intelligence. Diamond's critique reflects late-20th-century scientific consensus that environment confounds such studies.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Dacă diferențele de inteligență genetică nu pot fi demonstrate chiar și când grupuri trăiesc în același țară, explicațiile rasiale pentru diferențe tehnologice la nivel continental devin științific inenarabile. Geografia, nu genetica, trebuie să fie factorul cauzal.</p>
+                    <p>If genetic intelligence differences cannot be demonstrated even when groups live in the same country, racial explanations for continental-level technological differences become scientifically untenable. Geography, not genetics, must be the causal factor.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

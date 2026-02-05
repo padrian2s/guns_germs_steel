@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 29 | Arme, Microbi și Oțel</title>
+    <title>Pagina 29 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 29 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>ÎNTREBAREA LUI YALI • 29</p>
+
+                <p>YALI'S QUESTION • 29</p>
+<p>sisting of Chapters 4-10, is devoted to what I believe to be the most</p>
+<p>important constellation of ultimate causes. Chapter 4 sketches how food</p>
+<p>production—that is, the growing of food by agriculture or herding, instead</p>
+<p>of the hunting and gathering of wild foods—ultimately led to the immedi</p>
+<p>ate factors permitting Pizarro's triumph. But the rise of food production</p>
+<p>varied around the globe. As we shall see in Chapter 5, peoples in some</p>
+<p>parts of the world developed food production</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0029">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Partea 2 identifică producția alimentară ca cea mai importantă constelație de cauze ultime. Producția alimentară (agricultură/creștere de animale vs. vânătoare-culegere) în cele din urmă a permis cuceririle lui Pizarro. Capitolul 5 arată că adoptarea producției alimentare a variat la nivel global—unele popoare au dezvoltat-o independent, altele au achiziționat-o de la alții, altele au rămas vânători-culegători. Capitolele 7-9 explică domesticarea culturilor/animalelor de carne sălbatică, arătând că geografia a determinat speciile domestice disponibile.</p>
+                    <p>Part 2 identifies food production as history's most important constellation of ultimate causes. Food production (agriculture/herding vs. hunting-gathering) ultimately enabled Pizarro's conquests. Chapter 5 shows food production's adoption varied globally—some peoples independently developed it, some acquired it from others, others remained hunter-gatherers. Chapters 7-9 explain crop/livestock domestication from wild ancestors, showing geography determined available domesticable species.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Dependența geografiei de producția alimentară se dovedește crucială: plantele și animalele sălbatice disponibile pentru domesticare au variat după continent. Doar câteva zone continentale au dezvoltat independent producția alimentară. Odată stabilite, ratele de răspândire au variat pe baza axelor continentale: orientarea est-vest eurasiatică a facilitat răspândirea; orientarea nord-sud americană/africană a încetinit-o.</p>
+                    <p>Food production's geography-dependence proves crucial: wild plants and animals available for domestication varied by continent. Only a few continental areas independently developed food production. Once established, spread rates varied based on continental axes: east-west Eurasian orientation facilitated spread; north-south Americas/African orientation retarded it.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Producția alimentară a apărut independent în ~10 locații la nivel mondial (Crescentul Fertil, China, Americile, etc.) dar doar pentru că acele regiuni conțineau specii domestice. Majoritatea regiunilor au adoptat agricultura prin difuzie din aceste centre. Orientarea axei a determinat dacă difuzia ar putea să apară (est-vest împărtășind climă/latitudine vs. nord-sud traversând clima diversă).</p>
+                    <p>Food production emerged independently in ~10 locations worldwide (Fertile Crescent, China, Americas, etc.) but only because those regions contained domesticable species. Most regions adopted agriculture through diffusion from these centers. Axis orientation determined whether diffusion could occur (east-west sharing climate/latitude vs. north-south crossing diverse climates).</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Diferențele geografice în speciile sălbatice și orientarea continentală au determinat direct dacă regiunile au dezvoltat/adoptat producția alimentară devreme sau târziu. Producția alimentară a permis densitate populației, stratificare socială, armate și tehnologie—cauzele proximale ale succesului lui Pizarro urmărind cauza ultime a geografiei.</p>
+                    <p>Geographic differences in wild species and continental orientation directly determined whether regions developed/adopted food production early or late. Food production enabled population density, social stratification, armies, and technology—the proximate causes of Pizarro's success traced back to geography's ultimate causation.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 29, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 29,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +67,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

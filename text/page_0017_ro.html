@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 17 | Guns, Germs, și Steel</title>
+    <title>Pagina 17 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 17 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 17 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>YOLI'S QUESTIPe • I 7</p>
-<p>Mexico, Peru, New Coledpeio, ol pentrumer Soviet Unipe, și ports dîn Îndo</p>
-<p>nesio—civil unrest or guerrillo worfsunt pits still-numerous îndigenous pop</p>
-<p>ulloipes ogoînst governments domînloed de descendonts dîn învodîng</p>
-<p>cpequerors. Mony oolr îndigenous Populoțies—such co nloive Howoi¬</p>
-<p>ions, Oborigînol Oustrolions, nloive Siberions, și Îndions în ol United</p>
-<p>Stloes, Conodo, Brozil, Orgentîno, și Chile—become so reduced în num</p>
-<p>bers de genocide și boolă ocelo oly sunt now grelol</p>
+
+                <p>YALI'S QUESTION • I 7</p>
+<p>Mexico, Peru, New Caledonia, the former Soviet Union, and parts of Indo</p>
+<p>nesia—civil unrest or guerrilla warfare pits still-numerous indigenous pop</p>
+<p>ulations against governments dominated by descendants of invading</p>
+<p>conquerors. Many other indigenous populations—such as native Hawai¬</p>
+<p>ians, Aboriginal Australians, native Siberians, and Indians in the United</p>
+<p>States, Canada, Brazil, Argentina, and Chile—became so reduced in num</p>
+<p>bers by genocide and disease that they are now greatl</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0017">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond documentează consecințele actuale ale coliziunilor istorice: populații indigene în America Centrală, Africa, Indonezia și Uniunea Sovietică încă se luptă împotriva guvernelor dominate de descendenți coloniali. Unele populații indigene (hawaieni nativi, aborijeni australieni, america indigenă) au fost decimați de genocid și boală, acum vastly în număr minoritar. Extincția limbilor se accelerează pe măsură ce engleză, chineză și rusă înlocuiesc 6.000 de limbi supraviețuitoare.</p>
+                    <p>Diamond documents ongoing global consequences of historical collisions: indigenous populations in Central America, Africa, Indonesia, and the Soviet Union still struggle against governments dominated by colonial descendants. Some indigenous populations (Native Hawaiians, Aboriginal Australians, indigenous Americas) were decimated by genocide and disease, now vastly outnumbered. Language extinction accelerates as English, Chinese, and Russian replace 6,000 surviving languages.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diamond subliniază că întrebarea lui Yali are relevanță profundă contemporană. Disparitățile tehnologice istorice au creat dezechilibre de putere durabile cu consecințe în curs: subordonare politică, extincție culturală, pierdere lingvistică. Înțelegerea acestor rădăcini permite întreruperea perpetuării lor mai degrabă decât acceptarea lor ca inevitabile.</p>
+                    <p>Diamond emphasizes that Yali's question has profound contemporary relevance. Historical technological disparities created lasting power imbalances with ongoing consequences: political subordination, cultural extinction, linguistic loss. Understanding these roots allows interrupting their perpetuation rather than accepting them as inevitable.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Pagina reflectă luptele de decolonizare din sfârșitul secolului XX. Multe regiuni realizaseră recent independența totuși rămâneau economic subordonate foștilor colonizatori. Diamond încadrează modelul cel mai larg al istoriei ca direct relevant pentru inegalitățile și conflictele globale contemporane.</p>
+                    <p>The page reflects late-20th-century decolonization struggles. Many regions had recently achieved independence yet remained economically subordinate to former colonizers. Diamond frames history's broadest pattern as directly relevant to contemporary global inequalities and conflicts.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Înțelegerea rolului geografiei în crearea divergenței tehnologice permite abordarea inegalității contemporane științific. Diamond argumentează că înțelegerea cauzalității permite întreruperea lanțurilor cauză-efect, similar cu modul în care înțelegerea mecanismelor bolii permite întreruperea bolii.</p>
+                    <p>Understanding geography's role in creating technological divergence allows addressing contemporary inequality scientifically. Diamond argues that understanding causation enables interrupting cause-and-effect chains, parallel to how understanding disease mechanisms allows interrupting illness.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

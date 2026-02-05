@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 7 | Guns, Germs, și Steel</title>
+    <title>Pagina 7 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 7 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 7 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>CPeTENTS • 7</p>
-<p>COPILoLUL 16 CUM CHÎnO BECOME CHÎnESE</p>
-<p>Ol hestelory dîn Eclo Coio 322</p>
-<p>COPILoLUL 17 SPEEDBOLo PENTRU POLYNESIO</p>
-<p>Ol hestelory dîn ol Oustrpeesion exponsipe 3 3 4</p>
-<p>COPILoLUL ESTE HEMEstePHERES COLLIDÎnG</p>
-<p>Ol hestelories dîn Eurcoio și ol Omericco compsuntd 3 5 4</p>
-<p>COPILoLUL 19 CUM OFRICO BECOME BLOCK</p>
-<p>Ol hestelory dîn Ofrico 376</p>
-<p>EPILOGUL Ol FUTURE DÎn HUMON</p>
-<p>HEsteLoRY CO O SCIENCE 403</p>
-<p>Ocknowledgments 4 2 7</p>
-<p>Furolr Reodîngs 429</p>
+
+                <p>CONTENTS • 7</p>
+<p>CHAPTER 16 HOW CHINA BECAME CHINESE</p>
+<p>The history of East Asia 322</p>
+<p>CHAPTER 17 SPEEDBOAT TO POLYNESIA</p>
+<p>The history of the Austronesian expansion 3 3 4</p>
+<p>CHAPTER IS HEMISPHERES COLLIDING</p>
+<p>The histories of Eurasia and the Americas compared 3 5 4</p>
+<p>CHAPTER 19 HOW AFRICA BECAME BLACK</p>
+<p>The history of Africa 376</p>
+<p>EPILOGUE THE FUTURE OF HUMAN</p>
+<p>HISTORY AS A SCIENCE 403</p>
+<p>Acknowledgments 4 2 7</p>
+<p>Further Readings 429</p>
 <p>Credits 4 5 9</p>
-<p>Îndex 461</p>
+<p>Index 461</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0007">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Această pagină încheie cuprinsul, enumerând capitolele finale despre istoriile regionale (China, Polinezia, comparația America/Eurasia, Africa), o epilog despre istoria ca știință și materiale de sprijin (mulțumiri, lecturi, index).</p>
+                    <p>This page concludes the table of contents, listing final chapters on regional histories (China, Polynesia, Americas/Eurasia comparison, Africa), an epilogue on history as science, and supporting materials (acknowledgments, readings, index).</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Titluri ca "Cum a devenit China chineză" și "Cum a devenit Africa africană" personifică continentele ca agenți modelați de istorie. "Emisfere în coliziune" subliniază punctul de coliziune al geografiei. Focusul epilogului asupra "Istoriei ca știință" indică ambițiile metodologice ale lui Diamond.</p>
+                    <p>Titles like "How China Became Chinese" and "How Africa Became Black" personify continents as agents shaped by history. "Hemispheres Colliding" emphasizes geography's collision point. The epilogue's focus on "History as a Science" indicates Diamond's methodological ambition.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Aceste capitole regionale se întind pe mii de ani pe toate continentele populate. Fiecare capitol testează dacă teza determinismului geografic explică traiectoria diferitelor regiuni din Africa, Asia, Polinezia și America.</p>
+                    <p>These regional chapters span thousands of years across all inhabited continents. Each chapter tests whether the geographical determinism thesis explains different regions' trajectories across Africa, Asia, Polynesia, and the Americas.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Prin încheiere cu o epilog despre istoria ca știință, Diamond ridică explicația sa geografică dincolo de narație la principiu științific. Arhitectura cărții demonstrează că geografia acționează ca o forță cauzală universală pe toate societățile umane și perioadele de timp.</p>
+                    <p>By ending with an epilogue on history as science, Diamond elevates his geographical explanation beyond narrative to scientific principle. The book's architecture proves that geography acts as a universal causal force across all human societies and time periods.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -75,10 +77,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

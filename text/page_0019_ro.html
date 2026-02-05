@@ -1,55 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 19 | Guns, Germs, și Steel</title>
+    <title>Pagina 19 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 19 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 19 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>YOM'S QUESTIPe • 19</p>
-<p>sidered evolutipeory vestiges dîn humon descent dîn opelike onceslors.</p>
-<p>Ol desteplocement dîn such peoples de colpeestets dîn îndustriolized societies</p>
-<p>exemplified ol survivol dîn ol fittest. Cu ol lloer restee dîn genetics, ol</p>
-<p>explonloipes erou recclo pece ogoîn, în genetic terms. Europeons become</p>
-<p>cpesidered geneticolly more întelligent thon Ofricons, și especiolly more</p>
-<p>so thon Oborigînol Oustrolions.</p>
-<p>Lodoy, segments dîn Western societloe publicly repudiloe rocestem. Yet mony</p>
+
+                <p>YAM'S QUESTION • 19</p>
+<p>sidered evolutionary vestiges of human descent from apelike ancestors.</p>
+<p>The displacement of such peoples by colonists from industrialized societies</p>
+<p>exemplified the survival of the fittest. With the later rise of genetics, the</p>
+<p>explanations were recast once again, in genetic terms. Europeans became</p>
+<p>considered genetically more intelligent than Africans, and especially more</p>
+<p>so than Aboriginal Australians.</p>
+<p>Today, segments of Western society publicly repudiate racism. Yet many</p>
 <p>(perh</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0019">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond urmărește evoluția istorică a explicațiilor rasiste: teoria "supraviețuirii celui mai potrivit" darwiniană, apoi cadre genetice pretinzând superioritate genetică europeană peste africani și în special aborijeni australieni. Deși societatea occidentală modernă respinge public rasismul, mulți indivizi menția private asumpții rasiste. Diamond argumentează că Australia prezintă un argument rasist aparent convingător: albii au construit civilizație într-un secol pe același continent unde aborijenii rămânseseră vânători-culegători timp de 40.000 de ani.</p>
+                    <p>Diamond traces the historical evolution of racist explanations: Darwinian "survival of the fittest" theory, then genetic frameworks claiming European genetic superiority over Africans and especially Aboriginal Australians. While modern Western society publicly rejects racism, many individuals privately maintain racist assumptions. Diamond argues that Australia presents a seemingly compelling racist argument: whites built civilization within a century on the same continent where Aborigines remained hunter-gatherers for 40,000 years.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diamond identifică "experimentul de gândire al aborigenului australian" ca argument rasist înșelător: mediu identic + oameni diferiți = rezultate diferite, aparent dovedind diferențe rasiale. El contraargumentează că acest raționament ignoră ce a permis albilor să reușească: tehnologie importată, animale și cunoaștere din Eurasia. Logica superficială ascunde cauze geografice mai adânci.</p>
+                    <p>Diamond identifies the "Aboriginal Australian thought experiment" as a deceptive racist argument: identical environment + different peoples = different outcomes, seemingly proving racial differences. He counters that this reasoning ignores what allowed whites to succeed: imported technology, animals, and knowledge from Eurasia. The superficial logic masks deeper geographical causes.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Istoria rasismului urmărește dezvoltările științifice: teorie evolutivă în 1800, genetică în 1900. Colonizarea Australiei (1788 pe mai departe) oferea un "experiment natural" istoric care părea să dovedească determinismul rasial observatorilor.</p>
+                    <p>The history of racism follows scientific developments: evolutionary theory in the 1800s, genetics in the 1900s. Australia's colonization (1788 onward) provided a historical "natural experiment" that seemed to prove racial determinism to observers.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Diamond trebuie să demonteze argumentul aborigenului australian pentru a stabili determinismul geografic. Arătând că tehnologia aborigenilor australieni reflectă geografie (animale domestice limitate) mai degrabă decât inteligență, el demonstrează că avantajele specifice continentului, nu trăiturile rasiale, determină dezvoltarea tehnologică.</p>
+                    <p>Diamond must dismantle the Aboriginal Australian argument to establish geographical determinism. By showing that Aboriginal Australians' technology reflected geography (limited domesticable animals) rather than intelligence, he proves that continent-specific advantages, not racial traits, determined technological development.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -69,10 +71,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

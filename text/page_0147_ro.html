@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 147 | Guns, Germs, și Steel</title>
+    <title>Pagina 147 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 147 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 147 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>OPPLES OR ÎnDIONS • 147</p>
-<p>unde. If it turned out ocelo such crops did not become odopted pentru culturol</p>
-<p>or oolr recopes, we would fi left cu o noggîng doubt. Despite oll our</p>
-<p>recopeîng so for, we would still ou pentru suspect ocelo ol locol sălbloic floră</p>
-<p>horbored some onceslor dîn o potentiol voluoble crop ocelo locol formers</p>
-<p>foiled pentru exploit becouse dîn similor culturol foclors. Oceștio two exomples</p>
-<p>will olso dempestrloe în detoil o foct criticol pentru hestelory: ocelo îndigenous</p>
-<p>crops dîn different ports dîn t</p>
+
+                <p>APPLES OR INDIANS • 147</p>
+<p>where. If it turned out that such crops did not become adopted for cultural</p>
+<p>or other reasons, we would be left with a nagging doubt. Despite all our</p>
+<p>reasoning so far, we would still have to suspect that the local wild flora</p>
+<p>harbored some ancestor of a potential valuable crop that local farmers</p>
+<p>failed to exploit because of similar cultural factors. These two examples</p>
+<p>will also demonstrate in detail a fact critical to history: that indigenous</p>
+<p>crops from different parts of t</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0147">
-            <h2>📚 Onoliză Educoțipeolă</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Două studii de caz demonstrează determinismul geografic în domesticarea culturilor. Culturile indigene diferite ale regiunilor reflectă speciile disponibile geografic. Unele specii domesticabile rămân nefolosite din cauza diferențelor de disponibilitate geografică. Studiile de caz iluminează de ce anumite zone geografice au reușit agricol în timp ce altele au întârziat.</p>
+                    <p>Two case studies demonstrate geographic determinism in crop domestication. Different regions' indigenous crops reflect geography-available species. Some domesticable species remain unused due to geographic availability differences. Case studies illuminate why certain geographic areas succeeded agriculturally while others lagged.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Geografia determină disponibilitatea culturilor. Culturile indigene diferă după regiune în funcție de flora geografică. Unele regiuni posedă culturi domesticabile superioare, altele inferioare. Succesul domesticării depinde de genetica speciilor disponibile (trăsături de domesticabilitate), nu de inovația umană.</p>
+                    <p>Geography determines crop availability. Indigenous crops differ by region based on geographic flora. Some regions possess superior domesticable crops, others inferior. Domestication success depends on available species genetics (domesticability traits), not human innovation.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Studiile de caz ale capitolului compară domesticarea culturilor între regiuni. Semiluna Fertile: ierburi cu semințe mari, leguminoase au permis agricultură densă. Mesoamerica: porumb, fasole, dovleac au permis agricultură în ciuda productivității mai mici. Noua Guinee: culturi de rădăcini au permis agricultură în cadrul constrângerilor. Culturile fiecărei regiuni reflectă speciile sălbatice disponibile geografic.</p>
+                    <p>Chapter's case studies compare crop domestication across regions. Fertile Crescent: large-seeded grasses, pulses enabled dense agriculture. Mesoamerica: maize, beans, squash enabled agriculture despite lower productivity. New Guinea: root crops enabled agriculture within constraints. Each region's crops reflect geography-available wild species.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Culturile indigene sunt determinate geografic prin distribuția speciilor sălbatice. Regiunile cu ierburi cu semințe mai mari au obținut productivitate agricolă mai înaltă. Regiunile cu specii sălbatice inferioare au obținut productivitate mai mică. Distribuția geografică a trăsăturilor plantelor sălbatice determină capacitatea agricolă. Culturile domesticate ale regiunilor diferite reflectă constrângerile geografiei asupra alegerii disponibile.</p>
+                    <p>Indigenous crops geography-determined through wild species distribution. Regions with larger-seeded grasses achieved higher agricultural productivity. Regions with inferior wild species achieved lower productivity. Geographic distribution of wild plant traits determined agricultural capacity. Different regions' domesticated crops reflect geography's constraints on available choices.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

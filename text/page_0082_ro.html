@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,31 +17,33 @@
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p><em>Conținut vizual - consultați imaginea PDF</em></p>
+
+                <p><em>Visual content - refer to PDF image</em></p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0082">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Ilustrare vizuală a distribuției geografice a centrelor tehnologice și de civilizație. Harta ilustrează concentrația tehnologiei eurasiatice-africane în contrast cu decalajul tehnologic al Americii. Geografia determină unde se dezvoltă civilizațiile prin diferențele de disponibilitate a resurselor.</p>
+                    <p>Visual illustration of geographic distribution of technology and civilization centers. Map illustrates Eurasian-African technology concentration contrasted with Americas technological lag. Geography shapes where civilizations develop through resource availability differences.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Distribuția geografică determină centrele tehnologice. Zonele eurasiatice-africane sprijineau agricultura, domesticire, metalurgie, societăți complexe. Americas lipseau specii domesticabile echivalente, limitând dezvoltarea paralelă. Reprezentarea vizuală arată gruparea geografică a civilizațiilor avansate în Lumea Veche, izolarea relativă a societăților americane.</p>
+                    <p>Geographic distribution determines technology centers. Eurasian-African zones supported agriculture, domestication, metallurgy, complex societies. Americas lacked equivalent domesticable species, limiting parallel development. Visual representation shows geographic clustering of advanced civilizations in Old World, relative isolation of American societies.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Ilustrația descrie dominanța tehnologică a Lumii Vechi reflectată în distribuția globală din 1500 d.Hr.: Eurasia dens populată cu state și imperii, Africa cu regatele stabilite și rețelele comerciale, Americas cu civilizații sofisticate dar geografic izolate. Distribuția geografică reflectă diferențele subiacente de disponibilitate a resurselor care determină limita complexității societății.</p>
+                    <p>Illustration depicts Old World technology dominance reflected in 1500 CE global distribution: Eurasia densely populated with states and empires, Africa with established kingdoms and trade networks, Americas with sophisticated but geographically isolated civilizations. Geographic distribution reflects underlying resource availability differences determining societal complexity ceiling.</p>
                 </section>
                 <section class="commentary-section">
-                    <h3>Conectarea la Teza Principală</h3>
-                    <p>Harta vizualizează rezultatul determinismului geografic până în 1500 d.Hr. Distribuția tehnologiei urmează distribuția speciilor domesticabile: Eurasia-Africa avea cai, vite, oi permițând agricultura, densitatea populației, metalurgie, state complexe. Americas lipseau animale domesticabile mari constrângând productivitatea agricolă, capacitatea populației, avansul tehnologic. Distribuția resurselor geografice determină traiectoria dezvoltării societății reflectată în diferențele tehnologice continentale.</p>
+                    <h3>Conexiune cu Teza Principală</h3>
+                    <p>Map visualizes geographic determinism outcome by 1500 CE. Technology distribution follows domesticable species distribution: Eurasia-Africa had horses, cattle, sheep enabling agriculture, population density, metallurgy, complex states. Americas lacked large domesticable animals constraining agricultural productivity, population capacity, technological advancement. Geographic resource distribution determines societal development trajectory reflected in continental technology differences.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -61,10 +63,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 208 | Guns, Germs, și Steel</title>
+    <title>Pagina 208 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 208 din 457</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soarta Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>208 • ORME, GERMENI ȘI OȚEL</p>
-<p>Cu loloe ocesteo, ol epidemie dies out pentru ony dîn severol recopes, such co beîng</p>
-<p>cured de modern medicîne, or beîng slopped când everybody oround ore</p>
-<p>olreody fost înfected și eiolr becomes immune or dies. Pentru exomple, o</p>
-<p>previously unknown fever termed O'nypeg-nypeg fever oppesuntd în Eclo</p>
-<p>Ofrico în 1959 și proceeded pentru înfect severol millipe Ofricons. It probo</p>
-<p>bly orose dîn o virus dîn mpekeys și ero tronsmitted pentru humons de</p>
-<p>mosquiloes. Ol foct ocelo ploients recovered qu</p>
+
+                <p>208 • GUNS, GERMS, AND STEEL</p>
+<p>However, the epidemic dies out for any of several reasons, such as being</p>
+<p>cured by modern medicine, or being stopped when everybody around has</p>
+<p>already been infected and either becomes immune or dies. For example, a</p>
+<p>previously unknown fever termed O'nyong-nyong fever appeared in East</p>
+<p>Africa in 1959 and proceeded to infect several million Africans. It proba</p>
+<p>bly arose from a virus of monkeys and was transmitted to humans by</p>
+<p>mosquitoes. The fact that patients recovered qu</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0208">
-            <h2>📚 Onoliză Educoțipeolă</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Boli transmise de vectori contrastează cu boli transmise direkt. Vectori transmit fără omorâ gazdă oportună. Dezavantaj: răspândire mai lentă decât transmisie directă. Avantaj: persistență în populație dacă transmisie susținută. Boli vector: paludă, tifus, febra galbenă.</p>
+                    <p>Epidemic dies out when susceptible population exhausted (everyone infected or immune). O'nyong-nyong fever emerged East Africa 1959: infected millions. Likely monkey virus transmitted by mosquitoes. Geographic vector availability (mosquitoes) determines transmission feasibility. Patients recovered quickly: low mortality transmission favors establishment.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Transmisie vectori: gazdă intermediară permite persistență în populație mica. Malaria: țânțar vector, paludă gazda. Tifus: păduchi vector. Independență transmisie de densitate pentru bolile cu vectori. Vectori persistă în mediu, susțin boală mai mult timp. Boli vector geografic-determinate prin ecologie vector.</p>
+                    <p>Epidemic disease threshold: requires susceptible population. Disease burnout: when all susceptible infected or immune. Vector-borne diseases: geographic vector distribution determines transmission. Tropical mosquitoes: tropical disease ecology. Low-virulence zoonotic emergence: animal viruses jumping to humans. Geographic climate determines vector availability.</p>
                 </section>
                 <section class="commentary-section">
-                    <h3>Context Istoric și Geographic</h3>
-                    <p>Malaria: orice populație cu vectori (regiuni tropicale/subtropicale). Nu necesită densitate populație (spre deosebire pojar). Tifus: păduchi vectori, persecuție condiții. Febra galbenă: țânțar vector Aedes. Boli vector mondiale după ecologie geografică. Lumea Veche: vectori tropicali susțin boli endemic. America: vectori diferiți, boli vector diferite.</p>
+                    <h3>Context Istoric și Geografic</h3>
+                    <p>O'nyong-nyong fever: tropical Africa mosquito vector disease. East Africa geographic location: mosquito-endemic region enabling rapid spread. Millions infected: sufficient population density for epidemic. Disease linked animal reservoirs (monkeys). Tropical climate vector ecology: geographic mosquito species distribution. Similar tropical arboviruses: yellow fever, dengue (geographic endemic regions).</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Ecologie geografică determină vectori disponibili. Vectori geografici determină boli vector. Boli vector independent densitate. Lumea Veche ecologie: vectori tropical, boli tropical endemic. America: ecologie vector diferită, boli vector diferite. Geografia determină ecologia determină vectori determină boli.</p>
+                    <p>Geographic climate determines vector species available. Vector species determine transmission mechanism. Geographic density determines epidemic sustainability. Tropical geographic regions: endemic vector-borne diseases. Temperate regions: different vector ecology. O'nyong-nyong: tropical disease confined to tropical geography. Geographic fauna (mosquitoes) → geographic epidemiology → geographic disease burden.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

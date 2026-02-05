@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 27 | Arme, Microbi și Oțel</title>
+    <title>Pagina 27 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 27 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>ÎNTREBAREA LUI YALI • 27</p>
+
+                <p>YALI'S QUESTION • 27</p>
+<p>research. However, throughout my school and undergraduate years, my</p>
+<p>training was mainly in languages, history, and writing. Even after deciding</p>
+<p>to obtain a Ph.D. in physiology, I nearly dropped out of science during my</p>
+<p>first year of graduate school to become a linguist.</p>
+<p>Since completing my Ph.D. in 1961, I have divided my scientific</p>
+<p>research efforts between two fields: molecular physiology on the one hand,</p>
+<p>evolutionary biology and biogeography on the other hand. As an unfore</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0027">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond explică calificările sale unice: tatăl lui era medic-genetician; mama lui, lingvistă și profesor. El a devenit biolog studiind evoluția păsărilor în America de Sud, Africa, Indonezia, Australia și mai ales Papua Noua Guinee. Cei 33 de ani de muncă pe teren i-au oferit experiență directă cu societăți tehnologic diverse. Interesul lui pentru limbă a fost reaprinchis prin lucrul cu ~100 de limbi din Papua Noua Guinee pentru a identifica nume de păsări.</p>
+                    <p>Diamond explains his unique qualifications: his father was a physician-geneticist; his mother, a linguist and teacher. He became a biologist studying bird evolution in South America, Africa, Indonesia, Australia, and especially New Guinea. His 33 years of fieldwork provided firsthand experience with technologically diverse societies. His interest in language was rekindled working with ~100 New Guinea languages to identify bird names.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Formarea lui Diamond a conectat biologia, genetica, lingvistica și experiența de teren—combinație neobișnuită pentru a aborda întrebarea lui Yali. Antrenamentul lui în biologia evolutivă l-a făcut confortabil cu cauzalitatea istorică în sisteme complexe. Trăitul în societăți diverse a furnizat înțelegere intimă indisponibilă pentru istoricii de fotoliu.</p>
+                    <p>Diamond's background bridged biology, genetics, linguistics, and field experience—unusual combination for addressing Yali's question. His evolutionary biology training made him comfortable with historical causation in complex systems. Living in diverse societies provided intimate understanding unavailable to armchair historians.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Cariera multidisciplinară a lui Diamond (1961 înaintea) l-a poziționat unic în perioada 1970-1990 pentru a sintetiza constatări din discipline academice fragmentate. Munca lui din Papua Noua Guinee i-a dat perspectivă de insider asupra societăților non-occidentale în timpul decolonizării.</p>
+                    <p>Diamond's multidisciplinary career (1961 onward) positioned him uniquely during the 1970s-1990s to synthesize findings across fragmented academic disciplines. His New Guinea work gave him insider perspective on non-Western societies during decolonization.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Diamond stabilește credibilitate pentru a aborda întrebarea lui Yali: formarea sa științifică furnizează rigoare metodologică; munca pe teren furnizează cunoștințe empirice ale societăților diverse; cartea sa anterioară "Al Treilea Cimpanzeu" a explorat deja întâlniri interculturale. El este unic poziționat pentru a sintetiza explicații geografice.</p>
+                    <p>Diamond establishes credibility for addressing Yali's question: his scientific background provides methodological rigor; his fieldwork provides empirical knowledge of diverse societies; his previous book "The Third Chimpanzee" already explored intercultural encounters. He is uniquely positioned to synthesize geographical explanations.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 27, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 27,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +67,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

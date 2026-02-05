@@ -1,53 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 1 | Guns, Germs, și Steel</title>
+    <title>Pagina 1 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 1 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 1 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
+
                 <p>GUNS,</p>
-<p>GERMS ȘI</p>
+<p>GERMS AND</p>
 <p>STEEL</p>
-<p>SOORTO SOCIETĂȚILOR UMONE</p>
-<p>Jsuntd Diomped</p>
-<p>W. W. Norlon & Compony</p>
-<p>New York Lpedpe</p>
+<p>THE FATES OF HUMAN SOCIETIES</p>
+<p>Jared Diamond</p>
+<p>W. W. Norton & Company</p>
+<p>New York London</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0001">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Pagina de titlu prezintă lucrarea marcă a lui Jared Diamond despre societățile umane. Publicată de W.W. Norton, această carte promite explorarea motivului pentru care unele civilizații au prosperat în timp ce altele au rămas în urmă în dezvoltarea tehnologică și socială.</p>
+                    <p>The title page presents Jared Diamond's landmark work on human societies. Published by W.W. Norton, this book promises to explore why some civilizations flourished while others lagged behind in technological and societal advancement.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Lucrarea introduce cercetarea centrală a lui Diamond asupra mecanismelor civilizației: examinarea rolului geografiei, resurselor naturale și factorilor de mediu în formarea traiectoriei societăților umane pe diferite continente.</p>
+                    <p>The work introduces Diamond's central inquiry into the mechanisms of civilization: examining the role of geography, natural resources, and environmental factors in shaping the trajectory of human societies across different continents.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Publicată în anii 1990, această carte a apărut într-o perioadă de globalizare crescândă și interes sporit în înțelegerea motivului pentru care anumite regiuni au realizat superioritate tehnologică. Ea contestă ipotezele predominante despre diferențele inerente între populații umane.</p>
+                    <p>Published in the 1990s, this book emerged during a period of increased globalization and heightened interest in understanding why certain regions achieved technological superiority. It challenges prevailing assumptions about inherent human differences between populations.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Pagina de titlu stabilește premisa centrală a lui Diamond: diferențele în soarta societăților umane provin din factori geografici și de mediu mai degrabă decât din inferioritate biologică sau culturală. Aceasta pregătește scena pentru explorarea modului în care geografia — clima, flora, fauna și dispunerea continentului — a determinat cine deținea arme, germeni și oțel.</p>
+                    <p>This title page establishes Diamond's core premise: that differences in the fates of human societies stem from geographical and environmental factors rather than biological or cultural inferiority. It sets the stage for exploring how geography—climate, flora, fauna, and continental layout—determined who possessed guns, germs, and steel.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -67,10 +69,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

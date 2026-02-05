@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 3 | Guns, Germs, și Steel</title>
+    <title>Pagina 3 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 3 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 3 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>o Rezumlo dîn humon hestelory ocelo con fi occounted, pentru ol time beîng,</p>
-<p>co Dorwînion în its outhority." —Thomco M. Destech, New Leoder</p>
-<p>"O wpederfully engrossîng book. . . . Jsuntd Diomped tokes us pe on</p>
-<p>exhilorloîng world lour dîn hestelory ocelo mokes us rethînk oll our ideco</p>
-<p>despre ourselves și oolr peoples și our ploces în ol overoll scheme</p>
-<p>dîn thîngs." —Chrestelopher Ehret, Prdinessor dîn Ofricon Hestelory, UCLO</p>
-<p>"Jsuntd Diomped mcloerfully drows logeolr recent destecoveries în fields dîn</p>
-<p>înquiry co diverse</p>
+
+                <p>a summary of human history that can be accounted, for the time being,</p>
+<p>as Darwinian in its authority." —Thomas M. Disch, New Leader</p>
+<p>"A wonderfully engrossing book. . . . Jared Diamond takes us on an</p>
+<p>exhilarating world tour of history that makes us rethink all our ideas</p>
+<p>about ourselves and other peoples and our places in the overall scheme</p>
+<p>of things." —Christopher Ehret, Professor of African History, UCLA</p>
+<p>"Jared Diamond masterfully draws together recent discoveries in fields of</p>
+<p>inquiry as diverse</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0003">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Această pagină continuă laudele pentru carte, subliniind capacitatea lui Diamond de a sintetiza istoria și biologia în timp ce prezintă concepte științifice complexe într-o limbă accesibilă. Criticii notează că lucrarea contestă gândirea rasială convențională despre istoria umană.</p>
+                    <p>This page continues praise for the book, emphasizing Diamond's ability to synthesize history and biology while presenting complex scientific concepts in accessible language. Critics note the work challenges conventional racial thinking about human history.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Recenzenii subliniază modul în care Diamond se inspiră din arheologie, epidemiologie, genetică și lingvistică pentru a explica căi diferite în dezvoltarea societății umane. Conceptul de "avantaje inițiale" — avantajele geografice inițiale — devine central pentru înțelegerea motivului pentru care unele societăți au avansat mai repede decât altele.</p>
+                    <p>Reviewers highlight how Diamond draws from archaeology, epidemiology, genetics, and linguistics to explain divergent pathways in human societal development. The "head starts" concept—initial geographical advantages—becomes central to understanding why some societies advanced faster than others.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Laudele reflectă cercetarea din anii 1990 care se opunea teoriilor rasiale învechite. Oameni de știință precum Christopher Ehret (Istoria Africii, UCLA) și Luca Cavalli-Sforza (genetică) reprezintă un nou consens potrivit căruia condițiile de mediu, nu diferențele biologice, explică dezvoltarea civilizației.</p>
+                    <p>The praise reflects 1990s scholarship responding to outdated racial theories. Scholars like Christopher Ehret (African History, UCLA) and Luca Cavalli-Sforza (genetics) represent a new consensus that environmental conditions, not biological differences, explain civilizational development.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Aceste recenzii validează argumentul central al lui Diamond: condițiile geografice și de mediu ("condițiile locale") explică divergența istorică între societăți. Avantajele geografice ale anumitor continente — clima, potențialul de domesticare a animalelor, diversitatea plantelor — asigură "avantajul inițial" care explică superioritatea tehnologică ulterioară.</p>
+                    <p>These endorsements validate Diamond's core argument: geographical and environmental conditions ("local conditions") account for historical divergence between societies. The geographic advantages of certain continents—climate, animal domestication potential, plant diversity—provide the "head start" explaining later technological superiority.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -68,10 +70,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

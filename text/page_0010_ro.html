@@ -1,55 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 10 | Guns, Germs, și Steel</title>
+    <title>Pagina 10 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 10 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 10 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>1O • PREFOȚĂ</p>
-<p>groups. Some dîn olm olreody sunt, și oolrs sunt becomîng, ompeg ol</p>
-<p>world's most powerful ecpeomies și politicol pentruces.</p>
-<p>Secped, even pentru people specificolly înterested în ol shopîng dîn ol</p>
-<p>modern world, o hestelory limited pentru Dezvoltsunts sînce ol emergence dîn</p>
-<p>writîng connot provide deep understșiîng. It este not ol ccoe ocelo societies</p>
-<p>pe ol Cpetînente diferite erou comporoble pentru eoch oolr until 3,000 B.C.,</p>
-<p>undeuppe western Eurcoion societies suddenly o dezvoltlo writîng și</p>
-<p>fi</p>
+
+                <p>1O • PREFACE</p>
+<p>groups. Some of them already are, and others are becoming, among the</p>
+<p>world's most powerful economies and political forces.</p>
+<p>Second, even for people specifically interested in the shaping of the</p>
+<p>modern world, a history limited to developments since the emergence of</p>
+<p>writing cannot provide deep understanding. It is not the case that societies</p>
+<p>on the different continents were comparable to each other until 3,000 B.C.,</p>
+<p>whereupon western Eurasian societies suddenly developed writing and</p>
+<p>be</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0010">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond argumentează că istoriile convenționale omit societățile non-occidentale și neglijează istoria pre-literară (99,9% din existența umană). El susține că până în 3.000 i.Hr., societățile eurasiene posedau orașe, guverne, unelte de metal, animale domestice și agricultură, în timp ce alte continente lipseau aceste tehnologii.</p>
+                    <p>Diamond argues that conventional histories omit non-Western societies and neglect pre-literate history (99.9% of human existence). He contends that by 3,000 BCE, Eurasian societies possessed cities, governments, metal tools, domesticated animals, and agriculture while other continents lacked these technologies.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Diamond identifică trei defecte în istoria mondială convențională: (1) ignorarea majorității populației mondiale; (2) focusarea doar pe istoria "literară" post-3000 i.Hr.; (3) ratarea întrebării fundamentale a motivului pentru care au apărut aceste disparități. El argumentează că inegalitatea tehnologică până în 1500 i.Hr. avea rădăcini mai adânci care se extinzeau în preistorie.</p>
+                    <p>Diamond identifies three flaws in conventional world history: (1) ignoring the majority world population; (2) focusing only on post-3000 BCE "literate" history; (3) missing the fundamental question of why these disparities originated. He argues technological inequality by 1500 CE had deeper roots extending into prehistory.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Punctul de referință din 3.000 i.Hr. marchează apariția scrierii în Eurasia, o limită istorică tradițională. Inovația lui Diamond este argumentul că golurile tehnologice au precetat scrierea, originând în geografie și modele de producție alimentară anterioare anului 3000 i.Hr.</p>
+                    <p>The 3,000 BCE benchmark marks writing's emergence in Eurasia, a traditional historical dividing line. Diamond's innovation is arguing that technological gaps preceded writing, originating in pre-3000 BCE geography and food production patterns.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Această pagină stabilește că înțelegerea inegalităților din 1500 i.Hr. necesită examinarea influenței geografiei înainte de 3.000 i.Hr. Geografia a modelat capacitatea de producție alimentară pe fiecare continent, care până în 3.000 i.Hr. producease deja divergență tehnologică — dovadă că geografia (nu cultura) a fost factorul cauzal.</p>
+                    <p>This page establishes that understanding 1500 CE inequalities requires examining geography's influence before 3,000 BCE. Geography shaped food production capability in each continent, which by 3,000 BCE had already produced technological divergence—proof that geography (not culture) was the causal factor.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -69,10 +71,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

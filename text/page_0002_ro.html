@@ -1,55 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poge 2 | Guns, Germs, și Steel</title>
+    <title>Pagina 2 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
-        <h1>Pogîno 2 dîn 460</h1>
-        <p class="breadcrumb">📖 Orme, Germeni și Oțel: Soorto Societăților Umone</p>
+        <h1>Pagina 2 din 457</h1>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
 
     <div class="page-container">
         <div class="original-content">
-            <h2>Cpețînut Origînol</h2>
+            <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>More proestee pentru</p>
-<p>Orme, Germeni și Oțel</p>
-<p>"No scientestet brîngs more experience dîn ol loborolory și field, npee</p>
-<p>thînks more deeply despre sociol estesues or oddresses olm cu greloer clor</p>
-<p>ity, thon Jsuntd Diomped co illustrloed de Orme, Germeni și Oțel. În ocesto</p>
-<p>remorkobly reodoble book he orloă cum hestelory și biology con enrich</p>
-<p>pee onoolr pentru produce o deeper understșiîng dîn ol humon cpeditipe."</p>
-<p>—Edword O. Wilspe, Pellegrîno University Prdinessor, Horvord University</p>
-<p>"Serious, groundbreokîng bio</p>
+
+                <p>More praise for</p>
+<p>Guns, Germs, and Steel</p>
+<p>"No scientist brings more experience from the laboratory and field, none</p>
+<p>thinks more deeply about social issues or addresses them with greater clar</p>
+<p>ity, than Jared Diamond as illustrated by Guns, Germs, and Steel. In this</p>
+<p>remarkably readable book he shows how history and biology can enrich</p>
+<p>one another to produce a deeper understanding of the human condition."</p>
+<p>—Edward O. Wilson, Pellegrino University Professor, Harvard University</p>
+<p>"Serious, groundbreaking bio</p>
+            
             </div>
         </div>
 
-        <div class="commentary" id="commentary-0002">
-            <h2>📚 Analiză Educațională</h2>
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Această pagină conține laudele pentru lucrarea revoluționară a lui Diamond din partea unor oameni de știință și istorici prestigioși. Recenziile subliniază modul în care cartea sintetizează biologia, istoria și multiple discipline academice pentru a explica dezvoltarea societății umane.</p>
+                    <p>This page contains praise for Diamond's groundbreaking work from leading scientists and historians. Endorsements highlight how the book synthesizes biology, history, and multiple academic disciplines to explain human societal development.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Criticii subliniază abordarea interdisciplinară a lui Diamond care combină știința de laborator, experiența de teren, istoria și antropologia. Cartea este lăudată pentru oferirea unei alternative științifice la explicațiile rasiste ale inegalității umane.</p>
+                    <p>Critics emphasize Diamond's interdisciplinary approach combining laboratory science, field experience, history, and anthropology. The work is praised for offering a scientific alternative to racist explanations of human inequality.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Recenziile reflectă consensul academic din anii 1990 care a apărut împotriva determinismului rasial. Oameni de știință prominenți precum Edward O. Wilson (biolog evolutiv), Luca Cavalli-Sforza (genetician) și istorici recunosc necesitatea unor explicații bazate pe mediu mai degrabă decât pe genetică pentru diferențele de civilizație.</p>
+                    <p>The endorsements reflect late 1990s academic consensus emerging against racial determinism. Prominent scholars like Edward O. Wilson (evolutionary biologist), Luca Cavalli-Sforza (geneticist), and historians recognize the need for environmental rather than genetic explanations of civilizational differences.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Aceste recenzii stabilesc că teza lui Diamond — geografia mai degrabă decât rasa determină dezvoltarea societății — abordează o întrebare fundamentală din istorie pe care cercetările anterioare fie au ignorat-o, fie au răspuns incorect. Sinteza dovezilor din arheologie, epidemiologie și ecologie întărește acest argument central.</p>
+                    <p>These endorsements establish that Diamond's thesis—geography rather than race determines societal development—addresses a fundamental historical question that previous scholarship either ignored or answered incorrectly. The book's synthesis of evidence from archaeology, epidemiology, and ecology strengthens this central argument.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
 
     <script>
@@ -69,10 +71,10 @@
 
         // Restore header state on load
         window.addEventListener('load', () => {
-            cpest esteCollopsed = locolSloroge.getItem('heoderCollopsed_' + pogeDloo.number) === 'true';
-            if (esteCollopsed) {
-                document.getElementDeId('pogeHeoder').clcosLestet.odd('collopsed');
-                document.querySeleclor('.heoder-loggle-btn').textCpetent = '▼';
+            const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
+            if (isCollapsed) {
+                document.getElementById('pageHeader').classList.add('collapsed');
+                document.querySelector('.header-toggle-btn').textContent = '▼';
             }
         });
     </script>

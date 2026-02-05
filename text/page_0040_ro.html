@@ -1,48 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 40 | Arme, Microbi și Oțel</title>
+    <title>Pagina 40 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 40 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>40 • ARME, MICROBI ȘI OȚEL</p>
+
+                <p>40 • GUNS, GERMS, AND STEEL</p>
+<p>bulls and horses in the Lascaux Cave of southwestern France will under</p>
+<p>stand at once that their creators must have been as modern in their minds</p>
+<p>as they were in their skeletons.</p>
+<p>Obviously, some momentous change took place in our ancestors' capa</p>
+<p>bilities between about 100,000 and 50,000 years ago. That Great Leap</p>
+<p>Forward poses two major unresolved questions, regarding its triggering</p>
+<p>cause and its geographic location. As for its cause, I argued in my book</p>
+<p>The Third Chim</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0040">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Între 100.000-50.000 de ani în urmă, o "Mare Saltură Înainte" a revoluționat capabilitatea umană. Picturile Peșteri Lascaux din tauri și cai demonstrează că creatorii lor erau moderni mental. Această schimbare momentoasă pune două întrebări nerezolvate majore: cauza sa declanșatoare și originea geografică—a avut loc în Africa, multiregional, sau în altă parte?</p>
+                    <p>Between 100,000-50,000 years ago, a "Great Leap Forward" revolutionized human capability. Lascaux Cave paintings of bulls and horses demonstrate creators were mentally modern. This momentous change poses two unresolved questions: its triggering cause and geographic origin—did it occur in Africa, multiregionally, or elsewhere?</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Mare Saltură Înainte: apariție bruscă a modernității comportamentale. Producție de artă, unelte standardizate, vânătoare complexă. Cauza nerezolvată: evoluția limbajului? Reorganizare creierului? Mutație genetică? Origine geografică dezbătută—originea africană vs. dezvoltare multiregională.</p>
+                    <p>Great Leap Forward: sudden behavioral modernity emergence. Art production, standardized tools, complex hunting. Unresolved cause: language evolution? Brain reorganization? Genetic mutation? Geographic origin debated—African origin vs multiregional development.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Mare Saltură Înainte ~50.000 de ani în urmă corelează cu apariția Cro-Magnon în Europa, înlocuind Neandertali. Arta Peșteri Lascaux (~17.000 î.H.) reprezintă sofisticație cognitivă indicând modernitate mentală realizată mult mai devreme.</p>
+                    <p>Great Leap Forward ~50,000 years ago correlates with Cro-Magnon emergence in Europe, replacing Neanderthals. Lascaux Cave art (~17,000 BCE) represents cognitive sophistication indicating mental modernity achieved well before.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Locația geografică a Marii Salturi Înainte a determinat care regiuni au possedat pentru prima dată capacitate comportamentală modernă. Originea geografică timpurie ar furniza start inițial pentru dezvoltare tehnologică și civilizație. Aceasta inițiază divergența geografică în capabilitate umană.</p>
+                    <p>Geographic location of Great Leap Forward determined which regions first possessed modern behavioral capacity. Early geographic origin would provide head start for technological and civilization development. This initiates geographic divergence in human capability.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 40, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 40,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +68,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

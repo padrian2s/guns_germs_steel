@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 33 | Arme, Microbi și Oțel</title>
+    <title>Pagina 33 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 33 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>DE LA EDEN LA CAJAMARCA</p>
+
+                <p>F R OM E D EN TO</p>
+<p>C A J A M A R CA</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0033">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Titlul Părții 1 introduce "De la Eden la Cajamarca"—întinzând de la originile umane în Africa la cucerirea spaniolă din 1532 a Imperiului Inca din Peru. Acest arc temporal și geografic cuprinde toată evoluția și istoria umană relevante pentru înțelegerea cum au apărut decalajele tehnologice.</p>
+                    <p>Part 1 title page introduces "From Eden to Cajamarca"—spanning human origins in Africa to the 1532 Spanish conquest of the Inca in Peru. This temporal and geographical arc encompasses all human evolution and history relevant to understanding how technological gaps emerged.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>"Eden" metaforic se referă la originile umane; "Cajamarca" simbolizează momentul când inegalitatea tehnologică s-a tradus în cucerire. Titlul cadrul istoria ca mișcare de la origini biologice/evolutive la intersecția civilizației cu tehnologia.</p>
+                    <p>The metaphorical "Eden" references human origins; "Cajamarca" symbolizes the moment when technological inequality translated into conquest. The title frames history as movement from biological/evolutionary origins to civilization's intersection with technology.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Partea 1 acoperă 13.000 de ani de la sfârșitul Epocii de Gheață (~11.000 î.H.) la Cajamarca (1532 H.C.). Această perioadă cuprinde apariția civilizației, dezvoltarea tehnologiei și stabilirea inegalității globale.</p>
+                    <p>Part 1 covers 13,000 years from the Ice Age's end (~11,000 BCE) to Cajamarca (1532 CE). This period encompasses the rise of civilization, development of technology, and establishment of global inequality.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Titlul sugerează că geografia a modelat calea umanității de la origine la civilizație. Partea 1 va demonstra cum avantajele geografice stabilite până în 1532 au determinat cucerit de Pizarro al lui Atahuallpa.</p>
+                    <p>The title suggests geography shaped humanity's path from origin to civilization. Part 1 will demonstrate how geographical advantages established by 1532 determined Pizarro's conquest of Atahuallpa.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 33, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 33,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +61,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {

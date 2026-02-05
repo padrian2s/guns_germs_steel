@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 37 | Arme, Microbi și Oțel</title>
+    <title>Pagina 37 | Arme, Germeni și Oțel</title>
     <link rel="stylesheet" href="../css/reader.css">
 </head>
 <body class="page-view">
     <div class="page-header" id="pageHeader">
         <h1>Pagina 37 din 457</h1>
-        <p class="breadcrumb">📖 Arme, Microbi și Oțel: Destinele Societăților Umane</p>
+        <p class="breadcrumb">📖 Arme, Germeni și Oțel: Destinele Societăților Umane</p>
         <button class="header-toggle-btn" onclick="togglePageHeader()">▲</button>
     </div>
+
     <div class="page-container">
         <div class="original-content">
             <h2>Conținut Original</h2>
             <div class="text-content">
-                <p>PÂNĂ LA LINIA DE START • 37</p>
+
+                <p>UP TO THE STARTING LINE " 37</p>
+<p>Figure 1.1. The spread of humans around the world.</p>
+<p>Europe stems from around half a million years ago, but there are claims</p>
+<p>of an earlier presence. One would certainly assume that the colonization</p>
+<p>of Asia also permitted the simultaneous colonization of Europe, since</p>
+<p>Eurasia is a single landmass not bisected by major barriers.</p>
+<p>That illustrates an issue that will recur throughout this book. Whenever</p>
+<p>some scientist claims to have discovered "the earliest X"—whether X is</p>
+            
             </div>
         </div>
-        <div class="commentary" id="commentary-0037">
-            <h2>📚 Analiză Educațională</h2>
+
+        
+            <h2>📚 Educational Analysis</h2>
             <div class="commentary-sections">
                 <section class="commentary-section">
                     <h3>Rezumat</h3>
-                    <p>Diamond discută incertitudine arheologică: noile descoperiri continuă să împingă înapoi datele "celei mai vechi X", creând controverse științifice care durează decenii pentru a fi rezolvate. Colonizarea umană a diferitelor continente a urmat cronologie variată—Australia și Americile au rămas nepopulate până târziu, necesitând tehnologie de construire a bărci sau tehnologie de supraviețuire în frig dincolo de capabilități timpurii ale Homo sapiens.</p>
+                    <p>Diamond discusses archaeological uncertainty: new discoveries constantly push back "earliest X" dates, creating scientific controversies that take decades to resolve. Human colonization of different continents followed varied timelines—Australia and Americas remained unpeopled until late, requiring boat-building or cold-survival technology beyond early Homo sapiens capabilities.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Concepte Cheie</h3>
-                    <p>Landmasa continuă eurasiatică a permis răspândire umană, dar barierele de apă (Australia, Americi) au împiedicat colonizarea până la avans tehnologic. Izolarea geografică a încheiat că unele continente au dezvoltat civilizații pentru perioade mai lungi înainte de contact extern—un avantaj sau dezavantaj potențial în funcție de circumstanțe.</p>
+                    <p>Eurasia's continuous landmass allowed human spread, but water barriers (Australia, Americas) prevented colonization until technological advancement. This geographical isolation meant some continents developed civilizations for longer periods before external contact—a potential advantage or disadvantage depending on circumstances.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Context Istoric și Geografic</h3>
-                    <p>Ocupația umană a Europei a început ~500.000 de ani în urmă; Australia și Americile au rămas izolate până la ~15.000-50.000 de ani în urmă. Barierele geografice au determinat direct când colonizarea umană a diferitelor continente a început relativă una cu alta.</p>
+                    <p>Europe's human occupation began ~500,000 years ago; Australia and Americas remained isolated until ~15,000-50,000 years ago. Geographic barriers directly determined when different continents' human development began relative to each other.</p>
                 </section>
                 <section class="commentary-section">
                     <h3>Conexiune cu Teza Principală</h3>
-                    <p>Barierele geografice care au împiedicat colonizarea umană a Australiei/Americilor au dat Eurasiei/Africii start inițial potențial, dar aceasta a depins dacă ocupația timpurie a generat deja avantaje tehnologice. Geografia a structurat oportunitate dar nu a determinat rezultate automat.</p>
+                    <p>Geographic barriers that prevented human colonization of Australia/Americas gave Eurasia/Africa potential head start, but this depended on whether early occupation actually generated technological advantages. Geography structured opportunity but didn't determine outcomes automatically.</p>
                 </section>
             </div>
-        </div>
+        
     </div>
+
     <script>
-        const pageData = { number: 37, totalPages: 457 };
+        // Page data
+        const pageData = {
+            number: 37,
+            totalPages: 457
+        };
+
         function togglePageHeader() {
             const header = document.getElementById('pageHeader');
             header.classList.toggle('collapsed');
@@ -50,6 +67,8 @@
             btn.textContent = header.classList.contains('collapsed') ? '▼' : '▲';
             localStorage.setItem('headerCollapsed_' + pageData.number, header.classList.contains('collapsed'));
         }
+
+        // Restore header state on load
         window.addEventListener('load', () => {
             const isCollapsed = localStorage.getItem('headerCollapsed_' + pageData.number) === 'true';
             if (isCollapsed) {
